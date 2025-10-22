@@ -2,6 +2,11 @@ import express from 'express';
 import { InitResponse, IncrementResponse, DecrementResponse } from '../shared/types/api';
 import { redis, reddit, createServer, context, getServerPort } from '@devvit/web/server';
 import { createPost } from './core/post';
+import { getStories, getRandomStory, getStoryById, refreshStoryIndex } from './api/stories';
+import { getStoryRatings, rateStory, removeRating } from './api/ratings';
+import { getCurrentUser } from './api/user';
+import { getUserHistory, addStoryToHistory, clearUserHistory } from './api/userHistory';
+import { getLeaderboard, getLeaderboardByTone } from './api/leaderboard';
 
 const app = express();
 
@@ -12,7 +17,65 @@ app.use(express.urlencoded({ extended: true }));
 // Middleware for plain text body parsing
 app.use(express.text());
 
+// Debug middleware to log requests
+app.use((req, _res, next) => {
+  console.log(`${req.method} ${req.url}`);
+  next();
+});
+
+// Serve static assets from the assets directory
+app.use('/assets', express.static('assets'));
+// Serve built client files
+app.use(express.static('dist/client'));
+
 const router = express.Router();
+
+// Middleware to inject user ID into requests
+router.use(async (req, _res, next) => {
+  try {
+    // Check if we're in Devvit environment
+    const isDevvitEnvironment = typeof reddit !== 'undefined';
+    
+    if (isDevvitEnvironment) {
+      try {
+        const username = await reddit.getCurrentUsername();
+        req.headers['x-user-id'] = username || 'anonymous';
+      } catch (error) {
+        req.headers['x-user-id'] = 'anonymous';
+      }
+    } else {
+      // Local development - use a consistent mock user ID
+      req.headers['x-user-id'] = 'local_user_123';
+    }
+  } catch (error) {
+    req.headers['x-user-id'] = 'anonymous';
+  }
+  next();
+});
+
+// Game API endpoints
+router.get('/api/test', (_req, res) => {
+  res.json({ message: 'API is working!', timestamp: new Date().toISOString() });
+});
+router.get('/api/stories', getStories);
+router.get('/api/stories/random', getRandomStory);
+router.post('/api/stories/refresh', refreshStoryIndex);
+router.get('/api/stories/:id', getStoryById);
+
+// Rating endpoints
+router.get('/api/stories/:storyId/ratings', getStoryRatings);
+router.post('/api/stories/:storyId/rate', rateStory);
+router.delete('/api/stories/:storyId/rating', removeRating);
+
+// User endpoints
+router.get('/api/user', getCurrentUser);
+router.get('/api/user/history', getUserHistory);
+router.post('/api/user/history', addStoryToHistory);
+router.delete('/api/user/history', clearUserHistory);
+
+// Leaderboard endpoints
+router.get('/api/leaderboard', getLeaderboard);
+router.get('/api/leaderboard/:tone', getLeaderboardByTone);
 
 router.get<{ postId: string }, InitResponse | { status: string; message: string }>(
   '/api/init',

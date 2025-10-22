@@ -1,0 +1,180 @@
+{
+  "story_id": "story_1761113697216_xd90qe4j6",
+  "story_title": "The Suture of Moments",
+  "tone": "Psychological",
+  "duration": "short",
+  "art_direction": "A psychological horror narrative depicted through hand-painted oil paintings in a classical, baroque style. The visuals emphasize a cold, icy blue color palette, dramatic low-angle perspectives, and dim, diffused lighting to create a sense of dread and unease.",
+  "settings": {
+    "tone": "Psychological",
+    "language": "simple",
+    "narrative": "third_person",
+    "pacing": "fast",
+    "violence": "moderate",
+    "imagery": "rich",
+    "dialogue": "conversational",
+    "duration": "short"
+  },
+  "image_settings": {
+    "image_style": "oil_painting",
+    "lighting_mood": "dim_ambient",
+    "color_palette": "cold_blues",
+    "camera_perspective": "low_angle"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Operating Theater",
+      "text": "They woke up. Not a gasp, just... awareness. The air was a knife, impossibly cold. A steel table under their back. A single, bare bulb overhead swung gently, though there was no breeze. Creak. Creak. The sound of metal straining somewhere far away. This place felt wrong. A room for cutting things open.",
+      "image_prompt": "An abandoned operating theater. In the center, a figure lies on a rusted steel surgical table, just starting to sit up. A single, dim bulb hangs from a frayed wire overhead, casting long shadows. A stainless steel medical tray with rusted tools is on a stand to the left. A large, dark observation window is set high in the back wall. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Examine the nearby medical tray.",
+          "next": "scene2"
+        },
+        {
+          "id": "2",
+          "text": "Go to the observation window.",
+          "next": "scene3"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.jpg"
+    },
+    {
+      "id": "scene2",
+      "title": "The Humming Scalpel",
+      "text": "They slid off the table. Feet hit the grimy tile. The tray held tools, brown with rust. Except one. A scalpel. It was clean, almost glowing. As their fingers brushed against it, the room flashed. A vision. Surgeons in green, frantic. A scream, cut short. A voice, a whisper in their own mind. '...must cut the thread...'",
+      "image_prompt": "A close-up on a stainless steel medical tray holding rusted, decrepit surgical tools. One scalpel in the center is unnaturally clean and seems to faintly glow with a blue light. A hand is hesitantly reaching for it. The background is the blurry, dark operating theater. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Take the scalpel.",
+          "next": "scene4"
+        },
+        {
+          "id": "2",
+          "text": "Leave it and back away.",
+          "next": "scene3"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2.webp"
+    },
+    {
+      "id": "scene3",
+      "title": "The Other Side",
+      "text": "The observation window was a sheet of black. Then, a face. Pale, indistinct, shimmering on the other side. A patient. Their eyes were wide with a silent scream. A thin hand pressed against the glass. It traced letters, backward. R...O...T...C...O...D. Doctor. Then it pointed down a dark hallway, visible through the glass, before vanishing.",
+      "image_prompt": "Looking up at a large, dark observation window in an operating theater. A faint, ghostly face of a terrified patient is visible pressed against the other side of the glass. A single, pale hand points away, down a dark hallway that can just be seen through the window. Condensation or frost covers the edges of the glass. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Find the doctor's office.",
+          "next": "scene5"
+        },
+        {
+          "id": "2",
+          "text": "Search for another way out of this room.",
+          "next": "scene1"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3.webp"
+    },
+    {
+      "id": "scene4",
+      "title": "The Loop's Fracture",
+      "text": "They gripped the scalpel. It was cold, but it felt... right. Solid. The world twisted violently, a nauseating lurch. And they were on the steel table again. Waking up. The same creak. The same cold. But something was different. The scalpel was still in their hand. It came with them. A crack in the pattern.",
+      "image_prompt": "A character sitting up on the rusted surgical table in the operating theater, looking at a pristine, glowing scalpel in their own hand with a shocked expression. The room is identical to the first scene, implying a time loop, but the presence of the object is new. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Go to the observation window, now armed.",
+          "next": "scene3"
+        },
+        {
+          "id": "2",
+          "text": "Try the main door to the hallway.",
+          "next": "scene5"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene4.jpg"
+    },
+    {
+      "id": "scene5",
+      "title": "The Doctor's Office",
+      "text": "The hallway stretched. Doors with faded plaques. 'Finch'. The door was unlocked. Inside, papers were strewn everywhere. A leather-bound journal lay open. 'The sutures of time itself are delicate,' it read. 'Excising the trauma has... complications.' A figure flickered into existence by the door. A tall man in a surgical mask, his form distorting like heat haze. \"An anomaly,\" he hissed, his voice a dry rustle. \"You don't belong in this moment.\"",
+      "image_prompt": "Inside a dusty, ransacked doctor's office. A heavy wooden desk is in the center, with an open journal on it. Standing in the doorway at the back of the room is a tall, distorted figure of a surgeon, his shape wavering and indistinct. The character's hand is visible in the foreground, holding a glowing scalpel defensively. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Run past him, deeper into the hospital.",
+          "next": "scene6"
+        },
+        {
+          "id": "2",
+          "text": "Confront the surgeon.",
+          "next": "scene8"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene5.jpg"
+    },
+    {
+      "id": "scene6",
+      "title": "The Central Suture",
+      "text": "Deeper. Colder. Down stairs that groaned with every step. The basement. The creaking was loudest here. In the center of a concrete room, it hung in the air. A shimmering, blue thread. It pulsed with faint light, stitching the very air together. The source of the cold. The source of the loop. The ghost of the patient was there, kneeling, pointing a trembling finger at the thread.",
+      "image_prompt": "A dark, concrete basement. In the center of the room, a single, pulsating thread of blue light hangs suspended in mid-air. It seems to distort the space around it. The spectral, translucent figure of the patient kneels on the floor before it, pointing. The room's corners are lost in deep shadow. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Cut the thread with the scalpel.",
+          "next": "scene7"
+        },
+        {
+          "id": "2",
+          "text": "Try to touch the thread.",
+          "next": "scene9"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene6.jpg"
+    },
+    {
+      "id": "scene7",
+      "title": "Severance",
+      "text": "They raised the humming scalpel. It felt like it wanted this. As the blade touched the thread, reality screamed. A flash of white, a blast of arctic air. Images flooded their mind—the failed surgery, the doctor's madness, the patient's endless death. Then, silence. The creaking stopped. The cold vanished. A plain wooden door stood where the thread had been. It was slightly ajar, showing a starry night sky.",
+      "image_prompt": "The concrete basement room is now normal. The glowing suture is gone. Where it was, a simple wooden door now stands, slightly ajar, revealing a clear night sky filled with stars. The spectral patient is gone. The character stands before the open door, the glowing scalpel in their hand finally dimming. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Escape",
+      "image_filename": "scene7.webp"
+    },
+    {
+      "id": "scene8",
+      "title": "Integrated",
+      "text": "\"You cannot cut what is already woven,\" the doctor whispered. He didn't walk. He simply flowed forward. The scalpel passed through him with no effect. His cold, intangible form washed over them. Their thoughts fractured. Memories not their own flooded in. The failed procedure. The desperate attempt. The same moment, again and again. They stood, tools in hand, ready to begin the surgery. Forever.",
+      "image_prompt": "The distorted figure of the surgeon is passing through the protagonist, whose body is becoming translucent and blurry at the point of contact. The protagonist's face is a mask of horror as their form begins to waver. The dusty office blurs and twists around them. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Madness",
+      "image_filename": "scene8.jpg"
+    },
+    {
+      "id": "scene9",
+      "title": "Unraveled",
+      "text": "Their fingers touched the thread. It wasn't just cold. It was the absence of heat, of life, of everything. The energy of a frozen moment in time. The thread clung to their skin, and began to pull. Not just their body, but their existence. They felt their memories fraying, their name slipping away, their form becoming thin, translucent. Then, nothing. Not even a ghost was left.",
+      "image_prompt": "A character's hand is touching the glowing blue suture in the concrete basement. Their arm is dissolving into particles of light that are being drawn into the thread. Their face, seen from below, is contorted in a silent scream as their body unravels and is absorbed into the temporal anomaly. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Dissolution",
+      "image_filename": "scene9.jpg"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-pro",
+    "generated_at": "2025-10-22T06:15:46.574Z"
+  }
+}

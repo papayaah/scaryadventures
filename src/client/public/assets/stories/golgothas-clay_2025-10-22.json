@@ -1,0 +1,294 @@
+{
+  "story_id": "story_1761115774658_p2dirq5cj",
+  "story_title": "Golgotha's Clay",
+  "tone": "Body Horror",
+  "duration": "long",
+  "art_direction": "A haunting journey depicted through vintage, grainy photorealism. Scenes are viewed from a bird's eye perspective, bathed in the dim, warm orange glow of embers and fire, with soft, diffused shadows creating an atmosphere of dread and decay.",
+  "settings": {
+    "tone": "Body Horror",
+    "language": "simple",
+    "narrative": "first_person",
+    "pacing": "moderate",
+    "violence": "subtle",
+    "imagery": "sparse",
+    "dialogue": "whispers",
+    "duration": "long"
+  },
+  "image_settings": {
+    "image_style": "photo_realism",
+    "lighting_mood": "dim_ambient",
+    "color_palette": "warm_oranges",
+    "camera_perspective": "bird_eye_view"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Iron Gate",
+      "text": "The gate slammed shut. A sound like a breaking bone. I am trapped. A thick mist rolls in, glowing a faint, sick orange. It smells like wet soil and something else. Something like old meat. The shadows of the tombstones stretch and twist. They look like grasping hands.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. A lone figure stands just inside a massive, closed wrought-iron cemetery gate at the bottom of the frame. An unnatural orange mist creeps in from the top, obscuring rows of tilted headstones.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Wait and listen.",
+          "next": "scene2"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.jpg"
+    },
+    {
+      "id": "scene2",
+      "title": "The First Offer",
+      "text": "A voice slithers through the mist. It is not in my ears, but in my skull. 'So cold. So empty. Give us your warmth. We will give you a key.' I feel a deep chill in my bones, a hollowness. The shadows dance faster. A grand mausoleum looms to my left. A small, crumbling chapel sits on a hill to my right.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. A figure stands at a crossroads of dirt paths. To the left, a large, ornate mausoleum. To the right, a small, dark chapel on a slight incline. The mist is thicker now.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Walk toward the mausoleum.",
+          "next": "scene3"
+        },
+        {
+          "id": "2",
+          "text": "Run to the chapel.",
+          "next": "scene4"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2.jpg"
+    },
+    {
+      "id": "scene3",
+      "title": "The Marble Door",
+      "text": "The mausoleum is freezing cold. The marble feels like skin. There is no handle on the heavy door. The voice returns. 'A memory for a passage. A small thing. The color of your mother's eyes.' I try to picture them. The image is already fading. My head aches.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. The figure stands before a large, seamless marble door of a mausoleum. The stone walls are covered in creeping vines, and dancing shadows flicker across the facade.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Give the memory.",
+          "next": "scene5"
+        },
+        {
+          "id": "2",
+          "text": "Try to force the door.",
+          "next": "scene_ending_oblivion"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3.jpg"
+    },
+    {
+      "id": "scene4",
+      "title": "The Broken Chapel",
+      "text": "I stumble into the chapel. The air is stale with dust and dead flowers. Pews are overturned. A simple stone altar stands at the far end, strangely clean. I feel watched, but the feeling is different here. Less hungry. More curious. A low moan echoes from the walls.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. Looking down into the roofless ruin of a small chapel. A figure stands in the center aisle, surrounded by broken pews. A single, clean stone altar is visible at the far end.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Approach the altar and pray.",
+          "next": "scene7"
+        },
+        {
+          "id": "2",
+          "text": "Search the pews for a weapon.",
+          "next": "scene8"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene4.webp"
+    },
+    {
+      "id": "scene5",
+      "title": "The Assembling Things",
+      "text": "The door grinds open. I cannot remember her eyes. Inside, the air is thick and smells of clay. Shapes move in the darkness. They are made of mud, roots, and pieces of bone. They are trying to build bodies. One turns a lopsided head toward me. 'Become. End your pain.'",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. Inside a dark mausoleum, a figure stands near the entrance. In the center, several lumpy, half-formed humanoid figures made of mud and bone slowly move.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Accept their offer.",
+          "next": "scene_ending_transformation"
+        },
+        {
+          "id": "2",
+          "text": "Refuse and run deeper inside.",
+          "next": "scene6"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene5.jpg"
+    },
+    {
+      "id": "scene6",
+      "title": "The Bone-Lined Tunnels",
+      "text": "I turn and run, down a narrow staircase at the back of the mausoleum. I enter a maze of dirt tunnels. Skulls and bones line the walls, held in place by packed earth. 'Lost,' the voice whispers, now sounding like a chorus. 'So lost. Let us guide you. Just give us your name.'",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. A figure is small within a winding, narrow dirt tunnel. The walls are embedded with countless skulls and bones, glowing faintly.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Tell them my name.",
+          "next": "scene_ending_possession"
+        },
+        {
+          "id": "2",
+          "text": "Wander alone in the dark.",
+          "next": "scene_ending_madness"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene6.jpg"
+    },
+    {
+      "id": "scene7",
+      "title": "Altar of Repose",
+      "text": "I place my hands on the cold altar. I don't know any prayers, so I just ask for help. A soft, warm light begins to glow from the stone. It is not orange, but a clean, gentle white. The moaning from the walls quiets. The light projects a thin beam, pointing through a collapsed wall toward the far side of the cemetery.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. The figure kneels at a stone altar inside the ruined chapel. The altar emits a soft white light, projecting a beam towards a hole in the far wall.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Follow the beam of light.",
+          "next": "scene9"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene7.jpg"
+    },
+    {
+      "id": "scene8",
+      "title": "The Groundskeeper's Spade",
+      "text": "I kick through the broken wood of the pews. My foot hits something hard. It is an old spade. The handle is smooth iron, the blade heavy and sharp. It feels solid in my hands. Real. A shadow detaches itself from a corner and glides toward me. It is tall and thin, with no features.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. A figure stands in the ruined chapel, holding a long, dark spade. A tall, distorted shadow stretches from a corner towards them.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Confront the shadow.",
+          "next": "scene10"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene8.jpg"
+    },
+    {
+      "id": "scene9",
+      "title": "The Boundary Wall",
+      "text": "I follow the light, stepping over sunken graves and broken stones. The dancing shadows shrink away from the beam. The mist parts before me. The light leads me to the cemetery's back wall. It's ancient brick, but where the light touches it, the wall seems to shimmer. It looks thin, like smoke.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. A lone figure stands before a high brick wall at the edge of a cemetery. A beam of white light from off-frame illuminates a section of the wall, making it appear translucent.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Push my hand into the shimmering wall.",
+          "next": "scene_ending_escape"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene9.jpg"
+    },
+    {
+      "id": "scene10",
+      "title": "The Gathering Soil",
+      "text": "I raise the spade. The shadow stops. More shadows pour from the graves around me. The ground softens under my feet. It feels like I'm sinking into mud. The whispers are a roar now. 'Part of the earth! Part of the whole! Drop the iron!' They want the spade. Or they want me.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. The figure holding a spade is surrounded by a dozen tall, wavering shadows in an open area of the cemetery. The ground around them is dark and churning.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Swing the spade at the nearest shadow.",
+          "next": "scene11"
+        },
+        {
+          "id": "2",
+          "text": "Stand my ground and hold the spade tight.",
+          "next": "scene_ending_absorption"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene10.jpg"
+    },
+    {
+      "id": "scene11",
+      "title": "The Heartstone",
+      "text": "I swing. The spade cuts through the shadow with a sound like tearing cloth. The shadow shrieks and dissolves. The spade begins to glow with a dull orange light of its own. The other shadows recoil. In the center of their circle is a large, black headstone, pulsing with a faint, dark energy. The ground itself seems to breathe around it.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. A figure stands holding a glowing spade. They are in a clearing, and the surrounding shadows are pulling back from them. In the center of the clearing is a single, large, black headstone that seems to pulse.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Strike the pulsing headstone with the spade.",
+          "next": "scene_ending_banishment"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene11.jpg"
+    },
+    {
+      "id": "scene_ending_oblivion",
+      "title": "Stone and Silence",
+      "text": "I push against the stone. It doesn't move. A coldness seeps into my hands. It is absolute. I watch as my skin turns grey, cracking like old marble. The cold climbs my arms, into my chest. I cannot move. I cannot speak. I can only watch as the mist swirls around my new, permanent form.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. A figure made of grey, cracked stone stands with its hands pressed against the door of a mausoleum. They look like a statue. The orange mist swirls around their feet.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Oblivion",
+      "image_filename": "scene_ending_oblivion.jpg"
+    },
+    {
+      "id": "scene_ending_transformation",
+      "title": "Joined in the Clay",
+      "text": "I nod. 'I accept.' A strange peace settles over me. The pain in my head vanishes. The cold in my bones is gone. My skin loosens, my muscles slacken. I feel my body becoming simpler, more elemental. I reach down and my hand is cool, damp clay. I am one of them. We will build. We will be whole.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. A humanoid figure, its form indistinct and made of wet clay, stands among other similar shapes inside a mausoleum. Its arms are outstretched as if in welcome.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Transformation",
+      "image_filename": "scene_ending_transformation.jpg"
+    },
+    {
+      "id": "scene_ending_possession",
+      "title": "An Empty Vessel",
+      "text": "'My name is...' I say it. As the last letter leaves my lips, I feel myself go hollow. A cold intelligence floods into me. It wears my skin and moves my limbs. It knows the way out of the tunnels. I am a passenger in my own body. It walks me out of the cemetery gates, and I can do nothing but watch.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. A figure walks robotically on a path leading out of the cemetery gate. Their shadow is elongated and monstrously distorted behind them, seeming to control them like a puppet.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Possession",
+      "image_filename": "scene_ending_possession.jpg"
+    },
+    {
+      "id": "scene_ending_madness",
+      "title": "Lost to the Echoes",
+      "text": "I will not give them anything else. I wander the tunnels alone. Hours pass. Or maybe days. The whispers never stop. They tell me of the bodies they build, the memories they eat. I see things in the dark. I hear my own voice calling to me from around corners I can never seem to reach. I am a part of the tunnels now.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. A figure huddles in a fetal position at a dead end in a dirt tunnel lined with skulls. The darkness ahead of them is absolute.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Madness",
+      "image_filename": "scene_ending_madness.webp"
+    },
+    {
+      "id": "scene_ending_absorption",
+      "title": "Taken by the Earth",
+      "text": "I hold the spade, a useless ward. The ground dissolves into a thick, grasping slurry. Hands made of soil and root erupt from the earth. They pull me down. The pressure is immense. The last thing I feel is the wet soil filling my lungs, my body being pulled apart, becoming nutrients for this hungry, living place.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. Countless skeletal hands and muddy tendrils erupt from the ground, pulling a figure down into the churning earth. Only their head and shoulders are visible.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Absorption"
+    },
+    {
+      "id": "scene_ending_escape",
+      "title": "Through the Veil",
+      "text": "I push my hand through. There is no resistance. It feels like stepping into cool water. I pull myself through the wall. The cemetery, the mist, the whispers—they all vanish. I am standing on a road. The sun is rising. It is warm and real. I am free. I walk away and I do not look back.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. A figure is mid-stride, stepping out from the shimmering cemetery wall on the left onto a normal, paved road on the right. The rising sun casts a long, normal shadow before them.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Escape",
+      "image_filename": "scene_ending_escape.jpg"
+    },
+    {
+      "id": "scene_ending_banishment",
+      "title": "Silence the Heart",
+      "text": "I lift the spade and bring it down with all my strength. It hits the black headstone with a deafening crack, like thunder. The stone shatters. A wave of pure silence washes over the cemetery. The mist dissolves. The shadows become still and ordinary. The ground solidifies. A deep groan echoes from beneath my feet, and then, nothing. It is over.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. A figure stands with a spade, looking down at a shattered black headstone in the center of a clearing. The ground is littered with black shards. The mist has cleared, revealing the entire silent, still cemetery.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Banishment",
+      "image_filename": "scene_ending_banishment.jpg"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-pro",
+    "generated_at": "2025-10-22T06:50:47.735Z"
+  }
+}

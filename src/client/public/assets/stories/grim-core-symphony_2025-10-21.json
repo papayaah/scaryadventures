@@ -1,0 +1,70 @@
+{
+  "story_id": "story_1761054995899_fduj5vyhz",
+  "story_title": "Grim Core Symphony",
+  "tone": "Gothic",
+  "duration": "short",
+  "art_direction": "A visual narrative rendered in 32-bit painterly pixel horror, evoking a retro game aesthetic, with a persistent sense of dread and isolation.",
+  "settings": {
+    "tone": "Gothic",
+    "language": "simple",
+    "narrative": "second_person",
+    "pacing": "fast",
+    "violence": "subtle",
+    "imagery": "sparse",
+    "dialogue": "minimal",
+    "duration": "short"
+  },
+  "image_settings": {
+    "image_style": "pixel_horror",
+    "lighting_mood": "candlelight",
+    "color_palette": "muted_reds_greens",
+    "camera_perspective": "first_person"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Chill Threshold",
+      "text": "You enter the derelict station. Bone-chilling cold gnaws at your flesh. The hull groans, a symphony of decay. A faint, unsettling hum whispers through the metal. Glowing, alien symbols mark the bulkhead ahead. You feel a presence, ancient and malevolent, watching you from the shadows.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A narrow, frost-covered corridor stretching forward, flickering emergency lights barely illuminating strange, pulsating alien symbols on a bulkhead directly ahead, with loose wires hanging from the ceiling, small ice crystals on the floor.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Investigate the symbols.",
+          "next": "scene2"
+        },
+        {
+          "id": "2",
+          "text": "Seek refuge from the biting cold.",
+          "next": "scene3"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.jpg"
+    },
+    {
+      "id": "scene2",
+      "title": "Demonic Embrace",
+      "text": "You approach the symbols. They pulse with a sinister, crimson light. The air turns sharp, metallic, colder than before. A deep, guttural growl rips through the silence, vibrating your bones. A monstrous, shadowy form coalesces from the dark corners of the corridor. Its eyes burn with ancient malice. It reaches for you, a silent invitation to eternal torment. Your mind screams.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A demonic, shadowy entity with glowing red eyes materializes directly in the center of a narrow, frost-covered corridor, its elongated, clawed hand reaching directly towards the viewer, surrounded by pulsating, glowing alien symbols on the walls and ceiling.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Possession",
+      "image_filename": "scene2.jpg"
+    },
+    {
+      "id": "scene3",
+      "title": "Spectral Absolution",
+      "text": "You turn from the symbols, seeking warmth. The cold deepens, an oppressive weight. A chorus of sorrowful whispers slithers into your mind, not your own thoughts. Spectral figures flicker at the edges of your vision, translucent and desperate. They pull at your senses, at your will, trying to merge with you. You feel a profound, aching sorrow, an endless longing for release. They want to absorb you, to drag you into their eternal void, to find peace in shared oblivion.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A derelict space station corridor, appearing slightly warped and blurry, with multiple translucent, ethereal figures (evil spirits) shimmering and reaching from the sides of the view towards the viewer, the floor and walls covered in a thick layer of frost and eerie, swirling mist.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Absorption",
+      "image_filename": "scene3.jpg"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-flash",
+    "generated_at": "2025-10-21T13:57:15.118Z"
+  }
+}

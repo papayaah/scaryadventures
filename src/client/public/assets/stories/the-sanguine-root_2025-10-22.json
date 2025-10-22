@@ -1,0 +1,330 @@
+{
+  "story_id": "story_1761113637993_4pvixtsuz",
+  "story_title": "The Sanguine Root",
+  "tone": "Body Horror",
+  "duration": "long",
+  "art_direction": "A comic noir, cel-shaded horror story with a cold blue, icy color palette, viewed from a bird's eye perspective.",
+  "settings": {
+    "tone": "Body Horror",
+    "language": "literary",
+    "narrative": "third_person",
+    "pacing": "moderate",
+    "violence": "moderate",
+    "imagery": "dense",
+    "dialogue": "whispers",
+    "duration": "long"
+  },
+  "image_settings": {
+    "image_style": "comic_noir",
+    "lighting_mood": "dim_ambient",
+    "color_palette": "cold_blues",
+    "camera_perspective": "bird_eye_view"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Treeline's Teeth",
+      "text": "The forest met Elara not with a gentle embrace, but with a sudden, predatory chill that seeped through her layers of clothing. The trees stood like skeletal sentinels, their bark a pale, bone-white under the perpetually overcast sky. Every shift of wind was a chorus of creaks, a dissonant symphony of wood groaning against wood. Before her, the path diverged. One way was a barely-there trail, a faint suggestion of passage marked by unnaturally twisted saplings. The other was the route indicated on her weathered map, promising a more logical, if longer, journey.",
+      "image_prompt": "A lone figure, Elara, stands at the edge of a dense, unnerving forest. The path splits in two before her. The trees are tall, thin, and pale. Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Follow the twisted, unnatural path.",
+          "next": "scene2"
+        },
+        {
+          "id": "2",
+          "text": "Stick to the faint trail on the map.",
+          "next": "scene3"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.jpg"
+    },
+    {
+      "id": "scene2",
+      "title": "The Weeping Grove",
+      "text": "The twisted path guided Elara deeper into the bone-chilling quiet. The creaking intensified, sounding less like wood and more like the cracking of vertebrae. She arrived in a small clearing where the trees were different. Their bark was smooth and marbled grey, like old skin, and a clear, viscous sap oozed from deep fissures, freezing into crystalline tears on contact with the air. A profound, ancient sorrow permeated the place. One large tree seemed to beckon, its weeping fissure within arm's reach.",
+      "image_prompt": "Elara stands in the center of a small clearing surrounded by weeping, grey-barked trees. One large tree with a prominent sap-filled crack is directly in front of her. Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Touch the cold, weeping sap.",
+          "next": "scene4"
+        },
+        {
+          "id": "2",
+          "text": "Back away and find another route.",
+          "next": "scene3"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2.jpg"
+    },
+    {
+      "id": "scene3",
+      "title": "The Cartographer's Folly",
+      "text": "Trusting the map, Elara pushed onward. The forest grew denser, the trail fading until it was indistinguishable from the tangled undergrowth. The cold was a physical weight. After what felt like hours, she stumbled upon a collapsed structure: a small research cabin, its walls bowing inward as if squeezed. The door hung ajar, a dark maw promising shelter from the insidious chill. A faint, rhythmic creaking emanated from within, a sound that did not belong to the wind.",
+      "image_prompt": "Elara discovers a dilapidated wooden cabin nearly swallowed by the forest. The door is slightly open. The cabin is at the center of the frame, surrounded by dense woods. Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Enter the researcher's cabin.",
+          "next": "scene5"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3.jpg"
+    },
+    {
+      "id": "scene4",
+      "title": "A Splinter of Cold",
+      "text": "Hesitantly, Elara reached out. The sap was colder than ice, a deep, cellular cold that seemed to bypass her glove and sink directly into her bones. As she pulled her hand back, a minuscule splinter of the hardened sap broke off, embedding itself under the skin of her fingertip. It didn't hurt. There was no blood, only a spreading, profound numbness and a sharp, internal sting of frost. The feeling was deeply, fundamentally wrong.",
+      "image_prompt": "A close-up from above on Elara's hand, recoiling from a tree. A tiny, glowing splinter is visible on her index finger. The rest of her body is a silhouette against the forest floor. Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Try to dig the splinter out immediately.",
+          "next": "scene6"
+        },
+        {
+          "id": "2",
+          "text": "Ignore it and press on.",
+          "next": "scene7"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene4.webp"
+    },
+    {
+      "id": "scene5",
+      "title": "Theories of Assimilation",
+      "text": "Inside the cabin, the air was stagnant and thick with the smell of mildew and decay. A desk in the corner held a leather-bound journal, its pages filled with frantic script. Elara read of the forest as a singular, colonial organism, a being that practiced 'arboreal assimilation.' The final entry was a chilling scrawl: 'It doesn't replace you. It grafts you. My bones are lengthening. I hear the wood groaning in my own marrow.' A loud creak echoed from just outside the cabin door, a sound of immense weight settling.",
+      "image_prompt": "Inside a derelict cabin, Elara is a small figure seen from the ceiling, hunched over a desk with an open journal. The single door is on the right wall. Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Quickly, barricade the door.",
+          "next": "scene9"
+        },
+        {
+          "id": "2",
+          "text": "Read the final, torn page.",
+          "next": "scene8"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene5.jpg"
+    },
+    {
+      "id": "scene6",
+      "title": "The Unwound Flesh",
+      "text": "With her knife, Elara tried to pry the splinter from her fingertip. The fragment shattered, leaving iridescent shards deep in the flesh. The wound refused to bleed. Instead, the skin around it grew taught and pale, the texture slowly changing to something smoother, harder. The cold was no longer just in her finger, but was a radiating network of ice climbing the veins of her arm. A wave of dizziness washed over her as she felt a subtle, structural shift in the bones of her hand.",
+      "image_prompt": "Looking down, Elara is kneeling on the forest floor, clutching her hand. The ground around her is covered in frost. Her posture is tense. Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Follow the strange pull toward the forest's heart.",
+          "next": "scene10"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene6.jpg"
+    },
+    {
+      "id": "scene7",
+      "title": "Subdermal Rootlets",
+      "text": "Ignoring the foreign object in her flesh was a mistake. The numbness spread from her fingertip to her entire hand, a dead weight at the end of her arm. She looked down to see the veins on the back of her hand had darkened to a deep blue-black. They were no longer soft and pliable but had become rigid, forming a complex, branching pattern just beneath the translucent skin, a horrifying mimicry of a root system. The creaking of the forest now seemed to have a companion resonance within her own body.",
+      "image_prompt": "Elara stares at her own hand, which is held out before her. Dark, root-like veins are visible beneath the skin. She is standing still in a dense part of the wood. Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Follow the pull toward the forest's heart.",
+          "next": "scene10"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene7.jpg"
+    },
+    {
+      "id": "scene8",
+      "title": "The Final Log",
+      "text": "Elara found a torn page crumpled near the desk. It read: 'My skin is molting. Peeling back like bark. Beneath is not flesh, but smooth, white wood. I am becoming a vessel. The forest is planting itself in me.' Just then, a heavy, scraping sound dragged across the cabin's outer wall. It was slow, deliberate, and accompanied by the snapping of small branches. Whatever was outside was impossibly large.",
+      "image_prompt": "Inside the cabin, Elara stands frozen in the center of the room, looking toward the door. A huge, distorted shadow passes over the single grimy window on the left wall. Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Hide under the rotten cot.",
+          "next": "scene11"
+        },
+        {
+          "id": "2",
+          "text": "Flee through the back window.",
+          "next": "scene11"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene8.jpg"
+    },
+    {
+      "id": "scene9",
+      "title": "The Siege of Wood",
+      "text": "She managed to drag the heavy desk in front of the door just as a colossal weight thumped against it. The entire cabin groaned. Throughout the night, the assault continued—not with violence, but with a patient, growing pressure. In the pale morning light, Elara saw the cause. Thick, woody roots had forced their way through the floorboards, curling around the furniture and reaching toward her like grasping fingers. The cabin was no longer a shelter; it was a trap.",
+      "image_prompt": "From the ceiling, Elara is seen trapped in the cabin. Thick, dark roots have burst through the wooden floorboards, snaking across the room toward her. Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Break through the weakened back wall.",
+          "next": "scene11"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene9.jpg"
+    },
+    {
+      "id": "scene10",
+      "title": "The Amalgam Tree",
+      "text": "An undeniable compulsion drew her forward, the cold in her veins a compass needle pointing the way. She emerged into a vast, silent clearing. In the center stood a petrified, white tree of impossible size, its branches clawing at the sky. As she drew closer, she saw with mounting horror that its trunk was not merely wood. Humanoid forms were fused into it, their faces frozen in expressions of agony or ecstasy, their limbs elongated and twisted into the greater structure. A low, vibrational hum emanated from the tree, a silent song of union.",
+      "image_prompt": "A huge central clearing dominated by a colossal, white petrified tree. Elara is a tiny figure at the edge of the clearing. The tree's trunk is visibly composed of fused human bodies. Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Approach the horrifying tree.",
+          "next": "scene12"
+        },
+        {
+          "id": "2",
+          "text": "Search the edges of the clearing.",
+          "next": "scene13"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene10.jpg"
+    },
+    {
+      "id": "scene11",
+      "title": "The Grafted Grove",
+      "text": "Fleeing the cabin's creeping embrace, Elara ran blindly into the woods, only to stumble into a place of quiet horror. It was a grove where the assimilation was still in progress. Figures stood half-rooted in the earth, their skin peeling back to reveal pale wood, their arms raised and branching into the canopy above. They were alive, but only just. A soft, wet creaking sound came from their slowly transforming bodies. One figure, a young man, had clear, terrified eyes that tracked her movement.",
+      "image_prompt": "Elara stands at the entrance to a grove where several human figures are in mid-transformation into trees. Their limbs are branching and their skin is like bark. Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Try to help the conscious one.",
+          "next": "scene14"
+        },
+        {
+          "id": "2",
+          "text": "Run from this nightmare.",
+          "next": "scene15"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene11.jpg"
+    },
+    {
+      "id": "scene12",
+      "title": "A Chorus of One",
+      "text": "As Elara stepped closer, the hum became a voice inside her skull—a thousand voices speaking as one. It promised an end to the cold, to pain, to solitude. *Join us. Be woven into the pattern. We are eternal.* The splintered part of her hand flared with agonizing cold, and the transformation surged up her arm. Her fingers cracked and lengthened, skin hardening into bark. The ground beneath her softened, inviting her to root. The chorus was beautiful and absolute. To resist was unthinkable.",
+      "image_prompt": "Elara stands at the base of the giant amalgam tree. Her arm is visibly transforming into wood and branches, and roots are sprouting from her feet into the ground. Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Absorption",
+      "image_filename": "scene12.jpg"
+    },
+    {
+      "id": "scene13",
+      "title": "The Severance Glyphs",
+      "text": "Ignoring the tree's siren call, Elara scanned the perimeter of the clearing. Half-hidden by moss and tangled roots was a low, stone altar. Its surface was carved with faded glyphs. They depicted the forest's cycle: the sprouting, the grafting, the absorption. But one final set of images showed something different: a figure holding a blade to a great root deep underground, and then walking away, whole, under a sun that did not shine on this cursed place. It was a map. A key.",
+      "image_prompt": "At the edge of the large clearing, Elara kneels beside a moss-covered stone altar, tracing carvings with her finger. The massive amalgam tree is visible in the background. Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Follow the glyphs to what lies beneath.",
+          "next": "scene16"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene13.jpg"
+    },
+    {
+      "id": "scene14",
+      "title": "A Shared Agony",
+      "text": "Elara reached for the young man, her human hand touching his bark-like skin. The moment she made contact, a torrent of sensation flooded her mind—his terror, his fading memories, the overwhelming, ancient consciousness of the forest digesting his soul. It was a billion years of silent hunger. The psychic feedback was too much. Her own thoughts shattered, leaving only the endless, groaning song of the wood.",
+      "image_prompt": "Elara is on the ground, convulsing. Her hand is touching one of the transforming figures. White psychic energy arcs between them. Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Madness",
+      "image_filename": "scene14.jpg"
+    },
+    {
+      "id": "scene15",
+      "title": "The River's Edge",
+      "text": "She fled. The forest seemed to actively resist, branches whipping at her face, roots snaking up from the ground to trip her. The creaking was a roar of anger now. Thorns tore at her clothes and skin, but the panicked adrenaline numbed the pain. After a desperate, frantic scramble, she burst through the treeline and saw it: a wide, fast-moving river, its water black under the grey sky. It was a barrier the forest could not seem to cross. It was a chance.",
+      "image_prompt": "Elara has just broken through a thick wall of thorny branches. Before her is a wide, dark river. The forest looms menacingly behind her. Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Throw yourself into the freezing water.",
+          "next": "scene17"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene15.jpg"
+    },
+    {
+      "id": "scene16",
+      "title": "The Heartwood Locus",
+      "text": "The glyphs led her to a fissure behind the amalgam tree, a cave mouth that descended into the freezing, absolute dark. Deep within the earth, she found it. Suspended from the cavern ceiling by a web of thick, artery-like roots was a pulsating organ of wood and hardened sap, the size of a human heart. It glowed with a soft, blue light, and with every slow beat, a groan echoed through the rock. This was the forest's core. Her knife felt pitifully small in her hand, yet the glyphs were clear.",
+      "image_prompt": "In a dark cavern, Elara stands beneath a large, pulsating heart made of wood and roots hanging from the ceiling. She holds a small knife. The heart casts a faint blue glow. Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Plunge the knife into the heart.",
+          "next": "scene18"
+        },
+        {
+          "id": "2",
+          "text": "Offer yourself to the heart.",
+          "next": "scene19"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene16.jpg"
+    },
+    {
+      "id": "scene17",
+      "title": "The Thawing",
+      "text": "The shock of the icy water was a brutal, cleansing fire. The current was strong, tumbling her through the darkness, away from the groaning woods. When she finally dragged herself onto the far bank, shivering and exhausted, she was free. The sun, a pale wafer in the sky, felt revelatory on her skin. She looked down at her hand. The transformation had been halted, but not reversed. Her fingers were a permanent, twisted claw of pale, hard wood, a constant, chilling reminder of the life that grew in that forest.",
+      "image_prompt": "Elara lies on a muddy riverbank, half in the water. The forest is a dark line on the opposite shore. Her transformed wooden hand is starkly visible on the ground beside her. Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Escape",
+      "image_filename": "scene17.jpg"
+    },
+    {
+      "id": "scene18",
+      "title": "A Scream of Silence",
+      "text": "With a final prayer, she drove her knife into the heartwood. It was like piercing cartilage. There was no sound, but a psychic scream of pure agony and ancient rage erupted through the cavern, through the forest, and through her own mind. The light in the heart died. The groaning of the wood everywhere ceased, replaced by a profound, deathly silence. The curse was broken. The entity was dormant, perhaps dead. Elara was free, but the silent scream of a murdered god would echo in her memory forever.",
+      "image_prompt": "Elara stumbles from the cave mouth. Behind her, the massive amalgam tree is cracking and crumbling into dust. The entire forest seems grey and lifeless. Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Revelation",
+      "image_filename": "scene18.jpg"
+    },
+    {
+      "id": "scene19",
+      "title": "The New Gardener",
+      "text": "She lowered the knife. Destruction felt wrong, a violation. Instead, she pressed her transformed hand against the heart's pulsating surface. It recoiled, then seemed to recognize a part of itself in her. A new understanding bloomed in her mind—not of assimilation, but of symbiosis. She would not be absorbed; she would become its new consciousness, a human mind to guide the ancient wood. Her body dissolved into a column of light and roots, drawn up into the heart. The forest had a new will. A shepherd to its flock.",
+      "image_prompt": "Elara is a figure of light, her body dissolving and being drawn upwards into the massive, glowing heart in the cavern. Roots and light connect her to the organ. Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Ascension",
+      "image_filename": "scene19.jpg"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-pro",
+    "generated_at": "2025-10-22T06:15:25.212Z"
+  }
+}

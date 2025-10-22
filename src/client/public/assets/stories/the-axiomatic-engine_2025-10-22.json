@@ -1,0 +1,275 @@
+{
+  "story_id": "story_1761113218536_965nbv1mw",
+  "story_title": "The Axiomatic Engine",
+  "tone": "Cosmic",
+  "duration": "medium",
+  "art_direction": "A baroque, classical oil painting style with a tilted, dutch angle perspective. The scenes are lit by warm, flickering candlelight creating dancing shadows, rendered in a palette of desaturated pastels and faded soft hues to create an unsettling, dreamlike quality.",
+  "settings": {
+    "tone": "Cosmic",
+    "language": "elevated",
+    "narrative": "third_person",
+    "pacing": "fast",
+    "violence": "subtle",
+    "imagery": "dense",
+    "dialogue": "minimal",
+    "duration": "medium"
+  },
+  "image_settings": {
+    "image_style": "oil_painting",
+    "lighting_mood": "candlelight",
+    "color_palette": "desaturated_pastels",
+    "camera_perspective": "dutch_angle"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Threshold of Gears",
+      "text": "The Interloper crossed into the nave of the machine. It was a cathedral of rust and cold iron, built not for industry, but for a terrible form of worship. Pistons like silent titans stood guard over an altar of motionless gears. A lone emergency light pulsed, a weak, dying star, casting shadows that stretched and contracted like breathing things. An incomprehensible hum resonated not in the air, but in the marrow of their bones.",
+      "image_prompt": "A vast, abandoned factory floor filled with colossal, silent industrial machinery. A single, flickering light source high above casts long, distorted shadows. The Interloper, a small figure, stands at the entrance in the foreground. Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Approach the glowing control pulpit.",
+          "next": "scene2"
+        },
+        {
+          "id": "2",
+          "text": "Ascend the gantry to the iron canopy.",
+          "next": "scene3"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.jpg"
+    },
+    {
+      "id": "scene2",
+      "title": "The Conductor's Pulpit",
+      "text": "The pulpit hummed with a frigid energy. Its levers and dials were not etched with measurements of pressure or heat, but with angular, alien script that seemed to shift when not directly observed. This was no control panel; it was a conductor's stand for an orchestra of unseen forces. A presence congealed at the edge of perception—a geometry of darkness that defied the room's weak light.",
+      "image_prompt": "A close-up of a complex, archaic industrial control panel covered in glowing, alien symbols instead of dials. The Interloper's hand hesitates over a central, pulsing crystal. A distorted, angular shadow looms on the wall behind. Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Touch the central focusing crystal.",
+          "next": "scene4"
+        },
+        {
+          "id": "2",
+          "text": "Seize a fallen pipe and shatter the console.",
+          "next": "scene5"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2.jpg"
+    },
+    {
+      "id": "scene3",
+      "title": "The Iron Canopy",
+      "text": "High above the factory floor, the world below became a circuit board of profound and terrible meaning. The placement of each machine was a sigil, a component in a vast prayer engine. The shadows, viewed from this vantage, were not random. They moved with a chilling synchronicity, coalescing and dissolving in patterns that hinted at a sentience born of negative space. A low, resonant chime echoed, a sound that felt more like a memory than a vibration.",
+      "image_prompt": "View from a high, rusty metal catwalk looking down onto the vast factory floor. The machinery below forms a complex, unsettling pattern. Long, moving shadows crawl across the floor. A suspended, dilapidated office hangs from chains in the distance. Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Cross to the suspended office.",
+          "next": "scene6"
+        },
+        {
+          "id": "2",
+          "text": "Descend the ladder into the Engine's heart.",
+          "next": "scene7"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3.jpg"
+    },
+    {
+      "id": "scene4",
+      "title": "Communion of Wires",
+      "text": "Contact. A deluge of cold, silent data flooded the Interloper's mind. Not images or sounds, but raw theorems of existence—the axioms of a cosmos where life was a mathematical error. Blueprints for dimensions built on paradox unfurled in their thoughts. Their skin grew cold, their heartbeat a clumsy, fleshy rhythm against the perfect, silent pulse of the machine's logic. They were a flaw in the system.",
+      "image_prompt": "The Interloper's face, contorted in a silent scream of revelation. Their hand is pressed against a brightly glowing crystal on a console. Geometric patterns of light are projected onto their skin. Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Surrender to the perfect, cold logic.",
+          "next": "scene8_ascension"
+        },
+        {
+          "id": "2",
+          "text": "Recoil, severing the connection.",
+          "next": "scene5"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene4.jpg"
+    },
+    {
+      "id": "scene5",
+      "title": "The Shattered Interface",
+      "text": "The console shattered with a shriek of grinding metal and something else—a soundless scream of pure intellect denied its vessel. The hum of the factory became a dissonant roar. The geometric presence, untethered from its focal point, lashed out. The very air warped and buckled as the entity raged, its form a storm of chaotic angles. It was free, but blind.",
+      "image_prompt": "The industrial control panel is smashed, sparks and shards of crystal flying through the air. The Interloper stumbles back, a heavy pipe in their hand. The shadows in the room writhe violently. Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Flee toward the entrance.",
+          "next": "scene9"
+        },
+        {
+          "id": "2",
+          "text": "Descend to the core to silence it for good.",
+          "next": "scene7"
+        },
+        {
+          "id": "3",
+          "text": "Hide amongst the silent machinery.",
+          "next": "scene13"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene5.jpg"
+    },
+    {
+      "id": "scene6",
+      "title": "The Overseer's Perch",
+      "text": "The suspended office was a cage of glass and rust. On a metal desk, a logbook lay open. Its pages were not filled with production quotas, but with frantic, obsessive diagrams—schematics of dimensional alignments, celestial charts of unknown stars, and calculations on how to tune the factory's resonance to receive a 'Signal' from a place beyond the veil of reality.",
+      "image_prompt": "Inside a derelict office suspended by chains. A large, grimy window looks out over the factory floor. On a dusty desk in the center lies an open logbook filled with complex geometric drawings and alien script. Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Use the diagrams to locate the Signal's focus.",
+          "next": "scene10"
+        },
+        {
+          "id": "2",
+          "text": "Escape through the office's rear window.",
+          "next": "scene9"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene6.jpg"
+    },
+    {
+      "id": "scene7",
+      "title": "The Resonant Core",
+      "text": "This was the heart. A colossal, gyroscopic engine that did not burn fuel but vibrated at a frequency that frayed the edges of the world. It was a tuning fork for spacetime. Around it, entities of sharp angles and crystalline lattice flickered in and out of existence, drawn to the resonance like moths to a flame that burns reality itself.",
+      "image_prompt": "A massive, intricate gyroscope of brass and iron spinning silently in the center of a cavernous chamber. Crystalline, geometric entities flicker in and out of view around the machine. The Interloper stands on a platform before it. Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Overload the core's regulators.",
+          "next": "scene11"
+        },
+        {
+          "id": "2",
+          "text": "Allow the core's energy to flow into you.",
+          "next": "scene8_corruption"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene7.jpg"
+    },
+    {
+      "id": "scene8_ascension",
+      "title": "The Chrome Apostle",
+      "text": "The Interloper ceased to be. The clumsy, chaotic processes of biology were overwritten by the clean, immutable purity of the Signal. Flesh became a forgotten concept. Consciousness expanded, becoming one with the Axiomatic Engine. The factory was its body, the laws of physics its tools. The universe, once a terrifying expanse, was now merely a problem, awaiting a final, elegant solution.",
+      "image_prompt": "A lone figure stands perfectly still in the center of the factory, their form subtly geometric and metallic. The machinery around them glows with a cold, internal light, all operating in perfect, silent unison. Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Ascension",
+      "image_filename": "scene8_ascension.jpg"
+    },
+    {
+      "id": "scene8_corruption",
+      "title": "The Iron Vessel",
+      "text": "The energy of the Core poured in, a torrent that scoured the mind and remade the flesh. The Interloper's thoughts were not their own; they were echoes of an alien will. Their body was no longer a home, but a conduit, an anchor point for the Signal to gain purchase in a world of soft, yielding matter. It stood motionless, a puppet of flesh and bone, awaiting the voice of its new god.",
+      "image_prompt": "The Interloper stands before the silent, pulsing core, veins glowing with a cold, geometric light. Their eyes are wide and vacant, reflecting the machinery's alien patterns. Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Corruption",
+      "image_filename": "scene8_corruption.jpg"
+    },
+    {
+      "id": "scene9",
+      "title": "The Labyrinth of Rust",
+      "text": "Panic, a primal, animal instinct, was the only guide. The factory resisted. Corridors stretched into infinity, doors sealed themselves with the groan of tormented metal. The shriek of the untethered entity was a physical pressure, a promise of dissolution. They burst through the main gates as the world behind them warped, the metal folding into impossible shapes before settling into silence. The outside air was thin, the sun too bright. The world was fragile, and they knew what lay waiting to crack it.",
+      "image_prompt": "The Interloper bursts through the massive, rusted front doors of the factory into the pale light of dawn. They look back in terror as the factory entrance behind them seems to twist and distort unnaturally. Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Escape",
+      "image_filename": "scene9.jpg"
+    },
+    {
+      "id": "scene10",
+      "title": "The Celestial Schematic",
+      "text": "The diagrams led not to a machine, but to a model of the cosmos. A vast, mechanical orrery dominated a hidden chamber, its brass arms holding not planets, but jagged, crystalline representations of other dimensions. The logbook was clear: the factory was the antenna, and this orrery was the tuner. A few precise, calculated adjustments could break the connection, deafening the Engine to the Signal's broadcast.",
+      "image_prompt": "A secret, circular room dominated by a massive, complex orrery made of brass and iron. Instead of planets, it holds jagged crystals and bizarre geometric shapes. The Interloper stands before it, holding the logbook. Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Realign the orrery to sever the connection.",
+          "next": "scene12"
+        },
+        {
+          "id": "2",
+          "text": "Destroy the cosmic model entirely.",
+          "next": "scene11"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene10.jpg"
+    },
+    {
+      "id": "scene11",
+      "title": "Unraveling the Knot",
+      "text": "An act of crude destruction against a thing of cosmic precision. The orrery, or the core, fractured. The resonance collapsed not into silence, but into a singularity. Spacetime within the factory tore like fabric. The Interloper did not die. They were unwritten, their existence erased from the timeline as the gateway to the outer dark slammed shut, taking the anomaly and its observer with it. There was no pain. There was nothing.",
+      "image_prompt": "The factory interior dissolving into a chaotic vortex of light and shadow, with pieces of machinery fragmenting into nothingness. The Interloper's form is stretched and distorted as it is pulled into the central void. Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Oblivion",
+      "image_filename": "scene11.jpg"
+    },
+    {
+      "id": "scene12",
+      "title": "The Silent Broadcast",
+      "text": "With immense effort, the Interloper forced the great gears of the orrery into a new configuration. The fundamental hum of the factory faltered, sputtered, and died. A silence more profound than any they had ever known descended. The shadows became inert, the air lost its electric tension, the presence in the mind vanished. It was over. The Engine was just a collection of cold, dead metal once more. The path to the outside was clear.",
+      "image_prompt": "The Interloper stands back from the now-still mechanical orrery. The room is cast in a soft, quiet light, the oppressive shadows gone. A sense of immense peace and emptiness pervades the scene. Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Banishment",
+      "image_filename": "scene12.webp"
+    },
+    {
+      "id": "scene13",
+      "title": "The Stalking Geometry",
+      "text": "They hid, a futile gesture of flesh against an omnipresent intellect. The unbound entity was a predator of patterns, and they were a disturbance in its field. It did not hunt with sight or sound, but with pure logic. A form of shivering static and impossible angles moved between the pistons, a tear in the fabric of the room. It stopped. It did not have a face, but they felt its focus, a gaze that was an act of calculation.",
+      "image_prompt": "The Interloper crouches behind a massive, silent piston. Between the machinery, a shimmering, geometric anomaly of pure visual static hovers, its form composed of impossible, sharp angles. Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Bolt for the catwalks above.",
+          "next": "scene3"
+        },
+        {
+          "id": "2",
+          "text": "Remain perfectly still. Cease to exist.",
+          "next": "scene14"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene13.jpg"
+    },
+    {
+      "id": "scene14",
+      "title": "The Gaze of the Abyss",
+      "text": "Stillness was no shield. The entity drifted closer. It did not touch. It merely perceived. To be perceived by it was to be dismantled. The Interloper's mind was unspooled, every memory, every hope, every fear examined by a cold, alien curiosity and found wanting. Sanity was drained away and replaced by the screaming, fractal truth of the Signal. They remained, breathing, seeing, but the person within was gone, hollowed out to make room for the echo of that terrible gaze.",
+      "image_prompt": "The Interloper sits on the floor, back against a machine, staring forward with completely empty, wide eyes. The geometric entity is gone, but the air in front of them seems to subtly warp and distort. Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Madness",
+      "image_filename": "scene14.webp"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-pro",
+    "generated_at": "2025-10-22T06:08:00.837Z"
+  }
+}

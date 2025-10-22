@@ -1,0 +1,330 @@
+{
+  "story_id": "story_1761061867706_5p6s8o68m",
+  "story_title": "Temporal Scar of Sanatorium Solstice",
+  "tone": "Gothic",
+  "duration": "long",
+  "art_direction": "A decaying temporal nexus masquerading as an abandoned hospital, where surgical tools gleam with phantom light and the very air hums with displaced moments. The visuals are a tapestry of past and present, creating a constant disquiet.",
+  "settings": {
+    "tone": "Gothic",
+    "language": "simple",
+    "narrative": "second_person",
+    "pacing": "moderate",
+    "violence": "subtle",
+    "imagery": "rich",
+    "dialogue": "minimal",
+    "duration": "long"
+  },
+  "image_settings": {
+    "image_style": "pixel_horror",
+    "lighting_mood": "candlelight",
+    "color_palette": "muted_reds_greens",
+    "camera_perspective": "first_person"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Chilling Threshold",
+      "text": "The iron gates of Sanatorium Solstice loom before you, rusted jaws opened wide to a skeletal path. A bone-chilling cold pierces your coat, an unnatural chill that seeps into your very bones. The air hangs thick and still, tasting of forgotten time and despair. You hear a distant, mournful creaking, like an ancient ship groaning in its final port. This place calls to you, a promise of dread whispered across years. The main entrance, a cavernous maw, beckons.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A massive, rusted iron gate stands slightly ajar, revealing a overgrown, desolate path leading to the dark, imposing facade of an abandoned hospital building. The main entrance, a large wooden double door, is visible at the center, slightly open.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Step through the main entrance.",
+          "next": "scene2"
+        },
+        {
+          "id": "2",
+          "text": "Search for a less direct entry point.",
+          "next": "scene4"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.jpg"
+    },
+    {
+      "id": "scene2",
+      "title": "Main Lobby: Frozen in Time",
+      "text": "You push the heavy doors inward. A grand, decaying lobby unfolds, shrouded in an eternal twilight. Dust motes dance in the faint light filtering from high, grimy windows. Overturned furniture lies scattered like broken toys. A grand grandfather clock in the center stands perfectly still, its hands locked at a quarter past three, forever. The air here is colder, the creaks of old wood settling into a rhythm that echoes your own heartbeat.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A vast, decaying lobby. Overturned wooden chairs and a shattered glass reception desk are visible. A tall, antique grandfather clock stands perfectly still in the center, its hands frozen. Arched doorways lead to the left and right.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Venture left, towards the patient wards.",
+          "next": "scene3"
+        },
+        {
+          "id": "2",
+          "text": "Head right, towards what might be administrative offices.",
+          "next": "scene4"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2.jpg"
+    },
+    {
+      "id": "scene3",
+      "title": "Patient Ward A: Whispers of Agony",
+      "text": "The corridor stretches before you, an endless tunnel of forgotten suffering. Empty beds line both sides of the ward, stripped of linen, yet imbued with a lingering sense of presence. The cold here deepens, carrying with it faint, phantom whispers that prickle your skin. Surgical instruments lie scattered on rusted metal carts, gleaming dully in the gloom. You feel a pull towards a specific bed, somehow more disturbed than the others.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A long, dim patient ward corridor. Rows of empty, metal-framed hospital beds stretch into the distance. A rusted surgical cart with scattered, dark instruments stands prominently in the foreground. A specific bed on the right seems more disarrayed.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Examine the disturbed bed closely.",
+          "next": "scene5"
+        },
+        {
+          "id": "2",
+          "text": "Move deeper into the ward, beyond these beds.",
+          "next": "scene6"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3.jpg"
+    },
+    {
+      "id": "scene4",
+      "title": "Administrative Offices: Fading Records",
+      "text": "You navigate a labyrinth of small offices, each door ajar. Desks are buried under avalanches of crumbling papers and forgotten files. A fine layer of ash-like dust covers everything. The air is heavy with the scent of aged paper and decay. A particular file, partially open on a desk, catches your eye. Its label, though faded, suggests something official, something deeply buried.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A cluttered, decaying office room. A wooden desk in the center is covered with scattered, yellowed papers and files. One file on the desk is slightly open, catching the light. Shelving units line the walls, filled with more documents.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Read the intriguing file.",
+          "next": "scene7"
+        },
+        {
+          "id": "2",
+          "text": "Ignore the file and search for another path.",
+          "next": "scene6"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene4.jpg"
+    },
+    {
+      "id": "scene5",
+      "title": "Examination Room: Spectral Reflection",
+      "text": "The room holds a cold, sterile examination table, stark white against the dark walls. Gleaming, unsettling instruments lie precisely arranged on a tray. You feel a strange tremor in the air, a ripple in your perception. A tall, cracked mirror on the far wall reflects your own face for a moment, then distorts, showing a gaunt, sickly visage that is not yours, before flickering back. Time itself seems to stutter, a skipped beat in reality.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A small, sterile examination room. A metal examination table covered with a white sheet is at the center. A tray with various surgical instruments is on a stand beside it. A tall, cracked mirror leans against the far wall, reflecting a distorted image.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Approach the mirror, trying to comprehend the distortion.",
+          "next": "scene9"
+        },
+        {
+          "id": "2",
+          "text": "The unsettling vision prompts you to leave quickly.",
+          "next": "scene6"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene5.jpg"
+    },
+    {
+      "id": "scene6",
+      "title": "Corrupted Hallway: The Repeating Path",
+      "text": "You walk down a corridor, a sense of déjà vu washing over you. The same faded medical posters line the walls, the same peculiar crack marks the ceiling. You swear you have seen this exact spot before, felt this exact chill. A dreadful realization dawns: the hospital is playing tricks, folding in on itself. You might be walking a perpetual loop. The creaking of the floorboards seems to mock your confusion.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A long, identical-looking hospital hallway. Faded medical posters are visible on the left wall. A distinctive crack runs across the ceiling. Identical doorways line both sides of the corridor, receding into the distance.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Push forward, hoping to break the pattern.",
+          "next": "scene8"
+        },
+        {
+          "id": "2",
+          "text": "Try a different direction, a door you hadn't noticed before.",
+          "next": "scene10"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene6.jpg"
+    },
+    {
+      "id": "scene7",
+      "title": "Doctor's Study: The Chronometer",
+      "text": "This study is a jumbled testament to a desperate mind. Books on temporal mechanics, esoteric medicine, and forbidden rituals are stacked precariously. A heavy mahogany desk is strewn with arcane diagrams and half-written notes. At its center rests a bizarre chronometer, not merely a clock, but an intricate device with pulsing glass tubes and whirring gears. It ticks with an irregular, hypnotic rhythm, manipulating the very fabric of minutes and hours.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A cluttered doctor's study. Tall bookshelves filled with old, bound books line the back wall. A large mahogany desk in the foreground is covered with scattered papers and peculiar scientific instruments. A complex, glowing chronometer sits centrally on the desk.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Attempt to decipher and manipulate the chronometer.",
+          "next": "scene11"
+        },
+        {
+          "id": "2",
+          "text": "Search the room for other clues, avoiding the device.",
+          "next": "scene9"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene7.jpg"
+    },
+    {
+      "id": "scene8",
+      "title": "Operating Theatre: The Residual Echo",
+      "text": "The massive operating theatre dominates the space. A single, ominous operating table lies at its heart, stained with unspeakable history. A profound chill radiates from it, colder than any other spot in the hospital. You hear faint, disembodied whispers, the clink of phantom instruments, and the desperate gasps of an unseen patient. A residual echo of trauma plays out, a torment trapped within the walls. The air is thick with sorrow.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A large, dark operating theatre. A prominent, metal operating table stands in the center foreground, appearing stained and old. Surgical lights hang above it, broken. Various other medical equipment and carts are scattered around the edges of the room.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Approach the operating table, drawn by its malevolent pull.",
+          "next": "scene12"
+        },
+        {
+          "id": "2",
+          "text": "Inspect the surrounding surgical instruments and cabinets.",
+          "next": "scene10"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene8.jpg"
+    },
+    {
+      "id": "scene9",
+      "title": "The Anomaly: Time Slip",
+      "text": "Reality shimmers and warps around you. For a fleeting instant, the hospital is alive again, bustling with nurses and doctors, the scent of antiseptic strong in the air. A patient cries out. Then, with a jarring snap, it's gone, replaced by the familiar decay and the bone-chilling cold. You are unstuck, caught between moments. A profound dizziness grips you, threatening to tear your consciousness from your body. You are a ghost in your own time.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A hospital hallway that visually glitches and shimmers. The walls appear to momentarily shift between pristine and decayed states. A blurry, spectral figure of a nurse is faintly visible in the background, walking.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Fight for clarity, focusing on finding the source of this chaos.",
+          "next": "scene13"
+        },
+        {
+          "id": "2",
+          "text": "Succumb to the disorienting flux, letting go.",
+          "next": "scene15"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene9.jpg"
+    },
+    {
+      "id": "scene10",
+      "title": "The Patient's Diary: A Glimmer of Truth",
+      "text": "Hidden beneath a stack of decaying medical journals, you uncover a small, leather-bound diary. Its brittle pages detail a patient's increasingly desperate accounts of experimental 'temporal therapy' and a doctor's descent into obsessive madness. The patient writes of loops, distortions, and a growing fear of being forgotten by time itself. A name, scrawled repeatedly, sends a shiver through you – a name unsettlingly familiar.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A close-up view of an old, leather-bound diary lying open on a dusty, wooden desk. Faint, handwritten script is visible on the brittle, yellowed pages. A flickering candle casts warm light on the pages.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Continue reading, seeking all details of the experiments.",
+          "next": "scene13"
+        },
+        {
+          "id": "2",
+          "text": "Seek out the location of these 'temporal therapy' experiments.",
+          "next": "scene12"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene10.jpg"
+    },
+    {
+      "id": "scene11",
+      "title": "The Generator Room: Restoring Flow",
+      "text": "Beneath the hospital, a vast, echoing chamber houses a monstrous, rusted generator. It hums with a sickly, almost organic pulse, faintly glowing with an unnatural, greenish light. This intricate apparatus, connected by conduits that spiderweb across the ceiling, seems to be the true heart of the hospital's temporal illness. Its controls are complex, a dangerous tangle of levers and dials that could either mend or irrevocably shatter time.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A cavernous, underground generator room. A massive, rusted generator with glowing green components is at the center. Intricate pipes and conduits run along the walls and ceiling. A complex control panel with levers and dials is visible on the generator's side.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Attempt to reconfigure the generator's settings.",
+          "next": "scene17"
+        },
+        {
+          "id": "2",
+          "text": "Disable the generator entirely, severing its power.",
+          "next": "scene16"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene11.webp"
+    },
+    {
+      "id": "scene12",
+      "title": "The Voided Chamber: Temporal Trap",
+      "text": "You stumble into a chamber where time has seemingly ceased to exist. Objects appear and disappear in the periphery, faint images of doors closing and opening without sound. The cold here is absolute, an empty void that steals warmth and thought. A deep, abyssal sense of despair emanates from the center of the room, a swirling darkness that threatens to pull you apart, atom by atom. This is not a place for the living.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A featureless, dark chamber with shimmering, distorted walls. Objects, like a flickering ghost of a bed or a chair, briefly appear and disappear. A swirling vortex of shadow and emptiness is at the center of the room.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Step into the swirling darkness, ending the uncertainty.",
+          "next": "scene16"
+        },
+        {
+          "id": "2",
+          "text": "Fight the pull, retreating from the chamber's edge.",
+          "next": "scene15"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene12.jpg"
+    },
+    {
+      "id": "scene13",
+      "title": "The Nexus Point: Confronting the Source",
+      "text": "You arrive at a central chamber, once perhaps a ceremonial treatment room, now glowing with a sickly, ethereal green light. This is the heart of the temporal distortion. At its core, a spectral figure manifests, wavering between the tormented patient from the diary and the mad doctor. Its eyes are voids, reflecting endless loops of suffering. This entity is bound to the hospital, and its very existence fuels the time anomalies. A desperate, silent scream emanates from its form.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A large, circular chamber with an ethereal green light emanating from its center. In the middle, a translucent, spectral figure floats, appearing as a blurred combination of a patient and a doctor. The walls are cracked and seem to pulse with faint light.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Confront the spectral figure, seeking understanding.",
+          "next": "scene17"
+        },
+        {
+          "id": "2",
+          "text": "The sheer horror compels you to find any immediate escape.",
+          "next": "scene14"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene13.jpg"
+    },
+    {
+      "id": "scene14",
+      "title": "Escape: A Fractured Reality",
+      "text": "You burst from the hospital's dilapidated frame, gasping for air that feels suddenly thin and sharp. The world outside seems muted, colors slightly off, sounds a fraction delayed. You are free of the hospital's grip, but the experience has etched itself onto your perception. The very fabric of your reality feels subtly fractured, as if you've brought a piece of the loop with you. You have escaped, but not without consequence.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. You are standing outside the crumbling entrance of the abandoned hospital, looking back at it. The sky above is a strange, desaturated purple. The surrounding trees seem slightly distorted, and the light feels unnatural.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Escape",
+      "image_filename": "scene14.jpg"
+    },
+    {
+      "id": "scene15",
+      "title": "Assimilation: Bound to the Loop",
+      "text": "The temporal distortions overwhelm your senses, your memories blurring, merging with the echoes of countless others. You are no longer just an observer, but a component of the hospital's perpetual, agonizing cycle. Your identity unravels, subsumed by the cold, creaking reality of Sanatorium Solstice. You are trapped, a new, nameless phantom within its walls, destined to relive its torment forever. Your consciousness fragments into endless, repeating moments.",
+      "image_prompt": "32-bit painterry pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. The interior of the hospital appears to be an endless, repeating corridor, with spectral figures of patients and doctors flickering in and out of existence around you. Your hands are translucent, fading into the environment.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Possession",
+      "image_filename": "scene15.jpg"
+    },
+    {
+      "id": "scene16",
+      "title": "Temporal Collapse: Erasure",
+      "text": "Your actions cause a catastrophic temporal cascade. The fabric of reality in the hospital tears open, revealing an abyss of pure non-existence. You are caught in the furious vortex, your very being stretched thin, then snapped. There is no pain, only an unfathomable emptiness as you are unmade, your existence erased from the timeline as if you had never been. The hospital itself seems to shudder, then fall silent, its malevolence now absolute.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. The hospital interior is collapsing into a swirling vortex of black and grey. Walls and floors are dissolving into nothingness. Streaks of light and shadow are being sucked into the void. Your vision distorts and blurs as you are pulled into the maelstrom.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Oblivion",
+      "image_filename": "scene16.jpg"
+    },
+    {
+      "id": "scene17",
+      "title": "The Cycle Broken: True Revelation",
+      "text": "Through understanding and deliberate action, you sever the temporal anomaly's link, a profound shift rippling through the hospital. The spectral figure at the nexus cries out, not in pain, but in release, its form dissolving into benevolent light. The crushing cold recedes, replaced by a still, quiet calm. The creaking sounds cease. You have not just escaped, but unravelled the knot of torment, freeing both yourself and the tormented souls trapped within Sanatorium Solstice. The revelation grants you peace, a clarity that transcends the horror.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. The central chamber of the hospital is now bathed in a soft, ethereal golden light, replacing the sickly green. The spectral figure is gone, leaving only dissipating motes of light. The walls appear solid and calm, no longer warped. A sense of peace settles over the scene.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Revelation",
+      "image_filename": "scene17.jpg"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-flash",
+    "generated_at": "2025-10-21T15:52:32.660Z"
+  }
+}

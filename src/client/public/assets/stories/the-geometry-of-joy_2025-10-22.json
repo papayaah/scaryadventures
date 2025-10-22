@@ -1,0 +1,190 @@
+{
+  "story_id": "story_1761115771678_1ddrzm6yj",
+  "story_title": "The Geometry of Joy",
+  "tone": "Cosmic",
+  "duration": "short",
+  "art_direction": "32-bit painterly pixel horror with a desaturated pastel palette, cinematic first-person perspective, and warm, flickering candlelight creating dancing shadows.",
+  "settings": {
+    "tone": "Cosmic",
+    "language": "simple",
+    "narrative": "second_person",
+    "pacing": "slow_burn",
+    "violence": "moderate",
+    "imagery": "dense",
+    "dialogue": "whispers",
+    "duration": "short"
+  },
+  "image_settings": {
+    "image_style": "pixel_horror",
+    "lighting_mood": "candlelight",
+    "color_palette": "desaturated_pastels",
+    "camera_perspective": "first_person"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Corroded Gate",
+      "text": "You stand before the park. It does not call to you. It pulls. The air is heavy, thick with a swirling grey smoke that smells of ozone and forgotten time. Beyond the rusted iron gate, the skeletal rides are theorems in a dead equation. Something vast and indifferent waits here. It has waited for a very long time.",
+      "image_prompt": "A rusted, ornate iron gate stands slightly ajar in the center. Through the bars, a derelict amusement park with a skeletal Ferris wheel is visible under a pale, twilight sky. Your hand, holding a small, flickering candle, is visible in the bottom right corner. 32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Enter the 'House of Giggles'.",
+          "next": "scene2"
+        },
+        {
+          "id": "2",
+          "text": "Walk towards the motionless Ferris Wheel.",
+          "next": "scene3"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.jpg"
+    },
+    {
+      "id": "scene2",
+      "title": "House of Giggles",
+      "text": "Inside, silence reigns. Your candle flame stretches the shadows of warped mirrors. The reflections are wrong. They show a place that is not here, filled with impossible angles. From the dark, a shape of fractured mannequins and peeling paint lurches. Its joints click with a sound like cracking bone. It is a crude vessel, animated by a will that does not understand anatomy.",
+      "image_prompt": "Inside a dark hall of mirrors. The mirror directly ahead reflects a twisted, lurching creature made of broken mannequin parts. Your hand holds a candle in the foreground, illuminating the dusty floor. 32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Flee back to the midway.",
+          "next": "scene4"
+        },
+        {
+          "id": "2",
+          "text": "Look for the ride's control booth.",
+          "next": "scene5"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2.jpg"
+    },
+    {
+      "id": "scene3",
+      "title": "The Ferris Wheel",
+      "text": "You approach the great wheel. It is a monument to stillness. Ghostly apparitions, like faded photographs of laughing families, flicker inside the passenger cars. They are memories, trapped in a loop. A low, resonant hum emanates from the metal, a vibration you feel in your teeth. It is the slow, sleeping breath of whatever resides here.",
+      "image_prompt": "Looking up at the massive, skeletal frame of a Ferris wheel against a sickly green sky. One passenger car at the very top glows with a faint, pulsing light. A rusted control panel is in the foreground, with your candle sitting on it. 32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Climb into an empty car.",
+          "next": "scene6"
+        },
+        {
+          "id": "2",
+          "text": "Investigate the operator's booth.",
+          "next": "scene5"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3.jpg"
+    },
+    {
+      "id": "scene4",
+      "title": "The Sweet-Smelling Midway",
+      "text": "You stumble out onto the main path. The air is thick with the phantom smell of spun sugar. A being woven from steel cables and matted pink fluff drifts towards you. Its many limbs end in grasping ticket stubs. It is a hungry thought, given form by the park's machinery and the fading dreams of children. It does not see you as a person. It sees you as a component.",
+      "image_prompt": "Looking down a wide, debris-strewn midway. In the distance, a tall, spindly creature made of wires and pinkish fluff lurches forward. A flickering candle sits on a knocked-over trash can to the left. 32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Hide inside the Grand Carousel.",
+          "next": "scene6"
+        },
+        {
+          "id": "2",
+          "text": "Run for the park exit.",
+          "next": "ending_escape"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene4.jpg"
+    },
+    {
+      "id": "scene5",
+      "title": "The Silent Booth",
+      "text": "The small booth is a bubble of silence. A single candle burns on the control panel, its flame impossibly still. A leather-bound journal lies open beside a large, red lever. The journal's pages are not filled with words, but with diagrams of celestial orbits and star-charts that are not of this sky. They map a place that is both infinitely large and small enough to fit in this park.",
+      "image_prompt": "A cramped operator's booth. A large, red power lever is on the central console. Beside it, an open journal filled with geometric diagrams is illuminated by a small candle. Your hand is visible, reaching towards the book. 32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Read the journal.",
+          "next": "ending_revelation"
+        },
+        {
+          "id": "2",
+          "text": "Pull the main lever.",
+          "next": "ending_oblivion"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene5.jpg"
+    },
+    {
+      "id": "scene6",
+      "title": "The Grand Carousel",
+      "text": "The carousel is the heart. The painted horses are wrong, their smiles too wide, their eyes carved into spirals. In the center, a column of soft, pulsing lavender light hums. It is the core of the thing, its truest self. A question forms in your mind, a whisper without sound. It asks what you are. It asks for a piece of you.",
+      "image_prompt": "Standing before a grotesque carousel. The wooden horses have twisted, leering faces. A column of soft, desaturated lavender light glows in the center. Your hand holds a small candle, its light dwarfed by the central glow. 32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Offer it a memory of joy.",
+          "next": "ending_absorption"
+        },
+        {
+          "id": "2",
+          "text": "Offer it your fear.",
+          "next": "ending_oblivion"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene6.jpg"
+    },
+    {
+      "id": "ending_escape",
+      "title": "A Smaller Prison",
+      "text": "You run. The gate is behind you. The normal world greets you with its mundane sounds and smells. You are out. But at night, when you look at the stars, you see the patterns from the journal. You understand the bars of a larger cage. You escaped the park, but you can never escape the sky.",
+      "image_prompt": "Looking up at a night sky filled with faint, pastel-colored stars. Overlaid on the stars are the faint, glowing geometric patterns from the journal. The top of a silhouetted treeline is visible at the bottom of the frame. 32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Escape",
+      "image_filename": "ending_escape.jpg"
+    },
+    {
+      "id": "ending_revelation",
+      "title": "The New Geometry",
+      "text": "You trace the diagrams in the journal. They are not drawings. They are instructions. Your mind expands to hold them. The park is a crude lens, focusing a consciousness that spans galaxies. It is not angry, or evil. It simply is. And now, so are you. You see everything. The beginning, the end, and the silent, cold spaces in between.",
+      "image_prompt": "Your hands are holding the open journal. The geometric patterns on the page are glowing with a soft, white light that illuminates your hands and casts long shadows. The world outside the book is dark and indistinct. 32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Revelation",
+      "image_filename": "ending_revelation.jpg"
+    },
+    {
+      "id": "ending_oblivion",
+      "title": "The Unmaking",
+      "text": "You pull the lever. Or, you offer your fear. The result is the same. The presence consumes the negative energy and collapses. The hum stops. The lights die. The smoke vanishes. The park is just an empty, broken place. You have erased something ancient. The silence it leaves behind is a wound in the world, a void that you can feel pressing in on you.",
+      "image_prompt": "The park is plunged into near darkness. The rides are black silhouettes. The only light is from your tiny candle, held out in front of you, revealing a small patch of cracked asphalt littered with dead leaves. 32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Oblivion",
+      "image_filename": "ending_oblivion.jpg"
+    },
+    {
+      "id": "ending_absorption",
+      "title": "The New Custodian",
+      "text": "You give it a perfect, sun-drenched memory. The light in the carousel surges, flowing over you like water. The wood and paint and rust become your flesh. The park becomes your body. You are vast now, and patient. Your thoughts are the swirling smoke. Your voice is the hum of the deep machinery. You will wait for the next visitor.",
+      "image_prompt": "Your vision is blurring, streaks of pastel light swirling at the edges. In the center, your hands are visible, but they are becoming translucent and merging with the pulsing lavender light of the carousel's core. 32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Absorption",
+      "image_filename": "ending_absorption.jpg"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-pro",
+    "generated_at": "2025-10-22T06:50:25.433Z"
+  }
+}

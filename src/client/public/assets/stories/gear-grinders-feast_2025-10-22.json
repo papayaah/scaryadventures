@@ -1,0 +1,284 @@
+{
+  "story_id": "story_1761118165364_gj7naqo55",
+  "story_title": "Gear Grinder's Feast",
+  "tone": "Slasher",
+  "duration": "medium",
+  "art_direction": "32-bit painterly pixel horror, retro game aesthetic, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, wide cinematic perspective, movie-like framing",
+  "settings": {
+    "tone": "Slasher",
+    "language": "simple",
+    "narrative": "third_person",
+    "pacing": "moderate",
+    "violence": "moderate",
+    "imagery": "rich",
+    "dialogue": "conversational",
+    "duration": "medium"
+  },
+  "image_settings": {
+    "image_style": "pixel_horror",
+    "lighting_mood": "harsh_fluorescent",
+    "color_palette": "warm_oranges",
+    "camera_perspective": "wide_cinematic"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "Welcome to Rot",
+      "text": "They pushed through the rusted gate. The amusement park was a skeletal wreck. Broken rides jutted into the bruised sky. A supernatural darkness clung to the air, thick and metallic. Liam coughed. \"What a dump,\" he said, his voice flat. A broken carousel horse tilted unnaturally, its painted eye staring.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. A rusted, half-open iron gate stands in the foreground, letting light into the dark, abandoned amusement park. A broken carousel horse, its paint chipped, is visible center-right, leaning against a rusted pole. Looming in the background, a silhouette of a twisted Ferris wheel against a dark, stormy sky.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Head towards the massive Ferris Wheel.",
+          "next": "scene2"
+        },
+        {
+          "id": "2",
+          "text": "Go for the decaying Funhouse.",
+          "next": "scene3"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene2",
+      "title": "Ferris Wheel's Breath",
+      "text": "The Ferris Wheel was a monument to rust. Its metal arms were twisted girders. A low grinding sound echoed from its base. One of its cabins, hanging precariously, swayed. It was not the wind. Liam gripped their arm. \"Did you see that?\" he whispered, eyes wide.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. A colossal, rusted Ferris wheel dominates the frame, its skeletal structure partially obscured by supernatural darkness. One empty, twisted cabin hangs precariously from a top arm, swaying slightly. Liam stands in the foreground, left, looking up, his face pale.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Climb the support structure for a better view.",
+          "next": "scene4"
+        },
+        {
+          "id": "2",
+          "text": "Investigate the ground directly below the wheel.",
+          "next": "scene5"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene3",
+      "title": "Funhouse Grin",
+      "text": "The Funhouse entrance was a gaping maw. Cracked, distorted mirrors lined its jagged arch. A faint, sickeningly sweet scent drifted out. Liam pointed. \"Look!\" A reflection in a mirror shimmered, not showing them, but a skeletal, twisted figure. It grinned.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. The entrance to a dilapidated funhouse fills the center, its archway lined with numerous cracked and distorted mirrors. A shadowy, skeletal figure is visible in one of the central mirrors, grinning maliciously. Liam stands right, pointing at the mirror, his posture rigid with fear.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Enter the Funhouse.",
+          "next": "scene6"
+        },
+        {
+          "id": "2",
+          "text": "Search for a way around the Funhouse.",
+          "next": "scene_maintenance_tunnels"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene4",
+      "title": "Vantage Point",
+      "text": "They climbed the rusty support beams. The park stretched out below, a patchwork of dead metal and unnatural shadows. Far in the distance, near the park's center, a mass of supernatural darkness pulsed. It swallowed broken ride parts, reforming them into grotesque shapes. Liam's breath hitched. \"It's... growing.\"",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. From a high vantage point on a rusted Ferris wheel support beam, the entire abandoned amusement park is visible, bathed in harsh orange light. A swirling mass of supernatural darkness is prominent in the distant center of the park, consuming debris. Liam is crouched beside the protagonist, looking intently at the darkness.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Descend and head towards the pulsing darkness.",
+          "next": "scene7"
+        },
+        {
+          "id": "2",
+          "text": "Look for a way out from this height, away from the darkness.",
+          "next": "scene9"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene5",
+      "title": "Grinding Mire",
+      "text": "Below the Ferris Wheel, the ground was a churned mire. Dark, viscous sludge oozed between rusted gears and shattered ride pieces. A piece of metal, a jagged shard, pulsed with a dim, orange light. It vibrated, humming. Liam yelled. \"Get back!\"",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. The ground below the Ferris wheel is a churning expanse of dark, viscous sludge, filled with rusted gears and fragmented ride pieces. A jagged shard of metal in the center of the frame pulses with an eerie orange glow. Liam stands to the right, his hand outstretched in warning.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Reach out and touch the pulsing metal shard.",
+          "next": "scene8"
+        },
+        {
+          "id": "2",
+          "text": "Pull Liam away, run towards the Funhouse for cover.",
+          "next": "scene6"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene6",
+      "title": "Mirror Maze",
+      "text": "Inside the Funhouse, the air was cold. Reflections twisted, distorting. Liam was gone. A low groan echoed. In a large, cracked mirror, their own reflection warped. Their skin seemed to peel back, revealing glistening metal beneath. It was not just a reflection. It was real.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. Inside a disorienting funhouse, numerous cracked and distorted mirrors line the walls, reflecting warped images. In a prominent mirror center frame, the protagonist's reflection is grotesque, showing skin peeling back to reveal metallic substructure. Liam is absent from the scene.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Scream and smash the mirror.",
+          "next": "scene8"
+        },
+        {
+          "id": "2",
+          "text": "Try to navigate deeper into the mirror maze, looking for an exit.",
+          "next": "scene10"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene_maintenance_tunnels",
+      "title": "Grinding Tunnels",
+      "text": "They found a maintenance tunnel. Dark, cramped, dripping with foul water. The air smelled of burnt oil and decay. Mechanical grinding sounds echoed, getting louder. A faint, sickly orange light pulsed at the far end of the tunnel. \"This way?\" Liam's voice was barely a whisper.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. A narrow, dark maintenance tunnel stretches into the distance, its concrete walls slick with moisture. Rusted pipes line the ceiling. A faint, pulsing orange light is visible at the far end of the tunnel. Liam stands close by, his figure partially obscured by shadow.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Follow the pulsing light deeper into the tunnel.",
+          "next": "scene10"
+        },
+        {
+          "id": "2",
+          "text": "Search for an emergency exit sign, heading against the light.",
+          "next": "scene9"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene7",
+      "title": "Engulfing Maw",
+      "text": "They approached the pulsing darkness. It was a living, consuming entity, absorbing everything. Broken rides, even the ground itself, twisted into its mass. Liam was caught, half-submerged in the swirling shadows, his legs dissolving into glowing metal. He screamed, a sound choked by grinding gears. \"Help me!\"",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. A massive, swirling entity of supernatural darkness occupies the center, consuming broken amusement park rides. Liam's lower body is half-submerged within the darkness, his legs visibly transforming into metallic constructs. His face is contorted in a scream.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Fight the darkness, try to pull Liam free.",
+          "next": "scene15"
+        },
+        {
+          "id": "2",
+          "text": "Abandon Liam, turn and run towards what might be an exit.",
+          "next": "scene9"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene8",
+      "title": "Flesh into Gear",
+      "text": "A searing pain shot through their hand. The metal shard, or their reflection, pulsed. Their skin ripped, not bleeding, but revealing polished gears and twisted wires beneath. Fingers elongated, hardening into cruel blades. A part of the park now. Liam's distant scream faded into the metallic hum.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. The protagonist's hand is held up in the foreground, grotesquely transformed. Skin is torn back, exposing intricate, polished metal gears and wires where bone and flesh should be. Fingers are elongated into sharp, metallic blades. Orange light glows from the transformation.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Embrace the transformation, let the park claim them.",
+          "next": "scene13"
+        },
+        {
+          "id": "2",
+          "text": "Resist the change, try to escape the park immediately.",
+          "next": "scene9"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene9",
+      "title": "Desperate Sprint",
+      "text": "Panic fueled their legs. They sprinted through the skeletal rides. The ground beneath them shimmered, briefly turning to liquid metal before solidifying. In the distance, between two collapsed ride structures, a gap. It looked like the outside world. The supernatural darkness billowed behind them, a hungry maw.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. The protagonist is depicted mid-stride, running desperately through a chaotic landscape of broken, rusted amusement park rides. The ground underfoot appears to shimmer and ripple like liquid metal. A gap of faint outside light is visible between two collapsed structures in the distance, center-left. Supernatural darkness billows menacingly in the background.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Sprint for the apparent exit gap.",
+          "next": "scene11"
+        },
+        {
+          "id": "2",
+          "text": "Seek cover among the ruined rides, look for another escape.",
+          "next": "scene12"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene10",
+      "title": "Heart of the Machine",
+      "text": "They found the core. A colossal, pulsing machine of gears and twisted metal, organic matter woven into its structure. It hummed with dark energy. Human faces, contorted in agony, were pressed into its surface. One face, barely recognizable, was Liam. He was a part of it now. His eyes, now glowing orange, stared. \"Join us,\" a chorus of voices echoed.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. A gigantic, pulsing machine made of countless gears and twisted metal dominates the scene. Organic matter, including contorted human faces, is grotesquely integrated into its surface. Liam's face, with glowing orange eyes, is visible on the machine's right side, looking directly forward. Harsh orange light emanates from the machine.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Surrender. Become one with the machine.",
+          "next": "scene13"
+        },
+        {
+          "id": "2",
+          "text": "Fight back. Try to disable the machine.",
+          "next": "scene14"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene11",
+      "title": "Screaming Freedom",
+      "text": "They burst through the gap, gasping. The park gates were behind them, far in the distance. The supernatural darkness screamed, a sound of grinding metal and torn flesh. It receded, unable to follow. They were out. Free. But the park's metallic hum would forever echo in their mind.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. The protagonist's back is to the viewer, standing at the edge of the amusement park, looking out at a clear but ominous landscape. The park's rusted, twisted gates are visible far behind them. A receding wave of supernatural darkness, colored orange and red, pulls away from the gates, leaving a trail of spectral smoke.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Escape"
+    },
+    {
+      "id": "scene12",
+      "title": "Buried in Gears",
+      "text": "They dove behind a collapsed bumper car ride. The ground buckled. A gaping maw of gears and metal sprung open, swallowing them whole. They plunged into darkness, the roar of grinding machinery echoing as the opening sealed above. The park consumed its meal.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. A section of the ground, comprised of rusted gears and broken ride parts, has violently buckled open, forming a dark, jagged maw. The protagonist is seen falling into the abyss, their silhouette against the orange light from within. The maw is about to seal shut.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Oblivion"
+    },
+    {
+      "id": "scene13",
+      "title": "The Grand Design",
+      "text": "Their flesh dissolved. Metal became bone. Gears turned where organs once lay. Their consciousness spread, becoming one with the park, its gears, its hunger. Liam’s orange eyes, now part of the vast machine, looked at them. They were home. They were the park. They were the Feast.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. A grotesque fusion of human flesh and metallic machinery. The protagonist's body is dissolving and reforming into a vast, intricate network of gears, pipes, and exposed organic matter. Liam's face, now glowing orange and completely integrated into the machinery, is visible nearby, smiling. The entire scene glows with warm, orange light.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Absorption"
+    },
+    {
+      "id": "scene14",
+      "title": "Torn Asunder",
+      "text": "They lunged at the machine, trying to rip a vital connection. Metal tentacles lashed out. Gears ground. A thousand blades tore into their flesh, pulling them apart piece by screaming piece. The machine roared its victory. They were gone, becoming fragmented fuel for the greater whole.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. The colossal machine from scene 10 is enraged, its metallic tentacles violently tearing apart the protagonist's body. Limbs are being pulled in different directions by sharp, gear-like appendages. Blood-red and orange light flashes from the impact points. Liam's face within the machine watches without emotion.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Dissolution"
+    },
+    {
+      "id": "scene15",
+      "title": "Twisted Truth",
+      "text": "They fought the darkness, ripping at its metallic tendrils. The entity shrieked, recoiling. Liam was free, but twisted. His arm was metal, his eyes glowed faintly. \"It's not just darkness,\" he gasped, his new metallic voice grating. \"It's the park's hunger. It's alive, it changes everything.\" They could leave, but Liam was forever a grim testament to the Carnival of Gears.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. The protagonist stands over a recoiling, shadowy mass of supernatural darkness that is dissipating. Liam is kneeling beside them, his left arm grotesquely transformed into polished metal, his eyes glowing with a faint orange light. Broken ride parts are scattered around, illuminated by the harsh orange light.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Revelation"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-flash",
+    "generated_at": "2025-10-22T07:30:22.048Z"
+  }
+}

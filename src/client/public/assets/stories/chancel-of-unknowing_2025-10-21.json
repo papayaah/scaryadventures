@@ -1,0 +1,260 @@
+{
+  "story_id": "story_1761066487914_mn851sz5c",
+  "story_title": "Chancel of Unknowing",
+  "tone": "Cosmic",
+  "duration": "short",
+  "art_direction": "A pilgrimage into a place where the sacred has become a conduit for the vast, unknowable forces of the cosmos, rendered in stark monochrome.",
+  "settings": {
+    "tone": "Cosmic",
+    "language": "simple",
+    "narrative": "first_person",
+    "pacing": "slow_burn",
+    "violence": "moderate",
+    "imagery": "dense",
+    "dialogue": "whispers",
+    "duration": "short"
+  },
+  "image_settings": {
+    "image_style": "photo_realism",
+    "lighting_mood": "candlelight",
+    "color_palette": "monochrome",
+    "camera_perspective": "first_person"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Threshold",
+      "text": "The great doors of the cathedral hung open. They looked ancient, forgotten. Dust motes danced in the weak light. A heavy, dry silence pressed down. It was not a peaceful quiet. It felt like the hush before something vast awakens. I stepped inside. The air grew cold, thick. Far off, almost too faint to be real, a sound. A cry, perhaps. Or something mimicking one.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. A grand, gothic cathedral entrance, heavy wooden doors slightly ajar behind me, a vast, empty nave stretching into dimness ahead, dust motes visible in shafts of light from high windows.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Go deeper into the nave.",
+          "next": "scene2_nave_approach"
+        },
+        {
+          "id": "2",
+          "text": "Examine a side chapel to the left.",
+          "next": "scene2_side_chapel"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.jpg"
+    },
+    {
+      "id": "scene2_nave_approach",
+      "title": "The Grand Desecration",
+      "text": "I moved deeper. The nave was immense. High arches vanished into the gloom. What should have been saintly statues now held twisted forms. Their faces were stretched, their eyes hollow pits. They were not human anymore. The distant wails grew a little clearer. They were no longer human cries. They were keening sounds, full of something ancient and hungry. This place had been defiled. Profoundly.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. A long, gothic cathedral nave, leading towards a distant, shadowy altar. Defiled, grotesque statues line the walls, their distorted forms barely visible in the dim light.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Head towards the main altar.",
+          "next": "scene3_corrupted_altar"
+        },
+        {
+          "id": "2",
+          "text": "Look for stairs to the upper levels, perhaps a gallery.",
+          "next": "scene3_galleried_whispers"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2_nave_approach.jpg"
+    },
+    {
+      "id": "scene2_side_chapel",
+      "title": "Iconographic Perversion",
+      "text": "The side chapel was smaller, darker. Grotesque versions of saints lined the walls here too. Their stone eyes seemed to follow me. A bone-deep cold emanated from them. I felt whispers, not with my ears, but directly in my mind. They spoke of eternity, of nullity, of worlds beyond human grasp. They felt like thoughts from something vast and uncaring.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. A small, claustrophobic side chapel within a cathedral. Grotesque, malformed statues of saints with staring eyes are prominently displayed on the walls. Flickering candlelight casts deep shadows on their faces.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Touch one of the statues.",
+          "next": "scene4_possessed_touch"
+        },
+        {
+          "id": "2",
+          "text": "Search for another path, perhaps a hidden one.",
+          "next": "scene3_galleried_whispers"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2_side_chapel.jpg"
+    },
+    {
+      "id": "scene3_corrupted_altar",
+      "title": "The Blighted Stone",
+      "text": "The main altar stood before me. It was not stone anymore. Black, viscous ichor seeped from beneath a cracked slab. It moved with a slow, sickening pulse. Above the ichor, a faint, shimmering spectral figure hovered. It was priest-like, but its limbs were impossibly stretched, its head an indistinct smear. The wails from earlier merged with the ichor's slow, wet rhythm. This was the source of the corruption.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. A central cathedral altar, made of dark, cracked stone. Black ichor oozes from beneath a large slab. A faint, shimmering spectral figure, vaguely humanoid but distorted, hovers directly above the ichor.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Attempt to cleanse the altar with prayer.",
+          "next": "scene4_unraveling_prayer"
+        },
+        {
+          "id": "2",
+          "text": "Retreat, looking for an exit or a different path deeper.",
+          "next": "scene4_crypt_gate"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3_corrupted_altar.jpg"
+    },
+    {
+      "id": "scene3_galleried_whispers",
+      "title": "Voices from Above",
+      "text": "I climbed a winding staircase. The upper gallery overlooked the nave. The air here was thin, biting. The whispers were distinct now. They were not voices, but pure concepts pressing into my mind. Thoughts of forgotten stars, of time unraveling. Vague, shimmering forms drifted silently between the high arches. They seemed to ripple, like heat haze. One beckoned, a silent gesture across the vast, empty space.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. A high cathedral gallery, with ornate railings. Below, the vast, shadowy nave stretches out. Several ethereal, shimmering ghostly figures float near the high arches, one distinctly gesturing towards a dark alcove.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Follow the beckoning spectral form.",
+          "next": "scene4_revelation_chamber"
+        },
+        {
+          "id": "2",
+          "text": "Descend, seeking another way out or deeper into the church.",
+          "next": "scene4_crypt_gate"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3_galleried_whispers.jpg"
+    },
+    {
+      "id": "scene4_possessed_touch",
+      "title": "The Grasp of Nullity",
+      "text": "I touched the cold, malformed statue. It was not stone. It was bone, or something older. A searing cold, beyond any earthly chill, passed into me. My hand seized up. A wave of sensation, not pain, but pure dissolution, washed through my mind. I am no longer myself. My will dissolved, replaced by a vast, incomprehensible hunger. My body is a vessel. There is only a crushing weight, and then, a profound, alien quiet.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. My hand, ghostly pale and seemingly glowing with an unearthly light, is pressed against a grotesque, malformed statue's arm. My face, partially visible, reflects pure shock and a dawning sense of mental dissolution.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Possession",
+      "image_filename": "scene4_possessed_touch.jpg"
+    },
+    {
+      "id": "scene4_unraveling_prayer",
+      "title": "The Failed Invocation",
+      "text": "I tried to speak the ancient words, to invoke the old protections against such evil. But the words were wrong here. They twisted in my throat, becoming meaningless gibberish. The black ichor pulsed faster, more violently. The spectral figure above it solidified, then dissolved into a formless, abyssal darkness that rushed at me. The reality around me shredded. I was undone. My mind fragmented, witnessing the void. Everything ceased to make sense.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. I am standing before a corrupted altar, hands clasped in a futile attempt at prayer. Dark, swirling energy surrounds me, emanating from the ichor. My eyes are wide with existential terror, and the edges of the scene blur, hinting at reality unraveling.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Oblivion",
+      "image_filename": "scene4_unraveling_prayer.jpg"
+    },
+    {
+      "id": "scene4_crypt_gate",
+      "title": "Descent into the Void",
+      "text": "A heavy, rusted iron gate stood on the far side of the nave. It groaned as I pushed it open. A smell of damp earth, stagnant water, and something far older, petrified sorrow, wafted out. The wails from below were now guttural, close, almost a physical pressure. A faint, sickly light flickered from the darkness beyond the gate, a promise of deeper dread.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. A heavy, ornate, rusted iron gate stands partially ajar, revealing a dark, stone staircase leading down into absolute blackness. A faint, eerie light flickers from the depths below.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Open the gate fully and descend into the crypt.",
+          "next": "scene5_crypt_chamber"
+        },
+        {
+          "id": "2",
+          "text": "Search around the edges of the nave for an alternative exit.",
+          "next": "scene5_shattered_exit"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene4_crypt_gate.jpg"
+    },
+    {
+      "id": "scene4_revelation_chamber",
+      "title": "The Veil Torn",
+      "text": "I followed the shimmering form into a hidden chamber behind a collapsed tapestry. This space felt untouched by the more obvious corruption. Here, a vast, ancient tapestry depicted things no human eyes should see – glyphs of cosmic forces, diagrams of the soul's true insignificance in the face of unknowable reality. The forms around me coalesced, not ghosts, but projections of a higher dimensional horror. They showed me truths. I saw. I understood. And I am forever changed by the true nature of reality. My mind is shattered, but illuminated.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. A hidden, dusty chamber. A large, ancient tapestry on the far wall is covered in intricate, alien glyphs and cosmic diagrams. Several ethereal, shimmering figures are gesturing towards the tapestry, their forms indistinct. My face reflects profound shock and a dawning, terrifying understanding.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Revelation",
+      "image_filename": "scene4_revelation_chamber.jpg"
+    },
+    {
+      "id": "scene5_crypt_chamber",
+      "title": "The Heart of Blight",
+      "text": "The crypt was vast, cold. Piles of human bones lay undisturbed in the shadows, ancient and forgotten. In the center stood a monumental effigy, a defiled saint whose features shifted, becoming an aperture to something beyond comprehension. Around it, spectral figures, not human but echoing forgotten suffering, moved in a slow, endless procession. One turned to me, its eyes empty pits of starlight, its form a wavering distortion.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. A vast, cold crypt chamber. Piles of ancient human bones are scattered on the floor and against walls. In the center, a monumental, defiled effigy of a saint whose features are blurry and shifting. Around it, several ethereal, spectral figures move in a slow procession. One figure at the front has turned to face the camera, its eyes dark voids.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Confront the central effigy directly.",
+          "next": "scene6_final_confrontation"
+        },
+        {
+          "id": "2",
+          "text": "Search the crypt for a hidden weakness or object of power.",
+          "next": "scene6_ancient_relic"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene5_crypt_chamber.jpg"
+    },
+    {
+      "id": "scene5_shattered_exit",
+      "title": "An Unseen Path",
+      "text": "I found a collapsed section of the wall, hidden behind old, mildewed tapestries. Through the rubble, I saw the pale, grey light of dawn. The air outside was clean, crisp, untainted. The horror I had witnessed would follow me, an unseen mark on my soul, but I was free. I scrambled through, the distant, echoing cries of the cathedral fading behind me, a ghost of a sound I would never truly escape. But I had escaped the immediate terror.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. A large, jagged hole in a crumbling stone wall, with debris and shattered masonry around it. Through the opening, faint, pale daylight is visible. My hands are visible, pushing through the rubble, my face partially obscured.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Escape",
+      "image_filename": "scene5_shattered_exit.jpg"
+    },
+    {
+      "id": "scene6_final_confrontation",
+      "title": "Echoes of Eternity",
+      "text": "I stepped forward, confronting the entity emanating from the effigy. It was not a creature, but a tear in the fabric of existence itself, made manifest. Its silence was louder than any scream. It drew me in. My mind struggled, unable to process the sheer scale of its being, the incomprehensible geometry of its form. There was no pain, only an infinite stretching, then nothing. My consciousness unraveled, absorbed into something vast and uncaring. I became part of its unending, silent hum.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. I am standing before a swirling vortex of dark energy and pure light, where the effigy once stood. My body is slightly distorted, as if being pulled into the anomaly. The crypt chamber itself seems to warp around the edges of the image.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Oblivion",
+      "image_filename": "scene6_final_confrontation.jpg"
+    },
+    {
+      "id": "scene6_ancient_relic",
+      "title": "The Forgotten Seal",
+      "text": "Tucked away in a dark, overlooked corner of the crypt, I found a small, stone pedestal. On it, a tarnished silver symbol gleamed faintly. It was a crucifix, but etched with older, pre-Christian wards and symbols. A faint hum vibrated from it, an echo of power, of true binding. This was not a tool of simple faith, but of ancient authority, a seal against things beyond human understanding.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. A dark, dusty corner of the crypt. A small, simple stone pedestal holds a tarnished, ancient-looking silver crucifix. It glows with a faint, internal light, etched with intricate, non-Christian symbols.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Take the symbol and use it against the effigy.",
+          "next": "scene7_banishment"
+        },
+        {
+          "id": "2",
+          "text": "Attempt to understand the inscriptions on the pedestal.",
+          "next": "scene7_madness_scroll"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene6_ancient_relic.jpg"
+    },
+    {
+      "id": "scene7_banishment",
+      "title": "The Cosmic Rejection",
+      "text": "I seized the symbol. Its cold power pulsed in my hand, an ancient strength. I thrust it towards the aperture where the effigy had been, towards the thing that was not. A shriek, not of sound but of pure psychic force, tore through the crypt. The effigy cracked, then shattered into dust. The spectral figures vanished. The void closed, the shifting features of the effigy collapsing in on themselves. The cathedral, though scarred, felt empty of that profound wrongness. I had banished it, at least for a time. The knowledge of what I had faced would haunt me, but I had prevailed. I walked out into the pale dawn, forever changed.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. I am holding up a glowing silver crucifix towards the central area where the effigy was. A brilliant flash of light emanates from the crucifix, and the remnants of the effigy are shattering, dissolving into dust. Spectral figures recoil and dissipate in the background.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Banishment",
+      "image_filename": "scene7_banishment.jpg"
+    },
+    {
+      "id": "scene7_madness_scroll",
+      "title": "The Unknowable Truths",
+      "text": "I studied the inscriptions on the pedestal. They were not a language, but diagrams of the soul, of reality's brittle nature. As I began to understand, my mind started to warp. The knowledge was too vast, too contradictory to human reason. I felt my sanity fray, thread by thread. I laughed, then screamed, at the sheer, beautiful, terrifying truth of the universe, knowing I would never be whole again. The crypt became a cage of shattered perceptions, and I, its newest occupant.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. I am intently staring at glowing, alien inscriptions on a stone pedestal. My face is contorted in a mix of terror and insane understanding, eyes wide and unfocused. The surrounding crypt walls seem to subtly twist and blur.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Madness",
+      "image_filename": "scene7_madness_scroll.jpg"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-flash",
+    "generated_at": "2025-10-21T17:09:10.692Z"
+  }
+}

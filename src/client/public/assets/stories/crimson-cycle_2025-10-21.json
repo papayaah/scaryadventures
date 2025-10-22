@@ -1,0 +1,70 @@
+{
+  "story_id": "story_20240602_231500",
+  "story_title": "Crimson Cycle",
+  "tone": "Gothic",
+  "duration": "short",
+  "art_direction": "A visual journey through a decaying, experimental bunker, bathed in the sinister glow of a blood-red moon, rendered in a retro 32-bit pixel art style with a painterly touch, emphasizing atmospheric horror and distorted realities.",
+  "settings": {
+    "tone": "Gothic",
+    "language": "simple",
+    "narrative": "second_person",
+    "pacing": "fast",
+    "violence": "subtle",
+    "imagery": "sparse",
+    "dialogue": "minimal",
+    "duration": "short"
+  },
+  "image_settings": {
+    "image_style": "pixel_horror",
+    "lighting_mood": "candlelight",
+    "color_palette": "muted_reds_greens",
+    "camera_perspective": "first_person"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Crimson Awakening",
+      "text": "The coarse concrete presses against your back. A chilling draft. Above, through a reinforced viewport, a moon, swollen and blood-red, stains the cavernous space. A low, guttural howl echoes, not from outside, but from the very walls. A blinking console nearby holds a familiar date. You have seen this day before. The metallic tang of decay fills your throat.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. You are lying on a cold concrete floor. In front of you, a large reinforced viewport on the far wall reveals a gigantic, blood-red moon dominating the sky. To your left, a flickering, old computer console with a green screen showing garbled text. A dimly lit corridor stretches away into darkness on the right.",
+      "choices": [
+        {
+          "id": "1a",
+          "text": "Examine the flickering console.",
+          "next": "scene2_temporal_flux"
+        },
+        {
+          "id": "1b",
+          "text": "Approach the warped archway.",
+          "next": "scene2_reality_rend"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.jpg"
+    },
+    {
+      "id": "scene2_temporal_flux",
+      "title": "Recursive Collapse",
+      "text": "You approach the console. Its screen pulses with erratic data, a fractured timeline. Your own face flashes, screaming, then gone. Each number shifts, a ceaseless replay. The howls are louder now, a thousand voices whispering 'again, again' inside your skull. This moment has been lived countless times. The bunker breathes with your despair. Time becomes a cage, then dissolves.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. You are standing in front of a large, old computer console, its green monochrome screen displaying rapidly scrolling, glitched data and fragmented, terrified faces. The console is on a metal desk. To the left, a faint, ghostly reflection of a distorted version of yourself in the dark metallic wall. The air shimmers with temporal distortion around the console.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Oblivion",
+      "image_filename": "scene2_temporal_flux.jpg"
+    },
+    {
+      "id": "scene2_reality_rend",
+      "title": "Beyond Perception",
+      "text": "The archway shimmers, edges blurring. It beckons, a portal to some other, twisted truth. As you draw near, your reflection stretches, contorts, becomes something impossible. Your hand passes through the shimmering air, feeling nothing, then everything at once. A phantom limb, cold and alien, brushes your cheek. The structure around you warps, defying geometry. The howling is closer, a beckoning rather than a threat. You step through.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. In front of you, a stone archway shimmers with purple and green light, its edges blurring into the wall. On the ground, near your feet, a dark, viscous liquid reflects a distorted, elongated version of your own hand reaching towards the arch. The concrete walls around the archway appear to be melting and shifting, defying normal physics.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Transformation",
+      "image_filename": "scene2_reality_rend.jpg"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-flash",
+    "generated_at": "2025-10-21T13:57:36.228Z"
+  }
+}

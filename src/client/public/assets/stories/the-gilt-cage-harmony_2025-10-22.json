@@ -1,0 +1,269 @@
+{
+  "story_id": "story_1761115775212_9kL32xQd1",
+  "story_title": "The Gilt Cage Harmony",
+  "tone": "Folk",
+  "duration": "medium",
+  "art_direction": "Vintage photo realism with a cold, clinical atmosphere.",
+  "settings": {
+    "tone": "Folk",
+    "language": "simple",
+    "narrative": "third_person",
+    "pacing": "moderate",
+    "violence": "moderate",
+    "imagery": "sparse",
+    "dialogue": "whispers",
+    "duration": "medium"
+  },
+  "image_settings": {
+    "image_style": "photo_realism",
+    "lighting_mood": "harsh_fluorescent",
+    "color_palette": "cold_blues",
+    "camera_perspective": "third_person_close"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Locked Door",
+      "text": "The storm broke without warning. Rain hammered the shop's windows like a fist. Alex stood behind the counter, the final customer long gone. They turned the key in the front door, but it just spun. The old lock was stuck. Outside, thunder rattled the panes of glass. Inside, the power hummed, then died. The emergency fluorescents flickered on, casting everything in a stark, cold light. The shop was quiet, but it was a listening kind of quiet.",
+      "image_prompt": "A view from behind a person's shoulder as they stand at an antique shop counter. Their hand rests near an old cash register. In the background, a glass-paned front door shows a torrential downpour outside. The interior is lit by sterile, overhead fluorescent lights. Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Explore the main showroom.",
+          "next": "scene2"
+        },
+        {
+          "id": "2",
+          "text": "Check the back office for a spare key.",
+          "next": "scene3"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.webp"
+    },
+    {
+      "id": "scene2",
+      "title": "The Glass-Eyed Choir",
+      "text": "Alex walked into the main showroom. Rows of glass cabinets held forgotten treasures. Porcelain dolls sat on velvet-lined shelves. Their painted smiles seemed too wide under the harsh lights. Their glass eyes followed Alex's every move. From the center of the room, a tiny, tinny melody began. A music box, sitting alone on a doily, had opened itself. It played a simple, looping song that was pleasant at first, then maddening.",
+      "image_prompt": "Over the shoulder view of a person looking into a large showroom filled with antique shelves. The shelves are lined with dozens of porcelain dolls with unblinking glass eyes. In the center of the room on a small table sits a single, ornate music box. Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Investigate the music box.",
+          "next": "scene4"
+        },
+        {
+          "id": "2",
+          "text": "Examine the large dollhouse in the corner.",
+          "next": "scene5"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2.webp"
+    },
+    {
+      "id": "scene3",
+      "title": "The Toymaker's Ledger",
+      "text": "The back office was cluttered. Stacks of paper, boxes of receipts. A single lamp cast a pool of light on a heavy, leather-bound ledger. It was open to a page of spidery handwriting. The entries were strange. They were not sales records. They spoke of 'families' and 'keeping them whole.' One entry was circled in red ink: 'The Soldier must not leave his Dancer. Their song must be complete.'",
+      "image_prompt": "A person looks down at an old, leather-bound ledger open on a cluttered wooden desk. A gooseneck lamp provides the only direct light, illuminating the messy, handwritten script. The rest of the office is filled with shadowy stacks of boxes and files. Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Keep reading the ledger.",
+          "next": "scene6"
+        },
+        {
+          "id": "2",
+          "text": "Search the locked filing cabinet nearby.",
+          "next": "scene7"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3.webp"
+    },
+    {
+      "id": "scene4",
+      "title": "The Lonely Dancer",
+      "text": "Alex leaned over the music box. A small porcelain ballerina spun on a tiny mirror, her arms outstretched. The music was a simple, sad tune. A dry, rustling whisper seemed to come from the box itself. *'So lonely...'* Alex's eyes scanned the nearby shelves. They saw him. A small, tin soldier, paint chipped from his uniform, standing at attention just inches away.",
+      "image_prompt": "A close-up view of a small, antique music box on a wooden table. A porcelain ballerina figure twirls in the center. The person's hand is visible, reaching towards a small, painted tin soldier that stands on a shelf right next to the table. Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Place the soldier on the music box with the dancer.",
+          "next": "scene8"
+        },
+        {
+          "id": "2",
+          "text": "Snap the music box shut.",
+          "next": "scene9"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene4.webp"
+    },
+    {
+      "id": "scene5",
+      "title": "The Little House",
+      "text": "In the corner stood a dollhouse, an exact, detailed replica of the shop itself. Peering inside, Alex saw tiny furniture arranged perfectly. But the little dolls inside were not still. One, a miniature shopkeeper, slowly raised its stiff arm. It pointed, not at anything inside the dollhouse, but across the real room. It pointed directly at the door to the basement workshop.",
+      "image_prompt": "Looking over a person's shoulder into an ornate, open-faced dollhouse. The dollhouse is a miniature version of the shop. A small doll figure inside has its arm raised, pointing towards a dark, heavy wooden door at the back of the actual room. Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Heed the doll and go to the workshop.",
+          "next": "scene10"
+        },
+        {
+          "id": "2",
+          "text": "Ignore it and go back to the front.",
+          "next": "scene11"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene5.webp"
+    },
+    {
+      "id": "scene6",
+      "title": "A Complete Song",
+      "text": "Alex turned the page. The toymaker's madness became clear. He believed his creations were alive, and their spirits were bound to their 'families.' The Soldier and the Dancer were the heart of it all. 'To sunder them is to invite chaos,' he wrote. 'To unite them is to soothe the Gilt Cage. The key to the front door is their reward for harmony.'",
+      "image_prompt": "A close-up view of the open ledger. The person's finger is tracing a line of text. The script is frantic and spidery, and a drawing of a key is sketched in the margin next to a passage about a soldier and a dancer. Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Return to the showroom to find the toys.",
+          "next": "scene4"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene6.webp"
+    },
+    {
+      "id": "scene7",
+      "title": "Empty Sockets",
+      "text": "The old filing cabinet was locked tight. Alex pried it open with a letter opener. The metal screeched. Inside, there were no files. Only a pile of broken toy parts—a cracked wooden leg, a bent tin arm. And sitting atop the pile was a single, perfect doll's head. Its painted smile was pristine, but its blue glass eyes had been violently scratched out, leaving two black holes. A child's voice whispered from the cabinet, *'Now you'll stay. You'll be a new toy.'*",
+      "image_prompt": "A person has pried open a metal filing cabinet drawer. Inside, nestled among broken toy parts, is a single, pale porcelain doll's head. Its eye sockets are black and empty, crudely scratched out. Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Flee to the workshop.",
+          "next": "scene10"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene7.webp"
+    },
+    {
+      "id": "scene8",
+      "title": "The Harmony Key",
+      "text": "Alex gently picked up the tin soldier and placed him on the mirrored surface of the music box, beside the ballerina. For a moment, they both stood still. Then, the music changed. It became a gentle, resolved harmony. The sad loop was broken. A soft *click* echoed from the main counter. A small, hidden drawer had sprung open. Inside, nestled on red velvet, was a heavy brass key.",
+      "image_prompt": "The person's hand is holding a single, ornate brass key. In the background, on a table, the music box is visible with the tin soldier and ballerina figures standing peacefully side-by-side. The atmosphere feels calm. Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Take the key and go to the front door.",
+          "next": "scene12"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene8.webp"
+    },
+    {
+      "id": "scene9",
+      "title": "The Discordant March",
+      "text": "Alex slammed the lid of the music box shut. The melody cut off with a sickening crunch of gears. A tiny crack appeared on the porcelain ballerina's face. The silence that followed was worse. It was broken by a rhythmic *clash-clash-clash*. A wind-up monkey with cymbals began marching across the floor. Then another toy moved. And another. A small army of animated toys was slowly advancing, their movements jerky and unnatural.",
+      "image_prompt": "A small, clockwork monkey toy with wide eyes and crashing cymbals marches across a dusty wooden floor. In the blurred background, other toys—a wooden horse, a jack-in-the-box—are beginning to move from the shelves. Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Run to the workshop.",
+          "next": "scene10"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene9.webp"
+    },
+    {
+      "id": "scene10",
+      "title": "The Collector",
+      "text": "The workshop was cold and smelled of sawdust and ozone. A single bare bulb flickered over a workbench littered with tools and parts. The sound of dragging and clicking came from the shadows. Discarded pieces—doll limbs, clockwork gears, wooden blocks—began to pull themselves together. They formed a large, shambling figure, a mockery of a human shape, held together by some unseen will. It was the collector, and it needed new parts.",
+      "image_prompt": "In a dim basement workshop, a large, grotesque figure made of assembled junk and broken toy parts lurches forward. It is illuminated by a single, flickering bare lightbulb hanging from the ceiling. A workbench with scattered tools is visible. Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Grab a heavy mallet from the workbench.",
+          "next": "scene14"
+        },
+        {
+          "id": "2",
+          "text": "Look for the source of its power.",
+          "next": "scene15"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene10.webp"
+    },
+    {
+      "id": "scene11",
+      "title": "The Silent Barricade",
+      "text": "Alex turned away from the dollhouse, their heart pounding. They had to get out. But when they reached the front of the shop, the way was blocked. Every doll from every shelf was now standing on the floor. They formed a silent, dense crowd between Alex and the door. Dozens of them. Hundreds. Their glass eyes stared forward, reflecting the sterile light in a thousand tiny, cold pinpricks.",
+      "image_prompt": "The view towards the shop's front door is completely blocked by a silent crowd of standing porcelain dolls. They are packed together, shoulder to shoulder, all staring forward with blank, glass eyes. Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "There's no way through. Retreat to the workshop.",
+          "next": "scene10"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene11.webp"
+    },
+    {
+      "id": "scene12",
+      "title": "The Turn of the Key",
+      "text": "With the brass key in hand, Alex walked to the front door. The dolls on the shelves were still, watching. The toys were silent. The only sound was the rain and the frantic beating of Alex's own heart. They pushed the key into the old lock. It slid in smoothly. With a deep, satisfying *clunk*, the lock turned. The door was open.",
+      "image_prompt": "A close-up of a person's hand turning a large, brass key in the lock of an old wooden door. Through the door's glass pane, the blurry lights of the rainy street outside are visible. Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Escape into the storm.",
+          "next": "scene13"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene12.webp"
+    },
+    {
+      "id": "scene13",
+      "title": "The Cleansing Rain",
+      "text": "Alex stumbled out into the night. The cold rain was a shock, but it was real. It washed the dust and fear away. They looked back. The lights in 'The Gilt Cage' went out, plunging the shop into absolute darkness. The storm was just a storm again. The toys were just toys. Alex turned and walked away, never looking back.",
+      "image_prompt": "View from behind a person standing on a rain-slicked sidewalk at night. They are looking back at the dark storefront of an antique shop. The sign reads 'The Gilt Cage'. Rain is falling heavily. Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Escape",
+      "image_filename": "scene13.jpg"
+    },
+    {
+      "id": "scene14",
+      "title": "A New Addition",
+      "text": "Alex swung the heavy mallet, shattering a porcelain arm. But more parts scrambled to take its place. The creature was a tide of wood and metal. It cornered them against the damp stone wall. There was a splintering crunch. A flash of pain. Then the cold, clicking feeling of clockwork gears meshing with things that were never meant to be clockwork. The collection was made whole again.",
+      "image_prompt": "A chaotic, close-up image. The amalgamated toy creature, a mess of gears and doll limbs, has cornered the person against a stone wall. A porcelain doll's hand is reaching towards the person's face. The scene is violent and confusing. Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Absorption"
+    },
+    {
+      "id": "scene15",
+      "title": "The Broken Heart",
+      "text": "Ignoring the shambling horror, Alex scanned the workbench. They saw it in a dusty box: a brass and copper heart, pulsing with a faint light. The toymaker's own heart. Alex grabbed the mallet and brought it down. It shattered with a sound like a thousand tiny bells breaking at once. Every toy in the shop fell silent and inert. The spirit was gone. But its final scream echoed in Alex's mind, cracking it like porcelain, leaving them alone in the quiet, broken dark.",
+      "image_prompt": "A person is on their knees on the floor of the dark workshop. All around them are motionless, broken toy parts. In front of them are the glittering, shattered fragments of a mechanical heart. Their face, lit from above, is a mask of shock and emptiness. Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Madness",
+      "image_filename": "scene15.webp"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-pro",
+    "generated_at": "2025-10-22T06:50:33.332Z"
+  }
+}

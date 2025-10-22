@@ -1,0 +1,2 @@
+# This file ensures the stories directory is tracked by git
+# while ignoring approved story files that get copied here

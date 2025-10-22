@@ -1,0 +1,213 @@
+{
+  "story_id": "story_1761066584770_4glkbz5lf",
+  "story_title": "Crimson Ledger of Lost Lessons",
+  "tone": "Slasher",
+  "duration": "short",
+  "art_direction": "Charcoal sketches in cold blues with dutch angles",
+  "settings": {
+    "tone": "Slasher",
+    "language": "elevated",
+    "narrative": "third_person",
+    "pacing": "slow_burn",
+    "violence": "subtle",
+    "imagery": "dense",
+    "dialogue": "whispers",
+    "duration": "short"
+  },
+  "image_settings": {
+    "image_style": "charcoal_sketch",
+    "lighting_mood": "harsh_fluorescent",
+    "color_palette": "cold_blues",
+    "camera_perspective": "dutch_angle"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Faded Threshold",
+      "text": "Alex stepped into the abandoned school. Dust motes danced like forgotten promises. Swirling smoke curled from cracked tiles, veiling the corridor ahead. Silence pressed heavy, a predator waiting. A whisper echoed: 'Stay... learn with us.' Ghostly apparitions flickered at the edges of vision, spectral figures with hollow eyes. Danger lurked in the quiet, a blade unseen.",
+      "image_prompt": "From a first-person perspective, entering a decrepit school foyer with swirling smoke rising from the floor center, ghostly apparitions hovering faintly on the left and right walls, faded posters peeling on the back wall, narrow hallway door straight ahead at eye level. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Venture into the dim hallway",
+          "next": "scene2"
+        },
+        {
+          "id": "2",
+          "text": "Enter the nearest classroom",
+          "next": "scene3"
+        },
+        {
+          "id": "3",
+          "text": "Examine the old bulletin board",
+          "next": "scene4"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.jpg"
+    },
+    {
+      "id": "scene2",
+      "title": "Corridor of Echoed Steps",
+      "text": "They crept along the hallway. Lockers loomed like iron sentinels, rusted and silent. Smoke swirled thicker, coiling around ankles like grasping tendrils. A spectral figure materialized ahead, its form a translucent child with outstretched hands. Anticipation built in the stillness, the air thick with unspoken threats. A faint voice murmured: 'Join the recess... forever.' Physical terror gripped Alex, the unseen edge drawing nearer.",
+      "image_prompt": "From a first-person perspective, in a long abandoned hallway with swirling smoke along the floor, spectral figure of a child apparition centered ahead at mid-distance, rusted lockers lining left and right walls, flickering fluorescent light overhead. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Approach the spectral figure",
+          "next": "scene5"
+        },
+        {
+          "id": "2",
+          "text": "Force open a locker",
+          "next": "scene6"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2.jpg"
+    },
+    {
+      "id": "scene3",
+      "title": "Chamber of Scratched Desks",
+      "text": "Alex pushed into the classroom. Desks stood in ragged rows, etched with symbols like desperate pleas. Swirling smoke rose from the blackboard, where chalk lines formed ghostly faces. Silence amplified every breath, building dread in the void. Apparitions whispered from the corners: 'Write your name... stay.' A spectral figure glided closer, its presence a cold promise of entrapment, terror implied in the encroaching fog.",
+      "image_prompt": "From a first-person perspective, inside a dusty classroom with swirling smoke from the blackboard at front center, ghostly apparitions in the corners left and right, scratched wooden desks scattered in foreground, broken window on the back wall. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Read the blackboard messages",
+          "next": "scene5"
+        },
+        {
+          "id": "2",
+          "text": "Search under the desks",
+          "next": "scene7"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3.jpg"
+    },
+    {
+      "id": "scene4",
+      "title": "Board of Faded Warnings",
+      "text": "They leaned toward the bulletin board. Pins held tattered notes, ink bled like wounds. Smoke swirled upward, revealing apparitions in the paper's folds. Tension mounted in the quiet scrutiny, each shadow a potential snare. A whisper slithered: 'Heed the lesson... or perish.' Spectral figures hovered, their forms metaphors for lost innocence, danger pressing in with icy insistence.",
+      "image_prompt": "From a first-person perspective, close-up on a cork bulletin board with swirling smoke around edges, ghostly apparitions emerging from tattered papers pinned center, faded notes scattered across surface, dim corridor visible in background left. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Pull down a note",
+          "next": "scene6"
+        },
+        {
+          "id": "2",
+          "text": "Back away and head to stairs",
+          "next": "scene8"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene4.jpg"
+    },
+    {
+      "id": "scene5",
+      "title": "Grasp of the Ethereal",
+      "text": "Alex reached out. The spectral figure's touch burned cold, a vice of frost. Smoke enveloped them, apparitions multiplying like shattered mirrors. Silence shattered with distant cries, anticipation peaking into peril. Whispers swelled: 'You belong here.' Terror manifested in the pull, implying a dissolution into the void, the school's hunger evident in every wisp.",
+      "image_prompt": "From a first-person perspective, confronting a spectral child figure close center with outstretched hand, swirling smoke enveloping the scene, multiple ghostly apparitions fading in background left and right, cracked floor tiles underfoot. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Resist and flee",
+          "next": "scene8"
+        },
+        {
+          "id": "2",
+          "text": "Embrace the figure",
+          "next": "scene9"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene5.jpg"
+    },
+    {
+      "id": "scene6",
+      "title": "Secrets in Steel",
+      "text": "The locker creaked open. Inside, relics of youth lay strewn: notebooks, a lone shoe. Smoke billowed out, carrying apparitions that clawed at the air. Dread built in the confined space, each item a symbol of abrupt ends. A voice hissed: 'Take it... become us.' Spectral figures encircled, their proximity a threat of merger, violence hinted in the tightening coil.",
+      "image_prompt": "From a first-person perspective, open rusted locker with swirling smoke pouring out center, ghostly apparitions inside and around edges, scattered notebooks and shoe on bottom shelf, hallway wall visible right. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Grab a notebook",
+          "next": "scene7"
+        },
+        {
+          "id": "2",
+          "text": "Slam it shut and run",
+          "next": "scene10"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene6.jpg"
+    },
+    {
+      "id": "scene7",
+      "title": "Revelations in Ink",
+      "text": "Pages turned under trembling fingers. Words detailed a forbidden experiment, binding spirits to the school. Smoke thickened, apparitions drawing near with accusatory gazes. Tension coiled in the revelation, silence a canvas for impending doom. Whispers accused: 'You know now... pay the price.' The figures closed in, implying a fate woven into the narrative's threads.",
+      "image_prompt": "From a first-person perspective, holding an open notebook with cryptic writings center, swirling smoke rising from pages, spectral figures approaching from left and right, desk surface in foreground. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Revelation",
+      "image_filename": "scene7.jpg"
+    },
+    {
+      "id": "scene8",
+      "title": "Ascent to Freedom",
+      "text": "Alex bolted up the stairs. Smoke pursued like a living entity, but the exit loomed. Apparitions wailed, fading in the distance. Silence broke with a final whisper: 'Return...' Yet the door burst open to the outside world, the school's grip shattered. Terror receded, implying survival through sheer will.",
+      "image_prompt": "From a first-person perspective, ascending narrow staircase with swirling smoke trailing below center, faint ghostly apparitions on lower steps left, exit door cracked open at top right, harsh light filtering in. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Escape",
+      "image_filename": "scene8.jpg"
+    },
+    {
+      "id": "scene9",
+      "title": "Merged with the Mist",
+      "text": "Embrace sealed the pact. Smoke invaded pores, apparitions merging into one. Silence enveloped all, anticipation yielding to oblivion. Whispers became internal: 'We are whole.' The figure dissolved, implying a violent erasure of self, lost in the school's eternal ledger.",
+      "image_prompt": "From a first-person perspective, enveloped in swirling smoke center with merging spectral figures overlapping, ghostly hands reaching from all sides, faded school walls blurring in background. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Absorption",
+      "image_filename": "scene9.jpg"
+    },
+    {
+      "id": "scene10",
+      "title": "Descent into Madness",
+      "text": "Running blindly, Alex stumbled into depths. Smoke choked the air, apparitions swarming like locusts. Silence fractured into cacophony, whispers driving reason away. Figures clawed without touch, implying a shattering of mind, the school claiming its due in fractured thoughts.",
+      "image_prompt": "From a first-person perspective, in a dark basement with dense swirling smoke filling center, multiple spectral apparitions crowding left and right, broken furniture scattered foreground, no visible exit. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Madness",
+      "image_filename": "scene10.jpg"
+    }
+  ],
+  "_metadata": {
+    "provider": "xAI",
+    "model": "grok-4",
+    "usage": {
+      "prompt_tokens": 1753,
+      "completion_tokens": 2546,
+      "total_tokens": 5056,
+      "prompt_tokens_details": {
+        "text_tokens": 1753,
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "cached_tokens": 681
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 757,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "num_sources_used": 0
+    },
+    "generated_at": "2025-10-21T17:11:11.221Z"
+  }
+}

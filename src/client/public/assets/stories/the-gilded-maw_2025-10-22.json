@@ -1,0 +1,209 @@
+{
+  "story_id": "story_1761116835627_pmvzkny7t",
+  "story_title": "The Gilded Maw",
+  "tone": "Psychological",
+  "duration": "short",
+  "art_direction": "A hand-painted oil painting in a classical style, featuring a cold, icy blue color palette and harsh, clinical fluorescent lighting. All scenes are from a dramatic, low-angle perspective.",
+  "settings": {
+    "tone": "Psychological",
+    "language": "simple",
+    "narrative": "first_person",
+    "pacing": "moderate",
+    "violence": "graphic",
+    "imagery": "sparse",
+    "dialogue": "whispers",
+    "duration": "short"
+  },
+  "image_settings": {
+    "image_style": "oil_painting",
+    "lighting_mood": "harsh_fluorescent",
+    "color_palette": "cold_blues",
+    "camera_perspective": "low_angle"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Bell Jar",
+      "text": "The bell above the door didn't ring. It chimed, a flat, dead sound. The door clicked shut behind me. Locked. Dust motes dance in the single fluorescent bulb overhead. A thin, grey smoke, smelling of ozone and rot, leaks from beneath the shelves. Something moved. A porcelain doll's head just turned to look at me.",
+      "image_prompt": "Looking up from the floor of a cluttered antique shop. A single, bare fluorescent bulb hangs from the high ceiling, casting harsh shadows. Shelves packed with strange objects line the walls. A heavy wooden door is visible in the back. Grey smoke curls along the dusty floorboards. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Examine a music box on a nearby table.",
+          "next": "scene2"
+        },
+        {
+          "id": "2",
+          "text": "Head for the back room.",
+          "next": "scene3"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.jpg"
+    },
+    {
+      "id": "scene2",
+      "title": "The Ballerina's Pirouette",
+      "text": "I approach the small, wooden music box. Inlaid with mother-of-pearl. I lift the lid. A tiny porcelain ballerina begins to turn. Its painted-on smile twitches. It's not a smile. The porcelain cracks. Raw, red muscle squirms underneath. The tune slows, distorts into a scream. The box shudders, and a dozen rusted needles shoot from its sides, burying themselves in the back of my hand. The pain is white-hot.",
+      "image_prompt": "A first-person view of a hand with rusted needles embedded in the skin, held over a small, ornate music box on a dusty table. The music box is open, revealing a grotesque, half-porcelain, half-muscle ballerina figure inside. The background is the blurry, cold interior of the antique shop. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Pull the needles out.",
+          "next": "scene4"
+        },
+        {
+          "id": "2",
+          "text": "Smash the music box against the floor.",
+          "next": "scene6"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene3",
+      "title": "The Craftsman's Ghost",
+      "text": "I push past shelves crammed with glass eyes and silver spoons. The back room is a workshop. A single fluorescent strip buzzes. Parts of mannequins hang from hooks on the ceiling. One plastic arm flexes its fingers. Slowly. In the far corner, a cloud of the grey smoke coalesces. It forms a man, tall and thin, his features indistinct. A ghostly apparition. He doesn't look at me. He just raises a translucent hand and points to a huge grandfather clock against the wall.",
+      "image_prompt": "Looking up at hanging mannequin parts dangling from chains in a dark workshop. In the corner, a swirling pillar of smoke forms the ghostly apparition of a man, its arm outstretched and pointing towards a tall grandfather clock against the far wall. Tools are scattered on a workbench. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Go to the grandfather clock.",
+          "next": "scene5"
+        },
+        {
+          "id": "2",
+          "text": "Check the boarded-up window.",
+          "next": "scene11"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3.jpg"
+    },
+    {
+      "id": "scene4",
+      "title": "A New Acquisition",
+      "text": "I grip a needle and pull. My skin tears away with it. Black veins spread from the wound, branching across my hand like lightning. The feeling is leaving my arm. It feels... hard. Brittle. I look down. My fingers are white porcelain. A crack appears on my forearm. The pain is gone. Replaced by a cold stillness. I hear my joints click as I turn my head. I am a beautiful new thing for the collection.",
+      "image_prompt": "A first-person view, looking down at one's own arm. The hand and forearm are transforming into cracked, white porcelain. Black, vein-like cracks spread up the arm. The background is the dusty floor of the antique shop. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Transformation",
+      "image_filename": "scene4.jpg"
+    },
+    {
+      "id": "scene5",
+      "title": "The Unwound Heart",
+      "text": "The clock's face is blank, smooth wood. No numbers, no hands. I pry the front panel open. There's no pendulum. No gears. Just a human heart, slick and dark red, suspended in the empty space by a web of silver wires. It beats. A wet, heavy sound that fills the room. A voice whispers in my ear, from everywhere at once. *'It's time.'*",
+      "image_prompt": "Looking up into the cavernous interior of an open grandfather clock. Instead of gears, a disturbingly realistic, wet human heart hangs suspended by a web of taut, silver wires. The heart glistens under the harsh light. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Reach in and touch the heart.",
+          "next": "scene7"
+        },
+        {
+          "id": "2",
+          "text": "Grab a tool from the workbench to stop it.",
+          "next": "scene8"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene5.jpg"
+    },
+    {
+      "id": "scene6",
+      "title": "The Porcelain Hound",
+      "text": "I raise the music box over my head and slam it down on the floorboards. It shatters. A high-pitched shriek echoes in the shop. The ballerina, now free, grows. It swells into a twitching horror the size of a large dog. A monster of broken porcelain shards and exposed, bleeding muscle. It scrambles to its feet on pointed, jagged legs. Where the box lay, there is a small, iron key.",
+      "image_prompt": "Looking up from the floor at a monstrous creature the size of a wolf, made of shattered white porcelain and raw, red muscle tissue. It stands on sharp, pointed limbs amidst the debris of a broken music box. A small iron key lies on the floor nearby. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Snatch the key and run for the front door.",
+          "next": "scene9"
+        },
+        {
+          "id": "2",
+          "text": "Fight the porcelain creature.",
+          "next": "scene10"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene6.jpg"
+    },
+    {
+      "id": "scene7",
+      "title": "The Shop's Embrace",
+      "text": "I reach in. My fingertips brush the slick surface of the heart. It's warm. The silver wires detach from the clock's frame and lash out, wrapping around my wrist. They are cold. They burrow into my skin, painless. They pull me forward. The clock's wooden frame groans, warping. I'm pulled inside. The wood and glass flow over me like water. I feel the dust on every shelf. I hear the chime of the bell that never rings. I see through a hundred glass eyes. I am the shop.",
+      "image_prompt": "A distorted, claustrophobic view from inside a grandfather clock. Silver wires are wrapped tightly around a forearm, pulling it deeper inside. The dark wood of the clock warps and twists around the edges of the frame, as if it is alive and consuming the viewer. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Absorption",
+      "image_filename": "scene7.jpg"
+    },
+    {
+      "id": "scene8",
+      "title": "The Final Beat",
+      "text": "I grab a long, sharp chisel from the workbench. The ghost in the corner watches, its form wavering. I move back to the clock. I take a deep breath. I plunge the chisel into the beating heart. It doesn't bleed. It deflates with a wet sigh. The ghost screams, a sound of static and regret, and dissolves into smoke. Every object in the shop lets out a sympathetic shriek. Glass shatters. The grandfather clock splinters apart. The front door of the shop bursts open, showing the grey street outside. I don't wait. I run.",
+      "image_prompt": "Looking up at a heavy wooden door that has burst open, revealing a sliver of a bleak, grey city street outside. Inside the shop, glass display cases are shattered, and the remains of a splintered grandfather clock lie on the floor. Smoke dissipates into the air. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Escape",
+      "image_filename": "scene8.webp"
+    },
+    {
+      "id": "scene9",
+      "title": "The Grand Collection",
+      "text": "I grab the key. The porcelain hound shrieks and lunges, but I'm faster. I sprint to the front of the shop and jam the key into the lock. It turns with a heavy clunk. I throw the door open. It's not the street. It's more of the shop. A vast, impossible warehouse of shelves stretching into darkness. Each shelf holds a shop, a little diorama just like the one I'm in. A shadow falls over me. I look up. A colossal being made of fused furniture, broken toys, and screaming human bodies stitched together turns one of its many heads to look down at me. It has found a new piece for its collection.",
+      "image_prompt": "Looking up from the doorway of the antique shop into a vast, dark warehouse. Endless shelves stretch into the gloom, each holding a miniature, glowing replica of the shop. A colossal, monstrous being composed of amalgamated antiques and human forms looms over everything, its immense shadow falling over the viewer. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Revelation",
+      "image_filename": "scene9.webp"
+    },
+    {
+      "id": "scene10",
+      "title": "A Porcelain Grave",
+      "text": "I kick at the creature. My foot connects with a porcelain leg, snapping it. The thing screeches and leaps onto me, knocking me to the floor. Its weight is immense. Its broken, sharp limbs dig into my chest and stomach. I feel my ribs crack. A shard of its own face, still bearing half a painted smile, pushes deep into my throat. Blood fills my mouth. The last thing I see is the buzzing fluorescent light.",
+      "image_prompt": "Lying on the floor, looking up past my own legs at a vicious porcelain-and-flesh monster looming over me. Its sharp, jagged limbs are poised to strike. One of my legs is raised as if having just kicked it. The ceiling with its harsh fluorescent light is visible high above the creature. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Oblivion",
+      "image_filename": "scene10.jpg"
+    },
+    {
+      "id": "scene11",
+      "title": "The Screaming Glass",
+      "text": "The boards on the window are old. I get my fingers under one and pull. It splinters away. There's no brick wall behind it. It's a single, large pane of glass. On the other side, a face is pressed against it. My face. Its eyes are wide, its mouth is open in a silent scream. It hammers on the glass with bloody fists. My fists. But mine are fine. Cracks spiderweb across the pane, originating from its frantic impacts.",
+      "image_prompt": "Looking up at a grimy, boarded-up window in a dark wall. One board has been removed, revealing a pane of glass. Pressed against the other side of the glass is a terrified face, identical to the viewer's, its mouth open in a scream and its fists banging against the glass, causing cracks to form. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Punch the glass and shatter it.",
+          "next": "scene12"
+        },
+        {
+          "id": "2",
+          "text": "Back away and go to the clock.",
+          "next": "scene5"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene11.jpg"
+    },
+    {
+      "id": "scene12",
+      "title": "Shattered Self",
+      "text": "I pull my arm back and drive my fist into the glass. It explodes inward. The screaming version of me doesn't attack. It lunges through the broken frame and collides with me. It's like embracing cold smoke. It sinks into my skin. I fall to my knees. Now I'm the one screaming. The sound rips from my throat. I can't stop it. I see the workshop, the hanging mannequins, the faint smoke. But I also see it through another pair of eyes, my own, filled with a terror so complete it has become my entire world.",
+      "image_prompt": "A disorienting, double-vision view from a kneeling perspective in the workshop. The edges of the image are blurred and chaotic, as if seen through two sets of eyes at once. Hanging mannequin parts and the smoky ghost are visible but distorted. Shards of broken glass from a window frame litter the floor. Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Madness",
+      "image_filename": "scene12.webp"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-pro",
+    "generated_at": "2025-10-22T07:08:33.040Z"
+  }
+}

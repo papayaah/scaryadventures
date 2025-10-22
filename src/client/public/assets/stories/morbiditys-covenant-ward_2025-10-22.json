@@ -1,0 +1,186 @@
+{
+  "story_id": "story_20231129_01",
+  "story_title": "Morbidity's Covenant Ward",
+  "tone": "Noir Horror",
+  "duration": "short",
+  "art_direction": "A grim tableau of medical decay and occult intrusion, rendered with a painter's stark realism and a pervasive sense of dread. The air itself feels weighted with forgotten suffering and illicit knowledge.",
+  "settings": {
+    "tone": "Noir Horror",
+    "language": "literary",
+    "narrative": "second_person",
+    "pacing": "moderate",
+    "violence": "subtle",
+    "imagery": "sparse",
+    "dialogue": "minimal",
+    "duration": "short"
+  },
+  "image_settings": {
+    "image_style": "oil_painting",
+    "lighting_mood": "moonlight",
+    "color_palette": "desaturated_pastels",
+    "camera_perspective": "third_person_close"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Threshold of Decay",
+      "text": "The iron gate, rusted to a brittle filigree, yields with a groan that echoes the institution's demise. You step into the main lobby, where dust motes dance in slivers of cold silver moonlight piercing grimy windows. The air, thick with the scent of antiseptic decay, feels heavy, charged with a latent, psychic hum. Faint, ethereal wisps of smoke swirl near the reception desk, like forgotten breath. This place, once a bastion of healing, now exudes only a profound, cynical weariness. Every cracked tile underfoot seems to whisper of indignities.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, desaturated pastel colors, faded soft hues, subtle film grain. A crumbling reception desk at the right, a gaping archway at center leading to darkness, and swirling, faint grey smoke curling from the left corner of the room near a broken chair.",
+      "choices": [
+        {
+          "id": "c1_1",
+          "text": "Investigate the reception desk for clues.",
+          "next": "scene4"
+        },
+        {
+          "id": "c1_2",
+          "text": "Head towards the patient wards, seeking the heart of the distress.",
+          "next": "scene2"
+        },
+        {
+          "id": "c1_3",
+          "text": "Locate the basement access, a likely nexus for hidden transgressions.",
+          "next": "scene3"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene2",
+      "title": "Whispers in the Ward",
+      "text": "The patient wards are a desolate testament to abandonment. Empty beds, stripped of their humanity, stand like skeletal monuments. Here, the swirling smoke coalesces into indistinct, shimmering forms, fleeting apparitions of suffering. You sense the lingering touch of hands, the weight of forgotten gazes. A profound sense of desolation pervades, tinged with something more sinister, a cold disquiet. This isn't merely residual; it's an active, oppressive presence, a chronicle of indignity etched into the very walls.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, desaturated pastel colors, faded soft hues, subtle film grain. A long, decaying hospital corridor with empty, rusted beds lining the left and right walls. Indistinct, shimmering ghostly apparitions hover near the beds, and faint swirling smoke drifts from an open doorway at the end of the corridor.",
+      "choices": [
+        {
+          "id": "c2_1",
+          "text": "Enter a room from which a distinct, cold psychic chill emanates.",
+          "next": "scene7"
+        },
+        {
+          "id": "c2_2",
+          "text": "Follow the faint trails of swirling smoke leading further into the hospital's depths.",
+          "next": "scene3"
+        },
+        {
+          "id": "c2_3",
+          "text": "Retreat towards what might be administrative offices, seeking documentation.",
+          "next": "scene4"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene3",
+      "title": "The Altar of Affliction",
+      "text": "You descend into a sub-level, the air growing colder, heavier. This must be the heart of it. What was once an operating theatre has been grotesquely repurposed. Arcane symbols, hastily daubed in something that might be rust or worse, defile the walls. A crude altar now stands where the surgical table once lay, black smoke swirling from its surface like a persistent exhalation of evil. The stench of ozone and something charnel hangs heavy. This isn't just medical horror; it's a profound, intentional perversion, a deliberate act of defilement.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, desaturated pastel colors, faded soft hues, subtle film grain. A desecrated operating theatre with a makeshift altar, crudely constructed from medical equipment, at the center. Black, dense smoke swirls upwards from the altar. Arcane symbols are scrawled on the stone walls behind it, and rusted surgical tools lie scattered on the floor.",
+      "choices": [
+        {
+          "id": "c3_1",
+          "text": "Carefully examine the makeshift altar and its unsettling effluvium.",
+          "next": "scene5"
+        },
+        {
+          "id": "c3_2",
+          "text": "Search for a way to disrupt or disable the dark energy emanating from this place.",
+          "next": "scene9"
+        },
+        {
+          "id": "c3_3",
+          "text": "The malevolence is palpable; flee this cursed institution entirely.",
+          "next": "scene6"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene4",
+      "title": "Archives of Heresy",
+      "text": "The administrative wing is less overtly gruesome, but far more insidious. Patient files are strewn across desks, intermingled with hand-scribed cultic texts. Diagrams of human anatomy are overlaid with complex, disturbing sigils. The cold illumination reveals a meticulous, calculated malevolence. This wasn't random; it was systematic. The medical horrors here are intellectual, a cold, clinical corruption of purpose. You realize this hospital was a laboratory for something unspeakable, not just a place of pain.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, desaturated pastel colors, faded soft hues, subtle film grain. A cluttered administrative office with stacks of patient files and arcane texts covering a large wooden desk at the center. Complex, disturbing sigils are drawn on the walls and on some open patient charts. A flickering, ethereal light source casts long shadows.",
+      "choices": [
+        {
+          "id": "c4_1",
+          "text": "Decipher the ritual notes and analyze the patient logs for connection.",
+          "next": "scene8"
+        },
+        {
+          "id": "c4_2",
+          "text": "The revelations are too disturbing; seek an immediate exit from the building.",
+          "next": "scene6"
+        },
+        {
+          "id": "c4_3",
+          "text": "Attempt to find the ultimate source of the hospital's occult power.",
+          "next": "scene3"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene5",
+      "title": "Confrontation with the Echoes",
+      "text": "Examining the altar proves a grave error. The swirling smoke solidifies, twisting into an amorphous entity, a vortex of shimmering air and residual suffering. It is a manifestation of every defiled soul, every broken mind, a living chronicle of the rituals performed here. The cold lighting seems to drain from the room, replaced by an internal, desperate luminescence from the entity itself. It is a presence born of moral decay, a testament to the cult's depraved effectiveness. It seeks to absorb, to add you to its tapestry of agony.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, desaturated pastel colors, faded soft hues, subtle film grain. An amorphous, shimmering entity, a vortex of grey and black smoke and distorted faces, manifests above a desecrated altar in a dimly lit operating theatre. The entity dominates the center, radiating malevolence.",
+      "choices": [
+        {
+          "id": "c5_1",
+          "text": "Attempt a banishing gesture, recalling fragmented knowledge from the archives.",
+          "next": "scene9"
+        },
+        {
+          "id": "c5_2",
+          "text": "Resist the overwhelming force, attempting to sever the psychic connection.",
+          "next": "scene7"
+        },
+        {
+          "id": "c5_3",
+          "text": "While the entity coalesces, desperately search for a hidden escape route.",
+          "next": "scene6"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene6",
+      "title": "Escape into the Night",
+      "text": "You burst from the hospital's oppressive maw, gasping at the cold night air. The psychic weight lifts, though the scent of decay seems to cling to your clothes, a phantom memory. The moon, now unobscured, casts a stark, cleansing silver light. The institution looms behind you, a monument to human depravity, but its hold is broken. You carry the scars of what you've witnessed, but the immediate threat is averted. For now, freedom is a cold, stark reality.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, desaturated pastel colors, faded soft hues, subtle film grain. A person, seen from over their shoulder, running from the dilapidated main entrance of a large, imposing abandoned hospital. The person's silhouette is stark against the moonlit night, and the hospital's dark facade is prominent in the background.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Escape"
+    },
+    {
+      "id": "scene7",
+      "title": "Consumed by the Veil",
+      "text": "The insidious chill, the swirling smoke, the insidious psychic echoes – they find purchase. Your will, brittle with fear and exhaustion, snaps. The hospital’s dark current, a confluence of ritualistic energy and suffering, flows into you, through you, consuming your essence. You become another silent apparition, another forgotten whisper in the wards, a facet of the institution’s collective, eternal agony. Your consciousness dissolves, absorbed into the pervasive, indifferent malevolence. You are merely a new, faint tremor in the fabric of this place.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, desaturated pastel colors, faded soft hues, subtle film grain. A figure, seen from behind, dissolving into swirling, dark, ethereal smoke within a derelict hospital corridor. Ghostly apparitions are indistinctly visible within the smoke, and the figure's form is becoming transparent and merging with the environment.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Absorption"
+    },
+    {
+      "id": "scene8",
+      "title": "Unveiling the Mechanism",
+      "text": "The scattered documents, the cryptic sigils, the patient histories — they converge. You piece together the horrific truth: the hospital was a meticulously designed apparatus, its patients unwitting conduits for a ritual intended to dissolve the veil between dimensions. The cult sought not merely power, but existential transcendence through induced suffering. The medical horrors were calculated, deliberate. A cold, hard clarity settles, a profound understanding of cosmic indifference and human depravity. You possess the complete, brutal knowledge, a revelation of profound, unsettling truth. The knowledge is a burden, but it is yours.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, desaturated pastel colors, faded soft hues, subtle film grain. A collection of ancient, leather-bound books and scattered medical charts, overlaid with complex, glowing occult sigils, laid out on a dusty table. The light source is an ethereal glow coming from the sigils themselves, illuminating the intricate details of the texts.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Revelation"
+    },
+    {
+      "id": "scene9",
+      "title": "The Shattered Connection",
+      "text": "Recalling the fragments of the banishing ritual, you enact the gesture with desperate precision. A jarring dissonance rips through the room, an unholy shriek that isn't sound but pure psychic agony. The black smoke recoils, dissipating as if burned. The perverse connection, the conduit of the cult’s power, shatters with an audible crack. The oppressive malevolence recedes, leaving behind only the cold, sterile decay of an abandoned building. The hospital is scarred, but its malignant heart has been ripped out. The silence that follows is profound, a victory hard-won against an ancient, insidious evil.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, desaturated pastel colors, faded soft hues, subtle film grain. A desecrated altar in an operating theatre, now inert and cracked, with faint, residual tendrils of smoke dissipating into the air. The arcane symbols on the wall behind it are fading and broken, implying a disruption of their power. A sense of relief, albeit desolate, pervades the scene.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Banishment"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-flash",
+    "generated_at": "2025-10-22T07:33:10.971Z"
+  }
+}

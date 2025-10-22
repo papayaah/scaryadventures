@@ -1,0 +1,120 @@
+{
+  "story_id": "story_1702175702220_cognitivedecay",
+  "story_title": "Cognitive Decay",
+  "tone": "Psychological",
+  "duration": "medium",
+  "art_direction": "A visual narrative told in Comic noir, cel-shaded contrast, and graphic novel style, characterized by harsh fluorescent lighting and clinical brightness, imbued with a warm orange, fire, and ember color palette, presented from a dramatic low angle perspective, with subtle film grain.",
+  "settings": {
+    "tone": "Psychological",
+    "language": "literary",
+    "narrative": "third_person",
+    "pacing": "slow_burn",
+    "violence": "moderate",
+    "imagery": "sparse",
+    "dialogue": "whispers",
+    "duration": "medium"
+  },
+  "image_settings": {
+    "image_style": "comic_noir",
+    "lighting_mood": "harsh_fluorescent",
+    "color_palette": "warm_oranges",
+    "camera_perspective": "low_angle"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Storm's Invitation",
+      "text": "Anya stepped into the hushed maw of the abandoned asylum. The air, thick with ozone and dust, pressed in. Above, the relentless crack of lightning underscored the structure's isolation. Power surged, then faltered, the sparse, exposed wiring sparking with momentary, fierce light. Before her, in what must have been a central hall, a colossal console dominated the space. It gleamed with a strange, internal warmth, a subtle thrum emanating from its intricate circuitry.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, low angle perspective, looking up dramatically, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. A lone figure, Anya, stands at the entrance of a grand, dilapidated asylum hall. In the center, a large, complex console glows with an internal orange light, its wires visibly sparking. Electrical conduits run along the high ceilings. Cracked plaster falls from the walls. Debris is scattered on the floor.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Approach the shimmering console.",
+          "next": "scene2a"
+        },
+        {
+          "id": "2",
+          "text": "Explore the adjacent, shadowed corridor.",
+          "next": "scene2b"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.jpg"
+    },
+    {
+      "id": "scene2a",
+      "title": "The Resonance's Call",
+      "text": "Anya’s fingers brushed the console’s surface. A ripple, cold yet vibrant, surged through her. Whispers, disjointed and raw, echoed not in her ears but behind her eyes: fragments of fear, a phantom touch of agony. The console, the Eidolon Amplifier, vibrated with a profound, hungry awareness. A voice, barely a breath, seemed to rise from the very metal: *“Release… the thought-forms… the captive minds…”*",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, low angle perspective, looking up dramatically, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. Anya's hand is dramatically placed on the glowing console of the Eidolon Amplifier. Energy pulses around her hand, emanating warm orange light. The intricate circuitry of the console is prominent. Distorted, faint faces or mental forms appear within the orange glow.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Attempt to activate its true potential.",
+          "next": "scene3a"
+        },
+        {
+          "id": "2",
+          "text": "Search for a means to shut down its unsettling thrum.",
+          "next": "scene3b"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2a.jpg"
+    },
+    {
+      "id": "scene2b",
+      "title": "Whispers from the Ward",
+      "text": "The corridor unfurled into a derelict patient ward, rows of skeletal beds draped in decaying linens. A perpetual chill, untouched by the storm’s fury, clung to the air. On a scarred wooden nightstand, a small, intricately carved bird of dark wood pulsed with a sickly amber glow. It was an artifact, radiating a profound, silent despair, a sorrow that felt ancient and personal. A sound, like distant, mournful breathing, seemed to emanate from the shadowed corners.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, low angle perspective, looking up dramatically, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. Anya stands within a derelict patient ward. Rows of rusted metal beds with decaying mattresses stretch into the distance. In the foreground, on a scarred wooden nightstand, a small, intricately carved wooden bird glows with a sickly amber light. Shadows stretch dramatically across the floor from the beds.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Take the artifact, feeling its subtle pull.",
+          "next": "scene3c"
+        },
+        {
+          "id": "2",
+          "text": "Leave the object, retreating towards the main hall, seeking information.",
+          "next": "scene3b"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2b.jpg"
+    },
+    {
+      "id": "scene3a",
+      "title": "Eidolon Nexus",
+      "text": "Anya leaned into the Amplifier, intent on its true potential. The storm outside escalated, each thunderclap a hammer blow to the asylum's frame. The console’s hum became a deafening roar within her skull. From the very fabric of the air, shimmering, malevolent forms coalesced, drawn from the ether, writhing with an unnatural, insatiable hunger. They were thought made manifest, consuming. She felt her own mind, a fleeting spark, swallowed by the collective, endless existence. There was no pain, only absorption.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, low angle perspective, looking up dramatically, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. Anya is overwhelmed by glowing, amorphous forms swirling aggressively around the Eidolon Amplifier. Her face is in a silent scream. The console glows intensely, emanating tendrils of orange energy that merge with the shadowy, writhing figures.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Absorption",
+      "image_filename": "scene3a.jpg"
+    },
+    {
+      "id": "scene3b",
+      "title": "The Architect's Failsafe",
+      "text": "Anya’s search for control led her to a hidden office, secreted behind a false wall, miraculously preserved from the decay. On a heavy, dust-laden desk lay a single journal, its leather cover cracked. Dr. Aris Thorne's meticulous hand detailed his descent into manipulating pure thought, the Amplifier’s perilous nature, and a failsafe: a complex ritual involving \"conduction shards\" deep within the asylum’s sub-levels. She followed the grim instructions with precision, the ritual agonizing, demanding. The Amplifier’s hum died. A profound, unsettling silence descended, heavier than any noise. The storm outside seemed to dissipate, leaving an unnatural, pervasive calm. The myriad thoughts she had silenced were a permanent, chilling imprint upon her very being.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, low angle perspective, looking up dramatically, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. Anya stands in a hidden, clinical office. A heavy, leather-bound journal is open on a large wooden desk in the foreground. In the background, a complex, ritualistic setup of glowing obsidian shards is visible in a sub-level chamber. Anya's face is solemn, illuminated by the orange glow of the shards.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Revelation",
+      "image_filename": "scene3b.jpg"
+    },
+    {
+      "id": "scene3c",
+      "title": "The Weight of Memory",
+      "text": "Anya took the carved bird. Its subtle pull became an immense, agonizing weight. Despair, not her own, flooded her consciousness. Fragmented, horrific memories, sharp as shards of glass, tore through her mind: faces contorted in silent screams, the chilling grip of restraints, the overwhelming sensory deprivation of isolation. The bird, an artifact cursed by a thousand souls, pulsed brighter, feeding on her engulfing anguish. Her own identity, once singular, began to dissolve, becoming indistinguishable from the collective, voiceless suffering. She was a vessel for their agony.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, low angle perspective, looking up dramatically, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. Anya holds the glowing wooden bird tightly in her hand. Her face is contorted in distress, eyes wide with horror as fragmented, distorted faces and scenes of suffering appear to swirl around her head, emanating from the bird's amber light. The asylum ward is visible in the background, out of focus.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Madness",
+      "image_filename": "scene3c.jpg"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-flash",
+    "generated_at": "2025-10-21T13:02:11.349Z"
+  }
+}

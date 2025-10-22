@@ -1,0 +1,209 @@
+{
+  "story_id": "story_1761061816220_w6ek0icwy",
+  "story_title": "Marrow-Bound Asylum",
+  "tone": "Gothic",
+  "duration": "medium",
+  "art_direction": "A 32-bit painterly pixel horror, retro game aesthetic, emphasizing cinematic first-person perspective. Lighting features warm flickering candlelight and dancing shadows. The color palette is composed of muted reds and greens, in a classic horror style, with a subtle film grain.",
+  "settings": {
+    "tone": "Gothic",
+    "language": "simple",
+    "narrative": "second_person",
+    "pacing": "moderate",
+    "violence": "subtle",
+    "imagery": "rich",
+    "dialogue": "minimal",
+    "duration": "medium"
+  },
+  "image_settings": {
+    "image_style": "pixel_horror",
+    "lighting_mood": "candlelight",
+    "color_palette": "muted_reds_greens",
+    "camera_perspective": "first_person"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Threshold of Decay",
+      "text": "The rusted gates of St. Jude's stand open, a gaping maw. A chilling breeze whispers through the shattered windows. Swirling smoke, like spectral breath, drifts from within. You feel a morbid curiosity pull you deeper into its decaying embrace. A faint, almost imperceptible groan echoes from the depths.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. You stand at the entrance of a derelict hospital. Twisted iron gates are open on the left and right, framing a dark doorway at eye level. Inside, a long, dimly lit corridor stretches away, filled with swirling, pale smoke. Faint, broken tiles are on the floor.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Venturing into the main ward.",
+          "next": "scene2"
+        },
+        {
+          "id": "2",
+          "text": "Approaching the faint, peculiar light.",
+          "next": "scene3"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.jpg"
+    },
+    {
+      "id": "scene2",
+      "title": "The Whispering Ward",
+      "text": "You step into a vast ward. Empty beds, stripped bare, line the walls like forgotten husks. The air hangs heavy with the scent of old medicine and decay. A translucent form, a nurse, glides between the beds, her movements jerky and unnatural. Swirling smoke entwines around her, an ephemeral shroud. You feel a strange tremor in your own flesh, a disquieting resonance.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A long, abandoned hospital ward. Numerous empty, rusty metal beds are arranged on both sides of a central aisle. A translucent, ghostly figure of a nurse, shrouded in swirling smoke, stands near a bed on the right. A dilapidated medical chart hangs on a stand at eye level in the foreground on the left.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Examining the glowing medical chart.",
+          "next": "scene4"
+        },
+        {
+          "id": "2",
+          "text": "Retreating down a dark side corridor.",
+          "next": "scene5"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2.jpg"
+    },
+    {
+      "id": "scene3",
+      "title": "The Surgeon's Study",
+      "text": "A dusty office, once a place of quiet contemplation, now a chamber of macabre display. A large wooden desk dominates the center. Upon it, preserved organs gleam wetly under a single, flickering bulb, arranged with unsettling precision. Ancient medical texts lie open, their pages brittle. You sense a lingering presence, a mind fractured by forbidden knowledge. A faint, sickening pulse seems to emanate from the desk.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A small, cluttered doctor's office. A large, dark wooden desk is prominent in the center foreground, covered with open, brittle books and medical instruments. A glass jar containing what appears to be a preserved organ sits on the desk. A tall, dark bookcase filled with old volumes stands against the back wall. Swirling smoke drifts around the room.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Reading the strange journal on the desk.",
+          "next": "scene6"
+        },
+        {
+          "id": "2",
+          "text": "Inspecting the organs more closely.",
+          "next": "scene7"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3.jpg"
+    },
+    {
+      "id": "scene4",
+      "title": "The Grafting Pain",
+      "text": "Your fingers brush the old chart. A jolt, cold and electric, sears through your hand. The paper adheres to your skin, dissolving into it. A searing pain erupts as new, unfamiliar tissue begins to knit itself to your own. Your flesh ripples, contorting. You watch in horror as your fingers fuse, becoming one with the brittle parchment. A faint sense of alien purpose washes over you.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. Your left hand, partially mutated, is held up close to the camera, with unsettling textures of paper and skin fusing. The background shows a blurry, decaying hospital ward. Swirling smoke fills the air around your hand.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Resisting the transformation with all your will.",
+          "next": "scene8"
+        },
+        {
+          "id": "2",
+          "text": "Succumbing to the merging, letting it happen.",
+          "next": "scene9"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene4.jpg"
+    },
+    {
+      "id": "scene5",
+      "title": "The Labyrinthine Corridor",
+      "text": "You hastily retreat down a shadowed corridor. The air grows colder, filled with the mournful whispers of departed souls. Swirling smoke coalesces into fleeting forms, shapes that mimic human agony. A faint glow, like a beacon of hope, appears far ahead: an exit sign, cracked but visible. But then, a subtle current of air, carrying a faint, sweet smell, tugs you towards a hidden recess.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A long, dark, dilapidated hospital corridor. Distant light from a faded 'EXIT' sign is visible at the far end of the corridor. Opaque, swirling smoke fills the corridor. A subtle, almost invisible, hidden door is recessed into the wall on the right, slightly ajar.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Heading directly for the exit.",
+          "next": "scene10"
+        },
+        {
+          "id": "2",
+          "text": "Investigating the hidden recess.",
+          "next": "scene6"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene5.jpg"
+    },
+    {
+      "id": "scene6",
+      "title": "The Doctor's Testament",
+      "text": "You open the ancient, leather-bound journal. The doctor's frantic script details his descent, his unholy quest to transcend death through flesh manipulation. He speaks of merging spirit with matter, of finding beauty in grotesque transformation. A translucent figure, a gaunt doctor, shimmers before you, his eyes filled with a desperate, knowing hunger. He extends a spectral hand, 'Join us,' he murmurs, his voice a chorus of forgotten patients.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. You are looking down at an open, ancient leather-bound journal on a dusty table. A translucent, spectral figure of a gaunt doctor, with a spectral hand extended towards the camera, hovers slightly above and to the right of the journal. Swirling smoke envelops the ghostly figure and fills the room.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Banish the apparition with force of will.",
+          "next": "scene11"
+        },
+        {
+          "id": "2",
+          "text": "Considering his words, feeling a strange longing.",
+          "next": "scene9"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene6.jpg"
+    },
+    {
+      "id": "scene7",
+      "title": "The Living Viscera",
+      "text": "You lean closer to the preserved organs. They twitch, subtly at first, then with a sickening pulse. A sinuous tendril of fleshy tissue lashes out from the jar, sticky and warm. It brushes your arm, attempting to meld with your skin. A primal fear, intertwined with a morbid fascination, washes over you. You feel your own flesh tingling, yearning for a connection to this alien life.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. Your right arm is pulled slightly back from a glass jar containing twitching, preserved organs on a wooden desk. A fleshy tendril is reaching out from the jar, almost touching your arm. Swirling smoke curls around the desk. The office background is blurry.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Tearing yourself violently away from it.",
+          "next": "scene8"
+        },
+        {
+          "id": "2",
+          "text": "Allowing it to attach, curious of the outcome.",
+          "next": "scene9"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene7.jpg"
+    },
+    {
+      "id": "scene8",
+      "title": "Consumed by Suffering",
+      "text": "The pain is absolute. Your mind fractures, unable to comprehend the onslaught of alien sensations. Your struggles are futile; the very essence of the asylum begins to absorb you. Your consciousness fragments, dissolving into the collective agony of those who perished here. You become a part of the walls, a silent scream etched into the very fabric of the building, aware but utterly without form.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. The view is highly distorted and fragmented, as if seen through broken glass. Walls appear to stretch and pulsate with muted red and green tones. Swirling smoke blends with spectral, distorted faces that briefly appear within the walls, representing dissolution. Your own form is unseen, only this chaotic perception.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Oblivion",
+      "image_filename": "scene8.jpg"
+    },
+    {
+      "id": "scene9",
+      "title": "The Architect of Flesh",
+      "text": "You cease your struggle, embracing the inevitable. Your body contorts, reforming, not as a victim, but as a new extension of the asylum's grotesque will. Bones shift, skin re-weaves, muscles re-align. You become a part of its living architecture, a sentient fixture of its medical horrors. Your new form is strange, beautiful in its monstrosity, forever bound to this place. You are transformed, an embodiment of the asylum's final, awful purpose.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A close-up view of a partially transformed arm and hand, still recognizably human but with elements of architectural structure and twisted organic growths. The skin shows veins that look like corroded metal, and bone-like protrusions. The background is a blurry hospital wall, now appearing to integrate with your own changing form. Swirling smoke curls around your arm.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Transformation"
+    },
+    {
+      "id": "scene10",
+      "title": "The Breath of Freedom",
+      "text": "You stumble out into the cool night air. The asylum looms behind you, a dark, malevolent shadow. The grotesque visions, the searing pains, the ghostly whispers—they recede, but the memory lingers, a phantom limb. You are free, yet indelibly marked. The world outside seems too bright, too normal. You carry the hospital within you, a silent scar.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. You are looking out from the dark, dilapidated entrance of the hospital into a gloomy, moonlit exterior. The full silhouette of the old, imposing hospital building with broken windows is behind you. Bare, twisted tree branches are visible against the night sky. A faint ground fog of swirling smoke dissipates into the night.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Escape",
+      "image_filename": "scene10.jpg"
+    },
+    {
+      "id": "scene11",
+      "title": "The Severed Tether",
+      "text": "You push back against the spectral doctor, your will a sudden, burning light. His form flickers, his voice fading into a pained shriek. With a surge of resolve, you tear through the illusion, severing his connection to this plane. The oppressive gloom of the hospital lifts, replaced by a profound, unsettling silence. The doctor's spectral form dissolves into the swirling smoke, his influence banished. The hospital remains, but its heart of malevolence is quieted, for now.",
+      "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A ghostly, translucent figure of a doctor is dissolving into swirling smoke and light, his spectral hand retreating. You are standing in what appears to be a doctor's office, with a desk and books slightly blurred in the background. The air feels clearer, though the room is still decaying.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Banishment",
+      "image_filename": "scene11.jpg"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-flash",
+    "generated_at": "2025-10-21T15:51:05.447Z"
+  }
+}

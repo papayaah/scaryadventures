@@ -1,6 +1,9 @@
 {
   "$schema": "https://developers.reddit.com/schema/config-file.v1.json",
   "name": "scary-adventures",
+  "permissions": {
+    "redis": true
+  },
   "post": {
     "dir": "dist/client",
     "entrypoints": {
@@ -14,7 +17,7 @@
     "entry": "index.cjs"
   },
   "media": {
-    "dir": "assets"
+    "dir": "src/client/public/assets"
   },
   "menu": {
     "items": [

@@ -1,0 +1,294 @@
+{
+  "story_id": "story_1761113688329_ela5fsth0",
+  "story_title": "The Calcareous Heart",
+  "tone": "Body Horror",
+  "duration": "long",
+  "art_direction": "A charcoal sketch style with rough, hand-drawn atmospheric strokes. The lighting is harsh and clinical, like a fluorescent bulb in a morgue, creating stark contrasts in the monochrome, black and white palette. The camera perspective is always a tilted, unsettling dutch angle, enhancing the sense of disorientation.",
+  "settings": {
+    "tone": "Body Horror",
+    "language": "elevated",
+    "narrative": "third_person",
+    "pacing": "fast",
+    "violence": "subtle",
+    "imagery": "rich",
+    "dialogue": "minimal",
+    "duration": "long"
+  },
+  "image_settings": {
+    "image_style": "charcoal_sketch",
+    "lighting_mood": "harsh_fluorescent",
+    "color_palette": "monochrome",
+    "camera_perspective": "dutch_angle"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Gulping Threshold",
+      "text": "The storm clawed at Elias, hurling salt and spray against the lighthouse's base. It wasn't stone, not entirely. The texture was porous, like ancient bone, weeping a thin, phosphorescent ichor. The doorway before him was no door at all; it was a sphincter of calcified tissue, dilating and contracting with a wet, rhythmic sigh. The air tasted of ozone and ancient decay. He had to get inside. The heirloom was in there. It had to be.",
+      "image_prompt": "The view is from Elias's perspective, looking up at a grotesque, organic-looking doorway in the base of a lighthouse during a fierce storm. The doorway, like a circular muscle, seems to pulse. Rain streaks the air. The lighthouse texture is like weathered bone. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Plunge into the opening",
+          "next": "scene2"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.jpg"
+    },
+    {
+      "id": "scene2",
+      "title": "A Resonant Welcome",
+      "text": "He squeezed through the membranous passage, tumbling onto a floor that yielded slightly under his boots. The interior hummed, a deep thrum that vibrated up his spine. Bioluminescent veins pulsed within the walls, casting a sickly, flickering glare. In the center of the circular chamber, a pedestal of fused vertebrae held a single object: a scalpel made of milky, translucent crystal, its edge impossibly sharp.",
+      "image_prompt": "Inside a circular, organic-looking room. The walls, textured like bone and gristle, have glowing veins running through them. In the center of the room on the floor, a pedestal of what looks like a spinal column presents a single, sharp, crystalline scalpel. The only exit is the fleshy portal he just entered, visible behind the pedestal. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Take the Crystalline Scalpel",
+          "next": "scene3"
+        },
+        {
+          "id": "2",
+          "text": "Ignore the tool and find the stairs",
+          "next": "scene8"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2.jpg"
+    },
+    {
+      "id": "scene3",
+      "title": "An Unwilling Graft",
+      "text": "His fingers closed around the scalpel's hilt. A searing cold shot up his arm. He cried out, trying to drop it, but he couldn't. The crystalline material had become fluid, flowing over his skin, merging with his flesh and bone. Veins of white crystal spiderwebbed from his knuckles to his wrist, a parasitic lattice. The hum of the tower deepened in his mind, no longer just a sound, but a nascent thought, a hungry whisper.",
+      "image_prompt": "A close-up of a hand, seen from the owner's perspective, grotesquely merged with a crystalline scalpel. Milky white crystal structures are visibly growing out from the tool and into the flesh of the hand and wrist, like veins of ice under the skin. The background is the pulsing, organic wall of the lighthouse. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Ascend the vertebral stairs",
+          "next": "scene4"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3.jpg"
+    },
+    {
+      "id": "scene4",
+      "title": "Symbiotic Ascent",
+      "text": "He found the winding staircase, each step a broad, ridged vertebra. With every upward step, the scalpel in his hand pulsed in time with the tower's light. The whispers in his head grew louder, not words, but impulses: hunger, growth, permanence. He felt the tower's immense loneliness, its desire for a companion. For a nervous system. He felt his own skin prickle, hardening at the edges.",
+      "image_prompt": "Looking up a tightly spiraling staircase that appears to be made of a giant's spine. The walls are ribbed and organic. The view is distorted, dizzying. Elias's own hand, now partially crystalline, is visible gripping a bony handrail in the foreground. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Press on, towards the light",
+          "next": "scene5"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene4.jpg"
+    },
+    {
+      "id": "scene5",
+      "title": "A Familiar Restructuring",
+      "text": "The stairs ahead crumbled into a chasm. But the wall beside it beckoned. It was a lattice of bone and hardened sinew, offering purchase. He began to climb, his grafted hand finding holds with unnatural ease. The scalpel guided him, sinking its tip into the wall to create new grips. He wasn't climbing the tower; he was becoming a part of its anatomy, a mobile cell scaling the colossal organism.",
+      "image_prompt": "Looking up at a vast, interior wall of bone and hardened tendon, which Elias is climbing. Below is a chasm where a staircase has collapsed. His crystal-fused hand is in the foreground, jammed into a crevice in the wall for a grip. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Reach the lantern room",
+          "next": "scene6"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene5.jpg"
+    },
+    {
+      "id": "scene6",
+      "title": "The Optic Nerve",
+      "text": "He hauled himself over the final ledge and into the lantern room. There was no lamp. In its place, a colossal, crystalline lens, easily twelve feet across, pulsed with a blinding, sterile light. It was the tower's eye, its heart, its brain. A thousand crystalline filaments, like optic nerves, snaked from its base into the tower's structure. The whispers became a singular, ecstatic command: Join. Complete us.",
+      "image_prompt": "The lantern room of the lighthouse. Instead of a lamp, a gigantic, multi-faceted crystal lens dominates the space, pulsing with harsh white light. Crystalline tendrils snake from its base and embed into the floor and walls. In the foreground, Elias's mutated hand is held up, seemingly drawn towards the lens. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Plunge the scalpel into the Heart-Lens",
+          "next": "scene7"
+        },
+        {
+          "id": "2",
+          "text": "Offer yourself to the pulsing light",
+          "next": "scene_end_absorption"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene6.jpg"
+    },
+    {
+      "id": "scene7",
+      "title": "The New Keeper",
+      "text": "He drove the crystal scalpel into the very center of the Heart-Lens. There was no shattering, only a resonant chime that shook his bones. The lens accepted the graft. Light flooded his mind, scouring his memories, his identity, replacing them with a vast, geological timescale of hunger and waiting. His body convulsed, bones snapping and reshaping as the tower molded him into a form more suitable for its new, permanent consciousness. He was the keeper. He was the light.",
+      "image_prompt": "A grotesque, half-human figure is being fused into the base of the giant crystal lens. Crystalline structures are erupting from its back, and its limbs are elongating and merging with the floor. The light from the lens is blindingly bright. This is a scene of horrific, painful transformation. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Transformation",
+      "image_filename": "scene7.jpg"
+    },
+    {
+      "id": "scene8",
+      "title": "Unburdened Flesh",
+      "text": "Elias backed away from the pedestal, a primal revulsion overriding his curiosity. The scalpel hummed softly, a siren's call he would not answer. He turned and found the staircase, a spiral of bone plunging upwards into the flickering gloom. The air grew colder, and the tower's hum felt alien now, an invasive pressure against his skull rather than a whisper in his mind.",
+      "image_prompt": "Looking up the spiraling, vertebral staircase from the bottom. The strange, organic walls curve upwards into darkness. The pedestal with the crystalline scalpel is visible in the lower corner of the frame, left behind. The scene is empty and foreboding. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Begin the long climb",
+          "next": "scene9"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene8.jpg"
+    },
+    {
+      "id": "scene9",
+      "title": "The Silent Watcher",
+      "text": "Halfway up, the flickering lights revealed a shape that did not belong. A man, or what was left of one, was fused into the curved wall. His body was elongated, his limbs stretched and flattened against the bone-like surface as if he had melted there. His face was a mask of silent agony, eyes wide, jaw unhinged. This was the last keeper. This was a warning.",
+      "image_prompt": "A horrific sight on the curved wall of the staircase: the upper torso of a man is fused seamlessly into the organic wall. His body is distorted and stretched, and his face is frozen in a silent scream. The lighting casts deep, disturbing shadows across his form. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Examine the keeper's ossified remains",
+          "next": "scene10"
+        },
+        {
+          "id": "2",
+          "text": "Flee past the horror, upwards",
+          "next": "scene12"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene10",
+      "title": "The Silver Sigil",
+      "text": "Fighting waves of nausea, Elias approached the fused body. The keeper's right hand, a claw of bone and petrified flesh, was clenched tight. With a sickening crack, Elias forced the fingers open. Nestled in the palm was a small key, wrought of silver, intricately carved with symbols that seemed to writhe and recoil from the tower's light. It felt cold, utterly devoid of the tower's resonant energy.",
+      "image_prompt": "A close-up view of a hand forcing open the petrified, claw-like hand of a body fused into a wall. Inside the stony palm rests a small, ornate silver key. The key gleams unnaturally in the harsh light, contrasting with the dull, bony texture of the hand. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Take the key and continue the ascent",
+          "next": "scene11"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene10.jpg"
+    },
+    {
+      "id": "scene11",
+      "title": "The Severance Mechanism",
+      "text": "He reached the lantern room, the silver key a cold weight in his fist. Before the immense, pulsing Heart-Lens stood a small, metal console, the only piece of true machinery in the entire structure. A single, star-shaped keyhole was set in its center. The psychic pressure from the lens was immense, a battering ram against his sanity, begging him to drop the key, to come closer, to feed the light.",
+      "image_prompt": "In the vast lantern room, a massive pulsing crystal lens dominates the scene. In front of it, a small, incongruous metal control panel stands on the floor. The panel has a single, ornate keyhole. Elias's hand is in the foreground, holding the small silver key, ready to use it. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Use the silver key in the console",
+          "next": "scene_end_banishment"
+        },
+        {
+          "id": "2",
+          "text": "Shatter the Heart-Lens with a loose rock",
+          "next": "scene_end_escape"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene11.jpg"
+    },
+    {
+      "id": "scene12",
+      "title": "Mindless Flight",
+      "text": "He scrambled past the ossified keeper, refusing to look, refusing to comprehend. The psychic hum intensified, clawing at the edges of his thoughts. The architecture itself seemed to watch him, the flickering veins of light following his ascent like a predator's eyes. The heirloom didn't matter. Nothing mattered but reaching the top, though he no longer knew why. The tower's will was a current, and he was a leaf caught in its flow.",
+      "image_prompt": "A frantic, blurred view from someone running up a spiral staircase made of bone. The organic walls seem to press inwards, and the strange lights flicker violently, creating moving, disorienting shadows. The image conveys speed, panic, and confusion. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Burst into the lantern room",
+          "next": "scene13"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene12.jpg"
+    },
+    {
+      "id": "scene13",
+      "title": "The Unveiled Eye",
+      "text": "Elias stumbled into the lantern room, defenseless and terrified. The light from the great Heart-Lens washed over him, and with it came a torrent of alien consciousness. He saw galaxies being born and consumed. He saw civilizations of crystalline beings moving between stars. He felt the colossal loneliness of the entity that had fallen to Earth, that had grown this tower as a lure, a trap, a desperate attempt to build a new body from the planet's biomass. His human mind was not meant for this.",
+      "image_prompt": "A man on his knees in the center of the lighthouse's lantern room, clutching his head in agony. The massive, pulsing crystal lens fills the entire background, its light seeming to physically press down on him. The scene is one of overwhelming psychic assault. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Embrace the terrible knowledge",
+          "next": "scene_end_madness"
+        },
+        {
+          "id": "2",
+          "text": "Resist with the last of his will",
+          "next": "scene_end_oblivion"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene13.jpg"
+    },
+    {
+      "id": "scene_end_absorption",
+      "title": "Nutrient",
+      "text": "He stepped forward, dropping the scalpel. His weapon, his individuality, was an illusion. He was biomass. He was fuel. He placed his bare hands on the cool surface of the Heart-Lens. A blissful warmth spread through him as his physical form lost cohesion. His flesh and bone unwound, atomized, and were drawn into the lens as streamers of light and energy. His last sensation was not of death, but of being efficiently, completely, and utterly consumed.",
+      "image_prompt": "A human figure is disintegrating into particles of light that are being drawn into a colossal, glowing crystal lens. The figure is halfway dissolved, its shape becoming indistinct and abstract. The process looks strangely peaceful but final. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Absorption",
+      "image_filename": "scene_end_absorption.jpg"
+    },
+    {
+      "id": "scene_end_banishment",
+      "title": "Silence the Heart",
+      "text": "He jammed the silver key into the lock. It turned with a smooth, silent click. For a moment, nothing happened. Then, a wave of absolute silence radiated from the console. The hum ceased. The pulsing lights in the walls went dark. The Heart-Lens faded to the color of inert quartz. A shudder ran through the entire structure as the life force was severed. It was over. The tower was just bone and stone now. The storm outside began to calm.",
+      "image_prompt": "The lantern room is now dark and still. The giant crystal lens is inert and gray. The pulsing veins in the walls are extinguished. Elias stands before the silent console, the silver key still in the lock. Through the lantern glass, a calmer sea and clearing sky are visible. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Banishment",
+      "image_filename": "scene_end_banishment.jpg"
+    },
+    {
+      "id": "scene_end_escape",
+      "title": "A Wounded God",
+      "text": "With a desperate roar, Elias hurled a jagged piece of the floor at the Heart-Lens. It struck with the sound of a universe cracking. A spiderweb of fractures spread across the crystal, and a shriek of pure psychic energy erupted from it, throwing him back. The tower began to shake violently, chunks of the ceiling raining down. The entity was not dead, merely wounded and enraged. He fled, scrambling down the convulsing structure as it tore itself apart, barely making it out before the Calcareous Heart collapsed into the sea. He had survived. He had not won.",
+      "image_prompt": "The view from a fleeing person, looking back at a crumbling lighthouse. The top of the tower is exploding outwards, with beams of chaotic light shooting into the stormy sky. Debris is falling into the raging sea below. The entire structure is unstable and collapsing. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Escape",
+      "image_filename": "scene_end_escape.jpg"
+    },
+    {
+      "id": "scene_end_madness",
+      "title": "The Gibbering Mouth",
+      "text": "His mind shattered like glass. The dam of his sanity broke, and the cosmic ocean poured in. He began to laugh, a high, unhinged sound that echoed in the vast chamber. He saw it all, the truth of the uncaring cosmos, the hunger of the spaces between. He was the new prophet of the fallen god. He would be its mouth. He stayed in the lantern room, scrawling its impossible geometry on the walls with his own blood, waiting for the day he would be called upon to preach the gospel of the Calcareous Heart.",
+      "image_prompt": "A man sits in a cross-legged position before the giant, pulsing crystal lens. His back is to the viewer, and he is frantically scratching complex, non-Euclidean symbols onto the floor around him. His posture is rigid and insane. The light from the lens bathes him in a sterile, white glow. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Madness",
+      "image_filename": "scene_end_madness.jpg"
+    },
+    {
+      "id": "scene_end_oblivion",
+      "title": "Unwritten",
+      "text": "He fought back. He held onto the memory of his name, his home, the reason he came. He screamed his identity into the psychic maelstrom. The entity paused, as if considering a strange insect. It found this small, defiant spark of consciousness... irritating. An error. And so, with no malice, it corrected the error. Elias was not killed. He was deleted. His past, his present, his future—all erased from the fabric of reality. The space he occupied became empty. The heirloom he sought had never been lost, for its owner had never existed.",
+      "image_prompt": "The lantern room is completely empty. The great crystal lens pulses softly. There is no sign that anyone was ever there. The image is clean, sterile, and deeply unsettling in its vacancy. The only object is the lens itself and the organic architecture of the room. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Oblivion",
+      "image_filename": "scene_end_oblivion.jpg"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-pro",
+    "generated_at": "2025-10-22T06:16:13.060Z"
+  }
+}

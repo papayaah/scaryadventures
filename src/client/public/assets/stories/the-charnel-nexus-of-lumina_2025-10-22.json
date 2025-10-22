@@ -1,0 +1,314 @@
+{
+  "story_id": "story_1761113098356_p4hvjugik",
+  "story_title": "The Charnel Nexus of Lumina",
+  "tone": "Gothic",
+  "duration": "short",
+  "art_direction": "Vintage photo realism, film grain, authentic photography, harsh fluorescent lighting, clinical brightness, vintage sepia tones, aged brown hues, third-person close perspective, over shoulder view.",
+  "settings": {
+    "tone": "Gothic",
+    "language": "literary",
+    "narrative": "second_person",
+    "pacing": "slow_burn",
+    "violence": "moderate",
+    "imagery": "sparse",
+    "dialogue": "conversational",
+    "duration": "short"
+  },
+  "image_settings": {
+    "image_style": "photo_realism",
+    "lighting_mood": "harsh_fluorescent",
+    "color_palette": "sepia_tones",
+    "camera_perspective": "third_person_close"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Threshold of Lumina's Ruin",
+      "text": "You descend into the maw of the bunker, the stale, humid air pressing against you like a shroud woven from forgotten dread and metallic tang. The oppressive quiet of the concrete labyrinth is disturbed only by the distant, almost sub-audible hum that vibrates through the very floor beneath your worn boots, a melancholic thrum resonating deep within the earth. Overhead, a single flickering fluorescent tube casts long, skeletal shadows, revealing rust-streaked walls and the silent promise of something irrevocably broken. The sense of being watched, an ethereal gaze piercing through the gloom, is almost palpable.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, vintage sepia tones, aged brown hues, subtle film grain. A lone figure stands at the bottom of a concrete stairwell, looking down a long, dimly lit corridor. Fluorescent light fixture flickering overhead, casting long shadows. Rust streaks visible on concrete walls. A subtle, metallic hum seems to emanate from the floor.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Investigate the low, almost sub-audible hum that vibrates through the very floor.",
+          "next": "scene2a"
+        },
+        {
+          "id": "2",
+          "text": "Proceed deeper into the main, wider corridor, despite the growing sense of unease.",
+          "next": "scene2b"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.jpg"
+    },
+    {
+      "id": "scene2a",
+      "title": "The Resonating Chamber",
+      "text": "Following the faint, persistent thrum, you find yourself in a smaller, circular chamber, its purpose shrouded in arcane obscurity. Within, an array of bewildering, unidentifiable devices pulsate with a faint, internal light, their surfaces etched with forgotten symbols. The air here shimmers with an almost visible distortion, and from the largest, central device, a spectral hand, translucent and shimmering with an unearthly glow, slowly reaches outwards. It seems to beckon, or perhaps, to warn, its silent gesture filled with an age-old yearning that pierces the core of your being.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, vintage sepia tones, aged brown hues, subtle film grain. A small, circular concrete chamber with various intricate, glowing devices on pedestals, arranged in a semi-circle. A translucent, spectral hand with faint internal light extends from the largest central device. Symbols are etched into the device surfaces. The air shimmers.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Reach out and touch the pulsating, ethereal device, drawn by an inexplicable curiosity.",
+          "next": "scene3a"
+        },
+        {
+          "id": "2",
+          "text": "Step back slowly, wary of the spectral manifestation and the unknown technology.",
+          "next": "scene3b"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2a.jpg"
+    },
+    {
+      "id": "scene2b",
+      "title": "The Silent Nexus",
+      "text": "The main corridor stretches before you, a seemingly endless artery of stark concrete and flickering, unreliable light. As you venture further, an unsettling stillness descends, yet the objects lining the walls—overturned carts, discarded equipment—begin to quiver with a faint, unseen energy. A supernatural darkness, not merely the absence of illumination but a tangible, oppressive void, seems to gather at the far end, and from its depths, a faint, wispy figure coalesces, then dissipates, like a memory half-recalled, half-dreamed. Its ethereal form suggests a terrible, lingering agony.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, vintage sepia tones, aged brown hues, subtle film grain. A long, wide concrete corridor with flickering fluorescent lights overhead. Overturned equipment and abandoned carts line the left and right walls. At the far end of the corridor, a faint, wispy, translucent spectral figure is visible, partially obscured by gathering supernatural darkness.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Attempt to follow the ephemeral figure, hoping it leads to answers or an understanding.",
+          "next": "scene3c"
+        },
+        {
+          "id": "2",
+          "text": "Observe the numerous identical sealed doors lining the corridor, opting to investigate one on the right.",
+          "next": "scene3d"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2b.jpg"
+    },
+    {
+      "id": "scene3a",
+      "title": "Echoes of Sentience",
+      "text": "As your fingers brush against the cold, vibrant surface of the device, a searing jolt of pure energy lances through your arm, flooding your mind with fragmented, agonizing visions. You see sterile laboratories, desperate faces, and the cruel gleam of instruments. Then, a clear apparition materializes before you: a gaunt scientist, their eyes wide with unspeakable horror and pleading sorrow. Their lips move, forming words that echo not through the air, but directly into the cavern of your soul: 'It was never meant to be... a prison... release us from this perpetual torment.' The psychic imprint of their suffering is a raw, burning wound.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, vintage sepia tones, aged brown hues, subtle film grain. A lone figure stands close to a large, intricate glowing device in a circular chamber. Their hand is pressed against its surface, and a spectral, gaunt scientist apparition with wide, pleading eyes is clearly visible directly in front of the figure, gesturing towards the device.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Seek the central nexus of the facility, hoping to find the source of these tormented echoes.",
+          "next": "scene4_core"
+        },
+        {
+          "id": "2",
+          "text": "Look for an emergency exit, the weight of the vision pressing an urgency upon you.",
+          "next": "scene_exit_attempt"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3a.webp"
+    },
+    {
+      "id": "scene3b",
+      "title": "The Retreating Shadow",
+      "text": "As you cautiously step back from the ethereal hand, a profound shift occurs in the chamber. The subtle supernatural darkness that merely clung to the corners now coalesces, deepening into an inky, swirling vortex that begins to rip at the very fabric of reality. Objects that once quivered now tear free from their moorings, becoming projectiles in a rapidly intensifying maelstrom of debris. You find yourself caught in a tempest of scrap metal and shattered equipment, the oppressive force of the swirling void crushing in around you, a sickening wetness against your ribs as something sharp scrapes past.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, vintage sepia tones, aged brown hues, subtle film grain. A lone figure is caught in a maelstrom of swirling debris (scrap metal, shattered equipment) in a small, circular concrete chamber. The chamber is filled with intense, swirling supernatural darkness. Spectral forms are barely visible within the chaos.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Fight against the vortex, attempting to force your way back towards the main corridor.",
+          "next": "ending_oblivion"
+        },
+        {
+          "id": "2",
+          "text": "Push past the immediate danger, moving deeper into the unknown sections of the bunker, trusting instinct.",
+          "next": "scene4_core"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3b.jpg"
+    },
+    {
+      "id": "scene3c",
+      "title": "The Consumed Gallery",
+      "text": "The wispy figure, a mere suggestion of a human form, leads you deeper, its silent presence pulling you into a vast, glass-walled observation gallery. Here, the true horror of Lumina manifests with chilling clarity. Within the shattered containment cells, spectral entities drift, caught in loops of silent, perpetual agony. Their forms are indistinct, yet the sheer psychic weight of their collective torment is overwhelming. This is not merely an echo, but a vibrant, aching prison where consciousness endures without release, each spectral figure a fragmented scream in the void.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, vintage sepia tones, aged brown hues, subtle film grain. A vast, glass-walled observation gallery within a concrete bunker. Many shattered glass panels. Inside, numerous translucent, indistinct spectral figures drift slowly, appearing to be in silent agony. The figure you followed is no longer clearly visible.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Seek to comprehend their suffering, attempting to reach out to one of the lingering specters.",
+          "next": "scene4_revelation_insight"
+        },
+        {
+          "id": "2",
+          "text": "Bypass the gallery, feeling the psychic weight of the trapped, and search for a control room or log archive.",
+          "next": "scene4_core"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3c.jpg"
+    },
+    {
+      "id": "scene3d",
+      "title": "The Log Antechamber",
+      "text": "Investigating one of the sealed doors, you find it unexpectedly yields to your touch, revealing a small antechamber. This space is a testament to hurried abandonment, filled with overturned cabinets, scattered data logs, and shattered equipment. An oppressive cold descends, distinct from the bunker's usual chill, and from a pile of scattered papers, a leather-bound journal slowly floats towards you, its pages rippling as if turned by an unseen hand. The supernatural darkness gathers around it, an inky halo framing its ominous invitation.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, vintage sepia tones, aged brown hues, subtle film grain. A small, cluttered antechamber with overturned cabinets and scattered papers on the floor. A leather-bound journal floats mid-air towards the viewer. An inky, supernatural darkness surrounds the floating journal. Distant flickering fluorescent lights in the background.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Open and read the spectral journal, hoping for clarity amidst the chilling revelations.",
+          "next": "scene4_revelation_insight"
+        },
+        {
+          "id": "2",
+          "text": "Ignore the ominous journal and search for a functional terminal or a power source to restore the facility's systems.",
+          "next": "scene4_power_temptation"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3d.webp"
+    },
+    {
+      "id": "scene4_core",
+      "title": "The Aetheric Siphon Core",
+      "text": "The path culminates in the true, horrific heart of the bunker: a cavernous chamber dominated by a massive, pulsing device. This is the Aetheric Siphon, a monstrous contraption throbbing with an unnatural, sickly luminescence, simultaneously drawing in light and casting out an intensified darkness. Around its base, multiple spectral forms coalesce and dissipate, some reaching towards the Siphon with desperate pleas, others cowering from its radiant malevolence. A voice, ancient and sorrowful, resonates not in your ears but directly within the marrow of your bones: 'Release us from this agony... from this endless feed...' The Siphon is a nexus of perpetual suffering, the very mechanism of the curse.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, vintage sepia tones, aged brown hues, subtle film grain. A massive, pulsating, sickly glowing device (The Aetheric Siphon) dominates the center of a cavernous concrete chamber. Multiple translucent spectral forms are visible around the device, some reaching towards it, others cowering. The chamber is dimly lit, with intensified supernatural darkness radiating from the device.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Attempt to sever the core's power conduits, hoping to dismantle the device and free the trapped entities.",
+          "next": "ending_banishment"
+        },
+        {
+          "id": "2",
+          "text": "Approach the Siphon, seeking to understand its intricate workings and potentially reverse its terrible purpose.",
+          "next": "ending_revelation"
+        },
+        {
+          "id": "3",
+          "text": "Recognize the futility of intervention and focus solely on finding a route to the surface, away from this consuming horror.",
+          "next": "ending_escape"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene4_core.jpg"
+    },
+    {
+      "id": "scene4_revelation_insight",
+      "title": "The Shared Torment",
+      "text": "Whether through the spectral journal's desperate script or the raw psychic contact, the full, unbearable truth washes over you like a cold, inescapable wave. The 'experiments' were not merely scientific endeavors, but abhorrent attempts to harvest pure suffering, to weaponize the very anguish of sentient beings. The figures haunting these halls are not ghosts, but fragmented echoes of consciousness, eternally trapped, their torment fueling the Aetheric Siphon. A spectral form of the lead scientist, Dr. Aris Thorne, materializes before you, his eyes burning with an inferno of remorse and self-loathing. His voice, a rasping whisper directly in your mind, cries: 'Help us... undo this atrocity. The Siphon feeds on despair. It must be broken, or freed.'",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, vintage sepia tones, aged brown hues, subtle film grain. A spectral apparition of a gaunt scientist (Dr. Aris Thorne) with eyes burning with remorse stands directly in front of the viewer. The background shows a chaotic mix of shattered glass, scattered papers, and faintly glowing spectral figures. Supernatural darkness is swirling in the distance.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Seek to dismantle the Siphon, believing destruction is the only path to peace for the trapped.",
+          "next": "ending_banishment"
+        },
+        {
+          "id": "2",
+          "text": "Try to understand how to reverse the Siphon's process, to release the fragmented consciousnesses to their true rest.",
+          "next": "ending_ascension"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene4_revelation_insight.webp"
+    },
+    {
+      "id": "scene4_power_temptation",
+      "title": "Power's Temptation",
+      "text": "Driven by a desperate need for understanding or control, you locate a massive, ancient power conduit, its controls surprisingly intact. As your hand connects with the cold metal, a wave of raw, psychic energy surges through the bunker, momentarily forcing the supernatural darkness to recoil, shrieking like a banshee. But then, a low, guttural voice, alien yet intimately invasive, vibrates directly in your mind: 'Join us. Feel the power. Become part of the grand design.' Spectral hands, appearing from the depths of the receding darkness, reach out, not to grasp, but to offer tantalizing visions of ultimate knowledge and boundless control, a dark promise whispered on the edge of sanity.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, vintage sepia tones, aged brown hues, subtle film grain. A lone figure stands by a massive, ancient power conduit with prominent controls on a concrete wall. Their hand is on the conduit. The harsh fluorescent lighting is momentarily brighter. Spectral, indistinct hands reach out from the edges of a receding supernatural darkness. Visions of intricate, glowing symbols are faintly visible in the air.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Accept the spectral invitation, drawn by the promise of unfathomable power and knowledge.",
+          "next": "ending_possession"
+        },
+        {
+          "id": "2",
+          "text": "Reject the insidious offer, recognizing the entity's true, malevolent nature, and seek to destroy its influence.",
+          "next": "scene4_core"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene4_power_temptation.jpg"
+    },
+    {
+      "id": "scene_exit_attempt",
+      "title": "The Unseen Exits",
+      "text": "Your search for escape leads you to a series of emergency hatches, heavy with rust and sealed by decades of abandonment and supernatural pressure. The air here is thick with a suffocating desperation. Just as hope begins to flicker, a shimmering, indistinct form coalesces before the most promising exit, its outline wavering like heat haze. Its voice, a sibilant whisper that chills you to the very bone, permeates the oppressive silence: 'There is no escape from what you have seen. Only absorption, or further descent into the nexus of torment.' The entity blocks your path, its spectral presence radiating an ancient, unyielding resolve.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, vintage sepia tones, aged brown hues, subtle film grain. A lone figure stands before a series of rust-covered, sealed emergency hatches on a concrete wall. A shimmering, indistinct spectral form hovers directly in front of the hatches, blocking the path. The lighting is dim, with oppressive supernatural darkness clinging to the walls.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Try to force open one of the hatches, desperate to flee this place at any cost.",
+          "next": "ending_oblivion"
+        },
+        {
+          "id": "2",
+          "text": "Turn back, realizing escape is not this simple, and search for the true source of the bunker's torment.",
+          "next": "scene4_core"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene_exit_attempt.jpg"
+    },
+    {
+      "id": "ending_banishment",
+      "title": "The Shattering Silence",
+      "text": "With grim resolve, you sever the Siphon's conduits. A piercing, agonizing scream—a symphony of a thousand suffering souls—tears through the bunker, vibrating through your very bones. The massive device convulses, shatters, and implodes in a silent explosion of light and receding darkness. A profound, sacred peace descends, heavy and absolute. The specters vanish, absorbed into the quiet. The bunker remains, a tomb of forgotten horrors, but the curse is broken. You stand alone, a hollow victory in the crushing silence, the air now merely stale, devoid of its tormented resonance.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, vintage sepia tones, aged brown hues, subtle film grain. A cavernous concrete chamber, now dimly lit. The remnants of a shattered, imploded massive device (The Aetheric Siphon) lie in the center, emitting faint smoke. The air is still and clear, devoid of spectral figures or supernatural darkness. A lone figure stands amidst the debris, head slightly bowed.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Banishment",
+      "image_filename": "ending_banishment.webp"
+    },
+    {
+      "id": "ending_revelation",
+      "title": "The Burden of Knowledge",
+      "text": "You delve into the Siphon's intricate workings, deciphering the horrific schematics of Project Lumina. The full, cold, clinical truth of humanity's capacity for cruelty unfurls before you: a method to extract and weaponize pure despair. You understand the mechanism, the endless feed, the tortured existence of the spectral figures. You could not destroy it, or perhaps, chose not to. You emerge from the bunker, the horrors receding but never truly gone, forever burdened by the chilling knowledge of what lurks beneath, what was almost unleashed. The Siphon endures, a silent monument to human atrocity, and you carry its secret like a brand upon your soul.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, vintage sepia tones, aged brown hues, subtle film grain. A lone figure stands at the surface entrance of a concrete bunker, looking back into the receding darkness of the entrance. Their face is etched with profound, melancholic understanding, eyes holding a distant horror. The sky above is overcast and bleak.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Revelation",
+      "image_filename": "ending_revelation.webp"
+    },
+    {
+      "id": "ending_escape",
+      "title": "The Bleak Ascent",
+      "text": "With the Siphon's terrible hum echoing in your ears, you scramble back through the labyrinthine corridors, adrenaline spurring your frantic retreat. The supernatural darkness claws at your heels, and ghostly apparitions reach with silent, desperate hands, but you are driven by a singular purpose: survival. You burst forth into the pale, indifferent light of the surface, gasping for breath, the oppressive weight of the bunker lifting, yet leaving an indelible mark. The world above feels cold and stark, your soul forever scarred by the unspeakable things witnessed below. You are free, but the shadows of Lumina will forever linger at the periphery of your sanity.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, vintage sepia tones, aged brown hues, subtle film grain. A lone figure emerges from a dark, concrete bunker entrance into a bleak, overcast outdoor environment. Their face shows visible signs of terror and exhaustion. The bunker entrance behind them recedes into shadow. A barbed wire fence is visible in the foreground.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Escape",
+      "image_filename": "ending_escape.webp"
+    },
+    {
+      "id": "ending_oblivion",
+      "title": "Consumed by the Void",
+      "text": "Your frantic attempts to escape or resist are futile. The supernatural darkness, an entity of pure, consuming despair, engulfs you completely. The whirling debris of the maelstrom becomes your final embrace, each shard a whisper of forgotten agony. Your consciousness unravels, torn apart by the Siphon's hungry maw, joining the countless fragmented echoes that swirl within its abyssal core. There is no pain, no fear, only the gradual, terrifying dissolution of self into the collective torment, an eternity of silent, unseen suffering. You become another part of Lumina's horrifying harvest, a new, indistinguishable wisp within the consuming void.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, vintage sepia tones, aged brown hues, subtle film grain. A close-up shot of an indistinct figure being engulfed by swirling, inky supernatural darkness and blurred debris. Only fragmented limbs and a distorted face are barely visible before being fully consumed. The background is a vortex of dark, oppressive energy.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Oblivion"
+    },
+    {
+      "id": "ending_ascension",
+      "title": "The Silent Release",
+      "text": "Guided by the spectral scientist's lingering intent, you meticulously reverse the Aetheric Siphon's dreadful polarity. A profound, resonant hum fills the chamber, not of pain, but of release. The spectral figures, once trapped in perpetual torment, now shimmer with a gentle, inner light. They rise, a silent wave of ethereal radiance, ascending through the concrete ceiling as if it were mere air, their forms coalescing into a beautiful, fleeting constellation of pure, untainted consciousness. A sense of profound peace, mingled with bittersweet melancholy, washes over you as they depart, leaving behind only the lingering scent of ozone and the quiet hum of a machine finally at rest. The bunker is cleansed, a silent monument to their brief, agonizing imprisonment.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, vintage sepia tones, aged brown hues, subtle film grain. A cavernous concrete chamber where a massive device (The Aetheric Siphon) now glows with a soft, ethereal white light. Numerous translucent, glowing spectral figures ascend gently towards the ceiling, their forms serene and radiant. A lone figure stands observing, bathed in the soft light.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Ascension",
+      "image_filename": "ending_ascension.jpg"
+    },
+    {
+      "id": "ending_possession",
+      "title": "The Grand Design",
+      "text": "In a moment of profound weakness or dark ambition, you yield to the insidious whispers. The spectral hands merge with your own, the visions of ultimate knowledge flooding your mind with a torrent of forbidden truths. Your body convulses, a mere vessel for a burgeoning consciousness. Your own self dissolves, melting into the vast, collective entity that animates the bunker. Your thoughts, your will, become absorbed into its 'grand design,' your eyes now reflecting the ancient, malevolent intelligence that has claimed you. You are no longer You, but an extension, a new sentinel for the Aetheric Siphon, forever bound to its insidious purpose.",
+      "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, vintage sepia tones, aged brown hues, subtle film grain. A close-up of a figure's face, eyes wide and glowing with an unnatural, malevolent light, devoid of personal identity. Spectral patterns appear to shimmer beneath the skin. The background is a blur of pulsating lights and swirling darkness, indicating a powerful, corrupting influence.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Possession",
+      "image_filename": "ending_possession.jpg"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-flash",
+    "generated_at": "2025-10-22T06:06:58.303Z"
+  }
+}

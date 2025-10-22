@@ -1,0 +1,328 @@
+{
+  "story_id": "story_1761066588595_q2iebm0xz",
+  "story_title": "Tome of Veiled Chronophages",
+  "tone": "Gothic",
+  "duration": "long",
+  "art_direction": "Comic noir with cel-shaded contrasts, illuminated by warm flickering candlelight in monochrome grayscale",
+  "settings": {
+    "tone": "Gothic",
+    "language": "literary",
+    "narrative": "second_person",
+    "pacing": "moderate",
+    "violence": "graphic",
+    "imagery": "dense",
+    "dialogue": "minimal",
+    "duration": "long"
+  },
+  "image_settings": {
+    "image_style": "comic_noir",
+    "lighting_mood": "candlelight",
+    "color_palette": "monochrome",
+    "camera_perspective": "bird_eye_view"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Threshold of Ink and Bone",
+      "text": "You step into the cursed library, its arched doors groaning like the final breath of a dying epoch, under the baleful gaze of a blood-red moon that stains the night with crimson omens. Howling sounds pierce the air, not from wolves but from the very tomes that line the walls, their leather spines whispering forgotten agonies. The air thickens with the scent of aged parchment and something metallic, like spilled vitae. Your mind swirls with doubts—why have you come to this repository of forbidden knowledge, where realities bend and time devours itself? Shadows dance in the candlelight, mocking your intrusion.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Grand arched wooden doors at the entrance center, towering bookshelves lining left and right walls filled with ancient tomes, blood-red moonlight filtering through a high stained-glass window at back, scattered candles on wrought-iron stands throughout the floor.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Venture toward the central pedestal with the glowing codex",
+          "next": "scene2"
+        },
+        {
+          "id": "2",
+          "text": "Explore the shadowed alcoves on the left",
+          "next": "scene3"
+        },
+        {
+          "id": "3",
+          "text": "Ascend the spiral staircase to the upper galleries",
+          "next": "scene4"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.jpg"
+    },
+    {
+      "id": "scene2",
+      "title": "The Luminous Codex Beckons",
+      "text": "You approach the central pedestal, where a codex pulses with an inner luminescence, its pages veined with symbols that writhe like living serpents. The blood-red moon casts elongated shadows that twist into grotesque forms, and the howling intensifies, echoing your accelerating heartbeat. Forbidden knowledge tempts you—visions of eternal power flood your thoughts, but a distortion ripples through reality, the floor tilting as if time itself recoils. Your fingers hover, trembling; do you dare unleash what slumbers within?",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Ornate stone pedestal at room center holding an open glowing codex, surrounding floor tiles cracking subtly, tall candelabras on either side, bookshelves in background encircling the area.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Open the codex and read the first incantation",
+          "next": "scene5"
+        },
+        {
+          "id": "2",
+          "text": "Resist and search for an exit nearby",
+          "next": "scene6"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2.jpg"
+    },
+    {
+      "id": "scene3",
+      "title": "Alcoves of Whispering Secrets",
+      "text": "You delve into the left alcoves, where dust-laden shelves cradle volumes bound in what feels like flayed skin. The howling morphs into sibilant murmurs, promising revelations that could unravel the cosmos. A reality distortion manifests—mirrors reflect not your form but fractured versions of yourself, trapped in eternal loops of agony. Blood-red moonlight seeps through cracks, illuminating symbols that burn into your retinas. Your mind fractures; thoughts loop, repeating the same dread question: escape or succumb?",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Narrow alcoves on left wall with dusty shelves of leather-bound books, cracked mirrors hanging at various heights reflecting distorted figures, small candle on a low table in alcove center, faint red glow from wall fissures.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Examine a pulsating tome in the alcove",
+          "next": "scene7"
+        },
+        {
+          "id": "2",
+          "text": "Flee back to the main hall",
+          "next": "scene2"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3.jpg"
+    },
+    {
+      "id": "scene4",
+      "title": "Galleries of Suspended Time",
+      "text": "You climb the spiral staircase, each step echoing like a heartbeat in the void, leading to upper galleries where time seems suspended in viscous amber. The blood-red moon looms larger through vaulted windows, and howling winds carry the cries of chronophages—entities that feast on temporal threads. Reality distorts; you glimpse loops of your own ascent, repeating infinitely. Forbidden knowledge dangles from chained books, their pages dripping ink that forms prophetic puddles. Your sanity frays, internal voices urging descent or deeper plunge.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Spiral iron staircase winding up from floor center to upper balcony, chained books hanging from gallery rails, large arched windows at back showing blood-red moon, candles mounted on wall sconces along the stairs.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Unlock a chained volume",
+          "next": "scene8"
+        },
+        {
+          "id": "2",
+          "text": "Peer over the railing into the abyss below",
+          "next": "scene9"
+        },
+        {
+          "id": "3",
+          "text": "Descend quickly",
+          "next": "scene1"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene4.jpg"
+    },
+    {
+      "id": "scene5",
+      "title": "Incantation of Fractured Epochs",
+      "text": "You utter the incantation, words slithering from your lips like venomous eels, and time loops violently—reality warps, replaying your approach in a crimson haze under the blood-red moon. Howling chronophages manifest, their forms amorphous horrors with maws of shattered clocks. They tear into your flesh, gore spraying in elaborate arcs, bones cracking with symphonic precision. Your mind screams in looped torment: this is the price of forbidden knowledge, an eternal cycle of evisceration and rebirth.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Figure at pedestal center reciting from codex, swirling temporal distortions around them like vortexes, amorphous creatures emerging from shadows on left and right, blood splatters on floor tiles.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Embrace the loop and seek deeper power",
+          "next": "scene10"
+        },
+        {
+          "id": "2",
+          "text": "Fight to break the cycle",
+          "next": "scene11"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene5.jpg"
+    },
+    {
+      "id": "scene6",
+      "title": "Desperate Search for Egress",
+      "text": "You resist the codex's allure, scanning for an exit, but the library's architecture shifts in a reality distortion, walls bleeding ink that forms howling faces. The blood-red moon pulses like a wounded heart, casting shadows that claw at your heels. Forbidden knowledge whispers temptations, but you press on, your thoughts a maelstrom of fear: will this labyrinth ever release you, or are you doomed to wander its veins forever?",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Figure searching near back wall with shifting architecture, ink dripping from walls forming faces, hidden door partially concealed behind a bookshelf on right, candles flickering on floor stands.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Force open a concealed door",
+          "next": "scene12"
+        },
+        {
+          "id": "2",
+          "text": "Return to the pedestal for clues",
+          "next": "scene2"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene6.jpg"
+    },
+    {
+      "id": "scene7",
+      "title": "Pulsating Tome's Embrace",
+      "text": "You grasp the pulsating tome, its cover throbbing like a necrotic heart, unleashing a time loop that replays your intrusion in visceral detail. Reality distorts, mirrors shattering into shards that slice your skin, blood welling in ruby rivulets, gore mingling with ink. Howling echoes your screams, the blood-red moon witnessing your dismemberment. Internal monologues cycle: knowledge's cost is this eternal flaying, a symphony of pain without end.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Figure holding pulsating tome in alcove center, shattered mirror pieces on floor around them, blood and ink pooling at feet, red moonlight seeping through wall crack on left.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Delve deeper into the tome's secrets",
+          "next": "scene13"
+        },
+        {
+          "id": "2",
+          "text": "Cast it away and flee",
+          "next": "scene3"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene7.jpg"
+    },
+    {
+      "id": "scene8",
+      "title": "Chained Volume's Revelation",
+      "text": "You unlock the chained volume, chains clattering like skeletal fingers, revealing pages that ignite a reality distortion—time loops entwine you, forcing reliving of ascents where chronophages rend your limbs, viscera spilling in elaborate patterns, bones splintering with wet cracks. The blood-red moon bathes the gore in symbolic crimson, howling winds carrying your echoed agonies. Your mind fractures: is this ascension or mere dissolution into the library's maw?",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Figure on upper gallery unlocking chained book at railing center, chains dangling below, temporal loops visualized as ghostly duplicates on stairs, candles on gallery floor.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Absorb the volume's power",
+          "next": "scene14"
+        },
+        {
+          "id": "2",
+          "text": "Drop it and descend",
+          "next": "scene4"
+        },
+        {
+          "id": "3",
+          "text": "Hurl it into the abyss",
+          "next": "scene15"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene8.jpg"
+    },
+    {
+      "id": "scene9",
+      "title": "Abyss's Gaping Maw",
+      "text": "You peer over the railing, the abyss below swirling with distorted realities, time loops manifesting as spectral versions of yourself plummeting eternally. Howling chronophages rise, their tendrils lashing out, tearing flesh in gory explosions, entrails uncoiling like forbidden scrolls. The blood-red moon illuminates the carnage, shadows dancing in macabre revelry. Your thoughts loop in despair: the void calls, promising oblivion or twisted rebirth.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Figure leaning over gallery railing at center, swirling abyss below with ghostly figures falling, tendrils rising from darkness, scattered candles on lower floor visible.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Jump into the abyss",
+          "next": "scene16"
+        },
+        {
+          "id": "2",
+          "text": "Pull back and explore further",
+          "next": "scene8"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene9.jpg"
+    },
+    {
+      "id": "scene10",
+      "title": "Embrace of Eternal Cycles",
+      "text": "You embrace the loop, delving into its depths, but the chronophages consume you wholly—flesh rends in meticulous detail, muscles peeling like parchment, blood fountains arcing symbolically under the blood-red moon. Howling becomes your own voice, reality distorting into infinite repetitions of your demise. Forbidden knowledge floods your shattering mind: you are now the loop, eternally devoured and reformed in gore-soaked perpetuity.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Figure engulfed by chronophages at pedestal, body parts scattering in loops, blood fountains on floor, codex open and glowing in center.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Oblivion"
+    },
+    {
+      "id": "scene11",
+      "title": "Breaking the Temporal Chains",
+      "text": "You fight the cycle, willpower clashing against the distortion, shattering the loop with a visceral explosion—chronophages burst in sprays of ichor and shattered gears, your wounds healing in reverse as reality stabilizes. The blood-red moon dims, howling fades to silence. Forbidden knowledge retreats, leaving you with a profound revelation: the library's curse is self-inflicted, broken by denial. You emerge transformed, the doors yielding to your escape.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Figure breaking free from exploding chronophages at center, ichor and gears scattering, open doors at entrance, fading red moonlight through windows.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Escape",
+      "image_filename": "scene11.jpg"
+    },
+    {
+      "id": "scene12",
+      "title": "Concealed Door's Treachery",
+      "text": "You force the concealed door, stepping into a chamber where time loops ensnare you immediately—reality distorts, replaying your entry as chronophages swarm, claws eviscerating your abdomen, intestines spilling in coiled metaphors of fate. Blood paints the walls under the blood-red moon's gaze, howling your dirge. Your mind dissolves: this knowledge was never meant for mortals, only for the void's eternal hunger.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Figure forcing open concealed door on right wall, entering chamber with swarming chronophages, spilled intestines on floor, small altar with candle at room center.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Confront the entities head-on",
+          "next": "scene17"
+        },
+        {
+          "id": "2",
+          "text": "Retreat through the door",
+          "next": "scene6"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene13",
+      "title": "Depths of Necrotic Wisdom",
+      "text": "Delving deeper, the tome infuses you with corrupted essence, triggering a reality distortion where time loops your transformation—skin sloughs off in gory sheets, bones reforming into monstrous appendages. The blood-red moon witnesses your howling mutation, gore pooling symbolically. Internal voices revel: you are now the guardian, forever bound to the library's forbidden vaults in eternal vigilance.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Figure transforming in alcove, skin peeling on floor, monstrous limbs emerging, open tome on shelf center, red glow from crack.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Transformation"
+    },
+    {
+      "id": "scene14",
+      "title": "Absorption into the Volume",
+      "text": "Absorbing the volume's power, you ascend in a blaze of distorted reality—time loops accelerate, chronophages merging with your form, flesh exploding outward in visceral fireworks, viscera reforming into ethereal wings. The blood-red moon crowns you, howling your apotheosis. Knowledge floods: you transcend mortality, becoming a chronophage lord, ruling the library's eternal cycles.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Figure absorbing power on gallery, body exploding and reforming with wings, chained book disintegrating at center, candles below.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Ascension",
+      "image_filename": "scene14.jpg"
+    },
+    {
+      "id": "scene15",
+      "title": "Hurling into Oblivion",
+      "text": "You hurl the volume into the abyss, but it pulls you with it—time loops your fall, chronophages devouring you mid-descent, limbs tearing free in bloody trails, gore cascading like forbidden rain. The blood-red moon fades, howling your dissolution. Your essence scatters: absorbed into the library's core, a fragment of its endless madness.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Figure hurling book over railing, falling into abyss with chronophages, bloody trails in air, gallery empty above.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Absorption"
+    },
+    {
+      "id": "scene16",
+      "title": "Plunge into the Void",
+      "text": "Jumping into the abyss, reality distorts into infinite loops of descent, chronophages feasting endlessly—your body shreds repeatedly, skin flaying in layers, blood misting the void under the blood-red moon's eternal watch. Howling becomes silence as madness claims you: forever falling, knowledge's prisoner in perpetual torment.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Figure plunging into swirling abyss from gallery, chronophages tearing at body mid-air, scattered remnants below, faint candles on edges.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Madness"
+    },
+    {
+      "id": "scene17",
+      "title": "Confrontation's Grim Harvest",
+      "text": "Confronting the entities, you banish them with a surge of will, shattering the distortion—chronophages explode in gouts of temporal fluid, your wounds cauterizing as reality mends. The blood-red moon wanes, howling ceases. Revelation dawns: the library's curse is illusion, dispelled by confrontation. You exit, forever marked but free.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Figure confronting exploding chronophages in chamber center, temporal fluid splattering walls, open door on left, altar with extinguished candle.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Banishment",
+      "image_filename": "scene17.jpg"
+    }
+  ],
+  "_metadata": {
+    "provider": "xAI",
+    "model": "grok-4",
+    "usage": {
+      "prompt_tokens": 1745,
+      "completion_tokens": 4469,
+      "total_tokens": 6937,
+      "prompt_tokens_details": {
+        "text_tokens": 1745,
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "cached_tokens": 681
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 723,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "num_sources_used": 0
+    },
+    "generated_at": "2025-10-21T17:12:06.585Z"
+  }
+}

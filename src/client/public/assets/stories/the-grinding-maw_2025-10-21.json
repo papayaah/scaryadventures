@@ -1,0 +1,270 @@
+{
+  "story_id": "story_1761062499074_hzjmruwu7",
+  "story_title": "The Grinding Maw",
+  "tone": "Cosmic",
+  "duration": "short",
+  "art_direction": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, warm orange tones, fire and ember colors, subtle film grain.",
+  "settings": {
+    "tone": "Cosmic",
+    "language": "simple",
+    "narrative": "first_person",
+    "pacing": "slow_burn",
+    "violence": "subtle",
+    "imagery": "sparse",
+    "dialogue": "conversational",
+    "duration": "short"
+  },
+  "image_settings": {
+    "image_style": "comic_noir",
+    "lighting_mood": "candlelight",
+    "color_palette": "warm_oranges",
+    "camera_perspective": "bird_eye_view"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Silent Entrance",
+      "text": "I pushed through the rusted gates. The abandoned factory loomed. A vast, dark silhouette against the dying light. Inside, faint orange glows pulsed. They hinted at something moving. Something alive. The air was cold. A distant, metallic grind echoed. It felt like the world was holding its breath.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, warm orange tones, fire and ember colors, subtle film grain. A wide shot of the factory's main entrance, rusted metal gates slightly ajar in the foreground, faint orange glows emanating from deep within the factory's interior, ground covered in debris and sparse industrial weeds.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Head directly for the main hall's glow.",
+          "next": "scene2"
+        },
+        {
+          "id": "2",
+          "text": "Check the administration offices first, on the left.",
+          "next": "scene_offices"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.jpg"
+    },
+    {
+      "id": "scene2",
+      "title": "The Great Empty",
+      "text": "The main assembly hall was immense. Industrial shadows stretched, danced by the sporadic flicker of a faulty bulb high above. Massive machinery stood silent. Or seemed to. A low, persistent hum resonated from the floor. It felt like a pulse. I saw strange symbols daubed on metallic surfaces. A faint, almost imperceptible voice, a dry whisper, drifted from deeper within.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, warm orange tones, fire and ember colors, subtle film grain. A vast, empty factory assembly hall, towering dark industrial machinery dominating the space, large strange occult symbols painted on metal walls and pillars, a single flickering bulb high overhead casting long, dancing shadows, faint orange light in the distance ahead.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Follow the whisper into the depths.",
+          "next": "scene3_ritual"
+        },
+        {
+          "id": "2",
+          "text": "Investigate a massive, dormant grinding machine nearby.",
+          "next": "scene_machine_trap"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2.jpg"
+    },
+    {
+      "id": "scene_offices",
+      "title": "Decayed Bureaucracy",
+      "text": "Dust lay thick in the old offices. Broken desks and overturned chairs. The familiar smell of decay mixed with something acrid. On a scorched desk, I found a leather-bound journal. It spoke of 'The Maw,' of 'feeding the hunger.' The words felt less like madness and more like a terrifying truth. Behind a warped bookshelf, a hidden door stood ajar, revealing a dark stairwell descending.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, warm orange tones, fire and ember colors, subtle film grain. A decrepit factory office, broken wooden desks scattered, a leather-bound journal open on a central desk, a warped wooden bookshelf slightly pulled away from the back wall revealing a dark, narrow stairwell descending into shadow, dust motes in the air.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Descend the hidden stairwell.",
+          "next": "scene_secret_passage"
+        },
+        {
+          "id": "2",
+          "text": "Return to the main hall.",
+          "next": "scene2"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene_offices.jpg"
+    },
+    {
+      "id": "scene3_ritual",
+      "title": "The Pulsing Altar",
+      "text": "The whisper led me to a central chamber. A strange, metallic altar pulsed with an internal light. Around it, robed figures swayed. Not human figures. They were too still, too rigid. Their chanting was not sound, but a vibration in my bones. 'It hungers for the world,' a voice rasped, closer than I thought. A single figure, more coherent, turned its head. Its face was a mask of ecstatic terror. It spoke again, 'The Maw awakens!'",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, warm orange tones, fire and ember colors, subtle film grain. A ritual chamber in a factory, a central metallic altar pulsing with an internal orange glow, several robed, unnervingly still figures surrounding it, strange occult symbols painted on the floor in a circle, one figure slightly turned towards the viewer, the air thick with shadowy movement.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Attempt to disrupt the ritual.",
+          "next": "scene4_confrontation"
+        },
+        {
+          "id": "2",
+          "text": "Stay hidden and observe more carefully.",
+          "next": "scene_observation"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3_ritual.jpg"
+    },
+    {
+      "id": "scene_machine_trap",
+      "title": "The Hungry Gears",
+      "text": "I approached the dormant grinding machine. Its massive gears were exposed, silent teeth waiting. As I drew close, the hum intensified. The machine shuddered. A low growl rumbled from deep within its metallic guts. Flickering lights danced, reflecting off the oily surfaces. The gears began to turn, slowly at first, then faster. It wasn't just metal. It was something vast, something with a terrible appetite. I felt a pull.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, warm orange tones, fire and ember colors, subtle film grain. A colossal grinding machine in a factory, its massive, sharp gears exposed and beginning to turn, oily metallic surfaces reflecting distorted orange light, the floor vibrating, a strong sense of oppressive weight, industrial debris scattered around its base.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Try to force the emergency shut-off lever.",
+          "next": "scene_trap_failure"
+        },
+        {
+          "id": "2",
+          "text": "Scramble away from the machine.",
+          "next": "scene2"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene_machine_trap.jpg"
+    },
+    {
+      "id": "scene_secret_passage",
+      "title": "Beneath the Grime",
+      "text": "The stairwell led down into colder, damper air. The walls were rough-hewn rock, not brick. Older than the factory. The hum from above was louder here, vibrating through the stone. I saw more symbols, carved into the very rock, glowing faintly with an internal, malevolent light. This was not just a factory; it was a conduit. A deep, ancient pipe system pulsed with liquid, leading ever downward into a suffocating darkness.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, warm orange tones, fire and ember colors, subtle film grain. A narrow, damp, descending stone stairwell, ancient symbols carved into the rock walls glowing with faint orange light, thick, pulsating industrial pipes running along one wall disappearing into deep shadow below, water dripping from the ceiling.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Continue deeper, following the pipes.",
+          "next": "scene3_ritual"
+        },
+        {
+          "id": "2",
+          "text": "The dread is too much. Turn back.",
+          "next": "scene_offices"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene_secret_passage.jpg"
+    },
+    {
+      "id": "scene_observation",
+      "title": "Unveiling the Maw",
+      "text": "Hidden, I watched. The robed figures were cultists. The ritual wasn't just summoning; it was a feeding. They were channeling something vast, raw, and incomprehensible into the very structure of the factory. The hum was the entity. The factory was its body. The Maw. It yearned for more than blood. It yearned for *being*. I glimpsed an old, forgotten text near the altar, detailing how to sever a specific resonant frequency. How to banish the core of its being.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, warm orange tones, fire and ember colors, subtle film grain. A hidden vantage point high above the ritual chamber, looking down at the pulsating altar and robed cultists below, a faint, ancient book open on a ledge in the foreground, showing diagrams of resonant frequencies and occult symbols, the entire scene shrouded in heavy shadows.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Attempt to perform the banishment ritual.",
+          "next": "scene5_disruption"
+        },
+        {
+          "id": "2",
+          "text": "The horror is too vast. Flee the factory.",
+          "next": "scene_flee_oblivion"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene_observation.jpg"
+    },
+    {
+      "id": "scene4_confrontation",
+      "title": "Rending the Veil",
+      "text": "I burst into the ritual. The chanting stopped. The robed figures turned. Their movements were jerky, unnatural. Not human. The air crackled with raw power. A guttural scream erupted from one. 'You interfere! You will be remade!' They moved towards me. Not to kill, but to *change*. The vastness of the entity stretched, a silent scream of reality tearing. The factory itself seemed to warp around me.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, warm orange tones, fire and ember colors, subtle film grain. The ritual chamber in disarray, the central altar pulsing violently, several robed figures turning sharply towards the camera's assumed position, their forms blurred and distorted at the edges, the factory walls around them appearing to warp and twist with oppressive energy, debris flying.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Try to fight them off.",
+          "next": "scene_corruption_failure"
+        },
+        {
+          "id": "2",
+          "text": "Seek an immediate escape route through the chaos.",
+          "next": "scene_desperate_escape"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene4_confrontation.jpg"
+    },
+    {
+      "id": "scene5_disruption",
+      "title": "A Resonance of Null",
+      "text": "I found the key frequency. A small, resonant crystal lay forgotten in a niche. With trembling hands, I activated it. The hum from The Maw intensified, a furious roar. The factory convulsed. Metal shrieked. It was fighting back, the immense entity trying to maintain its grip on this reality. Its presence filled my mind, a cold, hungry void. I felt my own being stretching thin.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, warm orange tones, fire and ember colors, subtle film grain. A hidden niche in the factory wall, a small, glowing resonant crystal clutched in a hand, casting pulsing light, the surrounding metal walls visibly vibrating and distorting, sparks flying from machinery in the background, a sense of immense, unseen forces tearing at the structure.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Push harder, amplify the nullification.",
+          "next": "scene_banishment_success"
+        },
+        {
+          "id": "2",
+          "text": "The pressure is too great. Let go.",
+          "next": "scene_absorption_failure"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene5_disruption.jpg"
+    },
+    {
+      "id": "scene_trap_failure",
+      "title": "Consumed by Industry",
+      "text": "I gripped the shut-off lever. It was red-hot. The machine roared. The gears pulled me in. I screamed, but the sound was swallowed by the grinding. The factory became a vast, indifferent mouth. My existence became a part of its endless, terrible hunger. Just another cog in the cosmic machine. Oblivion.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, warm orange tones, fire and ember colors, subtle film grain. A close-up, distorted view of massive, oily grinding gears, one arm reaching for a lever and being pulled into the mechanism, bright orange sparks flying, the surrounding factory machinery a blur of oppressive darkness.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Oblivion",
+      "image_filename": "scene_trap_failure.jpg"
+    },
+    {
+      "id": "scene_flee_oblivion",
+      "title": "The Infinite Reach",
+      "text": "I ran, blindly. The factory's hum followed, burrowed into my mind. The outside world offered no solace. The entity was not confined to these walls. It was the space between, the void beyond comprehension. As I escaped, I realized I had not truly left. I was merely a distant echo within its vast, unknowable consciousness. My perception of reality began to unravel. Oblivion.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, warm orange tones, fire and ember colors, subtle film grain. A lone figure running desperately away from the looming factory gates into a desolate, blurring landscape, the factory itself appearing to stretch endlessly into the background, the sky above filled with distorted, cosmic patterns, a sense of omnipresent dread.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Oblivion",
+      "image_filename": "scene_flee_oblivion.jpg"
+    },
+    {
+      "id": "scene_corruption_failure",
+      "title": "A New Cog",
+      "text": "I fought, but they were too many. Their touch was not physical, but existential. My will warped. My thoughts became their thoughts. My body, a vessel for their purpose. The entity flowed through me, a dark river of incomprehensible knowledge. I became part of the Grinding Maw, a new cog in its terrible engine. Corruption.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, warm orange tones, fire and ember colors, subtle film grain. Several robed cult figures surrounding a struggling figure on the floor of the ritual chamber, tendrils of dark energy flowing from the cultists towards the central figure, the figure's form beginning to distort and take on metallic, industrial aspects, the altar pulsing intensely.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Corruption",
+      "image_filename": "scene_corruption_failure.jpg"
+    },
+    {
+      "id": "scene_desperate_escape",
+      "title": "Fleeing the Unseen",
+      "text": "The chaos was my chance. I scrambled through a crumbling side door. The factory's growl pursued me. I didn't look back. The air outside was a balm. But I knew. I had glimpsed the true nature of reality, and it was a hungry, indifferent void. I was out, but the image of the Grinding Maw would forever be burned into my mind. I escaped. But I was not whole.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, warm orange tones, fire and ember colors, subtle film grain. A lone figure bursting through a collapsing factory side door, debris falling around them, running towards a clear but desolate exit, the factory behind them dark and menacing, a sense of urgent escape.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Escape",
+      "image_filename": "scene_desperate_escape.jpg"
+    },
+    {
+      "id": "scene_banishment_success",
+      "title": "The Silence of the Void",
+      "text": "I pushed through the pain. The crystal vibrated violently, a counter-song to the Maw's terrible hum. With a final, shattering surge of energy, a silence descended. Not an empty silence, but a profound, resonant absence where the entity had been. The factory shuddered, then went still. The overwhelming presence receded, banished back to the void it had emerged from. I was changed, but the world was saved. For now. Banishment.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, warm orange tones, fire and ember colors, subtle film grain. A figure standing exhausted but resolute in the center of the ritual chamber, holding a glowing crystal that now emits a pure, white light, the altar cracked and dormant, the cultists gone, the factory machinery quiet and dark, a pervasive sense of eerie calm.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Banishment",
+      "image_filename": "scene_banishment_success.jpg"
+    },
+    {
+      "id": "scene_absorption_failure",
+      "title": "Becoming the Maw",
+      "text": "The pressure was too immense. I dropped the crystal. The Maw surged, overwhelming my senses. My individual consciousness dissolved, a drop in an ocean of incomprehensible thought. I was no longer 'I.' I was part of the hum, part of the gears, part of the hunger that permeated the factory and stretched beyond. My being became one with the entity, a new facet of its endless, terrible Absorption.",
+      "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, warm orange tones, fire and ember colors, subtle film grain. A figure dissolving into a swirling vortex of orange light and shadowy industrial elements, body parts morphing into gears and pipes, the factory interior around them becoming one with the figure, a sense of complete loss of self and immersion into a larger entity.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Absorption",
+      "image_filename": "scene_absorption_failure.jpg"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-flash",
+    "generated_at": "2025-10-21T16:02:48.641Z"
+  }
+}

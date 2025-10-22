@@ -1,0 +1,213 @@
+{
+  "story_id": "story_1761066586810_lg7yitx5o",
+  "story_title": "Bunker's Fractured Codex",
+  "tone": "Psychological",
+  "duration": "short",
+  "art_direction": "Charcoal sketch with dutch angle, candlelit shadows in desaturated pastels",
+  "settings": {
+    "tone": "Psychological",
+    "language": "elevated",
+    "narrative": "second_person",
+    "pacing": "fast",
+    "violence": "moderate",
+    "imagery": "dense",
+    "dialogue": "minimal",
+    "duration": "short"
+  },
+  "image_settings": {
+    "image_style": "charcoal_sketch",
+    "lighting_mood": "candlelight",
+    "color_palette": "desaturated_pastels",
+    "camera_perspective": "dutch_angle"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "Descent into the Veil",
+      "text": "You descend the rusted ladder, each rung a reluctant confession to the earth's hidden sins. The air thickens, pregnant with the residue of forsaken trials, where shadows coil like serpents in repose. Your mind whispers doubts—did the experiments here fracture reality's fragile membrane? Objects stir faintly in the gloom, as if breathing secrets. Supernatural darkness presses, a living shroud that hungers for your resolve.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain. First-person view descending a rusted metal ladder into a dim underground bunker entrance; flickering candle on a ledge to the left; shadowy moving objects like scattered papers fluttering unnaturally on the floor center; demonic silhouette faintly etched in the darkness at back right.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Venture toward the flickering lab lights",
+          "next": "scene2"
+        },
+        {
+          "id": "2",
+          "text": "Creep into the shadowed living quarters",
+          "next": "scene3"
+        },
+        {
+          "id": "3",
+          "text": "Probe the cluttered storage vaults",
+          "next": "scene4"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.jpg"
+    },
+    {
+      "id": "scene2",
+      "title": "Lab's Whispered Atrocities",
+      "text": "You edge into the lab, where beakers tremble on shelves like hearts in throes of dread. Evil spirits manifest in the haze, their forms twisting metaphors of regret—eyes like shattered glass reflecting your buried fears. The darkness surges, supernatural and insatiable, moving objects in frantic dances. Your thoughts race: bind them with the ritual notes, or flee before possession claims you?",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain. First-person view inside a cursed lab with trembling beakers on metal shelves center left; evil spirit's twisted form hovering mid-air right; supernatural darkness coiling around a flickering candle on a workbench at front center; scattered ritual notes on the floor bottom.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Attempt to bind the spirits with notes",
+          "next": "scene5"
+        },
+        {
+          "id": "2",
+          "text": "Smash the possessed artifacts",
+          "next": "scene6"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2.jpg"
+    },
+    {
+      "id": "scene3",
+      "title": "Quarters of Lingering Echoes",
+      "text": "You slip into the quarters, bunks like sarcophagi cradling ghosts of the damned. Demonic entities slither from cracks, their presence a subtle venom seeping into your veins. Objects levitate in erratic bursts, symbols of fractured sanity. Your inner voice hisses warnings—confront the altar, or succumb to the encroaching void?",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain. First-person view in shadowy living quarters with bunk beds like sarcophagi lined along left wall; demonic entity slithering from a crack in the floor center; levitating objects like a floating book mid-air right; small cursed altar with candle at back center.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Confront the altar's ritual",
+          "next": "scene5"
+        },
+        {
+          "id": "2",
+          "text": "Barricade against the entities",
+          "next": "scene7"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3.jpg"
+    },
+    {
+      "id": "scene4",
+      "title": "Vaults of Shifting Relics",
+      "text": "You navigate the storage, crates pulsing with unholy life, their contents writhing like forgotten sins. Supernatural darkness envelops, a tapestry woven from despair, while evil spirits murmur invitations to madness. Your mind fractures in quick gasps—seal the relics, or let the corruption bloom?",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain. First-person view in cluttered storage vaults with pulsing wooden crates stacked center and right; evil spirit murmuring from shadows left; supernatural darkness enveloping a flickering candle on a shelf at front; writhing relics spilling from an open crate bottom center.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Seal the relics with found wards",
+          "next": "scene6"
+        },
+        {
+          "id": "2",
+          "text": "Embrace the corruption's call",
+          "next": "scene8"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene4.jpg"
+    },
+    {
+      "id": "scene5",
+      "title": "Ritual's Perilous Bind",
+      "text": "You incant the binding, words slicing the air like veiled threats. Demonic entities convulse, their forms ripping with graphic restraint—tendrils lashing, bloodless wounds gaping symbolically. Objects hurl in tempest, the darkness a voracious maw. Your thoughts scream: persist, and revelation might dawn, or falter into oblivion.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain. First-person view during a ritual with convulsing demonic entity center; lashing tendrils mid-air left; hurling objects like books flying right; gaping symbolic wounds on entity; candle on ritual circle floor front.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Persist through the chaos",
+          "next": "scene9"
+        },
+        {
+          "id": "2",
+          "text": "Abandon the rite and run",
+          "next": "scene7"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene5.jpg"
+    },
+    {
+      "id": "scene6",
+      "title": "Shattered Artifacts' Fury",
+      "text": "You smash the artifacts, shards exploding in restrained gore—ethereal ichor spraying like metaphors of shattered faith. Evil spirits howl inwardly, possessing the debris in vengeful swarms. Darkness moves with predatory grace, objects reforming in mockery. Your psyche teeters: banish them now, or dissolve into their embrace?",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain. First-person view of smashing artifacts with exploding shards center; ethereal ichor spraying left; swarming evil spirits in debris right; moving darkness around candle on ground front; reforming objects mid-air back.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Invoke banishment chant",
+          "next": "scene10"
+        },
+        {
+          "id": "2",
+          "text": "Surrender to the swarm",
+          "next": "scene8"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene6.jpg"
+    },
+    {
+      "id": "scene7",
+      "title": "Void's Consuming Grasp",
+      "text": "You falter, the supernatural darkness swallowing light like a famished beast. Demonic entities merge with your shadow, their touch a subtle erosion of will—flesh twisting in graphic whispers, veins pulsing black. Objects encircle, trapping you in a cage of regret. Madness descends, your mind a fractured mirror reflecting eternal torment.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain. First-person view engulfed in supernatural darkness center; merging demonic entity with twisted flesh left; pulsing black veins on arm right; encircling objects like chairs forming cage back; dim candle flickering weakly front.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Madness",
+      "image_filename": "scene7.jpg"
+    },
+    {
+      "id": "scene8",
+      "title": "Corruption's Eternal Bond",
+      "text": "You yield, evil spirits infusing your essence in a rush of shadowed ecstasy. Objects still, now extensions of your corrupted form—limbs elongating symbolically, eyes glazing with infernal hue. The bunker claims you, a vessel for its demonic legacy, thoughts dissolving into perpetual hunger.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain. First-person view of corrupted self with elongating limbs center; glazing infernal eyes reflected in shard left; still objects as extensions right; infused evil spirit hovering back; candle on floor front dimming.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Corruption",
+      "image_filename": "scene8.jpg"
+    },
+    {
+      "id": "scene9",
+      "title": "Revelation's Fragile Dawn",
+      "text": "You endure, the ritual unveiling the bunker's cursed truth—experiments that tore veils between realms. Spirits recede, darkness fracturing like brittle illusions. Objects settle, symbols of reclaimed peace. Your mind clears, a whispered epiphany guiding you upward to freedom's faint light.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain. First-person view of receding spirits center; fracturing darkness left; settling objects like books on floor right; faint upward light at back staircase; candle brightening front.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Revelation",
+      "image_filename": "scene9.jpg"
+    },
+    {
+      "id": "scene10",
+      "title": "Banishment's Triumphant Surge",
+      "text": "You chant fiercely, banishing entities in a vortex of restrained violence—forms dissipating with spectral shrieks, darkness retreating like ebbing tides. Objects crash harmlessly, metaphors of liberation. The bunker purges its curse, allowing your escape into the world's untainted embrace.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, dutch angle perspective, tilted unsettling view, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain. First-person view of banishing vortex center; dissipating demonic forms left; retreating darkness right; crashing objects on ground back; open exit with light front.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Banishment",
+      "image_filename": "scene10.jpg"
+    }
+  ],
+  "_metadata": {
+    "provider": "xAI",
+    "model": "grok-4",
+    "usage": {
+      "prompt_tokens": 1743,
+      "completion_tokens": 2552,
+      "total_tokens": 4998,
+      "prompt_tokens_details": {
+        "text_tokens": 1743,
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "cached_tokens": 681
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 703,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "num_sources_used": 0
+    },
+    "generated_at": "2025-10-21T17:11:09.650Z"
+  }
+}

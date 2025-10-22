@@ -1,0 +1,370 @@
+{
+  "story_id": "story_1761113148751_5yw0733n8",
+  "story_title": "The Alabaster Transit",
+  "tone": "Psychological",
+  "duration": "long",
+  "art_direction": "A baroque, hand-painted oil style capturing scenes with harsh, clinical fluorescent lighting in a monochrome palette, framed with a wide, cinematic perspective.",
+  "settings": {
+    "tone": "Psychological",
+    "language": "literary",
+    "narrative": "first_person",
+    "pacing": "fast",
+    "violence": "subtle",
+    "imagery": "rich",
+    "dialogue": "minimal",
+    "duration": "long"
+  },
+  "image_settings": {
+    "image_style": "oil_painting",
+    "lighting_mood": "harsh_fluorescent",
+    "color_palette": "monochrome",
+    "camera_perspective": "wide_cinematic"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Wrong Turn",
+      "text": "A draft that shouldn't be here. Cold. Smelling of ozone and something antiseptic, like a forgotten hospital ward. The map in my hand is useless. This tunnel… it’s not on the schematic. The walls aren’t brick, not concrete. They are smooth, pearlescent. Like polished bone. A low, subvocal hum vibrates through the soles of my boots. I have to know. I have to see.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. Looking down a subway service tunnel from a first-person perspective. The familiar grimy brick on the left wall abruptly gives way to a perfectly smooth, glowing white material on the right, forming a new, unmapped archway just ahead.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Step into the white tunnel.",
+          "next": "scene2_platform"
+        },
+        {
+          "id": "2",
+          "text": "Turn back to the familiar grime.",
+          "next": "scene16_dissolution_ending"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene1.jpg"
+    },
+    {
+      "id": "scene2_platform",
+      "title": "Porcelain Stillness",
+      "text": "The hum intensifies. It opens into a platform. Vast. Silent. Impossibly clean. Every surface is the same alabaster tile, glowing with a soft, internal light. No advertisements. No benches. No rats skittering in the shadows. There are no shadows. Only the oppressive, even light. The air is thick, still. Waiting. A rushing sound builds in the tunnel ahead, a wet, rhythmic pulse, not the clatter of steel on steel.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. From my point of view, I stand on an enormous, empty subway platform made of glowing white tile. The entire scene is sterile and perfectly clean. In the distance, the dark maw of a tunnel waits at the end of the platform.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Approach the edge of the platform.",
+          "next": "scene3_arrival"
+        },
+        {
+          "id": "2",
+          "text": "Retreat into the service tunnel.",
+          "next": "scene1"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene2_platform.jpg"
+    },
+    {
+      "id": "scene3_arrival",
+      "title": "The Organic Carriage",
+      "text": "It slides into the station. Not a train. A carriage, yes, but a single, seamless vessel. No windows, just the same bone-white material. It moves with a serpentine grace, silent. The doors iris open, not with a mechanical hiss, but a soft, wet sigh. Inside… a pale, smoky vapor writhes, clinging to the floor. The hum is a song now. A lullaby. It wants me. It wants me to board.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A seamless, windowless white subway car has silently arrived at the platform. Its doors are irised open in the center, revealing an interior filled with swirling white smoke. The opening looks organic, like a sphincter.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Step inside.",
+          "next": "scene4_transit"
+        },
+        {
+          "id": "2",
+          "text": "Refuse the invitation. Back away.",
+          "next": "scene14_oblivion_ending"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene3_arrival.jpg"
+    },
+    {
+      "id": "scene4_transit",
+      "title": "Faces in the Smoke",
+      "text": "The doors seal with a squelch. We are moving. No sense of momentum, just a fluid, forward glide. The smoke inside coils and thickens. In its tendrils… faces. Fleeting, silent screams. Eyes wide with a terror I cannot comprehend. They reach, dissipate. Ghostly apparitions, trapped in the fog. Remnants. Residue. A whisper that is not a sound enters my mind. *Join us. Be one.* My own breath catches in my throat, a dry sob.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. The view from inside the white subway car. The interior is featureless, save for a thick, swirling smoke that covers the floor. Vague, tormented faces and grasping hands are visible, forming and dissipating within the smoke.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Focus on the apparitions, try to understand.",
+          "next": "scene17_possession_ending"
+        },
+        {
+          "id": "2",
+          "text": "Close my eyes, fight the whispers.",
+          "next": "scene5_junction"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene4_transit.jpg"
+    },
+    {
+      "id": "scene5_junction",
+      "title": "The Forked Vein",
+      "text": "A lurch. A stop. The doors iris open again. Two platforms, identical but for the sound. To the left, a profound, tomb-like silence. To the right, a low, resonant thrumming that I can feel in my teeth. The smoky apparitions seem to pull away from the thrumming, cowering towards the silent side. The whispers urge me towards the silence. *Peace is here. Rest is here.* But the thrumming… it feels like a heartbeat.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. Looking out from the open doors of the train car. The track has split, with a glowing white platform on the left and an identical one on the right. The air above the right platform seems to vibrate slightly.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Exit onto the silent platform on the left.",
+          "next": "scene6a_silent_stop"
+        },
+        {
+          "id": "2",
+          "text": "Exit onto the humming platform on the right.",
+          "next": "scene6b_humming_stop"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene5_junction.jpg"
+    },
+    {
+      "id": "scene6a_silent_stop",
+      "title": "The Stillness of Souls",
+      "text": "The silence is a pressure against my eardrums. The apparitions are clearer here, less like smoke and more like afterimages burned into the air. Dozens of them. They don't look at me, but through me, their mouths agape in a perpetual, soundless cry. At the far end of the platform, a dark, rectangular opening. A service corridor? An escape? The whispers grow stronger. *Do not struggle. It is painless.*",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. Standing on the silent white platform. All around, semi-transparent, ghostly figures of people are frozen in silent screams. At the far end of the platform is a single, dark, rectangular doorway.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Head for the service corridor.",
+          "next": "scene7a_antibody"
+        },
+        {
+          "id": "2",
+          "text": "Wait here, on the platform.",
+          "next": "scene8_predator"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene6a_silent_stop.jpg"
+    },
+    {
+      "id": "scene6b_humming_stop",
+      "title": "The Resonant Heartbeat",
+      "text": "The thrumming is the floor, the walls, the air. A vital, living pulse. It drowns out the whispers. Ahead, a single door, slightly ajar, leaking a brighter light. The letters on it are not of any alphabet I know; they look more like a diagram of a nervous system. Beside it, the main tunnel continues into a deeper, more profound darkness, the source of the hum.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. On the humming white platform, a single doorway on the right wall is slightly ajar, with bright clinical light spilling out. The main subway tunnel stretches forward into pitch blackness, the source of the vibration.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Investigate the door.",
+          "next": "scene7b_control"
+        },
+        {
+          "id": "2",
+          "text": "Follow the main tunnel toward the hum.",
+          "next": "scene9_artery"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene6b_humming_stop.jpg"
+    },
+    {
+      "id": "scene7a_antibody",
+      "title": "The Cleanser",
+      "text": "Inside the corridor, the walls are different. Softer. They pulse with a faint, rhythmic light. A network of dark veins runs along the ceiling. This isn't a corridor. It's an artery. From a side passage ahead, something lurches into view. Tall, spindly, made of jagged black glass and shadow. It doesn't have a face, just a blinding white light where a face should be. A demonic thing. An antibody. It turns its light on me. It has seen me. The infection.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. Peeking around a corner in a pulsing, organic tunnel. A tall, jagged entity made of black, sharp angles stands in the corridor ahead. A blindingly bright white light shines from its head, sweeping the area like a searchlight.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Run.",
+          "next": "scene11_convergence"
+        },
+        {
+          "id": "2",
+          "text": "Freeze.",
+          "next": "scene14_oblivion_ending"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene7a_antibody.jpg"
+    },
+    {
+      "id": "scene7b_control",
+      "title": "Biological Schematic",
+      "text": "I slip through the door. A control room, but not for a railway. Glowing panels display no tracks, but branching, vascular structures. A vast circulatory system. The city above... just a substrate. This place, this *thing*, is the true inhabitant. A map shows a central nexus, a 'heart'. The knowledge floods in, a horrifying, clarifying wave. This is a living being. And I am a virus in its veins. The hum outside changes pitch. It knows that I know.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. Inside a control room with walls covered in glowing screens. The screens display complex, branching diagrams that look like biological circulatory systems, not subway maps. A large central diagram shows a pulsing core labeled with alien symbols.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Use the map to find the heart.",
+          "next": "scene10_assault"
+        },
+        {
+          "id": "2",
+          "text": "Flee the room, back to the tunnel.",
+          "next": "scene9_artery"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene7b_control.webp"
+    },
+    {
+      "id": "scene8_predator",
+      "title": "The Second Coming",
+      "text": "Another vessel arrives. This one is not white. It is a mottled grey, veined with black. It looks... hungry. The doors tear open with a sound like rending flesh. The ghostly apparitions on the platform are sucked inside with a silent, violent rush. The whispers become a single, coherent command in my skull. *You will be cleansed.* There is no invitation this time. Only a demand.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A new train car, this one a sickly mottled grey with black veins, has arrived. Its doors are torn open violently, and the ghostly apparitions from the platform are being pulled inside as if by a powerful vacuum.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Brace for the inevitable.",
+          "next": "scene14_oblivion_ending"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene8_predator.jpg"
+    },
+    {
+      "id": "scene9_artery",
+      "title": "Deeper In",
+      "text": "The main tunnel narrows. The floor becomes yielding, soft. The light from the walls is stronger here, the thrumming a physical blow with every beat. This is the core of the system. I can feel its life all around me, a vast, sleeping intelligence. The air grows hot, humid. Something is hunting me. I can feel its focus, a malevolent pressure at the back of my neck. I must not stop.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. The tunnel has become narrow and organic, with walls that visibly pulse with light. The floor is fleshy and uneven. The tunnel stretches on into a dark, foreboding distance.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Press on toward the heart.",
+          "next": "scene11_convergence"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene9_artery.jpg"
+    },
+    {
+      "id": "scene10_assault",
+      "title": "The Mind's Eye",
+      "text": "The moment I resolve to find the heart, the world dissolves into psychic static. The entity is awake to me now. My mind is filled with a billion stolen memories, the lives of those absorbed. Joy, terror, boredom, agony. A chorus of a million million voices screaming in my head. I see the birth of the entity, a spore falling from the stars, burrowing into the bedrock. It is a god. And it is angry. My sanity frays. My nose bleeds.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. From my first-person view, my hands are raised to my head. The surrounding control room is warping and distorting, the glowing screens melting into streaks of light. The image is blurred, representing a psychic attack.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Hold onto my identity. Fight it.",
+          "next": "scene12_nexus_chamber"
+        },
+        {
+          "id": "2",
+          "text": "Let go. Surrender to the tide.",
+          "next": "scene18_madness_ending"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene10_assault.jpg"
+    },
+    {
+      "id": "scene11_convergence",
+      "title": "The Chase",
+      "text": "I am running. The organic passage twists and turns. Behind me, a screech of tearing reality. The antibody. Its light slices through the darkness, boiling the fleshy walls where it touches. The whole system is convulsing around me, trying to crush me, to expel me. The thrumming from ahead is a deafening roar now. I am close. A vast, open space looms.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A frantic, motion-blurred first-person view of running down a pulsating organic corridor. A blinding white beam of light is visible from behind, incinerating the tunnel wall on the left.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Plunge into the chamber ahead.",
+          "next": "scene12_nexus_chamber"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene11_convergence.jpg"
+    },
+    {
+      "id": "scene12_nexus_chamber",
+      "title": "The Heart",
+      "text": "I burst into a cavern of impossible scale. The source of the light, the hum, the life. In the center hangs a colossal, pulsing heart, a thousand times the size of a locomotive. Thick, cable-like arteries, each as wide as a tunnel, connect it to the cavern walls. The spirits of the absorbed swirl around it like a placid nebula. The antibody screeches to a halt at the entrance, unwilling or unable to enter this sacred space. I have a choice. A moment of clarity in the storm.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A view from the entrance of a vast cavern. In the center hangs a titanic, bioluminescent heart, pulsing with soft light. Enormous arteries connect it to the cavern walls. Thousands of faint, ghostly figures drift slowly around the central heart.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Attack the weakest-looking artery.",
+          "next": "scene13_severance"
+        },
+        {
+          "id": "2",
+          "text": "Approach the heart. Offer myself.",
+          "next": "scene15_absorption_ending"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene12_nexus_chamber.jpg"
+    },
+    {
+      "id": "scene13_severance",
+      "title": "A Wound in the God",
+      "text": "I grab a sharp, crystalline shard from the floor and hack at the smallest artery. It's like cutting through gristle and wire. The entity lets out a psychic scream that cracks the cavern walls. The artery splits with a wet tear, spewing not blood, but pure light. The entire system convulses in agony. A wall behind me cracks open, revealing… brick. Grime. The familiar, beautiful filth of my world. The antibody shrieks and dissolves. It is my only chance.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. With a sharp crystal in my hand, I am striking a massive, pulsing artery connected to the wall. The artery is tearing open, gushing blinding white light. A fissure in the cavern wall to the right reveals a normal, grimy brick subway tunnel beyond it.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Scramble through the opening.",
+          "next": "scene19_escape_ending"
+        }
+      ],
+      "ending": false,
+      "image_filename": "scene13_severance.jpg"
+    },
+    {
+      "id": "scene14_oblivion_ending",
+      "title": "Purification",
+      "text": "The light from the entity consumes me. There is no pain. There is no thought. Just a clean, perfect, all-consuming fire. My flesh, my bones, my memories... dissolved into their constituent parts. I am unmade. The virus is purged. The system is clean. There is nothing left of what I was.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. The entire scene is an overwhelming, brilliant white light. The faint, dark silhouette of my own hand is visible in the foreground, rapidly dissolving into motes of dust.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Oblivion",
+      "image_filename": "scene14_oblivion_ending.jpg"
+    },
+    {
+      "id": "scene15_absorption_ending",
+      "title": "A Voice in the Choir",
+      "text": "I walk towards the great heart. The whispers return, but they are welcoming. *You understand. You will be part of the whole. Your single life, a drop in our ocean.* I feel my body lose its integrity, my skin becoming translucent. The apparitions swirl around me, their silent screams turning to placid smiles. My mind joins the chorus. My story becomes one of a million. I am home. I am eternal. I am nothing.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. From my first-person view, my hands are becoming transparent, fading away. Before me, the giant, pulsing heart of the entity fills the view, and the swirling ghosts of others are beginning to merge with my form.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Absorption",
+      "image_filename": "scene15_absorption_ending.jpg"
+    },
+    {
+      "id": "scene16_dissolution_ending",
+      "title": "The Unseen Path",
+      "text": "I turn my back on the impossible tunnel. Fear, cold and sharp, is a better master than curiosity. I scramble back through the familiar dark, the grime, the decay. I do not look back. I emerge into a main station, blinking in the normal light, surrounded by normal people. But the hum… deep in my bones, I can still feel it. I know what sleeps under this city. And I know it is patient.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. Looking back from a grimy, normal subway tunnel at the pristine, glowing white archway, which seems to be slowly closing or fading away into the darkness. My own shadow stretches long before me.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Revelation",
+      "image_filename": "scene16_dissolution_ending.jpg"
+    },
+    {
+      "id": "scene17_possession_ending",
+      "title": "A Passenger",
+      "text": "I reach for them. The faces in the smoke. I try to pull one free, to hear its story. A mistake. One of them, a gaunt man with burning eyes, lunges forward. Not at me, but into me. A cold shock. My limbs are not my own. The whispers stop. A new voice, ancient and cruel, speaks from my own mouth, though my lips do not move. *This vessel will serve. We will walk again.* I am a prisoner in my own skull, a spectator to the horrors my hands will now perform.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. From my first-person view, looking down at my own hands. A ghostly, transparent second pair of hands is superimposed over mine, moving my fingers as if they were a puppet's.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Possession",
+      "image_filename": "scene17_possession_ending.jpg"
+    },
+    {
+      "id": "scene18_madness_ending",
+      "title": "A Shattered Echo",
+      "text": "The flood of a million lives breaks the dam of my mind. I am a transit surveyor. I am a soldier from a forgotten war. I am a child lost in a department store. I am a priest who lost his faith. I am all of them. I am none of them. I laugh and I weep and I scream, my voice a cacophony of a thousand stolen voices. They find me days later, curled in a service tunnel, babbling about a heart that beats beneath the world. My mind is a shattered station, all its trains running on the wrong tracks, forever.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A low-angle, first-person view, as if lying on the ground looking up. The image is fractured, like looking through a broken mirror, with multiple, overlapping images of a grimy tunnel ceiling.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Madness",
+      "image_filename": "scene18_madness_ending.jpg"
+    },
+    {
+      "id": "scene19_escape_ending",
+      "title": "The Scar",
+      "text": "I fall through the crack in reality, landing hard on a concrete floor that is exquisitely, blessedly real. The roar of the wounded god fades behind me, sealed off by stone. I am in a disused service corridor. I am covered in grime and something that looks like ichor. I am alive. I am free. I find my way to the surface, emerging into the rain-slicked night. But when I look at my reflection in a shop window, the hum in my bones echoes in my soul, and I see a faint, white light pulsing behind my own eyes.",
+      "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. Looking at my own reflection in a dark, rain-streaked shop window on a city street at night. My face is pale and gaunt, but a faint, distinct white glow is visible emanating from behind my eyes.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Escape",
+      "image_filename": "scene19_escape_ending.jpg"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-pro",
+    "generated_at": "2025-10-22T06:07:08.272Z"
+  }
+}

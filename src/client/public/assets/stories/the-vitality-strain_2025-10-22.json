@@ -1,0 +1,255 @@
+{
+  "story_id": "story_1761117960646_hbe5di634",
+  "story_title": "The Vitality Strain",
+  "tone": "Supernatural",
+  "duration": "medium",
+  "art_direction": "A haunting journey through a derelict medical facility, rendered in stark monochrome charcoal sketches, emphasizing spectral forms and the clinical decay. The perspective always looms overhead, observing the grim tableau.",
+  "settings": {
+    "tone": "Supernatural",
+    "language": "simple",
+    "narrative": "third_person",
+    "pacing": "fast",
+    "violence": "moderate",
+    "imagery": "rich",
+    "dialogue": "whispers",
+    "duration": "medium"
+  },
+  "image_settings": {
+    "image_style": "charcoal_sketch",
+    "lighting_mood": "harsh_fluorescent",
+    "color_palette": "monochrome",
+    "camera_perspective": "bird_eye_view"
+  },
+  "scenes": [
+    {
+      "id": "scene1",
+      "title": "The Threshold",
+      "text": "They pushed the splintered door. Cold air hit them. The hospital foyer was a wreck. Dust motes danced in unseen currents. A faint, sweet, metallic smell hung heavy. What looked like spectral smoke swirled near a broken reception desk. A mournful sigh echoed.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A broken reception desk at center-left. A fallen 'Admissions' sign near it. Swirling spectral smoke low to the ground near the desk. Broken glass on the floor, scattered debris. A faint, hazy outline of a figure near the main entrance.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Head to the Nurses' Station.",
+          "next": "scene2"
+        },
+        {
+          "id": "2",
+          "text": "Investigate the Operating Theatre.",
+          "next": "scene3"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene2",
+      "title": "Nurses' Station Lament",
+      "text": "They stepped into the Nurses' Station. Papers covered a central counter. Old charts lay open. A soft, chilling whisper brushed their ear. 'Help us...' it pleaded. A ghostly form, shimmering like heat haze, drifted past a supply closet. It was too fast to fully see.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A U-shaped nurses' station counter in the center. Scattered papers and open medical charts on the counter. A supply closet door slightly ajar on the right. A faint, wispy human-like apparition moving quickly past the closet.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Proceed to the Patient Ward.",
+          "next": "scene4"
+        },
+        {
+          "id": "2",
+          "text": "Search the Doctor's Office.",
+          "next": "scene6"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene3",
+      "title": "Stitched Horrors",
+      "text": "The operating theatre was eerie. Surgical tools lay scattered on a tarnished steel table. Dried, dark stains patterned the floor. The air felt thick, heavy with unspoken pain. A chilling giggle cut through the silence. A scalpel on the table vibrated slightly, then went still.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A large, empty operating theatre with a central steel operating table. Various surgical instruments scattered on the table and floor around it. Dark, dried stains on the tiled floor. An old, rusting anesthesia machine stands near the table on the left.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Head to the Morgue.",
+          "next": "scene5"
+        },
+        {
+          "id": "2",
+          "text": "Search the Doctor's Office.",
+          "next": "scene6"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene4",
+      "title": "Ward of Whispers",
+      "text": "They moved through a long ward. Empty beds lined both walls. The mattresses were soiled, ripped. A cold draft swept past. Phantom cries filled the air. They saw outlines of figures in each bed, twitching, forever suffering. The spectral smoke thickened here, obscuring vision.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A long hospital ward with rows of identical empty beds on either side. Soiled, ripped mattresses on the beds. Swirling spectral smoke hanging heavy and low between the beds, partially obscuring them. A faint, distressed human form leaning over one of the beds.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Press on to the Laboratory.",
+          "next": "scene7"
+        },
+        {
+          "id": "2",
+          "text": "Retreat, look for an exit.",
+          "next": "scene8"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene5",
+      "title": "The Cold Slab",
+      "text": "The Morgue was freezing. Steel slabs stood like grim altars. A cold dread settled. One slab had a dark outline, as if a body had recently been there. A faint pulse seemed to thrum from a small, ornate medical box on a nearby shelf. It felt ancient, wrong.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A morgue with several long, steel dissection slabs in the center. One slab has a dark, vaguely human-shaped stain. A small, intricately carved wooden medical box sits on a steel shelf against the far wall. The room is very cold, visible breath in the air.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Proceed to the Laboratory.",
+          "next": "scene7"
+        },
+        {
+          "id": "2",
+          "text": "Examine the ornate medical box.",
+          "next": "scene12_possession_ending"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene6",
+      "title": "The Doctor's Study",
+      "text": "They found a small office. Bookshelves were filled with medical tomes. A desk sat in the center, covered in notes. The scent of old paper filled the air. One journal lay open. Its pages detailed disturbing experiments, and oddly, methods for 'spiritual cleansing' through ritual symbols.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A small, cluttered doctor's office. A large wooden desk sits in the center with scattered papers and an open journal. Tall bookshelves line the back wall, filled with old books. A single, high-backed chair is pulled up to the desk.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Continue to the Laboratory.",
+          "next": "scene7"
+        },
+        {
+          "id": "2",
+          "text": "Study the cleansing rituals.",
+          "next": "scene10_banishment_ending"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene7",
+      "title": "The Vitality Lab",
+      "text": "The laboratory was horrific. Glass jars with preserved organs lined shelves. A central examination table had restraints. In the middle, secured by rusted clamps, was a gleaming, ornate syringe. It pulsed with a faint, sickly green light. A spectral figure, gaunt and skeletal, stood guard. Its eyes glowed.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A dimly lit laboratory. Shelves filled with glass jars containing preserved organs line the walls. A central examination table with rusted restraints. In the center of the table, an ornate, glowing syringe is clamped down. A gaunt, skeletal ghostly figure stands near the table, facing the viewer.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Confront the spectral guardian and the syringe.",
+          "next": "scene9"
+        },
+        {
+          "id": "2",
+          "text": "Seek an immediate exit.",
+          "next": "scene8"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene8",
+      "title": "Contaminated Passage",
+      "text": "They entered a cramped corridor. The walls dripped with a viscous, black liquid. Air was heavy, hard to breathe. Distorted faces pressed against the walls, silently screaming. The passage seemed to twist. Escaping felt urgent.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A narrow, claustrophobic hospital corridor. Walls are covered in dripping black liquid. Distorted, ghostly faces are pressed into the walls. The corridor appears to twist and narrow sharply ahead. Faint, oppressive light from above.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Push through, find a way out.",
+          "next": "scene14_escape_ending"
+        },
+        {
+          "id": "2",
+          "text": "Succumb to the despair.",
+          "next": "scene13_oblivion_ending"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene9",
+      "title": "The Syringe's Demand",
+      "text": "The glowing syringe hummed. Its green light pulsed faster. The gaunt apparition lunged, then recoiled. It spoke in a chorus of tortured voices: 'Life... pain... yours...' The power radiating from the artifact was immense, tempting, and terrifying.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A close-up view of the ornate, sickly green glowing syringe, still clamped to the examination table. The gaunt, skeletal apparition is partially visible, recoiling slightly in the background. Swirling green mist emanates from the syringe.",
+      "choices": [
+        {
+          "id": "1",
+          "text": "Study the syringe, seeking understanding.",
+          "next": "scene11_revelation_ending"
+        },
+        {
+          "id": "2",
+          "text": "Attempt to wield its dark power.",
+          "next": "scene15_absorption_ending"
+        }
+      ],
+      "ending": false
+    },
+    {
+      "id": "scene10_banishment_ending",
+      "title": "The Cleansing Echo",
+      "text": "They held the symbols high. Chanted the words from the journal. The syringe shrieked, its green light fading. The spectral guardian recoiled, then dissipated into swirling smoke. A wave of cold, clean air swept through the lab. The torment was lifted. The hospital felt suddenly quiet.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. The laboratory, now brighter, with clean air. The ornate syringe is still on the table, but its light is gone. Faint, dissipating wisps of smoke are all that remain of the spectral guardian. Symbolic chalk marks are visible on the floor around the table.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Banishment"
+    },
+    {
+      "id": "scene11_revelation_ending",
+      "title": "True Sight's Burden",
+      "text": "They touched the syringe. A flood of visions erupted: the doctor's mad experiments, the patients' suffering, the syringe's true purpose – not to heal, but to siphon life force. The hospital was a monument to stolen vitality. They understood, but the knowledge scarred their mind. The silence was now knowing, not empty.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. The laboratory. The ornate syringe on the table, still but radiating a faint, dull glow. The investigator (implied by bird's eye view, focusing on the scene as a result of their action) is at the table, surrounded by swirling ghostly visions of past experiments and tormented faces, etched into the air.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Revelation"
+    },
+    {
+      "id": "scene12_possession_ending",
+      "title": "The Cold Embrace",
+      "text": "They opened the ornate box in the morgue. Inside, a tarnished silver locket. A cold voice whispered their name. They put it on. The coldness spread, paralyzing. Their vision blurred. The ghostly outline from the slab reached out, not to harm, but to merge. Their own will faded, absorbed into the hospital's lingering anguish.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. The morgue. The ornate medical box is open on the shelf. A silver locket lies on the chest of a figure, implied to be the investigator, lying still on one of the steel slabs. A transparent, ghostly figure stands over the body, its form merging into the locket wearer.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Possession"
+    },
+    {
+      "id": "scene13_oblivion_ending",
+      "title": "Fading Into Grey",
+      "text": "The whispers became a roar. The spectral smoke choked them. Distorted hands, countless and cold, reached from the walls, from the floor. They pulled. Resistance was futile. Their existence unraveled, dissolving into the hospital's grey, forgotten past. Nothing remained.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A chaotic swirl of spectral smoke and ghostly, distorted hands reaching from all directions towards the center of the frame. The floor and walls are indistinct, melting into grey. A vague, dissolving human shape in the very center, being pulled apart.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Oblivion"
+    },
+    {
+      "id": "scene14_escape_ending",
+      "title": "Break the Hold",
+      "text": "They pushed through the dripping passage. The exit door was visible, a sliver of faint light. The hospital screamed behind them, trying to pull them back. They burst into the night air. Free. The hospital stood grim, its power broken over them, for now. The cold chill lingered, but the hold was severed.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. An investigator-like figure running out of a dark, derelict hospital entrance. The hospital building looms large and menacing behind them. A glimpse of the moon or distant light in the monochrome sky. The ground outside is overgrown with weeds.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Escape"
+    },
+    {
+      "id": "scene15_absorption_ending",
+      "title": "One With the Pain",
+      "text": "They plunged the syringe into themselves. A searing pain, then ecstasy. Power surged, but it was not their own. It was the collective anguish, the siphoned life. Their body twisted, becoming gaunt, translucent. They joined the spectral chorus, another wailing voice bound to the hospital's cursed halls, guarding the syringe.",
+      "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. The investigator, now gaunt and semi-transparent, standing rigidly by the examination table. The ornate syringe is plunged into their chest. Spectral green energy pulses from them, connecting them to the table and the surrounding jars of organs. A spectral guardian, now vaguely resembling the investigator, looms over them.",
+      "choices": [],
+      "ending": true,
+      "ending_type": "Absorption"
+    }
+  ],
+  "_metadata": {
+    "provider": "Gemini",
+    "model": "gemini-2.5-flash",
+    "generated_at": "2025-10-22T07:27:21.599Z"
+  }
+}
