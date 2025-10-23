@@ -11,7 +11,7 @@ export const createPost = async () => {
       // Splash Screen Configuration
       appDisplayName: 'scary-adventures',
       backgroundUri: 'default-splash.jpeg',
-      buttonLabel: 'Read on your own peril',
+      buttonLabel: 'Adventure on your own peril',
       description: 'Sinister, macabre, gothic stories awaits.',
       heading: 'The Curtain Rises',
       appIconUri: 'default-icon.png',
@@ -21,6 +21,6 @@ export const createPost = async () => {
       score: 0,
     },
     subredditName: subredditName,
-    title: 'scary-adventures',
+    title: 'Scary Adventures',
   });
 };

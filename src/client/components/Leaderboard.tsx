@@ -21,7 +21,19 @@ export const Leaderboard: React.FC<LeaderboardProps> = ({ onPlayStory, onClose }
   const [isLoading, setIsLoading] = useState(true);
   const [selectedTone, setSelectedTone] = useState<Tone | 'all'>('all');
 
-  const tones: (Tone | 'all')[] = ['all', 'Gothic', 'Slasher', 'Psychological', 'Cosmic'];
+  const tones: (Tone | 'all')[] = [
+    'all', 
+    'Gothic', 
+    'Slasher', 
+    'Psychological', 
+    'Cosmic', 
+    'Folk', 
+    'Supernatural', 
+    'Occult', 
+    'Body Horror', 
+    'Surreal', 
+    'Noir Horror'
+  ];
 
   useEffect(() => {
     loadLeaderboard();
@@ -61,6 +73,12 @@ export const Leaderboard: React.FC<LeaderboardProps> = ({ onPlayStory, onClose }
       case 'Slasher': return '#DC143C';
       case 'Psychological': return '#4B0082';
       case 'Cosmic': return '#191970';
+      case 'Folk': return '#228B22';
+      case 'Supernatural': return '#9370DB';
+      case 'Occult': return '#8B4513';
+      case 'Body Horror': return '#B22222';
+      case 'Surreal': return '#FF6347';
+      case 'Noir Horror': return '#2F4F4F';
       default: return '#666';
     }
   };
@@ -82,8 +100,8 @@ export const Leaderboard: React.FC<LeaderboardProps> = ({ onPlayStory, onClose }
         </div>
 
         <div className="leaderboard-filters">
-          <Filter className="filter-icon" />
           <div className="tone-filters">
+            <Filter className="filter-icon" />
             {tones.map((tone) => (
               <button
                 key={tone}

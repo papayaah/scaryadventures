@@ -22,18 +22,21 @@
   "menu": {
     "items": [
       {
-        "label": "Create a new post",
-        "description": "scary-adventures",
+        "label": "View Game Analytics",
+        "description": "View story completion rates, ratings, and player statistics",
         "location": "subreddit",
         "forUserType": "moderator",
-        "endpoint": "/internal/menu/post-create"
+        "endpoint": "/internal/menu/view-stats"
       }
     ]
+  },
+  "forms": {
+    "analyticsDisplay": "/internal/form/analytics-close"
   },
   "triggers": {
     "onAppInstall": "/internal/on-app-install"
   },
   "dev": {
-    "subreddit": "scary_adventures_dev"
+    "subreddit": "ScaryAdventures"
   }
 }

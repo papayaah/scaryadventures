@@ -132,10 +132,12 @@ export const EMBEDDED_STORIES: Story[] = [
         "id": "ending_madness",
         "title": "A Rending Ovation",
         "text": "I scream, trying to pull my hands apart. The force is immense. I grit my teeth, pulling until I feel skin tear and hear bone grind. The applause from the monstrous audience grows feverish. I give one last, desperate wrench. My hands are free. And gone. Bloody stumps wave before my face, but the clapping doesn't stop. It echoes from my phantom limbs, a permanent, internal applause for a show I can never leave. My mind fractures. The laughter from the director's box joins in.",
-        "image_prompt": "My first-person perspective, looking down at my own bloody, severed wrists. The stumps are still moving in a frantic clapping motion. In the background, the out-of-focus grotesque audience is visible in their seats, cheering silently. Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain.",
+        "image_prompt": "My first-person perspective, looking down at my own hands which appear translucent and ghostly, still moving in a frantic clapping motion. Dark mist swirls around where my wrists should be. In the background, the out-of-focus grotesque audience is visible in their seats, cheering silently. Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain.",
         "choices": [],
         "ending": true,
-        "ending_type": "Madness"
+        "ending_type": "Madness",
+        "points": 3,
+        "image_filename": "ending_madness.webp"
       },
       {
         "id": "ending_absorption",
@@ -145,7 +147,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "ending_absorption.jpg"
+        "image_filename": "ending_absorption.jpg",
+        "points": 2
       },
       {
         "id": "ending_transformation",
@@ -155,7 +158,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Transformation",
-        "image_filename": "ending_transformation.webp"
+        "image_filename": "ending_transformation.webp",
+        "points": 1
       },
       {
         "id": "ending_escape",
@@ -165,14 +169,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "ending_escape.webp"
+        "image_filename": "ending_escape.webp",
+        "points": 10
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T07:08:31.999Z"
-    }
+    },
+    "filename": "applause-for-the-skinless_2025-10-22.json"
   },
   {
     "story_id": "story_1761117421403_nfhfc5tsc",
@@ -274,7 +280,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene8"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene4.jpg"
       },
       {
         "id": "scene5",
@@ -324,7 +331,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene7.jpg"
+        "image_filename": "scene7.jpg",
+        "points": 2
       },
       {
         "id": "scene8",
@@ -363,7 +371,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene12"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene9.jpg"
       },
       {
         "id": "scene10",
@@ -433,7 +442,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene13.jpg"
+        "image_filename": "scene13.jpg",
+        "points": 5
       },
       {
         "id": "scene14",
@@ -443,7 +453,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Transformation",
-        "image_filename": "scene14.jpg"
+        "image_filename": "scene14.jpg",
+        "points": 1
       },
       {
         "id": "scene15",
@@ -453,7 +464,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene15.jpg"
+        "image_filename": "scene15.jpg",
+        "points": 10
       },
       {
         "id": "scene16",
@@ -462,14 +474,17 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, black and white monochrome, grayscale tones, subtle film grain. A violently distorted, abstract scene of a person trapped within a swirling vortex of fractured realities. Hospital walls, natural landscapes, and abstract data streams blend and separate chaotically around the central figure. Their form is indistinct, partially dissolved into lines and static. Their eyes are wide with terror and incomprehension.",
         "choices": [],
         "ending": true,
-        "ending_type": "Madness"
+        "ending_type": "Madness",
+        "image_filename": "scene16.jpg",
+        "points": 3
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-22T07:19:08.755Z"
-    }
+    },
+    "filename": "architects-of-the-echo-chamber_2025-10-22.json"
   },
   {
     "story_id": "story_1761066586810_lg7yitx5o",
@@ -627,7 +642,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene7.jpg"
+        "image_filename": "scene7.jpg",
+        "points": 3
       },
       {
         "id": "scene8",
@@ -637,7 +653,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Corruption",
-        "image_filename": "scene8.jpg"
+        "image_filename": "scene8.jpg",
+        "points": 4
       },
       {
         "id": "scene9",
@@ -647,7 +664,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "scene9.jpg"
+        "image_filename": "scene9.jpg",
+        "points": 8
       },
       {
         "id": "scene10",
@@ -657,7 +675,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene10.jpg"
+        "image_filename": "scene10.jpg",
+        "points": 5
       }
     ],
     "_metadata": {
@@ -682,7 +701,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "num_sources_used": 0
       },
       "generated_at": "2025-10-21T17:11:09.650Z"
-    }
+    },
+    "filename": "bunkers-fractured-codex_2025-10-21.json"
   },
   {
     "story_id": "story_1761066554089_cbwi3u0oz",
@@ -780,13 +800,14 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Transformation",
-        "image_filename": "scene4.jpg"
+        "image_filename": "scene4.jpg",
+        "points": 1
       },
       {
         "id": "scene5",
         "title": "Theater of Infinite Cuts",
         "text": "I enter the surgical theater. Instruments glint in the flickering light, metaphors for the cosmos carving flesh into new eternities. Silence reigns, tension thick as congealing blood. Objects levitate slightly—scalpels hovering, drawn by the darkness that fills the room. My body aches, ribs shifting like tectonic plates in a vast realignment. Blood seeps from a table, graphic yet restrained, hinting at horrors. A voice intones: 'Cut deeper... reveal the stars within.' I must choose quickly.",
-        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Central operating table with seeping blood stains at midground; hovering scalpel above table left; glinting instruments on tray right foreground; levitating darkness tendrils around ceiling center; cracked surgical lamp hanging overhead back.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Central operating table with dark stains at midground; hovering scalpel above table left; glinting instruments on tray right foreground; levitating darkness tendrils around ceiling center; cracked surgical lamp hanging overhead back.",
         "choices": [
           {
             "id": "1",
@@ -799,7 +820,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene10"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene5.jpg"
       },
       {
         "id": "scene6",
@@ -809,7 +831,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "scene6.jpg"
+        "image_filename": "scene6.jpg",
+        "points": 1
       },
       {
         "id": "scene7",
@@ -819,7 +842,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene7.jpg"
+        "image_filename": "scene7.jpg",
+        "points": 2
       },
       {
         "id": "scene8",
@@ -849,7 +873,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene9.jpg"
+        "image_filename": "scene9.jpg",
+        "points": 10
       },
       {
         "id": "scene10",
@@ -859,7 +884,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Ascension",
-        "image_filename": "scene10.webp"
+        "image_filename": "scene10.webp",
+        "points": 1
       },
       {
         "id": "scene11",
@@ -869,7 +895,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "scene11.jpg"
+        "image_filename": "scene11.jpg",
+        "points": 8
       },
       {
         "id": "scene12",
@@ -879,7 +906,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene12.jpg"
+        "image_filename": "scene12.jpg",
+        "points": 1
       }
     ],
     "_metadata": {
@@ -904,7 +932,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "num_sources_used": 0
       },
       "generated_at": "2025-10-21T17:10:58.111Z"
-    }
+    },
+    "filename": "cadavers-cosmos_2025-10-21.json"
   },
   {
     "story_id": "story_1761066671488_0cjt3dook",
@@ -1162,7 +1191,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Ascension",
-        "image_filename": "scene12.jpg"
+        "image_filename": "scene12.jpg",
+        "points": 1
       },
       {
         "id": "scene13",
@@ -1212,7 +1242,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene15.jpg"
+        "image_filename": "scene15.jpg",
+        "points": 5
       },
       {
         "id": "scene16",
@@ -1222,7 +1253,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Transformation",
-        "image_filename": "scene16.jpg"
+        "image_filename": "scene16.jpg",
+        "points": 1
       },
       {
         "id": "scene17",
@@ -1232,7 +1264,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene17.jpg"
+        "image_filename": "scene17.jpg",
+        "points": 2
       },
       {
         "id": "scene18",
@@ -1242,7 +1275,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "scene18.jpg"
+        "image_filename": "scene18.jpg",
+        "points": 1
       },
       {
         "id": "scene19",
@@ -1252,7 +1286,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene19.jpg"
+        "image_filename": "scene19.jpg",
+        "points": 3
       },
       {
         "id": "scene20",
@@ -1262,7 +1297,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene20.jpg"
+        "image_filename": "scene20.jpg",
+        "points": 1
       },
       {
         "id": "scene21",
@@ -1272,7 +1308,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene21.jpg"
+        "image_filename": "scene21.jpg",
+        "points": 10
       }
     ],
     "_metadata": {
@@ -1297,7 +1334,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "num_sources_used": 0
       },
       "generated_at": "2025-10-21T17:13:03.915Z"
-    }
+    },
+    "filename": "cathedral-of-mutating-saints_2025-10-21.json"
   },
   {
     "story_id": "story_1761066487914_mn851sz5c",
@@ -1430,7 +1468,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "scene4_possessed_touch.jpg"
+        "image_filename": "scene4_possessed_touch.jpg",
+        "points": 1
       },
       {
         "id": "scene4_unraveling_prayer",
@@ -1440,7 +1479,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene4_unraveling_prayer.jpg"
+        "image_filename": "scene4_unraveling_prayer.jpg",
+        "points": 1
       },
       {
         "id": "scene4_crypt_gate",
@@ -1470,7 +1510,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "scene4_revelation_chamber.jpg"
+        "image_filename": "scene4_revelation_chamber.jpg",
+        "points": 8
       },
       {
         "id": "scene5_crypt_chamber",
@@ -1500,7 +1541,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene5_shattered_exit.jpg"
+        "image_filename": "scene5_shattered_exit.jpg",
+        "points": 10
       },
       {
         "id": "scene6_final_confrontation",
@@ -1510,7 +1552,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene6_final_confrontation.jpg"
+        "image_filename": "scene6_final_confrontation.jpg",
+        "points": 1
       },
       {
         "id": "scene6_ancient_relic",
@@ -1540,7 +1583,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene7_banishment.jpg"
+        "image_filename": "scene7_banishment.jpg",
+        "points": 5
       },
       {
         "id": "scene7_madness_scroll",
@@ -1550,14 +1594,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene7_madness_scroll.jpg"
+        "image_filename": "scene7_madness_scroll.jpg",
+        "points": 3
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-21T17:09:10.692Z"
-    }
+    },
+    "filename": "chancel-of-unknowing_2025-10-21.json"
   },
   {
     "story_id": "story_1702175702220_cognitivedecay",
@@ -1650,7 +1696,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene3a.jpg"
+        "image_filename": "scene3a.jpg",
+        "points": 2
       },
       {
         "id": "scene3b",
@@ -1660,7 +1707,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "scene3b.jpg"
+        "image_filename": "scene3b.jpg",
+        "points": 8
       },
       {
         "id": "scene3c",
@@ -1670,14 +1718,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene3c.jpg"
+        "image_filename": "scene3c.jpg",
+        "points": 3
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-21T13:02:11.349Z"
-    }
+    },
+    "filename": "cognitive-decay_2025-10-21.json"
   },
   {
     "story_id": "story_1761066659697_qz8rz6b2d",
@@ -1795,7 +1845,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "scene5.jpg"
+        "image_filename": "scene5.jpg",
+        "points": 1
       },
       {
         "id": "scene6",
@@ -1825,7 +1876,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene7.jpg"
+        "image_filename": "scene7.jpg",
+        "points": 10
       },
       {
         "id": "scene8",
@@ -1835,7 +1887,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Dissolution",
-        "image_filename": "scene8.jpg"
+        "image_filename": "scene8.jpg",
+        "points": 2
       },
       {
         "id": "scene9",
@@ -1845,7 +1898,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "scene9.jpg"
+        "image_filename": "scene9.jpg",
+        "points": 8
       },
       {
         "id": "scene10",
@@ -1855,7 +1909,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Corruption",
-        "image_filename": "scene10.jpg"
+        "image_filename": "scene10.jpg",
+        "points": 4
       },
       {
         "id": "scene11",
@@ -1865,7 +1920,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene11.jpg"
+        "image_filename": "scene11.jpg",
+        "points": 3
       },
       {
         "id": "scene12",
@@ -1875,7 +1931,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene12.jpg"
+        "image_filename": "scene12.jpg",
+        "points": 5
       }
     ],
     "_metadata": {
@@ -1900,7 +1957,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "num_sources_used": 0
       },
       "generated_at": "2025-10-21T17:12:29.023Z"
-    }
+    },
+    "filename": "cradle-of-fractured-reveries_2025-10-21.json"
   },
   {
     "story_id": "story_20240602_231500",
@@ -1953,7 +2011,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene2_temporal_flux.jpg"
+        "image_filename": "scene2_temporal_flux.jpg",
+        "points": 1
       },
       {
         "id": "scene2_reality_rend",
@@ -1963,14 +2022,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Transformation",
-        "image_filename": "scene2_reality_rend.jpg"
+        "image_filename": "scene2_reality_rend.jpg",
+        "points": 1
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-21T13:57:36.228Z"
-    }
+    },
+    "filename": "crimson-cycle_2025-10-21.json"
   },
   {
     "story_id": "story_1761117418016_wc9ja697k",
@@ -2047,7 +2108,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene6"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene3.jpg"
       },
       {
         "id": "scene4",
@@ -2066,7 +2128,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene8"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene4.jpg"
       },
       {
         "id": "scene5",
@@ -2105,7 +2168,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene11"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene6.jpg"
       },
       {
         "id": "scene7",
@@ -2184,7 +2248,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene15"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene10.jpg"
       },
       {
         "id": "scene11",
@@ -2203,7 +2268,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene13"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene11.jpg"
       },
       {
         "id": "scene12",
@@ -2233,7 +2299,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene13.jpg"
+        "image_filename": "scene13.jpg",
+        "points": 1
       },
       {
         "id": "scene14",
@@ -2242,7 +2309,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain. A subterranean chamber. My hand, holding a seven-petaled rose brooch glowing with pure light, is pressed against a monstrous black altar, which is visibly shattering and erupting with black, writhing tendrils. Ethereal, putrid gore splatters across the walls. A luminous, peaceful spectral figure of Eleanor is fading into light in the background.",
         "choices": [],
         "ending": true,
-        "ending_type": "Banishment"
+        "ending_type": "Banishment",
+        "image_filename": "scene14.jpg",
+        "points": 5
       },
       {
         "id": "scene15",
@@ -2251,14 +2320,17 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, desaturated pastel colors, faded soft hues, subtle film grain. A chaotic, nightmarish scene. The demonic entity, a maelstrom of shadow and razor-sharp spectral claws, is directly in front of me. My body is horribly distorted and dissolving, black ichor visibly erupting from my eyes and mouth. My hand, a grotesque parody, is reaching out in a final, futile gesture. The entire scene is awash in violent, bleeding colors.",
         "choices": [],
         "ending": true,
-        "ending_type": "Corruption"
+        "ending_type": "Corruption",
+        "image_filename": "scene15.jpg",
+        "points": 4
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-22T07:17:59.449Z"
-    }
+    },
+    "filename": "crimson-inheritance_2025-10-22.json"
   },
   {
     "story_id": "story_1761066584770_4glkbz5lf",
@@ -2416,7 +2488,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "scene7.jpg"
+        "image_filename": "scene7.jpg",
+        "points": 8
       },
       {
         "id": "scene8",
@@ -2426,7 +2499,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene8.jpg"
+        "image_filename": "scene8.jpg",
+        "points": 10
       },
       {
         "id": "scene9",
@@ -2436,7 +2510,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene9.jpg"
+        "image_filename": "scene9.jpg",
+        "points": 2
       },
       {
         "id": "scene10",
@@ -2446,7 +2521,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene10.jpg"
+        "image_filename": "scene10.jpg",
+        "points": 3
       }
     ],
     "_metadata": {
@@ -2471,7 +2547,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "num_sources_used": 0
       },
       "generated_at": "2025-10-21T17:11:11.221Z"
-    }
+    },
+    "filename": "crimson-ledger-of-lost-lessons_2025-10-21.json"
   },
   {
     "story_id": "story_1761066681139_xl0q87mrn",
@@ -2578,7 +2655,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene10"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene4.jpg"
       },
       {
         "id": "scene5",
@@ -2713,7 +2791,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene11.jpg"
+        "image_filename": "scene11.jpg",
+        "points": 5
       },
       {
         "id": "scene12",
@@ -2723,7 +2802,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene12.jpg"
+        "image_filename": "scene12.jpg",
+        "points": 2
       },
       {
         "id": "scene13",
@@ -2733,7 +2813,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Transformation",
-        "image_filename": "scene13.jpg"
+        "image_filename": "scene13.jpg",
+        "points": 1
       },
       {
         "id": "scene14",
@@ -2743,7 +2824,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Sacrifice",
-        "image_filename": "scene14.jpg"
+        "image_filename": "scene14.jpg",
+        "points": 7
       },
       {
         "id": "scene15",
@@ -2753,7 +2835,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene15.jpg"
+        "image_filename": "scene15.jpg",
+        "points": 3
       },
       {
         "id": "scene16",
@@ -2763,7 +2846,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene16.jpg"
+        "image_filename": "scene16.jpg",
+        "points": 10
       },
       {
         "id": "scene17",
@@ -2773,7 +2857,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene17.jpg"
+        "image_filename": "scene17.jpg",
+        "points": 1
       },
       {
         "id": "scene18",
@@ -2783,7 +2868,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Ascension",
-        "image_filename": "scene18.jpg"
+        "image_filename": "scene18.jpg",
+        "points": 1
       },
       {
         "id": "scene19",
@@ -2793,7 +2879,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Dissolution",
-        "image_filename": "scene19.jpg"
+        "image_filename": "scene19.jpg",
+        "points": 2
       },
       {
         "id": "scene20",
@@ -2803,7 +2890,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Corruption",
-        "image_filename": "scene20.jpg"
+        "image_filename": "scene20.jpg",
+        "points": 4
       }
     ],
     "_metadata": {
@@ -2828,7 +2916,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "num_sources_used": 0
       },
       "generated_at": "2025-10-21T17:13:04.139Z"
-    }
+    },
+    "filename": "crimson-nebulas-forsaken-drift_2025-10-21.json"
   },
   {
     "story_id": "story_1761118165364_gj7naqo55",
@@ -2870,7 +2959,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene3"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene1.jpg"
       },
       {
         "id": "scene2",
@@ -2889,7 +2979,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene5"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene2.jpg"
       },
       {
         "id": "scene3",
@@ -2908,7 +2999,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene_maintenance_tunnels"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene3.jpg"
       },
       {
         "id": "scene4",
@@ -2927,7 +3019,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene9"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene4.jpg"
       },
       {
         "id": "scene5",
@@ -2946,7 +3039,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene6"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene5.jpg"
       },
       {
         "id": "scene6",
@@ -2965,7 +3059,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene10"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene6.jpg"
       },
       {
         "id": "scene_maintenance_tunnels",
@@ -2984,7 +3079,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene9"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene_maintenance_tunnels.jpg"
       },
       {
         "id": "scene7",
@@ -3003,7 +3099,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene9"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene7.jpg"
       },
       {
         "id": "scene8",
@@ -3022,7 +3119,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene9"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene8.jpg"
       },
       {
         "id": "scene9",
@@ -3041,7 +3139,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene12"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene9.jpg"
       },
       {
         "id": "scene10",
@@ -3060,7 +3159,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene14"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene10.jpg"
       },
       {
         "id": "scene11",
@@ -3069,7 +3169,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. The protagonist's back is to the viewer, standing at the edge of the amusement park, looking out at a clear but ominous landscape. The park's rusted, twisted gates are visible far behind them. A receding wave of supernatural darkness, colored orange and red, pulls away from the gates, leaving a trail of spectral smoke.",
         "choices": [],
         "ending": true,
-        "ending_type": "Escape"
+        "ending_type": "Escape",
+        "image_filename": "scene11.webp",
+        "points": 10
       },
       {
         "id": "scene12",
@@ -3078,7 +3180,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. A section of the ground, comprised of rusted gears and broken ride parts, has violently buckled open, forming a dark, jagged maw. The protagonist is seen falling into the abyss, their silhouette against the orange light from within. The maw is about to seal shut.",
         "choices": [],
         "ending": true,
-        "ending_type": "Oblivion"
+        "ending_type": "Oblivion",
+        "image_filename": "scene12.jpg",
+        "points": 1
       },
       {
         "id": "scene13",
@@ -3087,16 +3191,20 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. A grotesque fusion of human flesh and metallic machinery. The protagonist's body is dissolving and reforming into a vast, intricate network of gears, pipes, and exposed organic matter. Liam's face, now glowing orange and completely integrated into the machinery, is visible nearby, smiling. The entire scene glows with warm, orange light.",
         "choices": [],
         "ending": true,
-        "ending_type": "Absorption"
+        "ending_type": "Absorption",
+        "image_filename": "scene13.jpg",
+        "points": 2
       },
       {
         "id": "scene14",
         "title": "Torn Asunder",
         "text": "They lunged at the machine, trying to rip a vital connection. Metal tentacles lashed out. Gears ground. A thousand blades tore into their flesh, pulling them apart piece by screaming piece. The machine roared its victory. They were gone, becoming fragmented fuel for the greater whole.",
-        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. The colossal machine from scene 10 is enraged, its metallic tentacles violently tearing apart the protagonist's body. Limbs are being pulled in different directions by sharp, gear-like appendages. Blood-red and orange light flashes from the impact points. Liam's face within the machine watches without emotion.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. The colossal machine from scene 10 is enraged, its metallic tentacles reaching out aggressively toward the protagonist who is being pulled into the machinery. Dark silhouettes and shadows obscure the details. Orange light flashes dramatically from the machine. Liam's face within the machine watches without emotion.",
         "choices": [],
         "ending": true,
-        "ending_type": "Dissolution"
+        "ending_type": "Dissolution",
+        "points": 2,
+        "image_filename": "scene14.jpg"
       },
       {
         "id": "scene15",
@@ -3105,14 +3213,17 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, warm orange tones, fire and ember colors, subtle film grain. The protagonist stands over a recoiling, shadowy mass of supernatural darkness that is dissipating. Liam is kneeling beside them, his left arm grotesquely transformed into polished metal, his eyes glowing with a faint orange light. Broken ride parts are scattered around, illuminated by the harsh orange light.",
         "choices": [],
         "ending": true,
-        "ending_type": "Revelation"
+        "ending_type": "Revelation",
+        "image_filename": "scene15.jpg",
+        "points": 8
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-22T07:30:22.048Z"
-    }
+    },
+    "filename": "gear-grinders-feast_2025-10-22.json"
   },
   {
     "story_id": "story_1761113200918_0kl22eyt4",
@@ -3319,7 +3430,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene14"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene11.webp"
       },
       {
         "id": "scene12",
@@ -3370,7 +3482,7 @@ export const EMBEDDED_STORIES: Story[] = [
         "id": "scene15",
         "title": "The Composite Psyche",
         "text": "The basement chamber is circular. At its heart, the Conductor: a brass and glass nightmare of humming coils. Fused to it is... the thing. A tumorous mass of crystalline flesh and weeping eyes, mouths opening and closing in a silent chorus. It is a living geode of pain. And from its depths, a single, familiar face surfaces, mouthing my name. Grandfather.",
-        "image_prompt": "First-person view inside a vast, circular basement. In the center is a massive, complex machine of brass and glass, humming with energy. Fused to its side is a grotesque, pulsating mass of crystalline flesh embedded with dozens of eyes and mouths. A man's face is visible, trapped within the surface of the mass. Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, muted reds and greens, classic horror palette, subtle film grain.",
+        "image_prompt": "First-person view inside a vast, circular basement. In the center is a massive, complex machine of brass and glass, humming with energy. Fused to its side is a grotesque, otherworldly organic material embedded with dozens of eyes and mouths. A man's face is visible, trapped within the surface of the mass. Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, muted reds and greens, classic horror palette, subtle film grain.",
         "choices": [
           {
             "id": "1",
@@ -3388,7 +3500,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "ending4"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene15.webp"
       },
       {
         "id": "ending1",
@@ -3398,17 +3511,19 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "ending1.webp"
+        "image_filename": "ending1.webp",
+        "points": 5
       },
       {
         "id": "ending3",
         "title": "Another Voice",
         "text": "The rage is a fire in my veins. I scream, a sound of pure hate, and charge. I plunge a rusted pipe into the fleshy mass. It is like stabbing a mountain. The thing does not recoil. It absorbs. The rage is sucked from me, a delicious meal. Crystalline tendrils erupt from the mass, plunging into my flesh, my bones, my soul. My scream becomes one with the chorus. My eyes, another pair on the surface of the whole. I am home.",
-        "image_prompt": "Horrific first-person view as crystalline tendrils covered in eyes wrap around my arms and chest, pulling me towards the pulsating flesh-machine. My vision is blurring at the edges, and the texture of the crystalline flesh fills the frame. Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, muted reds and greens, classic horror palette, subtle film grain.",
+        "image_prompt": "First-person view as ethereal, crystalline tendrils of light wrap around my arms and chest, pulling me towards the pulsating machine. My vision is blurring at the edges, and swirling energy patterns fill the frame. Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, muted reds and greens, classic horror palette, subtle film grain.",
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "ending3.webp"
+        "image_filename": "ending3.webp",
+        "points": 2
       },
       {
         "id": "ending4",
@@ -3418,14 +3533,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "ending4.jpg"
+        "image_filename": "ending4.jpg",
+        "points": 1
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T06:07:44.785Z"
-    }
+    },
+    "filename": "geode-psychosis_2025-10-22.json"
   },
   {
     "story_id": "story_1761115774658_p2dirq5cj",
@@ -3653,7 +3770,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene_ending_oblivion.jpg"
+        "image_filename": "scene_ending_oblivion.jpg",
+        "points": 1
       },
       {
         "id": "scene_ending_transformation",
@@ -3663,7 +3781,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Transformation",
-        "image_filename": "scene_ending_transformation.jpg"
+        "image_filename": "scene_ending_transformation.jpg",
+        "points": 1
       },
       {
         "id": "scene_ending_possession",
@@ -3673,7 +3792,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "scene_ending_possession.jpg"
+        "image_filename": "scene_ending_possession.jpg",
+        "points": 1
       },
       {
         "id": "scene_ending_madness",
@@ -3683,7 +3803,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene_ending_madness.webp"
+        "image_filename": "scene_ending_madness.webp",
+        "points": 3
       },
       {
         "id": "scene_ending_absorption",
@@ -3692,7 +3813,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. Countless skeletal hands and muddy tendrils erupt from the ground, pulling a figure down into the churning earth. Only their head and shoulders are visible.",
         "choices": [],
         "ending": true,
-        "ending_type": "Absorption"
+        "ending_type": "Absorption",
+        "image_filename": "scene_ending_absorption.jpg",
+        "points": 2
       },
       {
         "id": "scene_ending_escape",
@@ -3702,7 +3825,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene_ending_escape.jpg"
+        "image_filename": "scene_ending_escape.jpg",
+        "points": 10
       },
       {
         "id": "scene_ending_banishment",
@@ -3712,14 +3836,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene_ending_banishment.jpg"
+        "image_filename": "scene_ending_banishment.jpg",
+        "points": 5
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T06:50:47.735Z"
-    }
+    },
+    "filename": "golgothas-clay_2025-10-22.json"
   },
   {
     "story_id": "story_1761054995899_fduj5vyhz",
@@ -3772,7 +3898,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "scene2.jpg"
+        "image_filename": "scene2.jpg",
+        "points": 1
       },
       {
         "id": "scene3",
@@ -3782,14 +3909,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene3.jpg"
+        "image_filename": "scene3.jpg",
+        "points": 2
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-21T13:57:15.118Z"
-    }
+    },
+    "filename": "grim-core-symphony_2025-10-21.json"
   },
   {
     "story_id": "story_1761066590256_t7y0cz3tj",
@@ -3908,7 +4037,7 @@ export const EMBEDDED_STORIES: Story[] = [
         "id": "scene5",
         "title": "Operating Theater Trap",
         "text": "Alex entered the theater. Instruments gleamed like hungry teeth. Fog swirled, screams deafening then resetting. Reality distorted; they saw themselves on the table, cut open. Blood sprayed in bursts. A voice whispered: 'Loop the incision.'",
-        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. First-person view of abandoned operating theater; surgical table center with blood stains; gleaming scalpels on tray left; thick fog swirling around; distorted mirror on back wall showing repeated self-images; flickering surgical lamp overhead.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. First-person view of abandoned operating theater; surgical table center with dark stains; gleaming scalpels on tray left; thick fog swirling around; distorted mirror on back wall showing repeated self-images; flickering surgical lamp overhead.",
         "choices": [
           {
             "id": "1",
@@ -3933,7 +4062,7 @@ export const EMBEDDED_STORIES: Story[] = [
         "id": "scene6",
         "title": "Patient Room Nightmare",
         "text": "Alex pushed into the room. Beds lined like open graves. Fog choked the air. A figure twitched, body looping convulsions. Screams echoed from within. Reality bent; limbs elongated like pulled taffy. Blood seeped from cracks. Whisper: 'Join the cycle.'",
-        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. First-person view of dimly lit patient room; rusted beds lined against walls; twitching figure on central bed with elongated limbs; thick fog on floor; blood seeping from wall cracks right; flickering bulb in ceiling corner.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. First-person view of dimly lit patient room; old beds lined against walls; shadowy figure on central bed; thick fog on floor; mysterious dark patches on walls; flickering bulb in ceiling corner.",
         "choices": [
           {
             "id": "1",
@@ -3946,7 +4075,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene7"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene6.webp"
       },
       {
         "id": "scene7",
@@ -3981,7 +4111,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "scene8.jpg"
+        "image_filename": "scene8.jpg",
+        "points": 8
       },
       {
         "id": "scene9",
@@ -3991,7 +4122,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene9.jpg"
+        "image_filename": "scene9.jpg",
+        "points": 10
       },
       {
         "id": "scene10",
@@ -4000,34 +4132,42 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. First-person view of infinite stretching hallway; thick fog filling space; distorted walls repeating; flickering lights in endless row; bloodied footprints on floor center; no visible end.",
         "choices": [],
         "ending": true,
-        "ending_type": "Madness"
+        "ending_type": "Madness",
+        "image_filename": "scene10.jpg",
+        "points": 3
       },
       {
         "id": "scene11",
         "title": "Possessed Fusion",
         "text": "Alex touched the figure. It merged with them, skin knitting like sutures. Time looped within. Screams internalized. Fog filled lungs. Reality distorted into one entity. Whisper: 'We are the procedure.' Identity absorbed.",
-        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. First-person view of merging with twitching figure on bed; skin knitting together; fog swirling around; distorted limbs extending; blood pooling on sheets center; flickering light above.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. First-person view of merging with twitching figure on bed; ethereal energy connecting us; fog swirling around; distorted shadows extending; dark stains on sheets center; flickering light above.",
         "choices": [],
         "ending": true,
-        "ending_type": "Absorption"
+        "ending_type": "Absorption",
+        "points": 2,
+        "image_filename": "scene11.jpg"
       },
       {
         "id": "scene12",
         "title": "Basement Oblivion",
         "text": "Alex descended. Darkness swallowed light. Fog turned to void. Screams looped into silence. Reality erased itself. They faded, body dissolving like mist. A last whisper: 'No more cycles.' Emptiness claimed all.",
-        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. First-person view of dark basement; thick fog turning black; dissolving body parts in foreground; rusted pipes on walls; flickering faint light from stairs behind; void at center.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. First-person view of dark basement; thick fog turning to darkness; translucent hands in foreground fading away; rusted pipes on walls; flickering faint light from stairs behind; void at center.",
         "choices": [],
         "ending": true,
-        "ending_type": "Oblivion"
+        "ending_type": "Oblivion",
+        "points": 1,
+        "image_filename": "scene12.webp"
       },
       {
         "id": "scene13",
         "title": "Corrupted Echo",
         "text": "Alex screamed back. The sound looped, amplifying. Fog congealed into forms. Reality twisted them inside out. Blood flowed upward. Whispers laughed: 'Become the horror.' They transformed, hospital's rot infusing every cell.",
-        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. First-person view of self-transformation; blood flowing upward on arms; fog forming shapes around; distorted walls pulsing; rusted door center; flickering light casting shadows.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. First-person view showing mysterious dark energy swirling around arms; fog forming abstract shapes; walls appearing to shift and bend; rusted door in center; flickering light casting eerie shadows.",
         "choices": [],
         "ending": true,
-        "ending_type": "Corruption"
+        "ending_type": "Corruption",
+        "points": 4,
+        "image_filename": "scene13.webp"
       }
     ],
     "_metadata": {
@@ -4052,7 +4192,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "num_sources_used": 0
       },
       "generated_at": "2025-10-21T17:11:20.853Z"
-    }
+    },
+    "filename": "infinite-incisions_2025-10-21.json"
   },
   {
     "story_id": "story_1761066591844_6amwaijks",
@@ -4249,10 +4390,12 @@ export const EMBEDDED_STORIES: Story[] = [
         "id": "scene9",
         "title": "Embrace of the Void",
         "text": "I yield, the ritual's forces engulfing me in a maelstrom of existential dissolution, where self merges with the incomprehensible. Storms rage, power failing eternally. Silence breaks into chants, my form twisting in graphic transformation, skin sloughing off in layers of exposed sinew and bone, blood congealing into occult patterns. 'Welcome to oblivion,' the cult echoes.",
-        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, cold silver moonlight, ethereal glow, black and white monochrome, grayscale tones, subtle film grain. First-person view from altar, transforming body parts lower center with peeling skin, cultists chanting upper around, void portal swirling overhead middle, lightning in background.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, cold silver moonlight, ethereal glow, black and white monochrome, grayscale tones, subtle film grain. First-person view from altar, transforming abstract shapes lower center with peeling skin, cultists chanting upper around, void portal swirling overhead middle, lightning in background.",
         "choices": [],
         "ending": true,
-        "ending_type": "Oblivion"
+        "ending_type": "Oblivion",
+        "points": 1,
+        "image_filename": "scene9.webp"
       },
       {
         "id": "scene10",
@@ -4271,7 +4414,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene12"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene10.webp"
       },
       {
         "id": "scene11",
@@ -4299,7 +4443,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, cold silver moonlight, ethereal glow, black and white monochrome, grayscale tones, subtle film grain. First-person view emerging from forest edge, clearing sky upper center, fading storm clouds left, ancient tree marking boundary right at mid level, path to freedom lower middle.",
         "choices": [],
         "ending": true,
-        "ending_type": "Revelation"
+        "ending_type": "Revelation",
+        "points": 8
       },
       {
         "id": "scene13",
@@ -4309,7 +4454,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene13.jpg"
+        "image_filename": "scene13.jpg",
+        "points": 2
       },
       {
         "id": "scene14",
@@ -4318,7 +4464,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, cold silver moonlight, ethereal glow, black and white monochrome, grayscale tones, subtle film grain. First-person view in delirium, hallucinatory entities swirling upper center, bloodied hands lower middle, ancient tome open left at eye level, storm-distorted cabin walls right.",
         "choices": [],
         "ending": true,
-        "ending_type": "Madness"
+        "ending_type": "Madness",
+        "points": 3
       },
       {
         "id": "scene15",
@@ -4327,7 +4474,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, cold silver moonlight, ethereal glow, black and white monochrome, grayscale tones, subtle film grain. First-person view ascending, ethereal light beams upper center, defeated cultists below lower left, forest canopy parting middle right, glowing aura around body foreground.",
         "choices": [],
         "ending": true,
-        "ending_type": "Ascension"
+        "ending_type": "Ascension",
+        "points": 1
       }
     ],
     "_metadata": {
@@ -4352,7 +4500,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "num_sources_used": 0
       },
       "generated_at": "2025-10-21T17:11:43.190Z"
-    }
+    },
+    "filename": "liturgy-of-the-stormveined-thicket_2025-10-21.json"
   },
   {
     "story_id": "story_1761061816220_w6ek0icwy",
@@ -4525,7 +4674,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene8.jpg"
+        "image_filename": "scene8.jpg",
+        "points": 1
       },
       {
         "id": "scene9",
@@ -4534,7 +4684,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, muted reds and greens, classic horror palette, subtle film grain. A close-up view of a partially transformed arm and hand, still recognizably human but with elements of architectural structure and twisted organic growths. The skin shows veins that look like corroded metal, and bone-like protrusions. The background is a blurry hospital wall, now appearing to integrate with your own changing form. Swirling smoke curls around your arm.",
         "choices": [],
         "ending": true,
-        "ending_type": "Transformation"
+        "ending_type": "Transformation",
+        "image_filename": "scene9.jpg",
+        "points": 1
       },
       {
         "id": "scene10",
@@ -4544,7 +4696,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene10.jpg"
+        "image_filename": "scene10.jpg",
+        "points": 10
       },
       {
         "id": "scene11",
@@ -4554,14 +4707,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene11.jpg"
+        "image_filename": "scene11.jpg",
+        "points": 5
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-21T15:51:05.447Z"
-    }
+    },
+    "filename": "marrow-bound-asylum_2025-10-21.json"
   },
   {
     "story_id": "story_20231129_01",
@@ -4608,7 +4763,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene3"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene1.jpg"
       },
       {
         "id": "scene2",
@@ -4632,7 +4788,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene4"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene2.jpg"
       },
       {
         "id": "scene3",
@@ -4656,7 +4813,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene6"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene3.jpg"
       },
       {
         "id": "scene4",
@@ -4680,7 +4838,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene3"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene4.jpg"
       },
       {
         "id": "scene5",
@@ -4704,7 +4863,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene6"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene5.webp"
       },
       {
         "id": "scene6",
@@ -4713,7 +4873,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, desaturated pastel colors, faded soft hues, subtle film grain. A person, seen from over their shoulder, running from the dilapidated main entrance of a large, imposing abandoned hospital. The person's silhouette is stark against the moonlit night, and the hospital's dark facade is prominent in the background.",
         "choices": [],
         "ending": true,
-        "ending_type": "Escape"
+        "ending_type": "Escape",
+        "image_filename": "scene6.jpg",
+        "points": 10
       },
       {
         "id": "scene7",
@@ -4722,7 +4884,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, desaturated pastel colors, faded soft hues, subtle film grain. A figure, seen from behind, dissolving into swirling, dark, ethereal smoke within a derelict hospital corridor. Ghostly apparitions are indistinctly visible within the smoke, and the figure's form is becoming transparent and merging with the environment.",
         "choices": [],
         "ending": true,
-        "ending_type": "Absorption"
+        "ending_type": "Absorption",
+        "image_filename": "scene7.jpg",
+        "points": 2
       },
       {
         "id": "scene8",
@@ -4731,7 +4895,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, desaturated pastel colors, faded soft hues, subtle film grain. A collection of ancient, leather-bound books and scattered medical charts, overlaid with complex, glowing occult sigils, laid out on a dusty table. The light source is an ethereal glow coming from the sigils themselves, illuminating the intricate details of the texts.",
         "choices": [],
         "ending": true,
-        "ending_type": "Revelation"
+        "ending_type": "Revelation",
+        "image_filename": "scene8.webp",
+        "points": 8
       },
       {
         "id": "scene9",
@@ -4740,14 +4906,17 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, desaturated pastel colors, faded soft hues, subtle film grain. A desecrated altar in an operating theatre, now inert and cracked, with faint, residual tendrils of smoke dissipating into the air. The arcane symbols on the wall behind it are fading and broken, implying a disruption of their power. A sense of relief, albeit desolate, pervades the scene.",
         "choices": [],
         "ending": true,
-        "ending_type": "Banishment"
+        "ending_type": "Banishment",
+        "image_filename": "scene9.webp",
+        "points": 5
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-22T07:33:10.971Z"
-    }
+    },
+    "filename": "morbiditys-covenant-ward_2025-10-22.json"
   },
   {
     "story_id": "story_1761066670002_nbxwu5rep",
@@ -4885,7 +5054,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene6.jpg"
+        "image_filename": "scene6.jpg",
+        "points": 2
       },
       {
         "id": "scene7",
@@ -4915,7 +5085,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene8.jpg"
+        "image_filename": "scene8.jpg",
+        "points": 1
       },
       {
         "id": "scene9",
@@ -4925,7 +5096,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "scene9.jpg"
+        "image_filename": "scene9.jpg",
+        "points": 8
       },
       {
         "id": "scene10",
@@ -4935,7 +5107,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene10.jpg"
+        "image_filename": "scene10.jpg",
+        "points": 5
       }
     ],
     "_metadata": {
@@ -4960,7 +5133,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "num_sources_used": 0
       },
       "generated_at": "2025-10-21T17:12:38.746Z"
-    }
+    },
+    "filename": "nexus-of-forgotten-reservations_2025-10-21.json"
   },
   {
     "story_id": "story_1761051741236_c5bcm5k0s",
@@ -5053,7 +5227,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene4.jpg"
+        "image_filename": "scene4.jpg",
+        "points": 1
       },
       {
         "id": "scene5a",
@@ -5063,7 +5238,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "scene5a.jpg"
+        "image_filename": "scene5a.jpg",
+        "points": 1
       },
       {
         "id": "scene5b",
@@ -5073,14 +5249,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene5b.jpg"
+        "image_filename": "scene5b.jpg",
+        "points": 10
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-21T13:03:24.654Z"
-    }
+    },
+    "filename": "porcelain-purgatory_2025-10-21.json"
   },
   {
     "story_id": "story_1761115773612_6fmux5bl1",
@@ -5308,7 +5486,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Transformation",
-        "image_filename": "scene11.jpg"
+        "image_filename": "scene11.jpg",
+        "points": 1
       },
       {
         "id": "scene12",
@@ -5318,7 +5497,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene12.jpg"
+        "image_filename": "scene12.jpg",
+        "points": 1
       },
       {
         "id": "scene13",
@@ -5328,7 +5508,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene13.webp"
+        "image_filename": "scene13.webp",
+        "points": 10
       },
       {
         "id": "scene14",
@@ -5338,7 +5519,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene14.jpg"
+        "image_filename": "scene14.jpg",
+        "points": 2
       },
       {
         "id": "scene15",
@@ -5348,14 +5530,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "scene15.jpg"
+        "image_filename": "scene15.jpg",
+        "points": 1
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T06:51:05.110Z"
-    }
+    },
+    "filename": "symphony-of-lacquered-flesh_2025-10-22.json"
   },
   {
     "story_id": "story_1761061867706_5p6s8o68m",
@@ -5648,7 +5832,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene14.jpg"
+        "image_filename": "scene14.jpg",
+        "points": 10
       },
       {
         "id": "scene15",
@@ -5658,7 +5843,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "scene15.jpg"
+        "image_filename": "scene15.jpg",
+        "points": 1
       },
       {
         "id": "scene16",
@@ -5668,7 +5854,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene16.jpg"
+        "image_filename": "scene16.jpg",
+        "points": 1
       },
       {
         "id": "scene17",
@@ -5678,14 +5865,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "scene17.jpg"
+        "image_filename": "scene17.jpg",
+        "points": 8
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-21T15:52:32.660Z"
-    }
+    },
+    "filename": "temporal-scar-of-sanatorium-solstice_2025-10-21.json"
   },
   {
     "story_id": "story_1761113148751_5yw0733n8",
@@ -5998,7 +6187,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene14_oblivion_ending.jpg"
+        "image_filename": "scene14_oblivion_ending.jpg",
+        "points": 1
       },
       {
         "id": "scene15_absorption_ending",
@@ -6008,7 +6198,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene15_absorption_ending.jpg"
+        "image_filename": "scene15_absorption_ending.jpg",
+        "points": 2
       },
       {
         "id": "scene16_dissolution_ending",
@@ -6018,7 +6209,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "scene16_dissolution_ending.jpg"
+        "image_filename": "scene16_dissolution_ending.jpg",
+        "points": 8
       },
       {
         "id": "scene17_possession_ending",
@@ -6028,7 +6220,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "scene17_possession_ending.jpg"
+        "image_filename": "scene17_possession_ending.jpg",
+        "points": 1
       },
       {
         "id": "scene18_madness_ending",
@@ -6038,7 +6231,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene18_madness_ending.jpg"
+        "image_filename": "scene18_madness_ending.jpg",
+        "points": 3
       },
       {
         "id": "scene19_escape_ending",
@@ -6048,14 +6242,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene19_escape_ending.jpg"
+        "image_filename": "scene19_escape_ending.jpg",
+        "points": 10
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T06:07:08.272Z"
-    }
+    },
+    "filename": "the-alabaster-transit_2025-10-22.json"
   },
   {
     "story_id": "story_1761113218536_965nbv1mw",
@@ -6233,7 +6429,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Ascension",
-        "image_filename": "scene8_ascension.jpg"
+        "image_filename": "scene8_ascension.jpg",
+        "points": 1
       },
       {
         "id": "scene8_corruption",
@@ -6243,7 +6440,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Corruption",
-        "image_filename": "scene8_corruption.jpg"
+        "image_filename": "scene8_corruption.jpg",
+        "points": 4
       },
       {
         "id": "scene9",
@@ -6253,7 +6451,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene9.jpg"
+        "image_filename": "scene9.jpg",
+        "points": 10
       },
       {
         "id": "scene10",
@@ -6283,7 +6482,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene11.jpg"
+        "image_filename": "scene11.jpg",
+        "points": 1
       },
       {
         "id": "scene12",
@@ -6293,7 +6493,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene12.webp"
+        "image_filename": "scene12.webp",
+        "points": 5
       },
       {
         "id": "scene13",
@@ -6323,14 +6524,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene14.webp"
+        "image_filename": "scene14.webp",
+        "points": 3
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T06:08:00.837Z"
-    }
+    },
+    "filename": "the-axiomatic-engine_2025-10-22.json"
   },
   {
     "story_id": "story_1761113688329_ela5fsth0",
@@ -6463,7 +6666,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Transformation",
-        "image_filename": "scene7.jpg"
+        "image_filename": "scene7.jpg",
+        "points": 1
       },
       {
         "id": "scene8",
@@ -6497,7 +6701,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene12"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene9.jpg"
       },
       {
         "id": "scene10",
@@ -6577,7 +6782,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene_end_absorption.jpg"
+        "image_filename": "scene_end_absorption.jpg",
+        "points": 2
       },
       {
         "id": "scene_end_banishment",
@@ -6587,7 +6793,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene_end_banishment.jpg"
+        "image_filename": "scene_end_banishment.jpg",
+        "points": 5
       },
       {
         "id": "scene_end_escape",
@@ -6597,7 +6804,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene_end_escape.jpg"
+        "image_filename": "scene_end_escape.jpg",
+        "points": 10
       },
       {
         "id": "scene_end_madness",
@@ -6607,7 +6815,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene_end_madness.jpg"
+        "image_filename": "scene_end_madness.jpg",
+        "points": 3
       },
       {
         "id": "scene_end_oblivion",
@@ -6617,14 +6826,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene_end_oblivion.jpg"
+        "image_filename": "scene_end_oblivion.jpg",
+        "points": 1
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T06:16:13.060Z"
-    }
+    },
+    "filename": "the-calcareous-heart_2025-10-22.json"
   },
   {
     "story_id": "story_1761051893762_qso3sn23u",
@@ -6726,7 +6937,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "ending_fools_flight"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene3a.webp"
       },
       {
         "id": "scene3b",
@@ -6756,7 +6968,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "ending_ritual_consummation.jpg"
+        "image_filename": "ending_ritual_consummation.jpg",
+        "points": 2
       },
       {
         "id": "ending_carnival_heart",
@@ -6766,7 +6979,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Sacrifice",
-        "image_filename": "ending_carnival_heart.jpg"
+        "image_filename": "ending_carnival_heart.jpg",
+        "points": 7
       },
       {
         "id": "ending_fools_flight",
@@ -6776,14 +6990,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "ending_fools_flight.jpg"
+        "image_filename": "ending_fools_flight.jpg",
+        "points": 3
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-21T13:05:52.891Z"
-    }
+    },
+    "filename": "the-carousel-of-consummation_2025-10-21.json"
   },
   {
     "story_id": "story_1761050457935_gqbnsy79p",
@@ -6872,7 +7088,7 @@ export const EMBEDDED_STORIES: Story[] = [
         "id": "scene3a",
         "title": "The Transfigured Chancel",
         "text": "The chanting grows louder, a discordant chorus of strained, inhuman voices. The chancel, the cathedral’s sacred heart, is a grotesque tableau. The grand altar is no longer stone, but a mound of pulsating, living flesh, its surface glistening with unholy secretions. Figures, once priests or congregants, are fused into its mass, their faces contorted in eternal, silent screams, their forms blurring into the fleshy mound. A central, chalice-like depression in the flesh pulses rhythmically, drawing you closer, a morbid vortex. As you gaze, your own skin begins to prickle, then burn, small, iridescent scales blooming across your forearms, your vision blurring at the edges, the distinction between self and corruption dissolving.",
-        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, muted reds and greens, classic horror palette, subtle film grain. The chancel of a cathedral, but the altar is replaced by a massive, grotesque mound of pulsating, glistening pink and red flesh, with distorted human faces and limbs partially fused into its surface. A central depression in the flesh, resembling a chalice, pulses with an inner light. Small, iridescent scales are subtly visible beginning to bloom on the player's forearms, which are visible in the foreground.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, muted reds and greens, classic horror palette, subtle film grain. The chancel of a cathedral, but the altar is replaced by a massive, otherworldly organic structure with an unnatural reddish glow. Shadowy forms seem embedded within the strange material. A central depression resembling a chalice emanates an eerie light. The player's forearms show subtle, shimmering changes to the skin.",
         "choices": [
           {
             "id": "1",
@@ -6885,7 +7101,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "ending_madness"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene3a.webp"
       },
       {
         "id": "scene3b",
@@ -6951,10 +7168,12 @@ export const EMBEDDED_STORIES: Story[] = [
         "id": "ending_absorption",
         "title": "One With the Altar",
         "text": "A final, searing pain blossoms through your entire being as you surge forward, your altered form collapsing into the pulsing altar. Resistance, thought, self — all melt away. Your flesh becomes one with its flesh, your consciousness a ripple in its vast, collective nightmare. You are no longer You, but an integral part of the cathedral's burgeoning, unholy heart, a silent, screaming addition to its eternal liturgy of suffering and transformation. The chanting from within echoes not just around you, but through you, as you become the chant.",
-        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, muted reds and greens, classic horror palette, subtle film grain. The player's view is now completely consumed by a close-up of pulsating, glistening red and pink organic flesh, textured with subtle veins and sinew. Distorted human eyes and mouths are barely visible, stretched and absorbed into the fleshy surface, surrounding the view. The light is dim, emanating from within the flesh itself.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, muted reds and greens, classic horror palette, subtle film grain. The player's view is now completely consumed by an abstract, swirling mass of dark red and crimson energy. Shadowy forms and indistinct shapes seem to move within the otherworldly substance. The light is dim and ethereal, emanating from within the mysterious material itself.",
         "choices": [],
         "ending": true,
-        "ending_type": "Absorption"
+        "ending_type": "Absorption",
+        "points": 2,
+        "image_filename": "ending_absorption.webp"
       },
       {
         "id": "ending_madness",
@@ -6964,7 +7183,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "ending_madness.jpg"
+        "image_filename": "ending_madness.jpg",
+        "points": 3
       },
       {
         "id": "ending_possession",
@@ -6974,7 +7194,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "ending_possession.jpg"
+        "image_filename": "ending_possession.jpg",
+        "points": 1
       },
       {
         "id": "ending_oblivion",
@@ -6984,7 +7205,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "ending_oblivion.jpg"
+        "image_filename": "ending_oblivion.jpg",
+        "points": 1
       },
       {
         "id": "ending_transformation",
@@ -6994,16 +7216,19 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Transformation",
-        "image_filename": "ending_transformation.jpg"
+        "image_filename": "ending_transformation.jpg",
+        "points": 1
       },
       {
         "id": "ending_dissolution",
         "title": "Flesh and Dust",
         "text": "A desperate surge of adrenaline propels you upward, scrambling over the grotesque remains, but the crypt has already claimed its toll. As you reach the antechamber, your muscles seize, your skin sloughs away in moist sheets, and your bones soften like wax. The physical transformation, accelerated by your flight, culminates in a horrifying cascade. You dissolve, not into dust, but into a sticky, organic slurry that seeps into the cracks of the cold stone, feeding the very growths you had earlier observed. Your last sensation is the quiet, hungry hum of the cathedral accepting your offering, your essence becoming part of its pervasive corruption.",
-        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, muted reds and greens, classic horror palette, subtle film grain. The player's view is focused on their own hands and arms in the foreground, which are rapidly disintegrating into a reddish-brown, viscous liquid and organic sludge, dripping onto a cracked stone floor below. The background shows blurred, dark stone walls with faint, sickly green organic growths. The light is dim and flickering, casting long, unsettling shadows.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, muted reds and greens, classic horror palette, subtle film grain. The player's view shows their hands and arms in the foreground beginning to fade and become translucent, with particles of light drifting away. The background shows dark stone walls with mysterious glowing patches. The light is dim and flickering, casting ethereal shadows.",
         "choices": [],
         "ending": true,
-        "ending_type": "Dissolution"
+        "ending_type": "Dissolution",
+        "points": 2,
+        "image_filename": "ending_dissolution.webp"
       },
       {
         "id": "ending_ascension",
@@ -7013,7 +7238,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Ascension",
-        "image_filename": "ending_ascension.jpg"
+        "image_filename": "ending_ascension.jpg",
+        "points": 1
       },
       {
         "id": "ending_banishment",
@@ -7023,14 +7249,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "ending_banishment.jpg"
+        "image_filename": "ending_banishment.jpg",
+        "points": 5
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-21T12:43:06.263Z"
-    }
+    },
+    "filename": "the-chancels-bloom_2025-10-21.json"
   },
   {
     "story_id": "story_1761117420669_9qi3q2cam",
@@ -7112,7 +7340,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene3d"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene2b.webp"
       },
       {
         "id": "scene3a",
@@ -7131,7 +7360,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene4b"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene3a.webp"
       },
       {
         "id": "scene3b",
@@ -7161,7 +7391,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene3c.webp"
+        "image_filename": "scene3c.webp",
+        "points": 3
       },
       {
         "id": "scene3d",
@@ -7190,7 +7421,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, muted reds and greens, classic horror palette, subtle film grain. A gruesome scene in a prison cell. A grotesque creature, made of decaying flesh and rusted metal, lies dismembered and dissolved into black ichor and broken debris on the floor. A rusty steel pipe, stained dark, is prominently visible near the remains. Beyond the cell, a glimpse of a relatively clear, moonlit prison courtyard is visible through a doorway, offering a stark contrast to the horror within.",
         "choices": [],
         "ending": true,
-        "ending_type": "Escape"
+        "ending_type": "Escape",
+        "points": 10,
+        "image_filename": "scene4a.webp"
       },
       {
         "id": "scene4b",
@@ -7199,7 +7432,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, muted reds and greens, classic horror palette, subtle film grain. A dark, ancient, hidden passage revealed behind a broken prison cell wall. The passage walls are covered in crude, disturbing pictographs depicting figures performing dark rituals and sacrifices, with a monstrous, shadowy entity at the center, its form indistinct but menacing. The air feels heavy and cold. Damp stone. A single, weak lantern light source.",
         "choices": [],
         "ending": true,
-        "ending_type": "Revelation"
+        "ending_type": "Revelation",
+        "image_filename": "scene4b.jpg",
+        "points": 8
       },
       {
         "id": "scene4c",
@@ -7208,7 +7443,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, muted reds and greens, classic horror palette, subtle film grain. A chaotic administrative office. An overturned desk in the foreground, with papers scattered everywhere. In the midground, a hunched, humanoid creature made of dark, shattered fragments is dissolving into wisps of smoke. A heavy stapler lies on the floor near where it dissipated. A dimly lit maintenance tunnel entrance is visible in the background, offering a narrow path to escape.",
         "choices": [],
         "ending": true,
-        "ending_type": "Escape"
+        "ending_type": "Escape",
+        "image_filename": "scene4c.webp",
+        "points": 10
       },
       {
         "id": "scene_transformation",
@@ -7217,16 +7454,20 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, muted reds and greens, classic horror palette, subtle film grain. A derelict prison infirmary. A spectral doctor, impossibly tall and gaunt, floats over a rusted operating table in the center, a bloodied scalpel in its translucent hand. Shelves on the back wall are lined with glass jars containing pulsating, deformed organs. The air is thick with dread, a sense of impending, grotesque surgery.",
         "choices": [],
         "ending": true,
-        "ending_type": "Transformation"
+        "ending_type": "Transformation",
+        "points": 1,
+        "image_filename": "scene_transformation.webp"
       },
       {
         "id": "scene_banishment",
         "title": "Source Banished",
         "text": "They hacked at the pulsating growths with frantic urgency. Black, viscous blood spurted, burning their skin. The entire room convulsed, the ground shaking. The air crackled with raw, malevolent energy. With a final, desperate effort, they severed the last connection to the console. The organ shriveled, collapsing in on itself with a wet, sucking sound. A pure, blinding light erupted from the console, then dissipated, leaving the communications array intact. The prison stills. The pervasive evil presence lifted. The source was gone. Banished.",
-        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, muted reds and greens, classic horror palette, subtle film grain. A ruined prison communications room. The massive, pulsating organ of flesh and metal has shriveled into a decaying, inert mass on the floor. A bright, ethereal light emanates from the now-intact communications console, dissipating into the air. Black, viscous blood stains the console and floor. A sense of eerie calm has replaced the previous horror.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, muted reds and greens, classic horror palette, subtle film grain. A ruined prison communications room. The massive, otherworldly organic material and metal has shriveled into a decaying, inert mass on the floor. A bright, ethereal light emanates from the now-intact communications console, dissipating into the air. Black, viscous blood stains the console and floor. A sense of eerie calm has replaced the previous horror.",
         "choices": [],
         "ending": true,
-        "ending_type": "Banishment"
+        "ending_type": "Banishment",
+        "points": 5,
+        "image_filename": "scene_banishment.webp"
       },
       {
         "id": "scene_oblivion",
@@ -7236,7 +7477,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene_oblivion.webp"
+        "image_filename": "scene_oblivion.webp",
+        "points": 1
       },
       {
         "id": "scene_madness",
@@ -7246,14 +7488,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene_madness.webp"
+        "image_filename": "scene_madness.webp",
+        "points": 3
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-22T07:18:17.119Z"
-    }
+    },
+    "filename": "the-charnel-lock_2025-10-22.json"
   },
   {
     "story_id": "story_1761113098356_p4hvjugik",
@@ -7316,7 +7560,7 @@ export const EMBEDDED_STORIES: Story[] = [
           }
         ],
         "ending": false,
-        "image_filename": "scene2a.jpg"
+        "image_filename": "scene2a.webp"
       },
       {
         "id": "scene2b",
@@ -7441,7 +7685,7 @@ export const EMBEDDED_STORIES: Story[] = [
           }
         ],
         "ending": false,
-        "image_filename": "scene4_core.jpg"
+        "image_filename": "scene4_core.webp"
       },
       {
         "id": "scene4_revelation_insight",
@@ -7461,7 +7705,7 @@ export const EMBEDDED_STORIES: Story[] = [
           }
         ],
         "ending": false,
-        "image_filename": "scene4_revelation_insight.webp"
+        "image_filename": "scene4_revelation_insight.jpg"
       },
       {
         "id": "scene4_power_temptation",
@@ -7511,7 +7755,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "ending_banishment.webp"
+        "image_filename": "ending_banishment.jpg",
+        "points": 5
       },
       {
         "id": "ending_revelation",
@@ -7521,7 +7766,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "ending_revelation.webp"
+        "image_filename": "ending_revelation.webp",
+        "points": 8
       },
       {
         "id": "ending_escape",
@@ -7531,7 +7777,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "ending_escape.webp"
+        "image_filename": "ending_escape.jpg",
+        "points": 10
       },
       {
         "id": "ending_oblivion",
@@ -7540,7 +7787,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, vintage sepia tones, aged brown hues, subtle film grain. A close-up shot of an indistinct figure being engulfed by swirling, inky supernatural darkness and blurred debris. Only fragmented limbs and a distorted face are barely visible before being fully consumed. The background is a vortex of dark, oppressive energy.",
         "choices": [],
         "ending": true,
-        "ending_type": "Oblivion"
+        "ending_type": "Oblivion",
+        "image_filename": "ending_oblivion.jpg",
+        "points": 1
       },
       {
         "id": "ending_ascension",
@@ -7550,7 +7799,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Ascension",
-        "image_filename": "ending_ascension.jpg"
+        "image_filename": "ending_ascension.jpg",
+        "points": 1
       },
       {
         "id": "ending_possession",
@@ -7560,14 +7810,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "ending_possession.jpg"
+        "image_filename": "ending_possession.jpg",
+        "points": 1
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-22T06:06:58.303Z"
-    }
+    },
+    "filename": "the-charnel-nexus-of-lumina_2025-10-22.json"
   },
   {
     "story_id": "story_1761113640593_xlhtn4pz5",
@@ -7784,7 +8036,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "A scene of graphic violence in the orchestra pit. 32-bit painterly pixel horror, retro game aesthetic, bird's eye view perspective, looking down from above, flickering firelight, dancing flame illumination, desaturated pastel colors, faded soft hues, subtle film grain. A screaming, monstrous female ghost is tearing apart the character's chest, with viscera and blood pooling on the floor amidst the broken instruments. The open cello case lies nearby.",
         "choices": [],
         "ending": true,
-        "ending_type": "Oblivion"
+        "ending_type": "Oblivion",
+        "points": 1,
+        "image_filename": "scene10.webp"
       },
       {
         "id": "scene11",
@@ -7793,7 +8047,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "A body lies broken and contorted on the main floor of the theater. 32-bit painterly pixel horror, retro game aesthetic, bird's eye view perspective, looking down from above, flickering firelight, dancing flame illumination, desaturated pastel colors, faded soft hues, subtle film grain. The character is in a pool of dark blood directly below a shattered section of the upper balcony railing. The ghostly audience looks on.",
         "choices": [],
         "ending": true,
-        "ending_type": "Oblivion"
+        "ending_type": "Oblivion",
+        "points": 1,
+        "image_filename": "scene11.webp"
       },
       {
         "id": "scene12",
@@ -7803,7 +8059,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "scene12.webp"
+        "image_filename": "scene12.webp",
+        "points": 1
       },
       {
         "id": "scene13",
@@ -7828,7 +8085,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene14.jpg"
+        "image_filename": "scene14.jpg",
+        "points": 5
       },
       {
         "id": "scene15",
@@ -7838,14 +8096,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene15.jpg"
+        "image_filename": "scene15.jpg",
+        "points": 2
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T06:15:15.395Z"
-    }
+    },
+    "filename": "the-crimson-cadenza_2025-10-22.json"
   },
   {
     "story_id": "story_1761113206027_xru8071ko",
@@ -7947,7 +8207,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene8"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene4.webp"
       },
       {
         "id": "scene5",
@@ -8026,7 +8287,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene14"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene8.webp"
       },
       {
         "id": "scene9",
@@ -8036,7 +8298,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Sacrifice",
-        "image_filename": "scene9.webp"
+        "image_filename": "scene9.webp",
+        "points": 7
       },
       {
         "id": "scene10",
@@ -8066,7 +8329,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Ascension",
-        "image_filename": "scene11.jpg"
+        "image_filename": "scene11.jpg",
+        "points": 1
       },
       {
         "id": "scene12",
@@ -8156,7 +8420,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene16.jpg"
+        "image_filename": "scene16.jpg",
+        "points": 10
       },
       {
         "id": "scene17",
@@ -8166,7 +8431,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene17.jpg"
+        "image_filename": "scene17.jpg",
+        "points": 5
       },
       {
         "id": "scene18",
@@ -8176,7 +8442,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Corruption",
-        "image_filename": "scene18.jpg"
+        "image_filename": "scene18.jpg",
+        "points": 4
       },
       {
         "id": "scene19",
@@ -8185,7 +8452,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Vintage photo realism, film grain, authentic photography, bird's eye view perspective, looking down from above, flickering firelight, dancing flame illumination, muted reds and greens, classic horror palette, subtle film grain. Looking straight down on a chaotic scene where a single figure is being overwhelmed by a crowd of cultists. Blood is splattered across the floor and the figure is being dismembered by numerous hands holding crude blades.",
         "choices": [],
         "ending": true,
-        "ending_type": "Oblivion"
+        "ending_type": "Oblivion",
+        "points": 1,
+        "image_filename": "scene19.webp"
       },
       {
         "id": "scene20",
@@ -8195,14 +8464,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "scene20.webp"
+        "image_filename": "scene20.webp",
+        "points": 1
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T06:08:17.460Z"
-    }
+    },
+    "filename": "the-ferric-gleaners_2025-10-22.json"
   },
   {
     "story_id": "story_1761118168241_6guz1r2te",
@@ -8244,7 +8515,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene3"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene1.jpg"
       },
       {
         "id": "scene2",
@@ -8263,7 +8535,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene5"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene2.jpg"
       },
       {
         "id": "scene3",
@@ -8282,7 +8555,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene5"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene3.jpg"
       },
       {
         "id": "scene4",
@@ -8301,7 +8575,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene8"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene4.webp"
       },
       {
         "id": "scene5",
@@ -8320,7 +8595,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene10"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene5.jpg"
       },
       {
         "id": "scene6",
@@ -8339,7 +8615,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene7"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene6.jpg"
       },
       {
         "id": "scene7",
@@ -8358,7 +8635,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene12"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene7.jpg"
       },
       {
         "id": "scene8",
@@ -8377,7 +8655,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene10"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene8.jpg"
       },
       {
         "id": "scene9",
@@ -8396,7 +8675,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene10"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene9.jpg"
       },
       {
         "id": "scene10",
@@ -8415,7 +8695,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene13"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene10.jpg"
       },
       {
         "id": "scene11",
@@ -8424,7 +8705,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, low angle perspective, looking up dramatically, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. A first-person view of my body, now completely transformed into a towering, intricate being of glowing, iridescent crystalline ice, fused with the walls of the space station corridor. Sharp, luminous shards extend from my form, reaching towards a distant, shimmering light that implies cosmic scale. My eyes glow with an inner cold fire.",
         "choices": [],
         "ending": true,
-        "ending_type": "Ascension"
+        "ending_type": "Ascension",
+        "image_filename": "scene11.jpg",
+        "points": 1
       },
       {
         "id": "scene12",
@@ -8433,7 +8716,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, low angle perspective, looking up dramatically, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. A first-person view, looking down at my own hands, now almost entirely transformed into sharp, glowing crystalline structures, desperately clawing at a frosted metal wall. Patches of crystalline growth are spreading rapidly across my visible limbs and torso. My vision is blurring at the edges.",
         "choices": [],
         "ending": true,
-        "ending_type": "Transformation"
+        "ending_type": "Transformation",
+        "image_filename": "scene12.jpg",
+        "points": 1
       },
       {
         "id": "scene13",
@@ -8442,7 +8727,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, low angle perspective, looking up dramatically, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. A first-person view, looking out through a heavily frosted, cracked viewport on the bridge of the space station, towards distant, cold stars. My frozen, stiff hand, covered in early crystalline growths, rests lifelessly on a dead control panel. The light is dim, almost extinguished.",
         "choices": [],
         "ending": true,
-        "ending_type": "Oblivion"
+        "ending_type": "Oblivion",
+        "image_filename": "scene13.jpg",
+        "points": 1
       },
       {
         "id": "scene14",
@@ -8461,7 +8748,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene17"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene14.jpg"
       },
       {
         "id": "scene15",
@@ -8480,7 +8768,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene17"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene15.jpg"
       },
       {
         "id": "scene16",
@@ -8489,7 +8778,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, low angle perspective, looking up dramatically, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. A first-person view, my hand, now covered in frost but still visibly human, reaching up to strike a sparking, emergency power conduit above a central, alien crystalline core that is exploding in a shower of orange and blue light within a cavernous chamber. Shards of ice fly past the camera.",
         "choices": [],
         "ending": true,
-        "ending_type": "Banishment"
+        "ending_type": "Banishment",
+        "image_filename": "scene16.jpg",
+        "points": 5
       },
       {
         "id": "scene17",
@@ -8498,14 +8789,17 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, low angle perspective, looking up dramatically, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. A first-person view, my body dissolving into shimmering, intricate crystalline patterns that merge seamlessly with the walls and floor of the space station. My consciousness expands, represented by countless tiny, glowing points of light fading into the vast, star-filled darkness beyond a viewport, implying cosmic scale.",
         "choices": [],
         "ending": true,
-        "ending_type": "Possession"
+        "ending_type": "Possession",
+        "image_filename": "scene17.jpg",
+        "points": 1
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-22T07:30:52.488Z"
-    }
+    },
+    "filename": "the-gelid-graft_2025-10-22.json"
   },
   {
     "story_id": "story_1761115771678_1ddrzm6yj",
@@ -8658,7 +8952,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "ending_escape.jpg"
+        "image_filename": "ending_escape.jpg",
+        "points": 10
       },
       {
         "id": "ending_revelation",
@@ -8668,7 +8963,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "ending_revelation.jpg"
+        "image_filename": "ending_revelation.jpg",
+        "points": 8
       },
       {
         "id": "ending_oblivion",
@@ -8678,7 +8974,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "ending_oblivion.jpg"
+        "image_filename": "ending_oblivion.jpg",
+        "points": 1
       },
       {
         "id": "ending_absorption",
@@ -8688,14 +8985,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "ending_absorption.jpg"
+        "image_filename": "ending_absorption.jpg",
+        "points": 2
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T06:50:25.433Z"
-    }
+    },
+    "filename": "the-geometry-of-joy_2025-10-22.json"
   },
   {
     "story_id": "story_1761116835627_pmvzkny7t",
@@ -8757,7 +9056,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene6"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene2.webp"
       },
       {
         "id": "scene3",
@@ -8787,7 +9087,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Transformation",
-        "image_filename": "scene4.jpg"
+        "image_filename": "scene4.jpg",
+        "points": 1
       },
       {
         "id": "scene5",
@@ -8837,7 +9138,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene7.jpg"
+        "image_filename": "scene7.jpg",
+        "points": 2
       },
       {
         "id": "scene8",
@@ -8847,7 +9149,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene8.webp"
+        "image_filename": "scene8.webp",
+        "points": 10
       },
       {
         "id": "scene9",
@@ -8857,7 +9160,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "scene9.webp"
+        "image_filename": "scene9.webp",
+        "points": 8
       },
       {
         "id": "scene10",
@@ -8867,7 +9171,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene10.jpg"
+        "image_filename": "scene10.jpg",
+        "points": 1
       },
       {
         "id": "scene11",
@@ -8897,14 +9202,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene12.webp"
+        "image_filename": "scene12.webp",
+        "points": 3
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T07:08:33.040Z"
-    }
+    },
+    "filename": "the-gilded-maw_2025-10-22.json"
   },
   {
     "story_id": "story_1761115774906_skun8q3oy",
@@ -9012,7 +9319,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene5.jpg"
+        "image_filename": "scene5.jpg",
+        "points": 2
       },
       {
         "id": "scene6",
@@ -9172,7 +9480,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Transformation",
-        "image_filename": "scene14.jpg"
+        "image_filename": "scene14.jpg",
+        "points": 1
       },
       {
         "id": "scene15",
@@ -9182,7 +9491,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene15.webp"
+        "image_filename": "scene15.webp",
+        "points": 5
       },
       {
         "id": "scene16",
@@ -9192,7 +9502,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene16.jpg"
+        "image_filename": "scene16.jpg",
+        "points": 1
       },
       {
         "id": "scene17",
@@ -9202,14 +9513,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene17.jpg"
+        "image_filename": "scene17.jpg",
+        "points": 2
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T06:50:42.531Z"
-    }
+    },
+    "filename": "the-gilded-suture_2025-10-22.json"
   },
   {
     "story_id": "story_1761115775212_9kL32xQd1",
@@ -9452,7 +9765,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene13.jpg"
+        "image_filename": "scene13.jpg",
+        "points": 10
       },
       {
         "id": "scene14",
@@ -9461,7 +9775,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "A chaotic, close-up image. The amalgamated toy creature, a mess of gears and doll limbs, has cornered the person against a stone wall. A porcelain doll's hand is reaching towards the person's face. The scene is violent and confusing. Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, harsh fluorescent lighting, clinical brightness, cold blue atmosphere, icy color scheme, subtle film grain.",
         "choices": [],
         "ending": true,
-        "ending_type": "Absorption"
+        "ending_type": "Absorption",
+        "image_filename": "scene14.jpg",
+        "points": 2
       },
       {
         "id": "scene15",
@@ -9471,14 +9787,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene15.webp"
+        "image_filename": "scene15.webp",
+        "points": 3
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T06:50:33.332Z"
-    }
+    },
+    "filename": "the-gilt-cage-harmony_2025-10-22.json"
   },
   {
     "story_id": "story_1761117961113_cy8mv077z",
@@ -9520,7 +9838,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene2_antechamber"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene1.jpg"
       },
       {
         "id": "scene2_antechamber",
@@ -9539,7 +9858,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene4_research_notes"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene2_antechamber.webp"
       },
       {
         "id": "scene3_main_corridor",
@@ -9558,7 +9878,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene7_collapsing_passage"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene3_main_corridor.jpg"
       },
       {
         "id": "scene4_research_notes",
@@ -9577,7 +9898,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene6_conduit_chamber"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene4_research_notes.jpg"
       },
       {
         "id": "scene5_animated_nursery",
@@ -9596,7 +9918,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene7_collapsing_passage"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene5_animated_nursery.jpg"
       },
       {
         "id": "scene6_conduit_chamber",
@@ -9615,7 +9938,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene7_collapsing_passage"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene6_conduit_chamber.jpg"
       },
       {
         "id": "scene6_conduit_chamber_with_artifact",
@@ -9624,7 +9948,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain. A figure holds a pulsating obsidian sphere towards a massive, glowing crystalline structure in a dark chamber. Blue energy radiates from the sphere towards the crystal, causing distortions in the surrounding air. Dolls on the perimeter begin to crack and shatter.",
         "choices": [],
         "ending": true,
-        "ending_type": "Banishment"
+        "ending_type": "Banishment",
+        "image_filename": "scene6_conduit_chamber_with_artifact.jpg",
+        "points": 5
       },
       {
         "id": "scene7_collapsing_passage",
@@ -9643,7 +9969,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "ending_sacrifice"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene7_collapsing_passage.jpg"
       },
       {
         "id": "scene8_containment_vault",
@@ -9662,7 +9989,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "ending_revelation"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene8_containment_vault.jpg"
       },
       {
         "id": "ending_oblivion",
@@ -9671,7 +9999,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain. A figure is entirely engulfed by a swarm of animated dolls and toys, their forms blurring into a dark, suffocating mass. Only fragments of the figure's outline are discernible beneath the pile of menacing constructs.",
         "choices": [],
         "ending": true,
-        "ending_type": "Oblivion"
+        "ending_type": "Oblivion",
+        "image_filename": "ending_oblivion.jpg",
+        "points": 1
       },
       {
         "id": "ending_madness",
@@ -9680,7 +10010,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain. A figure clutches their head in agony before a massive, pulsating crystalline structure. Distorted, spectral faces of dolls appear to emerge from the crystal, overwhelming the figure with psychic energy. The chamber walls seem to ripple with unseen forces.",
         "choices": [],
         "ending": true,
-        "ending_type": "Madness"
+        "ending_type": "Madness",
+        "image_filename": "ending_madness.jpg",
+        "points": 3
       },
       {
         "id": "ending_escape",
@@ -9689,7 +10021,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain. A figure emerges from a dark, crumbling bunker entrance into a cold, desolate exterior. The sky is bleak, and the bunker entrance behind them is partially obscured by falling rock and dust. A sense of weary relief is present, with the bunker entrance at back-center.",
         "choices": [],
         "ending": true,
-        "ending_type": "Escape"
+        "ending_type": "Escape",
+        "image_filename": "ending_escape.jpg",
+        "points": 10
       },
       {
         "id": "ending_sacrifice",
@@ -9698,7 +10032,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain. A figure is partially absorbed into the crumbling wall of a passage, glowing faintly with blue energy. Their form is becoming indistinct, melding with the concrete and metal, as the passage around them stabilizes. A strange, sacrificial light emanates from their dissolving form, situated at the right wall of the passage.",
         "choices": [],
         "ending": true,
-        "ending_type": "Sacrifice"
+        "ending_type": "Sacrifice",
+        "image_filename": "ending_sacrifice.jpg",
+        "points": 7
       },
       {
         "id": "ending_revelation",
@@ -9707,14 +10043,17 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain. A figure gazes intently at the pulsating obsidian sphere, surrounded by faint, ethereal symbols and flowing arcane energy. Their eyes reflect a profound, disturbing understanding of cosmic patterns, as if seeing beyond mortal comprehension. The vault appears vast and ancient around the figure and sphere.",
         "choices": [],
         "ending": true,
-        "ending_type": "Revelation"
+        "ending_type": "Revelation",
+        "image_filename": "ending_revelation.jpg",
+        "points": 8
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-22T07:27:14.645Z"
-    }
+    },
+    "filename": "the-golems-gambit_2025-10-22.json"
   },
   {
     "story_id": "story_1761062499074_hzjmruwu7",
@@ -9927,7 +10266,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene_trap_failure.jpg"
+        "image_filename": "scene_trap_failure.jpg",
+        "points": 1
       },
       {
         "id": "scene_flee_oblivion",
@@ -9937,7 +10277,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene_flee_oblivion.jpg"
+        "image_filename": "scene_flee_oblivion.jpg",
+        "points": 1
       },
       {
         "id": "scene_corruption_failure",
@@ -9947,7 +10288,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Corruption",
-        "image_filename": "scene_corruption_failure.jpg"
+        "image_filename": "scene_corruption_failure.jpg",
+        "points": 4
       },
       {
         "id": "scene_desperate_escape",
@@ -9957,7 +10299,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene_desperate_escape.jpg"
+        "image_filename": "scene_desperate_escape.jpg",
+        "points": 10
       },
       {
         "id": "scene_banishment_success",
@@ -9967,7 +10310,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene_banishment_success.jpg"
+        "image_filename": "scene_banishment_success.jpg",
+        "points": 5
       },
       {
         "id": "scene_absorption_failure",
@@ -9977,14 +10321,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene_absorption_failure.jpg"
+        "image_filename": "scene_absorption_failure.jpg",
+        "points": 2
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-21T16:02:48.641Z"
-    }
+    },
+    "filename": "the-grinding-maw_2025-10-21.json"
   },
   {
     "story_id": "story_1761061736992_0j2a9njkz",
@@ -10086,7 +10432,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "ending_madness_carousel"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene3_doll_encounter.webp"
       },
       {
         "id": "scene3_carousel_underside",
@@ -10156,7 +10503,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "ending_escape_carousel.jpg"
+        "image_filename": "ending_escape_carousel.jpg",
+        "points": 10
       },
       {
         "id": "ending_madness_carousel",
@@ -10166,7 +10514,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "ending_madness_carousel.jpg"
+        "image_filename": "ending_madness_carousel.jpg",
+        "points": 3
       },
       {
         "id": "ending_banishment_carousel",
@@ -10176,7 +10525,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "ending_banishment_carousel.jpg"
+        "image_filename": "ending_banishment_carousel.jpg",
+        "points": 5
       },
       {
         "id": "ending_oblivion_carousel",
@@ -10186,7 +10536,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "ending_oblivion_carousel.jpg"
+        "image_filename": "ending_oblivion_carousel.jpg",
+        "points": 1
       },
       {
         "id": "ending_possession_tent",
@@ -10196,7 +10547,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "ending_possession_tent.jpg"
+        "image_filename": "ending_possession_tent.jpg",
+        "points": 1
       },
       {
         "id": "ending_transformation_tent",
@@ -10206,7 +10558,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Transformation",
-        "image_filename": "ending_transformation_tent.jpg"
+        "image_filename": "ending_transformation_tent.jpg",
+        "points": 1
       },
       {
         "id": "ending_escape_tent",
@@ -10216,14 +10569,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "ending_escape_tent.jpg"
+        "image_filename": "ending_escape_tent.jpg",
+        "points": 10
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-21T15:50:13.964Z"
-    }
+    },
+    "filename": "the-harlequins-perpetual-play_2025-10-21.json"
   },
   {
     "story_id": "story_20231027_forestelectric_z7x9m",
@@ -10396,7 +10751,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Transformation",
-        "image_filename": "scene8.jpg"
+        "image_filename": "scene8.jpg",
+        "points": 1
       },
       {
         "id": "scene9",
@@ -10475,7 +10831,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene21"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene12.jpg"
       },
       {
         "id": "scene13",
@@ -10505,7 +10862,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene14.jpg"
+        "image_filename": "scene14.jpg",
+        "points": 2
       },
       {
         "id": "scene15",
@@ -10555,7 +10913,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Ascension",
-        "image_filename": "scene17.jpg"
+        "image_filename": "scene17.jpg",
+        "points": 1
       },
       {
         "id": "scene18",
@@ -10565,7 +10924,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene18.jpg"
+        "image_filename": "scene18.jpg",
+        "points": 1
       },
       {
         "id": "scene19",
@@ -10575,7 +10935,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene19.jpg"
+        "image_filename": "scene19.jpg",
+        "points": 10
       },
       {
         "id": "scene20",
@@ -10585,7 +10946,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene20.jpg"
+        "image_filename": "scene20.jpg",
+        "points": 5
       },
       {
         "id": "scene21",
@@ -10594,7 +10956,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. A monstrous creature with multiple limbs and eyes is actively devouring a figure (you, implied). The scene is gruesome, with torn flesh and blood splatters. The creature's maw is wide. The forest around is dark and indistinct, framed by the horrific act. Lightning flashes illuminate the brutal details.",
         "choices": [],
         "ending": true,
-        "ending_type": "Oblivion"
+        "ending_type": "Oblivion",
+        "points": 1,
+        "image_filename": "scene21.webp"
       },
       {
         "id": "scene22",
@@ -10604,14 +10968,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene22.jpg"
+        "image_filename": "scene22.jpg",
+        "points": 3
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-21T17:09:45.461Z"
-    }
+    },
+    "filename": "the-hum-of-the-elder-canopy_2025-10-21.json"
   },
   {
     "story_id": "story_1801202316447_zkwpkvk9x",
@@ -10744,7 +11110,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "scene6.jpg"
+        "image_filename": "scene6.jpg",
+        "points": 8
       },
       {
         "id": "scene7",
@@ -10754,7 +11121,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene7.jpg"
+        "image_filename": "scene7.jpg",
+        "points": 2
       },
       {
         "id": "scene8",
@@ -10764,14 +11132,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene8.jpg"
+        "image_filename": "scene8.jpg",
+        "points": 3
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T06:06:40.219Z"
-    }
+    },
+    "filename": "the-marble-gardens-debt_2025-10-22.json"
   },
   {
     "story_id": "story_1761113095779_o74x8mvtg",
@@ -10853,7 +11223,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene7_the_puppet_master_lure"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene3_carousel_of_viscera.webp"
       },
       {
         "id": "scene4_shattered_identity",
@@ -10943,7 +11314,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene8_the_purge.jpg"
+        "image_filename": "scene8_the_purge.jpg",
+        "points": 5
       },
       {
         "id": "scene9_the_gaping_maw",
@@ -10953,7 +11325,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene9_the_gaping_maw.jpg"
+        "image_filename": "scene9_the_gaping_maw.jpg",
+        "points": 10
       },
       {
         "id": "scene10_the_sorrow_well",
@@ -10963,7 +11336,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "scene10_the_sorrow_well.jpg"
+        "image_filename": "scene10_the_sorrow_well.jpg",
+        "points": 8
       },
       {
         "id": "ending_madness_illusion",
@@ -10973,7 +11347,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "ending_madness_illusion.jpg"
+        "image_filename": "ending_madness_illusion.jpg",
+        "points": 3
       },
       {
         "id": "ending_oblivion_descent",
@@ -10982,7 +11357,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, muted reds and greens, classic horror palette, subtle film grain. Elara's crushed, indistinct form lies at the bottom of a dark, narrow chute, surrounded by broken bones, twisted metal, and viscous, black fluid. The light from above is almost completely blocked.",
         "choices": [],
         "ending": true,
-        "ending_type": "Oblivion"
+        "ending_type": "Oblivion",
+        "points": 1,
+        "image_filename": "ending_oblivion_descent.jpg"
       },
       {
         "id": "ending_absorption_puppet",
@@ -10992,7 +11369,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "ending_absorption_puppet.jpg"
+        "image_filename": "ending_absorption_puppet.jpg",
+        "points": 2
       },
       {
         "id": "ending_revelation_truth",
@@ -11002,14 +11380,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "ending_revelation_truth.jpg"
+        "image_filename": "ending_revelation_truth.jpg",
+        "points": 8
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-22T06:06:13.710Z"
-    }
+    },
+    "filename": "the-marrow-grinders-revel_2025-10-22.json"
   },
   {
     "story_id": "story_1761113638625_xa4r28jr3",
@@ -11122,7 +11502,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene5.jpg"
+        "image_filename": "scene5.jpg",
+        "points": 10
       },
       {
         "id": "scene6",
@@ -11132,7 +11513,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Dissolution",
-        "image_filename": "scene6.jpg"
+        "image_filename": "scene6.jpg",
+        "points": 2
       },
       {
         "id": "scene7",
@@ -11142,14 +11524,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene7.jpg"
+        "image_filename": "scene7.jpg",
+        "points": 5
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T06:14:47.348Z"
-    }
+    },
+    "filename": "the-marrow-humming-dirge_2025-10-22.json"
   },
   {
     "story_id": "story_1761113639140_6pzop9zjc",
@@ -11311,7 +11695,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene14"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene7.jpg"
       },
       {
         "id": "scene8",
@@ -11361,7 +11746,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene10.jpg"
+        "image_filename": "scene10.jpg",
+        "points": 2
       },
       {
         "id": "scene11",
@@ -11371,7 +11757,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Transformation",
-        "image_filename": "scene11.jpg"
+        "image_filename": "scene11.jpg",
+        "points": 1
       },
       {
         "id": "scene12",
@@ -11401,7 +11788,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene13.jpg"
+        "image_filename": "scene13.jpg",
+        "points": 1
       },
       {
         "id": "scene14",
@@ -11451,7 +11839,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene16.jpg"
+        "image_filename": "scene16.jpg",
+        "points": 5
       },
       {
         "id": "scene17",
@@ -11460,7 +11849,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "A massive, fully formed monster of bone and flesh looms over a figure on the ground. A solid tendril extends from the monster, wrapping around the figure's leg and pulling them into its body. The figure is being absorbed. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain.",
         "choices": [],
         "ending": true,
-        "ending_type": "Corruption"
+        "ending_type": "Corruption",
+        "points": 4,
+        "image_filename": "scene17.webp"
       },
       {
         "id": "scene18",
@@ -11470,14 +11861,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene18.jpg"
+        "image_filename": "scene18.jpg",
+        "points": 3
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T06:15:05.033Z"
-    }
+    },
+    "filename": "the-marrow-knit_2025-10-22.json"
   },
   {
     "story_id": "story_1761113217417_o9vk75zhq",
@@ -11595,7 +11988,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene_oblivion.webp"
+        "image_filename": "scene_oblivion.webp",
+        "points": 1
       },
       {
         "id": "scene6",
@@ -11695,7 +12089,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene11.jpg"
+        "image_filename": "scene11.jpg",
+        "points": 10
       },
       {
         "id": "scene12",
@@ -11705,7 +12100,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Transformation",
-        "image_filename": "scene12.jpg"
+        "image_filename": "scene12.jpg",
+        "points": 1
       },
       {
         "id": "scene13",
@@ -11715,7 +12111,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Sacrifice",
-        "image_filename": "scene13.webp"
+        "image_filename": "scene13.webp",
+        "points": 7
       },
       {
         "id": "scene14",
@@ -11725,14 +12122,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene14.webp"
+        "image_filename": "scene14.webp",
+        "points": 5
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T06:07:58.752Z"
-    }
+    },
+    "filename": "the-null-lattice-aberration_2025-10-22.json"
   },
   {
     "story_id": "story_1761051782176_9icck0qc2",
@@ -11825,7 +12224,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Transformation",
-        "image_filename": "scene3_temporal_embrace.jpg"
+        "image_filename": "scene3_temporal_embrace.jpg",
+        "points": 1
       },
       {
         "id": "scene3_stirring_menagerie",
@@ -11855,7 +12255,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "ending_frantic_escape.jpg"
+        "image_filename": "ending_frantic_escape.jpg",
+        "points": 2
       },
       {
         "id": "ending_absorbed_shadows",
@@ -11865,14 +12266,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "ending_absorbed_shadows.jpg"
+        "image_filename": "ending_absorbed_shadows.jpg",
+        "points": 1
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-21T13:04:05.420Z"
-    }
+    },
+    "filename": "the-obsidian-menagerie_2025-10-21.json"
   },
   {
     "story_id": "story_1761066488205_fxht3uoai",
@@ -12105,7 +12508,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "ending_banishment.jpg"
+        "image_filename": "ending_banishment.jpg",
+        "points": 5
       },
       {
         "id": "ending_absorption",
@@ -12115,7 +12519,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "ending_absorption.jpg"
+        "image_filename": "ending_absorption.jpg",
+        "points": 2
       },
       {
         "id": "ending_revelation",
@@ -12125,7 +12530,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "ending_revelation.jpg"
+        "image_filename": "ending_revelation.jpg",
+        "points": 8
       },
       {
         "id": "ending_possession",
@@ -12134,7 +12540,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Your hands, desperately trying to force open an old wooden exit door, are being enveloped by thick, writhing black tendrils that emerge from the doorframe. The tendrils are visibly piercing your skin, and your eyes are wide with terror, beginning to glaze over with an unnatural light. The corridor behind you is dark.",
         "choices": [],
         "ending": true,
-        "ending_type": "Possession"
+        "ending_type": "Possession",
+        "points": 1,
+        "image_filename": "ending_possession.webp"
       },
       {
         "id": "ending_escape",
@@ -12144,7 +12552,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "ending_escape.jpg"
+        "image_filename": "ending_escape.jpg",
+        "points": 10
       },
       {
         "id": "ending_madness",
@@ -12154,14 +12563,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "ending_madness.jpg"
+        "image_filename": "ending_madness.jpg",
+        "points": 3
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-21T17:09:35.978Z"
-    }
+    },
+    "filename": "the-perpetual-recess_2025-10-21.json"
   },
   {
     "story_id": "story_1761062518948_457phfxs2",
@@ -12399,7 +12810,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "scene_E_possession.jpg"
+        "image_filename": "scene_E_possession.jpg",
+        "points": 1
       },
       {
         "id": "scene_E_madness",
@@ -12409,7 +12821,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene_E_madness.jpg"
+        "image_filename": "scene_E_madness.jpg",
+        "points": 3
       },
       {
         "id": "scene_E_revelation",
@@ -12419,7 +12832,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "scene_E_revelation.jpg"
+        "image_filename": "scene_E_revelation.jpg",
+        "points": 8
       },
       {
         "id": "scene_E_oblivion",
@@ -12429,7 +12843,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene_E_oblivion.jpg"
+        "image_filename": "scene_E_oblivion.jpg",
+        "points": 1
       },
       {
         "id": "scene_E_banishment",
@@ -12439,14 +12854,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene_E_banishment.jpg"
+        "image_filename": "scene_E_banishment.jpg",
+        "points": 5
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-21T16:03:09.458Z"
-    }
+    },
+    "filename": "the-prosceniums-maw_2025-10-21.json"
   },
   {
     "story_id": "story_1761113637993_4pvixtsuz",
@@ -12679,7 +13096,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene12.jpg"
+        "image_filename": "scene12.jpg",
+        "points": 2
       },
       {
         "id": "scene13",
@@ -12704,7 +13122,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene14.jpg"
+        "image_filename": "scene14.jpg",
+        "points": 3
       },
       {
         "id": "scene15",
@@ -12749,7 +13168,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene17.jpg"
+        "image_filename": "scene17.jpg",
+        "points": 10
       },
       {
         "id": "scene18",
@@ -12759,7 +13179,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "scene18.jpg"
+        "image_filename": "scene18.jpg",
+        "points": 8
       },
       {
         "id": "scene19",
@@ -12769,14 +13190,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Ascension",
-        "image_filename": "scene19.jpg"
+        "image_filename": "scene19.jpg",
+        "points": 1
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T06:15:25.212Z"
-    }
+    },
+    "filename": "the-sanguine-root_2025-10-22.json"
   },
   {
     "story_id": "story_1761066482340_85zhiiwfm",
@@ -12880,7 +13303,7 @@ export const EMBEDDED_STORIES: Story[] = [
         "id": "scene4a",
         "title": "The Scuttler",
         "text": "A soft scuttling sound came from a side room. My heart pounded. I peered around a doorframe. A hunched figure, draped in tattered nursing scrubs, moved erratically. Its limbs seemed too long, too many joints. It dragged something, a bundle wrapped in soiled sheets. A low moan escaped its throat, a sound of profound anguish. It didn't see me.",
-        "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, low angle perspective, looking up dramatically, dim ambient lighting, soft diffused shadows, muted reds and greens, classic horror palette, subtle film grain. A dimly lit hospital room. A hunched, twisted creature in tattered nursing scrubs is partially visible through a doorway on the right. It's dragging a bundle wrapped in stained sheets on the floor. A rusty metal bed frame is in the foreground, obscuring part of the creature.",
+        "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, low angle perspective, looking up dramatically, dim ambient lighting, soft diffused shadows, muted reds and greens, classic horror palette, subtle film grain. A dimly lit hospital room. A hunched, shadowy figure in tattered nursing scrubs is partially visible through a doorway on the right. It appears to be moving something wrapped in old sheets. A rusty metal bed frame is in the foreground, partially obscuring the figure.",
         "choices": [
           {
             "id": "1",
@@ -12893,7 +13316,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene5a_investigate"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene4a.webp"
       },
       {
         "id": "scene4a_alt",
@@ -13072,7 +13496,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene8b1_madness"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene6b_grand_experiment.jpg"
       },
       {
         "id": "scene7a2",
@@ -13102,7 +13527,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene7a2_alt.jpg"
+        "image_filename": "scene7a2_alt.jpg",
+        "points": 3
       },
       {
         "id": "scene7b2",
@@ -13132,7 +13558,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene7b2_alt.jpg"
+        "image_filename": "scene7b2_alt.jpg",
+        "points": 3
       },
       {
         "id": "scene8a1_desperate",
@@ -13161,7 +13588,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, low angle perspective, looking up dramatically, dim ambient lighting, soft diffused shadows, muted reds and greens, classic horror palette, subtle film grain. A human figure is being enveloped by glistening, organic tendrils extending from a central monstrous entity, the 'Doctor'. The figure's body begins to distort and meld with the tendrils, becoming less human. A sense of fusion and terrifying metamorphosis.",
         "choices": [],
         "ending": true,
-        "ending_type": "Transformation"
+        "ending_type": "Transformation",
+        "points": 1,
+        "image_filename": "scene8b1_transformation.webp"
       },
       {
         "id": "scene8b1_madness",
@@ -13171,7 +13600,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene8b1_madness.jpg"
+        "image_filename": "scene8b1_madness.jpg",
+        "points": 3
       },
       {
         "id": "scene8b3_revelation",
@@ -13181,7 +13611,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "scene8b3_revelation.jpg"
+        "image_filename": "scene8b3_revelation.jpg",
+        "points": 8
       },
       {
         "id": "scene8b4_possession",
@@ -13190,7 +13621,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, low angle perspective, looking up dramatically, dim ambient lighting, soft diffused shadows, muted reds and greens, classic horror palette, subtle film grain. A close-up of a human arm with a small, grotesque, dog-like creature clinging to it, its needle-like fangs embedded. A spreading black-and-green vein pattern radiates from the injection site. The background is a blur of the decaying lab.",
         "choices": [],
         "ending": true,
-        "ending_type": "Possession"
+        "ending_type": "Possession",
+        "points": 1,
+        "image_filename": "scene8b4_possession.webp"
       },
       {
         "id": "scene9a1_escape",
@@ -13200,7 +13633,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene9a1_escape.jpg"
+        "image_filename": "scene9a1_escape.jpg",
+        "points": 10
       },
       {
         "id": "scene9a2_sacrifice",
@@ -13210,7 +13644,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Sacrifice",
-        "image_filename": "scene9a2_sacrifice.jpg"
+        "image_filename": "scene9a2_sacrifice.jpg",
+        "points": 7
       },
       {
         "id": "scene9a3_oblivion",
@@ -13220,7 +13655,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene9a3_oblivion.jpg"
+        "image_filename": "scene9a3_oblivion.jpg",
+        "points": 1
       },
       {
         "id": "scene9a4_banishment",
@@ -13229,14 +13665,17 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, low angle perspective, looking up dramatically, dim ambient lighting, soft diffused shadows, muted reds and greens, classic horror palette, subtle film grain. A human figure is actively hacking at a thick, glowing organic conduit extending from a massive, pulsing organ-like mass with a corroding medical hose. The core shriek in the background, distorted with pain. Corrosive fluid splatters. The figure's face is determined and strained.",
         "choices": [],
         "ending": true,
-        "ending_type": "Banishment"
+        "ending_type": "Banishment",
+        "points": 5,
+        "image_filename": "scene9a4_banishment.webp"
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-21T17:09:24.537Z"
-    }
+    },
+    "filename": "the-scalpels-memory_2025-10-21.json"
   },
   {
     "story_id": "story_1761113697216_xd90qe4j6",
@@ -13389,7 +13828,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene7.webp"
+        "image_filename": "scene7.webp",
+        "points": 10
       },
       {
         "id": "scene8",
@@ -13399,7 +13839,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene8.jpg"
+        "image_filename": "scene8.jpg",
+        "points": 3
       },
       {
         "id": "scene9",
@@ -13409,14 +13850,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Dissolution",
-        "image_filename": "scene9.jpg"
+        "image_filename": "scene9.jpg",
+        "points": 2
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T06:15:46.574Z"
-    }
+    },
+    "filename": "the-suture-of-moments_2025-10-22.json"
   },
   {
     "story_id": "story_1761113640213_jrbssrfz3",
@@ -13505,7 +13948,7 @@ export const EMBEDDED_STORIES: Story[] = [
         "id": "scene4",
         "title": "The Surgeon Bear",
         "text": "I move towards the clicking. It leads me to a small operating theater. In the center, under a surgical lamp, is a huge teddy bear. It's at least seven feet tall, stuffed with something that isn't cotton. Its fur is matted with old blood. In one paw, it holds a bone saw. In the other, a spool of red thread. It's 'operating' on a jack-in-the-box, trying to stitch its painted smile wider. It turns its glassy eyes to me. The clicking stops. 'A new patient,' a voice rumbles, a sound like gravel and static coming from its stitched mouth.",
-        "image_prompt": "A horrifying, seven-foot-tall teddy bear stands over an operating table in the center of a derelict surgical theater. The bear holds a bloody bone saw and has large glass eyes. A single, harsh light from a surgical lamp above illuminates the scene. A small, broken jack-in-the-box lies on the table. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain.",
+        "image_prompt": "A large, unsettling teddy bear stands over an operating table in the center of a derelict surgical theater. The bear holds surgical tools and has large glass eyes. A single, harsh light from a surgical lamp above illuminates the scene. A small, broken toy lies on the table. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain.",
         "choices": [
           {
             "id": "1",
@@ -13518,7 +13961,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene7"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene4.webp"
       },
       {
         "id": "scene5",
@@ -13544,19 +13988,23 @@ export const EMBEDDED_STORIES: Story[] = [
         "id": "scene6",
         "title": "A Swarm of Smiles",
         "text": "The moment my boot connects, a shriek fills the room. It doesn't come from one doll, but from all of them. They surge forward. A tide of porcelain and plush. The teddy bear with needle-claws leaps onto my back, plunging its syringes deep into my shoulders. I feel a cold, thick fluid pumping into me. The other dolls swarm my legs, their tiny hands surprisingly strong. They drag me down. Their stitched mouths are so close to my face. 'We just want to fix you,' they whisper in a chorus of children's voices. 'We just want to make you smile.'",
-        "image_prompt": "A chaotic scene from a low angle on the floor. My legs are covered in dozens of small, creepy dolls that are pulling me down. A large teddy bear is on my back, its syringe-claws plunged into my shoulders, its face visible over my shoulder. The room is a blur of motion and malice. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain.",
+        "image_prompt": "A chaotic scene from a low angle on the floor. My legs are surrounded by dozens of small, unsettling dolls that are reaching toward me. A large teddy bear is behind me, its face visible over my shoulder. The room is a blur of motion and shadows. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain.",
         "choices": [],
         "ending": true,
-        "ending_type": "Absorption"
+        "ending_type": "Absorption",
+        "points": 2,
+        "image_filename": "scene6.webp"
       },
       {
         "id": "scene7",
         "title": "The Unflinching Patient",
         "text": "The tray of scalpels and clamps clatters against the bear's chest. It doesn't even flinch. It just tilts its head, a slow, curious gesture. 'Disruptive,' the static voice rumbles. 'The procedure will be... corrective.' It moves faster than anything that big should. The bone saw whirs to life, a hungry, metallic scream. It pins me against the wall. I see my own terrified face reflected in its dead glass eyes. The saw comes down. It doesn't just cut. It reshapes.",
-        "image_prompt": "First-person perspective, pinned against a tiled wall. The massive, blood-stained teddy bear looms over me, filling the frame. Its whirring bone saw is inches from my face, its teeth a silver blur. My own wide, terrified eyes are reflected in its black glass eye. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain.",
+        "image_prompt": "First-person perspective, pinned against a tiled wall. The massive, weathered teddy bear looms over me, filling the frame. It holds surgical tools, creating an ominous silhouette. My own wide, terrified eyes are reflected in its dark glass eye. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain.",
         "choices": [],
         "ending": true,
-        "ending_type": "Transformation"
+        "ending_type": "Transformation",
+        "points": 1,
+        "image_filename": "scene7.webp"
       },
       {
         "id": "scene8",
@@ -13636,7 +14084,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene12.jpg"
+        "image_filename": "scene12.jpg",
+        "points": 5
       },
       {
         "id": "scene13",
@@ -13646,7 +14095,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene13.jpg"
+        "image_filename": "scene13.jpg",
+        "points": 10
       },
       {
         "id": "scene14",
@@ -13655,14 +14105,17 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Horrifying first-person perspective, looking at my own distorted reflection in a metal bedpan on the floor. My face is being pulled into a grotesque, wide smile by unseen forces, with blood trickling from the corners of my mouth. In my hands, I'm still clutching the glowing-eyed doll. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain.",
         "choices": [],
         "ending": true,
-        "ending_type": "Possession"
+        "ending_type": "Possession",
+        "points": 1,
+        "image_filename": "scene14.webp"
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T06:14:56.963Z"
-    }
+    },
+    "filename": "the-suture-smile-ward_2025-10-22.json"
   },
   {
     "story_id": "story_1707920158863_s4n3l8dm4",
@@ -13699,7 +14152,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene2"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene1.jpg"
       },
       {
         "id": "scene2",
@@ -13713,7 +14167,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene3"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene2.jpg"
       },
       {
         "id": "scene3",
@@ -13732,7 +14187,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene4b"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene3.webp"
       },
       {
         "id": "scene4a",
@@ -13751,7 +14207,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene5b"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene4a.webp"
       },
       {
         "id": "scene4b",
@@ -13770,7 +14227,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene5d"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene4b.webp"
       },
       {
         "id": "scene5a",
@@ -13789,7 +14247,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene6b"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene5a.jpg"
       },
       {
         "id": "scene5b",
@@ -13808,7 +14267,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene7a"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene5b.jpg"
       },
       {
         "id": "scene5c",
@@ -13827,7 +14287,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene6e"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene5c.webp"
       },
       {
         "id": "scene5d",
@@ -13846,7 +14307,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene7a"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene5d.jpg"
       },
       {
         "id": "scene6a",
@@ -13865,7 +14327,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene7c"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene6a.webp"
       },
       {
         "id": "scene6b",
@@ -13884,7 +14347,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene7b"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene6b.webp"
       },
       {
         "id": "scene6c",
@@ -13903,7 +14367,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene7c"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene6c.jpg"
       },
       {
         "id": "scene6d",
@@ -13922,7 +14387,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene7e"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene6d.jpg"
       },
       {
         "id": "scene6e",
@@ -13941,7 +14407,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene7a"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene6e.jpg"
       },
       {
         "id": "scene6f",
@@ -13960,7 +14427,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene7a"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene6f.webp"
       },
       {
         "id": "scene7a",
@@ -13979,7 +14447,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene8b"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene7a.webp"
       },
       {
         "id": "scene7b",
@@ -13998,7 +14467,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene8d"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene7b.webp"
       },
       {
         "id": "scene7c",
@@ -14017,7 +14487,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene8d"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene7c.jpg"
       },
       {
         "id": "scene7d",
@@ -14036,7 +14507,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene8g"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene7d.webp"
       },
       {
         "id": "scene7e",
@@ -14055,7 +14527,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene8g"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene7e.jpg"
       },
       {
         "id": "scene7f",
@@ -14074,7 +14547,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene8c"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene7f.webp"
       },
       {
         "id": "scene8a",
@@ -14083,7 +14557,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A figure running desperately away from a massive, ominous mansion, silhouetted against a stormy, orange-tinged sky. The rusted iron gate is wide open. The figure's back is to the viewer, their posture one of frantic escape, with lingering orange mist clinging to their form.",
         "choices": [],
         "ending": true,
-        "ending_type": "Escape"
+        "ending_type": "Escape",
+        "image_filename": "scene8a.jpg",
+        "points": 10
       },
       {
         "id": "scene8b",
@@ -14092,7 +14568,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. An overgrown, grotesque garden with mutated flora, roses with fleshy petals, and trees weeping viscous orange sap. Spectral figures formed from thorny vines and decaying blooms rise from the ground, reaching towards the viewer, who is sinking into the writhing, consuming earth.",
         "choices": [],
         "ending": true,
-        "ending_type": "Oblivion"
+        "ending_type": "Oblivion",
+        "image_filename": "scene8b.jpg",
+        "points": 1
       },
       {
         "id": "scene8c",
@@ -14101,7 +14579,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A figure standing defiantly amidst the violently dissolving, shrieking orange mist and shattering spectral figures in a grand, decaying hall. Cracks spiderweb across the high walls as a powerful, cleansing light erupts from the figure's chest, banishing the pervasive horror.",
         "choices": [],
         "ending": true,
-        "ending_type": "Banishment"
+        "ending_type": "Banishment",
+        "image_filename": "scene8c.webp",
+        "points": 5
       },
       {
         "id": "scene8d",
@@ -14110,7 +14590,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A figure, seen from a low angle, standing amidst surging, swirling orange mist that flows into and emanates from their body. Their form is becoming subtly ethereal, powerful, with glowing eyes, as the surrounding decaying mansion seems to bow and shift around them, spectral figures becoming indistinct extensions.",
         "choices": [],
         "ending": true,
-        "ending_type": "Ascension"
+        "ending_type": "Ascension",
+        "image_filename": "scene8d.webp",
+        "points": 1
       },
       {
         "id": "scene8e",
@@ -14119,7 +14601,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A figure's body dissolving into a vast, swirling mass of orange mist, with countless grotesque, spectral faces appearing and disappearing within the vapor. The figure's expression is one of ultimate terror and blissful surrender, as their individuality is consumed by the maw of the ancestors.",
         "choices": [],
         "ending": true,
-        "ending_type": "Absorption"
+        "ending_type": "Absorption",
+        "image_filename": "scene8e.jpg",
+        "points": 2
       },
       {
         "id": "scene8f",
@@ -14128,7 +14612,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A monstrous, beautiful figure, no longer fully human, its body a grotesque amalgam of twisting bones, re-woven flesh, and swirling orange mist. Its features are alien, yet eerily captivating, standing in a decaying, transformed laboratory.",
         "choices": [],
         "ending": true,
-        "ending_type": "Transformation"
+        "ending_type": "Transformation",
+        "image_filename": "scene8f.webp",
+        "points": 1
       },
       {
         "id": "scene8g",
@@ -14137,7 +14623,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A figure, seen from a low angle, clutching their head in agony, their eyes wide and unfocused. Swirling orange mist emanates from their ears and eyes, representing the pervasive whispers and intrusions of a collective consciousness. The background of a decaying mansion appears distorted and shifting.",
         "choices": [],
         "ending": true,
-        "ending_type": "Madness"
+        "ending_type": "Madness",
+        "image_filename": "scene8g.jpg",
+        "points": 3
       },
       {
         "id": "scene8h",
@@ -14146,14 +14634,17 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, low angle perspective, looking up dramatically, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A figure's body dissolving into a faint, spectral outline, their form merging with the fading image of a spectral child within a decaying nursery. Swirling orange mist envelops them, symbolizing a shared, perpetual sorrow and ultimate dissolution into the mansion's haunting.",
         "choices": [],
         "ending": true,
-        "ending_type": "Dissolution"
+        "ending_type": "Dissolution",
+        "image_filename": "scene8h.webp",
+        "points": 2
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-22T07:34:33.028Z"
-    }
+    },
+    "filename": "the-umbral-pedigree_2025-10-22.json"
   },
   {
     "story_id": "story_1761117960646_hbe5di634",
@@ -14195,7 +14686,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene3"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene1.jpg"
       },
       {
         "id": "scene2",
@@ -14214,7 +14706,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene6"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene2.jpg"
       },
       {
         "id": "scene3",
@@ -14233,7 +14726,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene6"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene3.jpg"
       },
       {
         "id": "scene4",
@@ -14252,7 +14746,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene8"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene4.jpg"
       },
       {
         "id": "scene5",
@@ -14271,7 +14766,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene12_possession_ending"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene5.jpg"
       },
       {
         "id": "scene6",
@@ -14290,7 +14786,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene10_banishment_ending"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene6.jpg"
       },
       {
         "id": "scene7",
@@ -14309,7 +14806,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene8"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene7.jpg"
       },
       {
         "id": "scene8",
@@ -14328,7 +14826,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene13_oblivion_ending"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene8.jpg"
       },
       {
         "id": "scene9",
@@ -14347,7 +14846,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene15_absorption_ending"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene9.jpg"
       },
       {
         "id": "scene10_banishment_ending",
@@ -14356,7 +14856,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. The laboratory, now brighter, with clean air. The ornate syringe is still on the table, but its light is gone. Faint, dissipating wisps of smoke are all that remain of the spectral guardian. Symbolic chalk marks are visible on the floor around the table.",
         "choices": [],
         "ending": true,
-        "ending_type": "Banishment"
+        "ending_type": "Banishment",
+        "image_filename": "scene10_banishment_ending.jpg",
+        "points": 5
       },
       {
         "id": "scene11_revelation_ending",
@@ -14365,7 +14867,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. The laboratory. The ornate syringe on the table, still but radiating a faint, dull glow. The investigator (implied by bird's eye view, focusing on the scene as a result of their action) is at the table, surrounded by swirling ghostly visions of past experiments and tormented faces, etched into the air.",
         "choices": [],
         "ending": true,
-        "ending_type": "Revelation"
+        "ending_type": "Revelation",
+        "image_filename": "scene11_revelation_ending.jpg",
+        "points": 8
       },
       {
         "id": "scene12_possession_ending",
@@ -14374,7 +14878,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. The morgue. The ornate medical box is open on the shelf. A silver locket lies on the chest of a figure, implied to be the investigator, lying still on one of the steel slabs. A transparent, ghostly figure stands over the body, its form merging into the locket wearer.",
         "choices": [],
         "ending": true,
-        "ending_type": "Possession"
+        "ending_type": "Possession",
+        "image_filename": "scene12_possession_ending.jpg",
+        "points": 1
       },
       {
         "id": "scene13_oblivion_ending",
@@ -14383,7 +14889,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A chaotic swirl of spectral smoke and ghostly, distorted hands reaching from all directions towards the center of the frame. The floor and walls are indistinct, melting into grey. A vague, dissolving human shape in the very center, being pulled apart.",
         "choices": [],
         "ending": true,
-        "ending_type": "Oblivion"
+        "ending_type": "Oblivion",
+        "image_filename": "scene13_oblivion_ending.jpg",
+        "points": 1
       },
       {
         "id": "scene14_escape_ending",
@@ -14392,7 +14900,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. An investigator-like figure running out of a dark, derelict hospital entrance. The hospital building looms large and menacing behind them. A glimpse of the moon or distant light in the monochrome sky. The ground outside is overgrown with weeds.",
         "choices": [],
         "ending": true,
-        "ending_type": "Escape"
+        "ending_type": "Escape",
+        "image_filename": "scene14_escape_ending.jpg",
+        "points": 10
       },
       {
         "id": "scene15_absorption_ending",
@@ -14401,14 +14911,17 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. The investigator, now gaunt and semi-transparent, standing rigidly by the examination table. The ornate syringe is plunged into their chest. Spectral green energy pulses from them, connecting them to the table and the surrounding jars of organs. A spectral guardian, now vaguely resembling the investigator, looms over them.",
         "choices": [],
         "ending": true,
-        "ending_type": "Absorption"
+        "ending_type": "Absorption",
+        "image_filename": "scene15_absorption_ending.jpg",
+        "points": 2
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-22T07:27:21.599Z"
-    }
+    },
+    "filename": "the-vitality-strain_2025-10-22.json"
   },
   {
     "story_id": "story_1761113174170_cvslqig9q",
@@ -14530,7 +15043,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "A close-up on Elias's hand, pinned to a stone floor. Another hand, with the black spiral brand, grips his wrist tightly. The brand is beginning to burn itself onto his skin, glowing faintly. Comic noir, cel-shaded contrast, graphic novel style, third-person close perspective, over shoulder view, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain.",
         "choices": [],
         "ending": true,
-        "ending_type": "Absorption"
+        "ending_type": "Absorption",
+        "points": 2,
+        "image_filename": "scene6.webp"
       },
       {
         "id": "scene7",
@@ -14590,7 +15105,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Corruption",
-        "image_filename": "scene10.jpg"
+        "image_filename": "scene10.jpg",
+        "points": 4
       },
       {
         "id": "scene11",
@@ -14635,7 +15151,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene13.jpg"
+        "image_filename": "scene13.jpg",
+        "points": 5
       },
       {
         "id": "scene14",
@@ -14645,7 +15162,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene14.jpg"
+        "image_filename": "scene14.jpg",
+        "points": 1
       },
       {
         "id": "scene15",
@@ -14655,14 +15173,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Madness",
-        "image_filename": "scene15.jpg"
+        "image_filename": "scene15.jpg",
+        "points": 3
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-pro",
       "generated_at": "2025-10-22T06:07:10.875Z"
-    }
+    },
+    "filename": "the-wardens-mark_2025-10-22.json"
   },
   {
     "story_id": "story_1761117422180_8orp3e5bt",
@@ -14704,7 +15224,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene2_deep_explore"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene1.webp"
       },
       {
         "id": "scene2_music_box",
@@ -14723,7 +15244,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene3_whispered_words"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene2_music_box.webp"
       },
       {
         "id": "scene2_deep_explore",
@@ -14802,7 +15324,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene_end_oblivion_trap"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene3_shifiting_aisles.webp"
       },
       {
         "id": "scene3_blocked_exit",
@@ -14821,7 +15344,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene_end_oblivion_trap"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene3_blocked_exit.jpg"
       },
       {
         "id": "scene4_fight_or_flee",
@@ -14851,7 +15375,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "scene_end_possession_grasp.jpg"
+        "image_filename": "scene_end_possession_grasp.jpg",
+        "points": 1
       },
       {
         "id": "scene_end_revelation_lore",
@@ -14861,7 +15386,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "scene_end_revelation_lore.webp"
+        "image_filename": "scene_end_revelation_lore.webp",
+        "points": 8
       },
       {
         "id": "scene_end_oblivion_trap",
@@ -14871,7 +15397,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene_end_oblivion_trap.jpg"
+        "image_filename": "scene_end_oblivion_trap.jpg",
+        "points": 1
       },
       {
         "id": "scene_end_escape_dash",
@@ -14881,7 +15408,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene_end_escape_dash.webp"
+        "image_filename": "scene_end_escape_dash.webp",
+        "points": 10
       },
       {
         "id": "scene_end_banishment_offer",
@@ -14891,14 +15419,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene_end_banishment_offer.webp"
+        "image_filename": "scene_end_banishment_offer.webp",
+        "points": 5
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-22T07:18:06.967Z"
-    }
+    },
+    "filename": "the-weavers-dust_2025-10-22.json"
   },
   {
     "story_id": "story_1761066588595_q2iebm0xz",
@@ -15125,7 +15655,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Figure engulfed by chronophages at pedestal, body parts scattering in loops, blood fountains on floor, codex open and glowing in center.",
         "choices": [],
         "ending": true,
-        "ending_type": "Oblivion"
+        "ending_type": "Oblivion",
+        "image_filename": "scene10.jpg",
+        "points": 1
       },
       {
         "id": "scene11",
@@ -15135,7 +15667,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Escape",
-        "image_filename": "scene11.jpg"
+        "image_filename": "scene11.jpg",
+        "points": 10
       },
       {
         "id": "scene12",
@@ -15154,7 +15687,8 @@ export const EMBEDDED_STORIES: Story[] = [
             "next": "scene6"
           }
         ],
-        "ending": false
+        "ending": false,
+        "image_filename": "scene12.webp"
       },
       {
         "id": "scene13",
@@ -15163,7 +15697,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Figure transforming in alcove, skin peeling on floor, monstrous limbs emerging, open tome on shelf center, red glow from crack.",
         "choices": [],
         "ending": true,
-        "ending_type": "Transformation"
+        "ending_type": "Transformation",
+        "points": 1,
+        "image_filename": "scene13.webp"
       },
       {
         "id": "scene14",
@@ -15173,7 +15709,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Ascension",
-        "image_filename": "scene14.jpg"
+        "image_filename": "scene14.jpg",
+        "points": 1
       },
       {
         "id": "scene15",
@@ -15182,7 +15719,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Figure hurling book over railing, falling into abyss with chronophages, bloody trails in air, gallery empty above.",
         "choices": [],
         "ending": true,
-        "ending_type": "Absorption"
+        "ending_type": "Absorption",
+        "image_filename": "scene15.jpg",
+        "points": 2
       },
       {
         "id": "scene16",
@@ -15191,7 +15730,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Figure plunging into swirling abyss from gallery, chronophages tearing at body mid-air, scattered remnants below, faint candles on edges.",
         "choices": [],
         "ending": true,
-        "ending_type": "Madness"
+        "ending_type": "Madness",
+        "image_filename": "scene16.jpg",
+        "points": 3
       },
       {
         "id": "scene17",
@@ -15201,7 +15742,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene17.jpg"
+        "image_filename": "scene17.jpg",
+        "points": 5
       }
     ],
     "_metadata": {
@@ -15226,7 +15768,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "num_sources_used": 0
       },
       "generated_at": "2025-10-21T17:12:06.585Z"
-    }
+    },
+    "filename": "tome-of-veiled-chronophages_2025-10-21.json"
   },
   {
     "story_id": "story_937105248_venetian_gloom",
@@ -15419,7 +15962,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Oblivion",
-        "image_filename": "scene9.jpg"
+        "image_filename": "scene9.jpg",
+        "points": 1
       },
       {
         "id": "scene10",
@@ -15429,7 +15973,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Possession",
-        "image_filename": "scene10.jpg"
+        "image_filename": "scene10.jpg",
+        "points": 1
       },
       {
         "id": "scene11",
@@ -15459,7 +16004,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Dissolution",
-        "image_filename": "scene12.jpg"
+        "image_filename": "scene12.jpg",
+        "points": 2
       },
       {
         "id": "scene13",
@@ -15489,7 +16035,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Absorption",
-        "image_filename": "scene14.jpg"
+        "image_filename": "scene14.jpg",
+        "points": 2
       },
       {
         "id": "scene15",
@@ -15498,7 +16045,9 @@ export const EMBEDDED_STORIES: Story[] = [
         "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, wide cinematic perspective, movie-like framing, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. A dramatic, violent scene on a crumbling theater stage, broken porcelain doll parts scattered, a colossal, grotesque marionette doll with a snarling wooden face and glowing crimson eyes dominating the frame, its massive, jointed limbs poised to strike, thick, pulsing strings visible on its body, other smaller animated dolls swarming around its feet.",
         "choices": [],
         "ending": true,
-        "ending_type": "Sacrifice"
+        "ending_type": "Sacrifice",
+        "image_filename": "scene15.webp",
+        "points": 7
       },
       {
         "id": "scene16",
@@ -15508,7 +16057,8 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Banishment",
-        "image_filename": "scene16.jpg"
+        "image_filename": "scene16.jpg",
+        "points": 5
       },
       {
         "id": "scene17",
@@ -15518,14 +16068,16 @@ export const EMBEDDED_STORIES: Story[] = [
         "choices": [],
         "ending": true,
         "ending_type": "Revelation",
-        "image_filename": "scene17.jpg"
+        "image_filename": "scene17.jpg",
+        "points": 8
       }
     ],
     "_metadata": {
       "provider": "Gemini",
       "model": "gemini-2.5-flash",
       "generated_at": "2025-10-21T16:03:21.647Z"
-    }
+    },
+    "filename": "velvet-mausoleum-dirge_2025-10-21.json"
   }
 ];
 

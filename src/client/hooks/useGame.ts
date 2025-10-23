@@ -1,6 +1,40 @@
 import { useState, useCallback, useEffect } from 'react';
 import { Story, Tone, Duration, GameState } from '../../shared/types/game';
 
+
+
+// Helper function to construct image path
+const getSceneImagePath = (story: Story, scene: any): string => {
+  // Use the story's filename (without .json extension) as the folder name
+  const folderName = story.filename ? story.filename.replace('.json', '') : 'default';
+  
+  // Check if scene has a custom image filename
+  if (scene.image_filename) {
+    return `/assets/scenes/${folderName}/${scene.image_filename}`;
+  }
+  
+  // Default to .jpg extension
+  return `/assets/scenes/${folderName}/${scene.id}.jpg`;
+};
+
+// Helper function to preload the first scene image
+const preloadFirstSceneImage = (story: Story): Promise<void> => {
+  return new Promise((resolve) => {
+    if (!story.scenes || story.scenes.length === 0) {
+      resolve();
+      return;
+    }
+
+    const firstScene = story.scenes[0];
+    const imagePath = getSceneImagePath(story, firstScene);
+    const preloadImage = new Image();
+    
+    preloadImage.onload = () => resolve();
+    preloadImage.onerror = () => resolve(); // Resolve even on error to not block the game
+    preloadImage.src = imagePath;
+  });
+};
+
 type UserInfo = {
   userId: string;
   username: string;
@@ -25,6 +59,7 @@ export const useGame = () => {
   const [error, setError] = useState<string | null>(null);
   const [userInfo, setUserInfo] = useState<UserInfo | null>(null);
   const [userHistory, setUserHistory] = useState<UserHistory>({ playedStories: [], totalPlayed: 0 });
+  const [gameStartTime, setGameStartTime] = useState<number | null>(null);
 
   // Load user info and history on mount
   useEffect(() => {
@@ -88,8 +123,19 @@ export const useGame = () => {
       const response = await fetch(`/api/stories/random?excludePlayed=${excludePlayed}`);
       
       if (!response.ok) {
-        const errorText = await response.text();
-        throw new Error(`Failed to fetch random story: ${response.status} - ${errorText}`);
+        let errorMessage = 'Unable to find a story';
+        
+        try {
+          const errorData = await response.json();
+          if (response.status === 404 && errorData.error === "No new stories found matching criteria") {
+            errorMessage = "You've experienced all available stories! Reset your history to replay adventures.";
+          }
+        } catch {
+          // If we can't parse the error, use a generic message
+          errorMessage = 'Unable to find a new story. Try resetting your story history to replay adventures.';
+        }
+        
+        throw new Error(errorMessage);
       }
 
       const contentType = response.headers.get('content-type');
@@ -110,8 +156,26 @@ export const useGame = () => {
         throw new Error('Story has no scenes');
       }
 
+      // Preload the first scene image while still showing loading screen
+      await preloadFirstSceneImage(story);
+
       // Add story to user's history
       await addStoryToHistory(story.story_id);
+
+      // Track story start for analytics
+      try {
+        await fetch('/api/analytics/story-start', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            storyId: story.story_id,
+            tone: story.tone,
+            duration: story.duration
+          })
+        });
+      } catch (error) {
+        console.error('Failed to track story start:', error);
+      }
 
       setGameState({
         currentStory: story,
@@ -120,6 +184,7 @@ export const useGame = () => {
         selectedTone: story.tone,
         selectedDuration: story.duration,
       });
+      setGameStartTime(Date.now());
     } catch (err) {
       console.error('Error starting random game:', err);
       setError(err instanceof Error ? err.message : 'Unknown error occurred');
@@ -144,8 +209,28 @@ export const useGame = () => {
       const response = await fetch(`/api/stories/random?${params.toString()}`);
       
       if (!response.ok) {
-        const errorText = await response.text();
-        throw new Error(`Failed to fetch story with specified criteria: ${response.status} - ${errorText}`);
+        let errorMessage = 'Unable to find a story';
+        
+        try {
+          const errorData = await response.json();
+          if (response.status === 404 && errorData.error === "No new stories found matching criteria") {
+            // Create a friendly message based on the selected criteria
+            const criteriaText = [];
+            if (tone) criteriaText.push(`${tone} category`);
+            if (duration) criteriaText.push(`${duration} length`);
+            
+            if (criteriaText.length > 0) {
+              errorMessage = `No new ${criteriaText.join(' and ')} stories available. Try different settings or reset your story history to replay adventures.`;
+            } else {
+              errorMessage = "You've experienced all available stories! Reset your history to replay adventures.";
+            }
+          }
+        } catch {
+          // If we can't parse the error, use a generic message
+          errorMessage = 'Unable to find a story that matches your preferences. Try different settings or reset your story history.';
+        }
+        
+        throw new Error(errorMessage);
       }
 
       const contentType = response.headers.get('content-type');
@@ -166,8 +251,26 @@ export const useGame = () => {
         throw new Error('Story has no scenes');
       }
 
+      // Preload the first scene image while still showing loading screen
+      await preloadFirstSceneImage(story);
+
       // Add story to user's history
       await addStoryToHistory(story.story_id);
+
+      // Track story start for analytics
+      try {
+        await fetch('/api/analytics/story-start', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            storyId: story.story_id,
+            tone: tone || story.tone,
+            duration: duration || story.duration
+          })
+        });
+      } catch (error) {
+        console.error('Failed to track story start:', error);
+      }
 
       setGameState({
         currentStory: story,
@@ -176,6 +279,7 @@ export const useGame = () => {
         selectedTone: tone,
         selectedDuration: duration,
       });
+      setGameStartTime(Date.now());
     } catch (err) {
       console.error('Error starting custom game:', err);
       setError(err instanceof Error ? err.message : 'Unknown error occurred');
@@ -192,6 +296,7 @@ export const useGame = () => {
       selectedTone: undefined,
       selectedDuration: undefined,
     });
+    setGameStartTime(null);
     setError(null);
   }, []);
 
@@ -212,8 +317,26 @@ export const useGame = () => {
         throw new Error('Story has no scenes');
       }
 
+      // Preload the first scene image while still showing loading screen
+      await preloadFirstSceneImage(story);
+
       // Add story to user's history
       await addStoryToHistory(story.story_id);
+
+      // Track story start for analytics
+      try {
+        await fetch('/api/analytics/story-start', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            storyId: story.story_id,
+            tone: story.tone,
+            duration: story.duration
+          })
+        });
+      } catch (error) {
+        console.error('Failed to track story start:', error);
+      }
 
       setGameState({
         currentStory: story,
@@ -222,6 +345,7 @@ export const useGame = () => {
         selectedTone: story.tone,
         selectedDuration: story.duration,
       });
+      setGameStartTime(Date.now());
     } catch (err) {
       console.error('Error starting specific story:', err);
       setError(err instanceof Error ? err.message : 'Unknown error occurred');
@@ -248,6 +372,46 @@ export const useGame = () => {
     }
   }, []);
 
+  const trackStoryCompletion = useCallback(async (storyId: string) => {
+    if (!gameStartTime) return;
+    
+    const playTime = Math.floor((Date.now() - gameStartTime) / 1000); // Convert to seconds
+    
+    try {
+      await fetch('/api/user/track-completion', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ 
+          storyId,
+          playTime,
+          status: 'completed'
+        })
+      });
+    } catch (error) {
+      console.error('Failed to track story completion:', error);
+    }
+  }, [gameStartTime]);
+
+  const trackStoryAbandonment = useCallback(async (storyId: string) => {
+    if (!gameStartTime) return;
+    
+    const playTime = Math.floor((Date.now() - gameStartTime) / 1000); // Convert to seconds
+    
+    try {
+      await fetch('/api/user/track-completion', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ 
+          storyId,
+          playTime,
+          status: 'abandoned'
+        })
+      });
+    } catch (error) {
+      console.error('Failed to track story abandonment:', error);
+    }
+  }, [gameStartTime]);
+
   return {
     gameState,
     isLoading,
@@ -258,5 +422,7 @@ export const useGame = () => {
     playSpecificStory,
     endGame,
     clearHistory,
+    trackStoryCompletion,
+    trackStoryAbandonment,
   };
 };

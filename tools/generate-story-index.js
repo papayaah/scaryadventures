@@ -21,7 +21,7 @@ const OUTPUT_FILE = path.join(__dirname, '../src/server/api/generated-stories.ts
 // Read and parse all story files
 function loadAllStories() {
   console.log('🔍 Loading all story files...');
-  
+
   if (!fs.existsSync(STORIES_DIR)) {
     console.error('❌ Stories directory not found:', STORIES_DIR);
     return [];
@@ -29,23 +29,26 @@ function loadAllStories() {
 
   const files = fs.readdirSync(STORIES_DIR);
   const storyFiles = files.filter(file => file.endsWith('.json') && !file.startsWith('.'));
-  
+
   console.log(`📚 Found ${storyFiles.length} story files`);
-  
+
   const stories = [];
-  
+
   for (const filename of storyFiles) {
     try {
       const filePath = path.join(STORIES_DIR, filename);
       const storyData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-      
+
+      // Add filename to story data for asset path resolution
+      storyData.filename = filename;
+
       stories.push(storyData);
       console.log(`✅ Loaded: ${storyData.story_title} (${storyData.tone}, ${storyData.duration})`);
     } catch (error) {
       console.error(`❌ Error reading ${filename}:`, error.message);
     }
   }
-  
+
   return stories;
 }
 
@@ -83,38 +86,38 @@ export const STORY_METADATA = EMBEDDED_STORIES.map(story => ({
 function main() {
   console.log('🎮 Story Index Generator');
   console.log('========================');
-  
+
   const stories = loadAllStories();
-  
+
   if (stories.length === 0) {
     console.log('⚠️  No stories found');
     return;
   }
-  
+
   console.log('\\n📝 Generating TypeScript code...');
   const code = generateStoriesCode(stories);
-  
+
   // Write the generated code
   fs.writeFileSync(OUTPUT_FILE, code, 'utf8');
-  
+
   console.log(`✅ Generated: ${OUTPUT_FILE}`);
-  
+
   // Summary
   const tones = [...new Set(stories.map(s => s.tone))];
   const durations = [...new Set(stories.map(s => s.duration))];
   const totalScenes = stories.reduce((sum, s) => sum + (s.scenes?.length || 0), 0);
-  
+
   console.log('\\n📊 Summary:');
   console.log(`Total stories: ${stories.length}`);
   console.log(`Total scenes: ${totalScenes}`);
   console.log(`Tones: ${tones.join(', ')}`);
   console.log(`Durations: ${durations.join(', ')}`);
-  
+
   console.log('\\n🚀 Next steps:');
   console.log('1. Update src/server/api/stories.ts to import from generated-stories.ts');
   console.log('2. Test with npm run dev');
   console.log('3. Deploy to Reddit');
-  
+
   console.log('\\n💡 All stories are now embedded in the server bundle!');
   console.log('   This works perfectly with serverless environments like Devvit.');
 }

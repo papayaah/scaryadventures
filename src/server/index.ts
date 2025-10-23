@@ -7,6 +7,9 @@ import { getStoryRatings, rateStory, removeRating } from './api/ratings';
 import { getCurrentUser } from './api/user';
 import { getUserHistory, addStoryToHistory, clearUserHistory } from './api/userHistory';
 import { getLeaderboard, getLeaderboardByTone } from './api/leaderboard';
+import { trackStoryStart, trackStoryComplete, getAnalytics } from './api/analytics';
+import { getUserStats, trackStoryCompletion, resetUserStreak, resetAllUserStats } from './api/userStats';
+import { getStoryStatistics } from './api/storyStats';
 
 const app = express();
 
@@ -76,6 +79,20 @@ router.delete('/api/user/history', clearUserHistory);
 // Leaderboard endpoints
 router.get('/api/leaderboard', getLeaderboard);
 router.get('/api/leaderboard/:tone', getLeaderboardByTone);
+
+// Analytics endpoints
+router.post('/api/analytics/story-start', trackStoryStart);
+router.post('/api/analytics/story-complete', trackStoryComplete);
+router.post('/internal/menu/view-stats', getAnalytics);
+
+// User stats endpoints
+router.get('/api/user/stats', getUserStats);
+router.post('/api/user/track-completion', trackStoryCompletion);
+router.post('/api/user/stats/reset-streak', resetUserStreak);
+router.delete('/api/user/reset-all-stats', resetAllUserStats);
+
+// Story statistics endpoints
+router.get('/api/stories/:storyId/statistics', getStoryStatistics);
 
 router.get<{ postId: string }, InitResponse | { status: string; message: string }>(
   '/api/init',
@@ -171,20 +188,15 @@ router.post('/internal/on-app-install', async (_req, res): Promise<void> => {
   }
 });
 
-router.post('/internal/menu/post-create', async (_req, res): Promise<void> => {
-  try {
-    const post = await createPost();
 
-    res.json({
-      navigateTo: `https://reddit.com/r/${context.subredditName}/comments/${post.id}`,
-    });
-  } catch (error) {
-    console.error(`Error creating post: ${error}`);
-    res.status(400).json({
-      status: 'error',
-      message: 'Failed to create post',
-    });
-  }
+router.post('/internal/form/analytics-close', async (_req, res): Promise<void> => {
+  // Handle analytics form close - just show a success message
+  res.json({
+    showToast: {
+      text: 'Analytics viewed successfully',
+      appearance: 'success'
+    }
+  });
 });
 
 // Use router middleware

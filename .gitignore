@@ -9,3 +9,7 @@ yarn-error.log*
 webroot
 dist
 .env
+
+# Generated story content
+src/client/public/assets/stories/
+src/client/public/assets/scenes/

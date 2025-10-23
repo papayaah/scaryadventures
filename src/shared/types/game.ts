@@ -46,6 +46,7 @@ export type Story = {
     model: string;
     generated_at: string;
   };
+  filename?: string; // Added for asset path resolution
 };
 
 export type GameState = {

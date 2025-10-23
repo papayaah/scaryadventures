@@ -1,7 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Settings, DoorOpen, User, RotateCcw, Trophy, RefreshCw } from 'lucide-react';
+import { Settings, DoorOpen, Trophy, BarChart3, RefreshCw } from 'lucide-react';
 import { Tone, Duration, Story } from '../../shared/types/game';
 import { Leaderboard } from './Leaderboard';
+import { UserStats } from './UserStats';
 
 type UserInfo = {
   userId: string;
@@ -50,9 +51,11 @@ export const MainMenu: React.FC<MainMenuProps> = ({
 
   const [showSelections, setShowSelections] = useState(false);
   const [showLeaderboard, setShowLeaderboard] = useState(false);
+  const [showStats, setShowStats] = useState(false);
   const [isRefreshing, setIsRefreshing] = useState(false);
 
   const videoRef = useRef<HTMLVideoElement>(null);
+  const selectionPanelRef = useRef<HTMLDivElement>(null);
 
   const tones: (Tone | 'Random')[] = [
     'Random',
@@ -103,6 +106,7 @@ export const MainMenu: React.FC<MainMenuProps> = ({
 
   const handlePlayStory = (story: Story) => {
     setShowLeaderboard(false);
+    setShowStats(false);
     if (onPlayStory) {
       onPlayStory(story);
     }
@@ -115,13 +119,13 @@ export const MainMenu: React.FC<MainMenuProps> = ({
       const result = await response.json();
 
       if (result.success) {
-        alert(`✅ Stories refreshed! ${result.stories.length} stories loaded.`);
+        alert(`Stories refreshed! ${result.stories.length} stories loaded.`);
       } else {
-        alert('❌ Failed to refresh stories. Check console for details.');
+        alert('Failed to refresh stories. Check console for details.');
       }
     } catch (error) {
       console.error('Error refreshing stories:', error);
-      alert('❌ Error refreshing stories. Check console for details.');
+      alert('Error refreshing stories. Check console for details.');
     } finally {
       setIsRefreshing(false);
     }
@@ -166,7 +170,7 @@ export const MainMenu: React.FC<MainMenuProps> = ({
           loop
           playsInline
         >
-          <source src="/assets/hero.mp4" type="video/mp4" />
+          <source src="/assets/hero.webm" type="video/webm" />
         </video>
         <div className="hero-overlay" />
       </div>
@@ -189,7 +193,7 @@ export const MainMenu: React.FC<MainMenuProps> = ({
       {/* Main Actions */}
       <div className="action-section">
         <button
-          className="primary-button begin-adventure-button"
+          className="primary-button"
           onClick={handleBeginAdventure}
         >
           <DoorOpen className="button-icon" />
@@ -198,7 +202,20 @@ export const MainMenu: React.FC<MainMenuProps> = ({
 
         <button
           className="secondary-button customize-button"
-          onClick={() => setShowSelections(!showSelections)}
+          onClick={() => {
+            const newShowSelections = !showSelections;
+            setShowSelections(newShowSelections);
+
+            // Auto-scroll to settings when opening customize panel
+            if (newShowSelections) {
+              setTimeout(() => {
+                selectionPanelRef.current?.scrollIntoView({
+                  behavior: 'smooth',
+                  block: 'start'
+                });
+              }, 100); // Small delay to ensure the panel is rendered
+            }
+          }}
         >
           <Settings className="button-icon" />
           Customize
@@ -209,10 +226,18 @@ export const MainMenu: React.FC<MainMenuProps> = ({
           onClick={() => setShowLeaderboard(true)}
         >
           <Trophy className="button-icon" />
-          Top Rated Adventures
+          Top Rated
         </button>
 
         <button
+          className="secondary-button stats-button"
+          onClick={() => setShowStats(true)}
+        >
+          <BarChart3 className="button-icon" />
+          My Stats
+        </button>
+
+        {/* <button
           className="secondary-button refresh-button"
           onClick={handleRefreshStories}
           disabled={isRefreshing}
@@ -220,17 +245,17 @@ export const MainMenu: React.FC<MainMenuProps> = ({
         >
           <RefreshCw className={`button-icon ${isRefreshing ? 'animate-spin' : ''}`} />
           {isRefreshing ? 'Refreshing...' : 'Refresh Stories'}
-        </button>
+        </button> */}
 
       </div>
 
       {/* Selection Panel */}
       {showSelections && (
-        <div className="selection-panel">
+        <div className="selection-panel" ref={selectionPanelRef}>
           <div className="selection-group">
-            <h3>Choose Your Adventure</h3>
+            <h3>Choose Your Category</h3>
             <p className="selection-hint">
-              Selected: {selectedTone} tone, {selectedDuration} duration
+              Selected: {selectedTone} category, {selectedDuration} duration
             </p>
             <div className="tone-grid">
               {tones.map((tone) => (
@@ -266,39 +291,22 @@ export const MainMenu: React.FC<MainMenuProps> = ({
         </div>
       )}
 
-      {/* User Info Panel */}
-      {userInfo && (
-        <div className="user-info-panel">
-          <div className="user-info">
-            <User className="user-icon" />
-            <div className="user-details">
-              <span className="username">{userInfo.username}</span>
-              {userHistory && userHistory.totalPlayed > 0 && (
-                <span className="story-count">
-                  {userHistory.totalPlayed} adventure{userHistory.totalPlayed !== 1 ? 's' : ''} experienced
-                </span>
-              )}
-            </div>
-          </div>
 
-          {userHistory && userHistory.totalPlayed > 0 && onClearHistory && (
-            <button
-              className="clear-history-button"
-              onClick={onClearHistory}
-              title="Clear your story history to see all adventures again"
-            >
-              <RotateCcw className="clear-icon" />
-              Reset History
-            </button>
-          )}
-        </div>
-      )}
 
       {/* Leaderboard Modal */}
       {showLeaderboard && (
         <Leaderboard
           onPlayStory={handlePlayStory}
           onClose={() => setShowLeaderboard(false)}
+        />
+      )}
+
+      {/* User Stats Modal */}
+      {showStats && (
+        <UserStats
+          onClose={() => setShowStats(false)}
+          userInfo={userInfo || null}
+          {...(onClearHistory && { onClearHistory })}
         />
       )}
 
