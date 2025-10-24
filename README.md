@@ -221,6 +221,24 @@ src/
 - **Content Generation**: AI-generated using Gemini and xAI Grok models
 - **Quality Control**: All content reviewed for appropriate scary themes and technical quality
 
+## Screenshots
+
+| Main Menu | User Stats |
+|--|--|
+| ![Main Menu](screenshots/screenshot-2025-10-24_16-04-36.jpg) | ![User Stats](screenshots/screenshot-2025-10-24_16-09-15.jpg) |
+
+| Gameplay Scene | Top Rated |
+|--|--|
+| ![Gameplay Scene](screenshots/screenshot-2025-10-24_16-07-23.jpg) | ![Top Rated](screenshots/screenshot-2025-10-24_16-07-48.jpg) |
+
+|  |  |
+|--|--|
+| ![](screenshots/screenshot-2025-10-24_16-07-02.jpg) | ![](screenshots/screenshot-2025-10-24_16-11-29.jpg) |
+
+|  |  |
+|--|--|
+| ![](screenshots/screenshot-2025-10-24_16-12-14.jpg) | ![](screenshots/screenshot-2025-10-24_16-12-57.jpg) |
+
 ---
 
 *All content in Scary Adventures is generated using artificial intelligence. Stories, artwork, and narrative elements are created by AI systems to provide unique, original experiences. The game includes a transparent AI content indicator and full disclosure of AI-generated content.*
