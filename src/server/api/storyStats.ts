@@ -75,21 +75,35 @@ export const getStoryStatistics = async (req: Request, res: Response) => {
       // Use defaults (already set above)
     }
 
-    // Get completion time statistics with error handling
+    // Get ALL playtime statistics (completed + abandoned) with error handling
     let totalPlayTime = 0;
     let averagePlayTime = 0;
     
     try {
-      const storyCompletionTimesKey = `story_completion_times:${storyId}`;
-      const completionTimesJson = await redis.get(storyCompletionTimesKey);
-      const completionTimes = completionTimesJson ? JSON.parse(completionTimesJson) : [];
+      // Get all playtime data for this story from all users
+      const storyPlayTimeKey = `story_all_playtime:${storyId}`;
+      const allPlayTimesJson = await redis.get(storyPlayTimeKey);
+      const allPlayTimes = allPlayTimesJson ? JSON.parse(allPlayTimesJson) : [];
       
-      totalPlayTime = completionTimes.reduce((sum: number, time: number) => sum + time, 0);
-      averagePlayTime = completionTimes.length > 0 
-        ? Math.round(totalPlayTime / completionTimes.length) 
-        : 0;
+      // If we don't have the aggregated data, fall back to completion times only
+      if (allPlayTimes.length === 0) {
+        const storyCompletionTimesKey = `story_completion_times:${storyId}`;
+        const completionTimesJson = await redis.get(storyCompletionTimesKey);
+        const completionTimes = completionTimesJson ? JSON.parse(completionTimesJson) : [];
+        
+        totalPlayTime = completionTimes.reduce((sum: number, time: number) => sum + time, 0);
+        averagePlayTime = completionTimes.length > 0 
+          ? Math.round(totalPlayTime / completionTimes.length) 
+          : 0;
+      } else {
+        // Use all playtime data (completed + abandoned)
+        totalPlayTime = allPlayTimes.reduce((sum: number, time: number) => sum + time, 0);
+        averagePlayTime = allPlayTimes.length > 0 
+          ? Math.round(totalPlayTime / allPlayTimes.length) 
+          : 0;
+      }
     } catch (error) {
-      console.warn(`Error getting completion times for story ${storyId}:`, error);
+      console.warn(`Error getting playtime for story ${storyId}:`, error);
       // Use defaults (already set above)
     }
 

@@ -25,6 +25,7 @@ export const getUserStats = async (req: Request, res: Response) => {
         totalAbandoned: 3,
         totalStarted: 15,
         completionRate: 80,
+        totalPlayTime: 14400, // 4 hours total playtime
         longestStory: {
           storyId: 'the-haunted-mansion',
           title: 'The Haunted Mansion',
@@ -124,12 +125,18 @@ export const getUserStats = async (req: Request, res: Response) => {
     const averageRating = ratings.length > 0 ? 
       Math.round((ratings.reduce((sum, rating) => sum + rating, 0) / ratings.length) * 10) / 10 : 0;
 
+    // Calculate total playtime from all sessions
+    const totalPlayTime = playSessions.reduce((total: number, session: any) => {
+      return total + (session.playTime || 0);
+    }, 0);
+
     // Initialize stats object
     const stats: UserStats = {
       totalCompleted,
       totalAbandoned,
       totalStarted,
       completionRate,
+      totalPlayTime,
       longestStory: null,
       shortestStory: null,
       favoriteCategory: null,

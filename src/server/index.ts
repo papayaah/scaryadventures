@@ -7,7 +7,7 @@ import { getStoryRatings, rateStory, removeRating } from './api/ratings';
 import { getCurrentUser } from './api/user';
 import { getUserHistory, addStoryToHistory, clearUserHistory } from './api/userHistory';
 import { getLeaderboard, getLeaderboardByTone } from './api/leaderboard';
-import { trackStoryStart, trackStoryComplete, getAnalytics } from './api/analytics';
+import { trackStoryStart, trackStoryComplete, trackStoryPlaytime, getAnalytics } from './api/analytics';
 import { getUserStats, trackStoryCompletion, resetUserStreak, resetAllUserStats } from './api/userStats';
 import { getStoryStatistics } from './api/storyStats';
 

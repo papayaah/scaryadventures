@@ -4,6 +4,21 @@ import { Tone, Duration, Story } from '../../shared/types/game';
 import { Leaderboard } from './Leaderboard';
 import { UserStats } from './UserStats';
 
+const AIIndicator: React.FC = () => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  return (
+    <div 
+      className={`ai-indicator ${isExpanded ? 'expanded' : ''}`}
+      onClick={() => setIsExpanded(!isExpanded)}
+    >
+      <span className="ai-indicator-text">
+        {isExpanded ? 'AI Generated Content' : 'AI'}
+      </span>
+    </div>
+  );
+};
+
 type UserInfo = {
   userId: string;
   username: string;
@@ -316,6 +331,9 @@ export const MainMenu: React.FC<MainMenuProps> = ({
         <div className="fog-layer fog-2" />
         <div className="fog-layer fog-3" />
       </div>
+
+      {/* AI Content Indicator */}
+      <AIIndicator />
     </div>
   );
 };

@@ -65,6 +65,50 @@ export const trackStoryComplete = async (req: Request, res: Response) => {
   }
 };
 
+// Track playtime for any story session (completed or abandoned)
+export const trackStoryPlaytime = async (req: Request, res: Response) => {
+  try {
+    const { storyId, playTime, status } = req.body;
+    
+    console.log(`Tracking story playtime: ${storyId}, time: ${playTime}s, status: ${status}`);
+    
+    // Check if Redis is available (only in Devvit environment)
+    const isDevvitEnvironment = typeof redis !== 'undefined';
+    
+    if (!isDevvitEnvironment) {
+      // Local development fallback
+      return res.json({ success: true, message: 'Playtime tracked (local mock)' });
+    }
+    
+    if (!storyId || playTime === undefined) {
+      return res.status(400).json({ error: 'Story ID and play time are required' });
+    }
+    
+    // Track ALL playtime for this story (completed + abandoned)
+    const storyAllPlayTimeKey = `story_all_playtime:${storyId}`;
+    const allPlayTimesJson = await redis.get(storyAllPlayTimeKey);
+    const allPlayTimes = allPlayTimesJson ? JSON.parse(allPlayTimesJson) : [];
+    
+    allPlayTimes.push(playTime);
+    await redis.set(storyAllPlayTimeKey, JSON.stringify(allPlayTimes));
+    
+    // Also track completion times separately (for backwards compatibility)
+    if (status === 'completed') {
+      const storyCompletionTimesKey = `story_completion_times:${storyId}`;
+      const completionTimesJson = await redis.get(storyCompletionTimesKey);
+      const completionTimes = completionTimesJson ? JSON.parse(completionTimesJson) : [];
+      
+      completionTimes.push(playTime);
+      await redis.set(storyCompletionTimesKey, JSON.stringify(completionTimes));
+    }
+    
+    res.json({ success: true });
+  } catch (error) {
+    console.error('Error tracking story playtime:', error);
+    res.status(500).json({ error: 'Failed to track story playtime' });
+  }
+};
+
 export const getAnalytics = async (req: Request, res: Response) => {
   try {
     // Check if Redis is available (only in Devvit environment)

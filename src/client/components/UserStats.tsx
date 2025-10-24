@@ -236,6 +236,16 @@ export const UserStats: React.FC<UserStatsProps> = ({ onClose, onClearHistory, u
 
               <div className="stat-card">
                 <div className="stat-icon">
+                  <Clock className="w-6 h-6 text-purple-400" />
+                </div>
+                <div className="stat-content">
+                  <div className="stat-number">{formatPlayTime(stats.totalPlayTime)}</div>
+                  <div className="stat-label">Total Playtime</div>
+                </div>
+              </div>
+
+              <div className="stat-card">
+                <div className="stat-icon">
                   <Award className="w-6 h-6 text-purple-400" />
                 </div>
                 <div className="stat-content">

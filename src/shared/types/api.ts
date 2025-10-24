@@ -34,6 +34,7 @@ export type UserStats = {
   totalAbandoned: number;
   totalStarted: number;
   completionRate: number;
+  totalPlayTime: number; // Total time spent by user across all adventures in seconds
   longestStory: {
     storyId: string;
     title: string;

@@ -161,10 +161,7 @@ export const App = () => {
         />
       )}
       
-      {/* AI Content Indicator */}
-      <div className="ai-indicator">
-        <span className="ai-indicator-text">AI</span>
-      </div>
+
     </div>
   );
 };

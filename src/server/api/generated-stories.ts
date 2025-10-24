@@ -6,6 +6,195 @@ import { Story } from '../../shared/types/game.js';
 
 export const EMBEDDED_STORIES: Story[] = [
   {
+    "story_id": "story_1761198240027_3nxvlvfic",
+    "story_title": "Ancestral Lunar Covenant",
+    "tone": "Occult",
+    "duration": "short",
+    "art_direction": "Vintage photo realism with occult undertones",
+    "settings": {
+      "tone": "Occult",
+      "language": "literary",
+      "narrative": "second_person",
+      "pacing": "moderate",
+      "violence": "subtle",
+      "imagery": "sparse",
+      "dialogue": "whispers",
+      "duration": "short"
+    },
+    "image_settings": {
+      "image_style": "photo_realism",
+      "lighting_mood": "moonlight",
+      "color_palette": "warm_oranges",
+      "camera_perspective": "wide_cinematic"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "The Threshold of Invocation",
+        "text": "You approach the ancient mansion under the blood-red moon, its crimson light casting elongated shadows across the overgrown path. Howling sounds rise in rhythmic cadence, as if ancient voices chant in forgotten tongues. The edifice looms, a repository of familial arcana, where secrets bind blood to shadow. You stand at the iron gate, the air thick with invocation's weight.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. First-person view standing at iron gate, blood-red moon overhead center, overgrown path leading to mansion front at back center, twisted trees on left and right edges.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Enter through the main door",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Circle the grounds first",
+            "next": "scene3"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.webp"
+      },
+      {
+        "id": "scene2",
+        "title": "Hall of Ancestral Whispers",
+        "text": "You cross the threshold into the grand hall, where portraits of forebears gaze with eyes that seem to follow. The blood-red moon filters through stained glass, illuminating symbols etched in dust. Howling echoes faintly, a chorus invoking hidden rites. Whispers murmur: 'Blood calls to blood.' You sense the family's veiled legacy stirring.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. First-person view in grand hall, portraits on walls left and right, stained glass window at back center with blood-red light, etched symbols on floor foreground.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Ascend to the upper chambers",
+            "next": "scene4"
+          },
+          {
+            "id": "2",
+            "text": "Descend to the cellar vaults",
+            "next": "scene5"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.webp"
+      },
+      {
+        "id": "scene3",
+        "title": "Garden of Twisted Forms",
+        "text": "You traverse the outer grounds, the blood-red moon bathing wilted flora in sanguine hue. Howling intensifies, a ritualistic lament. Twisted creatures emerge from hedgerows, their forms contorted as if bound by ancestral curses. A voice hisses: 'The covenant awakens.' You confront the perimeter's guardian shadows.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. First-person view in garden, blood-red moon upper center, twisted creatures in hedgerows left and right, wilted flora on ground foreground.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Confront the creatures directly",
+            "next": "scene6"
+          },
+          {
+            "id": "2",
+            "text": "Seek entry through a side portal",
+            "next": "scene5"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.webp"
+      },
+      {
+        "id": "scene4",
+        "title": "Chamber of Forbidden Tomes",
+        "text": "You ascend to the upper library, shelves laden with tomes of esoteric lore. The blood-red moon peers through a cracked skylight, casting runes that pulse like veins. Howling subsides to whispers: 'Reveal or succumb.' Monstrous beings lurk in alcoves, embodiments of lineage's dark pacts. The air hums with invocation.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. First-person view in library, shelves of tomes left and right walls, cracked skylight at ceiling center with blood-red light, alcoves with shadows at back.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Decipher the central grimoire",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Invoke the beings for guidance",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.webp"
+      },
+      {
+        "id": "scene5",
+        "title": "Vaults of Buried Secrets",
+        "text": "You descend into the cellar, where stone walls weep with moisture under the blood-red moon's indirect glow. Howling reverberates through vents, a chant of summoning. Twisted creatures coil in corners, guardians of familial relics. A murmur echoes: 'Sacrifice binds the chain.' The depths reveal layered betrayals.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. First-person view in cellar, stone walls left and right, twisted creatures in corners foreground left and right, relics on pedestal at center back.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Unearth the hidden relic",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Flee upward to escape",
+            "next": "scene9"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.webp"
+      },
+      {
+        "id": "scene6",
+        "title": "Confrontation in the Thicket",
+        "text": "You stand against the twisted creatures, their forms writhing under the blood-red moon. Howling crescendos into a frenzied rite. Implications of dissolution hover, as limbs extend unnaturally. A voice chants: 'Join the fold.' The family's secret metamorphosis beckons inexorably.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. First-person view in thicket, twisted creatures approaching center foreground, blood-red moon upper left, howling wind effects on trees right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Transformation",
+        "image_filename": "scene6.webp"
+      },
+      {
+        "id": "scene7",
+        "title": "Rite of Unveiling",
+        "text": "You engage the arcane knowledge, symbols aligning under the blood-red moon's vigil. Howling fades to solemn invocation. Monstrous beings recede, their essence dissolving. Whispers affirm: 'Truth liberates.' The family's covenant unravels, granting clarity amid the shadows.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. First-person view of symbols on floor center, receding shadows left and right, blood-red moon through window back upper.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "scene7.webp"
+      },
+      {
+        "id": "scene8",
+        "title": "Summoning's Embrace",
+        "text": "You call upon the monstrous beings, their presence enveloping in ritualistic union. The blood-red moon witnesses the merger. Howling becomes your own voice, chanting eternally. Implications of eternal binding settle, as identity merges with the ancestral host.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. First-person view of merging shadows center, monstrous forms approaching left and right, blood-red moon overhead.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Possession",
+        "image_filename": "scene8.webp"
+      },
+      {
+        "id": "scene9",
+        "title": "Flight from the Abyss",
+        "text": "You ascend from the vaults, evading the twisted guardians under the waning blood-red moon. Howling diminishes to distant echoes. The mansion recedes as you breach the gate, the family's secrets sealed behind. Freedom claims you, invocation broken.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. First-person view fleeing through gate center back, mansion silhouette at far back, blood-red moon upper right, path foreground.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene9.webp"
+      }
+    ],
+    "_metadata": {
+      "provider": "xAI",
+      "model": "grok-4",
+      "usage": {
+        "prompt_tokens": 1755,
+        "completion_tokens": 2050,
+        "total_tokens": 4423,
+        "prompt_tokens_details": {
+          "text_tokens": 1755,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 682
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 618,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "num_sources_used": 0
+      },
+      "generated_at": "2025-10-23T05:45:10.714Z"
+    },
+    "filename": "ancestral-lunar-covenant_2025-10-23.json"
+  },
+  {
     "story_id": "story_1761116836312_x7zd9vsaa",
     "story_title": "Applause for the Skinless",
     "tone": "Body Horror",
@@ -705,6 +894,375 @@ export const EMBEDDED_STORIES: Story[] = [
     "filename": "bunkers-fractured-codex_2025-10-21.json"
   },
   {
+    "story_id": "story_1761198274861_hem3fvshs",
+    "story_title": "Cadaver Circuits and Fractured Flesh",
+    "tone": "Noir Horror",
+    "duration": "long",
+    "art_direction": "Gritty noir horror in an abandoned hospital, blending medical atrocities with spectral cybernetic hauntings",
+    "settings": {
+      "tone": "Noir Horror",
+      "language": "elevated",
+      "narrative": "third_person",
+      "pacing": "fast",
+      "violence": "graphic",
+      "imagery": "sparse",
+      "dialogue": "conversational",
+      "duration": "long"
+    },
+    "image_settings": {
+      "image_style": "charcoal_sketch",
+      "lighting_mood": "dim_ambient",
+      "color_palette": "cold_blues",
+      "camera_perspective": "bird_eye_view"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "The Shattered Entrance",
+        "text": "Alex pushed through the rusted doors of the forsaken St. Elysium Hospital, flashlight cutting cold beams into the decay. Eerie silence gripped the air, shattered by distant cries echoing like malfunctioning machines. They thought cynically, this pit of moral rot would swallow them whole. A spectral figure flickered in the corner, wires trailing from its translucent form.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Rusted double doors at bottom center, cracked tile floor scattered with debris, flickering spectral figure with wires on left wall, flashlight beam from entrance.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Head to the lobby desk",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Descend to the basement stairs",
+            "next": "scene3"
+          },
+          {
+            "id": "3",
+            "text": "Climb the crumbling staircase",
+            "next": "scene4"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.webp"
+      },
+      {
+        "id": "scene2",
+        "title": "Lobby of Lingering Regrets",
+        "text": "Alex rifled through decayed files at the lobby desk. A ghostly apparition materialized, its face a mesh of flesh and circuits. 'You seek the truth?' it rasped. Alex's mind raced cynically: fools always chase ghosts in places like this. The silence broke with cries, closer now.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Overturned desk at center with scattered papers, ghostly apparition with circuit face hovering above, cold light filtering through broken windows on right.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Confront the apparition",
+            "next": "scene5"
+          },
+          {
+            "id": "2",
+            "text": "Search for a hidden door",
+            "next": "scene6"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.webp"
+      },
+      {
+        "id": "scene3",
+        "title": "Basement Depths of Decay",
+        "text": "Descending into the basement, Alex encountered flooded corridors. Spectral figures writhed in the water, their bodies fused with rusted pipes. One lunged, tearing flesh with jagged metal edges; blood sprayed in vivid arcs. Alex grimaced cynically: moral decay manifests in every drip.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Flooded corridor at bottom, spectral figures fused with pipes in water center, blood spray on walls left, narrow stairs at top.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Fight the figures",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Swim to the far end",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.webp"
+      },
+      {
+        "id": "scene4",
+        "title": "Upper Halls of Horror",
+        "text": "Up the stairs, Alex found operating theaters. A ghostly surgeon apparition hovered, scalpel gleaming. 'Join the procedure,' it whispered. Distant cries pierced the silence. Alex thought bitterly: cold lighting exposes the rot of human ambition.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Crumbling staircase at left, operating table center with ghostly surgeon holding scalpel, bloodstained tools on right shelf.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Engage the surgeon",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Slip into adjacent room",
+            "next": "scene10"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.webp"
+      },
+      {
+        "id": "scene5",
+        "title": "Apparition's Confession",
+        "text": "Alex confronted the apparition. 'We were experiments, minds wired to machines,' it confessed. A sudden slash; ethereal wires ripped into Alex's arm, gore spilling in explicit detail, muscle tearing like wet paper. Cynical thoughts surged: this is the price of curiosity in decayed halls.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Ghostly apparition center with wires extending, torn arm with gore on floor below, scattered files around desk left.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Absorb its knowledge",
+            "next": "scene11"
+          },
+          {
+            "id": "2",
+            "text": "Flee to basement",
+            "next": "scene3"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.webp"
+      },
+      {
+        "id": "scene6",
+        "title": "Hidden Vault Discovery",
+        "text": "Behind the desk, a hidden door led to a vault of prototypes. Spectral figures guarded them, one exploding in violence, shards embedding in flesh, blood gushing from punctured veins. Alex pondered cynically: moral decay festers in secrets like these.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Hidden door at back wall center, vault with prototypes on shelves right, exploding spectral figure with shards and blood left.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Activate a device",
+            "next": "scene12"
+          },
+          {
+            "id": "2",
+            "text": "Destroy the vault",
+            "next": "scene13"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6.webp"
+      },
+      {
+        "id": "scene7",
+        "title": "Basement Brawl",
+        "text": "Alex fought back, smashing a figure's head; circuits sparked, ectoplasm mixed with blood in gruesome sprays. 'End us!' it begged. Cries echoed louder. Alex's inner cynicism: violence begets more in this cold-lit hell.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Smashed spectral head center with sparks and blood, flooded floor around, pipes on walls left and right.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Mercy kill them",
+            "next": "scene14"
+          },
+          {
+            "id": "2",
+            "text": "Escape upwards",
+            "next": "scene4"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.webp"
+      },
+      {
+        "id": "scene8",
+        "title": "Submerged Secrets",
+        "text": "Swimming through, Alex found submerged records. A spectral entity pulled them under, claws raking skin, flesh peeling in bloody strips. Surfacing, Alex thought: decay drowns all in its icy grip.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Submerged records floating center, spectral entity with claws below, bloody strips on surface right, flooded corridor extending left.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Read the records",
+            "next": "scene15"
+          },
+          {
+            "id": "2",
+            "text": "Break through wall",
+            "next": "scene16"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene8.webp"
+      },
+      {
+        "id": "scene9",
+        "title": "Surgeon's Scalpel Dance",
+        "text": "Engaging the surgeon, Alex dodged slices; one cut deep, intestines spilling in explicit horror, steaming in cold light. 'Perfection through pain,' it mocked. Cynical reflection: moral rot carves deep.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Operating table center with spilled intestines, ghostly surgeon with scalpel hovering above, blood pools on floor left.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Steal the scalpel",
+            "next": "scene17"
+          },
+          {
+            "id": "2",
+            "text": "Banish with words",
+            "next": "scene18"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene9.webp"
+      },
+      {
+        "id": "scene10",
+        "title": "Adjacent Atrocity Room",
+        "text": "In the next room, beds with fused corpses. A figure rose, ripping its own wiring, gore exploding outward. 'Help me,' it pleaded. Alex's cynicism: this hospital's legacy is endless decay.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Hospital beds center with fused corpses, exploding gore from figure right, wiring on floor left.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Assist the figure",
+            "next": "scene11"
+          },
+          {
+            "id": "2",
+            "text": "Flee to lobby",
+            "next": "scene2"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene10.webp"
+      },
+      {
+        "id": "scene11",
+        "title": "Merged Consciousness",
+        "text": "Absorbing knowledge, Alex's mind fused briefly; visions of experiments flashed, bodies vivisected alive, organs pulsing in mechanical cradles. Pain tore through, but clarity emerged. 'You're part of us now,' the apparition said.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Fused mind vision center with vivisected bodies, mechanical cradles around, pulsing organs on tables left and right.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Embrace the fusion",
+            "next": "scene19"
+          },
+          {
+            "id": "2",
+            "text": "Reject and fight",
+            "next": "scene20"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene11.webp"
+      },
+      {
+        "id": "scene12",
+        "title": "Activated Atrocity",
+        "text": "Activating the device summoned a horde; they tore into Alex, limbs severed in bloody detail, bones cracking audibly. 'Power awakens us,' they chanted. Cynicism peaked: technology's cold light illuminates only horror.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Activated device center glowing, horde of specters surrounding, severed limbs and blood on floor right.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Overload it",
+            "next": "scene13"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene12.webp"
+      },
+      {
+        "id": "scene13",
+        "title": "Vault's Violent End",
+        "text": "Destroying the vault caused an implosion; shards flew, embedding in spectral forms, ectoplasm bursting like popped veins. Alex escaped barely, wounds festering. 'It's over,' a voice echoed faintly.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Imploding vault center with flying shards, bursting ectoplasm left, collapsed door at back.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene13.webp"
+      },
+      {
+        "id": "scene14",
+        "title": "Merciful Obliteration",
+        "text": "Granting mercy, Alex smashed the figures; heads caved in graphic sprays of circuit-laced blood. Silence fell, cries ceased. But Alex's mind fractured, cynicism turning to madness.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Smashed figures center with blood sprays, flooded basement floor, broken pipes right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Madness",
+        "image_filename": "scene14.webp"
+      },
+      {
+        "id": "scene15",
+        "title": "Revealed Records",
+        "text": "Reading the records unveiled the hospital's cybernetic fusion experiments. A final apparition appeared, sharing the banishment ritual. Alex performed it, specters dissolving in peaceful light.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Open records center submerged, dissolving specters around, ritual symbols on walls left.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene15.webp"
+      },
+      {
+        "id": "scene16",
+        "title": "Breached Barrier",
+        "text": "Breaking the wall led to a core chamber; central machine pulsed, drawing Alex in. Fusion completed, body transforming into spectral machinery.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Breached wall center, pulsing machine at core, transforming body below right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Transformation",
+        "image_filename": "scene16.webp"
+      },
+      {
+        "id": "scene17",
+        "title": "Stolen Blade",
+        "text": "Wielding the scalpel, Alex carved through the surgeon; ethereal guts spilled in looping coils. Victory brought ascension, mind elevating beyond the decay.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Carved surgeon center with spilled guts, scalpel in hand below, operating room tools scattered left.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Ascension",
+        "image_filename": "scene17.webp"
+      },
+      {
+        "id": "scene18",
+        "title": "Verbal Exile",
+        "text": "Words of banishment echoed; the surgeon shrieked, form dissolving into oblivion. But the cries persisted, pulling Alex into endless void.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Dissolving surgeon center, echoing words symbols around, void pulling at bottom.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene18.webp"
+      },
+      {
+        "id": "scene19",
+        "title": "Embraced Horror",
+        "text": "Embracing fusion, Alex's flesh merged with circuits; pain exquisite, bones cracking, skin splitting. New entity born in moral decay.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Merging flesh and circuits center, cracking bones and splitting skin below, decayed room around.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Possession",
+        "image_filename": "scene19.webp"
+      },
+      {
+        "id": "scene20",
+        "title": "Rejected Rage",
+        "text": "Fighting rejection, Alex shattered the link; apparitions exploded in gore, but corruption seeped in, twisting the soul forever.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, dim ambient lighting, soft diffused shadows, cold blue atmosphere, icy color scheme, subtle film grain. Shattered link center with exploding gore, twisted soul figure right, corrupted essence on walls left.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Corruption",
+        "image_filename": "scene20.webp"
+      }
+    ],
+    "_metadata": {
+      "provider": "xAI",
+      "model": "grok-4",
+      "usage": {
+        "prompt_tokens": 1768,
+        "completion_tokens": 3913,
+        "total_tokens": 6440,
+        "prompt_tokens_details": {
+          "text_tokens": 1768,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 705
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 759,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "num_sources_used": 0
+      },
+      "generated_at": "2025-10-23T05:46:32.031Z"
+    },
+    "filename": "cadaver-circuits-and-fractured-flesh_2025-10-23.json"
+  },
+  {
     "story_id": "story_1761066554089_cbwi3u0oz",
     "story_title": "Cadaver's Cosmos",
     "tone": "Cosmic",
@@ -934,6 +1492,390 @@ export const EMBEDDED_STORIES: Story[] = [
       "generated_at": "2025-10-21T17:10:58.111Z"
     },
     "filename": "cadavers-cosmos_2025-10-21.json"
+  },
+  {
+    "story_id": "story_1761198250157_zt658e38i",
+    "story_title": "Carnival of Embered Veils",
+    "tone": "Folk",
+    "duration": "long",
+    "art_direction": "string",
+    "settings": {
+      "tone": "Folk",
+      "language": "literary",
+      "narrative": "third_person",
+      "pacing": "slow_burn",
+      "violence": "moderate",
+      "imagery": "dense",
+      "dialogue": "conversational",
+      "duration": "long"
+    },
+    "image_settings": {
+      "image_style": "photo_realism",
+      "lighting_mood": "dim_ambient",
+      "color_palette": "warm_oranges",
+      "camera_perspective": "dutch_angle"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "The Lure of Flickering Gates",
+        "text": "Elara wandered the autumnal meadows where the harvest songs lingered like forgotten prayers, their melodies twisting into a dissonant hum that prickled the skin. The carnival emerged from the gloaming, its gates arched like the ribs of some ancient beast, flickering lights casting strange shadows that danced as if alive. She felt the pull, a pastoral whisper gone awry, urging her through the entrance where cursed artifacts awaited in twisted attractions.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I stand at the carnival entrance, arched iron gates twisted like ribs on the left, flickering lantern on a post at center right, strange elongated shadow stretching across the ground in front, wooden ticket booth dimly lit at back center.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Enter the Hall of Mirrors",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Approach the Fortune Teller's Tent",
+            "next": "scene3"
+          },
+          {
+            "id": "3",
+            "text": "Ride the Ferris Wheel",
+            "next": "scene4"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.webp"
+      },
+      {
+        "id": "scene2",
+        "title": "Reflections in Fractured Glass",
+        "text": "In the Hall of Mirrors, Elara's footsteps echoed through the silence, each pause pregnant with anticipation, the air thick with the scent of wilted blooms. The mirrors, cursed artifacts veined with silver, reflected not her form but twisted harvest figures, their eyes hollow as abandoned wells. A voice slithered from the glass: 'What do you seek in these veiled depths?' The shadows flickered, unease blooming like thorns in a lyrical field.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I face a tall cracked mirror on the left wall at eye level, distorted reflection showing harvest figure in center, flickering candle on a pedestal at right foreground, strange shadow curling on the floor behind me.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Touch the Mirror",
+            "next": "scene5"
+          },
+          {
+            "id": "2",
+            "text": "Speak to the Voice",
+            "next": "scene6"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.webp"
+      },
+      {
+        "id": "scene3",
+        "title": "Veils of Foretold Doom",
+        "text": "The Fortune Teller's Tent billowed like a sigh from the earth, its silks embroidered with symbols of bountiful yields turned foul. Elara parted the flaps, the silence within a deliberate hush, building dread in the flickering lamplight. An old crone sat before a crystal ball, a magical object pulsing with inner fire. 'The embers know your path,' she crooned, her voice a twisted lullaby. Shadows played across her wrinkled face, hinting at curses unspoken.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I look into the tent, old crone seated at a low table in center, glowing crystal ball on table at eye level, embroidered silk veils hanging on the right wall, flickering shadow of a hand on the left floor.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Ask for a Reading",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Steal the Crystal Ball",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.webp"
+      },
+      {
+        "id": "scene4",
+        "title": "Ascent into Twisted Heights",
+        "text": "The Ferris Wheel creaked like the bones of forgotten laborers, its cars adorned with faded pastoral motifs that curdled into grotesqueries under the flickering lights. Elara climbed aboard, the slow rotation building tension in the expectant quiet, shadows lengthening like fingers grasping at the sky. At the apex, a spectral figure appeared in the adjacent car. 'Join the eternal revel,' it whispered, its form a magical apparition bound by some cursed relic below.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I sit in a Ferris wheel car high up, spectral figure in adjacent car on the right at mid level, flickering lights along the wheel structure at bottom center, strange shadow cast over the carnival grounds below left.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Confront the Figure",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Jump from the Car",
+            "next": "scene10"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.webp"
+      },
+      {
+        "id": "scene5",
+        "title": "Shattered Self",
+        "text": "Elara's fingers brushed the mirror's surface, cool as autumn frost, the silence shattering into a cacophony of whispers. The glass rippled, pulling her in, her reflection splintering into myriad forms, each a twisted harvest effigy bleeding ichor that stained the floor in restrained rivulets. 'You are us now,' the voices chorused, unease twisting the lyrical veil into a noose of dread.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I reach toward the shattered mirror on the left wall at eye level, splintered reflections of harvest figures in center, ichor pooling on the floor at bottom right, flickering shadow fragmenting across the back wall.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Fight the Pull",
+            "next": "scene11"
+          },
+          {
+            "id": "2",
+            "text": "Embrace the Change",
+            "next": "scene12"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.webp"
+      },
+      {
+        "id": "scene6",
+        "title": "Dialogue with the Depths",
+        "text": "Elara leaned closer, her breath fogging the glass, the anticipation a heavy shroud in the dim hall. 'Reveal your secrets,' she demanded. The voice laughed, a sound like cracking gourds in a forsaken field. 'The artifact binds us; break it, or become it.' Shadows coalesced into forms, their movements a deliberate dance of impending horror, layered with metaphors of corrupted bounty.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I speak to the mirror on the center wall at eye level, foggy breath on glass surface, shadowy forms emerging inside reflection on the right, flickering light source at left bottom.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Search for the Artifact",
+            "next": "scene13"
+          },
+          {
+            "id": "2",
+            "text": "Flee the Hall",
+            "next": "scene14"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6.webp"
+      },
+      {
+        "id": "scene7",
+        "title": "Prophecy Unveiled",
+        "text": "The crone's hands hovered over the ball, its glow intensifying, the silence within the tent a pregnant void. Visions swirled: Elara ensnared by vines of cursed gold, her screams a twisted harvest hymn. 'Flee or face the embered fate,' the crone intoned, her eyes gleaming with malicious light. Shadows flickered, unease layering the pastoral scene with symbolic decay.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I watch the crone's hands over the glowing ball on the table at center, swirling visions inside the orb at eye level, vine-like shadows on the tent wall to the right, flickering ember light at left foreground.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Heed the Warning",
+            "next": "scene15"
+          },
+          {
+            "id": "2",
+            "text": "Demand More Details",
+            "next": "scene16"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.webp"
+      },
+      {
+        "id": "scene8",
+        "title": "Theft of Flames",
+        "text": "Elara snatched the crystal ball, its surface burning like harvested coals, the crone's shriek piercing the anticipatory hush. The object pulsed, unleashing visions that clawed at her mind, graphic tendrils of light searing flesh in restrained bursts. 'Thief of fates!' the crone wailed, shadows twisting into predatory shapes, the lyrical air curdling into terror.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I grasp the crystal ball from the table at center, burning light emanating from it at hand level, crone's shrieking face on the right, twisting shadows on the left wall.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Smash the Ball",
+            "next": "scene17"
+          },
+          {
+            "id": "2",
+            "text": "Run with It",
+            "next": "scene18"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene8.webp"
+      },
+      {
+        "id": "scene9",
+        "title": "Confrontation Aloft",
+        "text": "Elara turned to the spectral figure, the wheel's creak the only sound in the suspended silence. 'What curse binds you?' she asked. It grinned, teeth like splintered corn husks. 'The wheel's heart, a magical locket below.' Shadows elongated, building tension like a storm over golden fields, metaphors of entrapment layering the scene with unease.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I confront the spectral figure in the adjacent car on the right at eye level, grinning face with husk-like teeth in center, elongated shadows along the wheel spokes at bottom left, flickering lights dotting the background.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Seek the Locket",
+            "next": "scene13"
+          },
+          {
+            "id": "2",
+            "text": "Attack the Figure",
+            "next": "scene19"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene9.webp"
+      },
+      {
+        "id": "scene10",
+        "title": "Descent into Madness",
+        "text": "Elara leaped from the car, the fall a deliberate plummet through whispering winds, landing amid twisted undergrowth that clutched like possessive lovers. Blood welled from gashes, graphic yet restrained, as shadows converged. A voice echoed: 'You cannot escape the harvest.' The pastoral beauty twisted into a labyrinth of dread, anticipation coiling tight.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I land on twisted undergrowth at ground level center, bloodied gashes on arms in foreground, converging shadows from left and right, flickering carnival lights in distant background.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Hide in the Shadows",
+            "next": "scene20"
+          },
+          {
+            "id": "2",
+            "text": "Run Toward the Exit",
+            "next": "scene15"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene10.webp"
+      },
+      {
+        "id": "scene11",
+        "title": "Resistance Fractured",
+        "text": "Elara wrenched away, shards of glass embedding in her palms, the pain a sharp counterpoint to the building silence. The reflections pursued, their forms melting into grotesque parodies, ichor spraying in moderated arcs. 'Stay with the veil,' they pleaded in dissonant harmony, the lyrical unease deepening into a symphony of horror.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I pull away from the mirror shards on the floor at center, embedded glass in palms in foreground, melting reflection forms pursuing from left, ichor arcs on right wall.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Madness",
+        "image_filename": "scene11.webp"
+      },
+      {
+        "id": "scene12",
+        "title": "Merged Essences",
+        "text": "Elara surrendered, her form dissolving into the glass, a transformation both poetic and profane. The harvest figures welcomed her, their embraces a tangle of vines and bone, graphic fusion restrained in its intimacy. 'We are the eternal crop,' they murmured, shadows absorbing her into the cursed artifact's heart.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I dissolve into the mirror surface at center eye level, vine and bone embraces from figures inside on left and right, absorbing shadows filling the background, flickering light dimming at bottom.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Absorption",
+        "image_filename": "scene12.webp"
+      },
+      {
+        "id": "scene13",
+        "title": "Heart of the Curse",
+        "text": "Descending to the carnival's core, Elara found the artifact: a locket pulsing with ember light, guarded by flickering shadows that whispered of bountiful ruins. The air hung heavy, anticipation a blade's edge. A guardian entity emerged: 'Touch it, and reap what you sow.' The pastoral metaphor twisted into a veil of impending doom.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I approach the pulsing locket on a pedestal at center mid level, guardian entity emerging from shadows on the right, whispering shadows on left floor, flickering ember glow at back.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Destroy the Locket",
+            "next": "scene21"
+          },
+          {
+            "id": "2",
+            "text": "Open the Locket",
+            "next": "scene22"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene13.webp"
+      },
+      {
+        "id": "scene14",
+        "title": "Flight into Oblivion",
+        "text": "Elara bolted from the hall, mirrors shattering behind her in a cascade of glass rain, the silence broken by pursuing echoes. She stumbled into the void beyond the carnival, where shadows consumed all, her form unraveling in graphic threads of light and flesh, restrained in its dissolution.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I flee through shattering mirrors on left and right walls, glass rain falling at center, consuming shadows in foreground, unraveling form threads at back.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene14.webp"
+      },
+      {
+        "id": "scene15",
+        "title": "Path to Liberation",
+        "text": "Heeding the signs, Elara navigated the twisted paths, the silence a companion in her deliberate escape. Flickering lights guided her to the gates, where a final artifact—a banishing talisman—lay hidden. 'Break the veil,' a benevolent whisper urged, shadows retreating as she claimed it, the pastoral unease lifting like mist from dawn fields.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I reach for the banishing talisman hidden near gates at center low level, retreating shadows on left and right, flickering lights along path in background, dawn mist at far back.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene15.webp"
+      },
+      {
+        "id": "scene16",
+        "title": "Deeper Entanglement",
+        "text": "Pressing for more, Elara invoked the crone's wrath, the ball erupting in flames that licked her skin in controlled burns. Visions overwhelmed, twisting her mind into a labyrinth of corrupted harvests. 'You demanded, now possess,' the crone cackled, shadows merging with her form in a graphic, restrained possession.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I demand from the crone at table center, erupting flames from ball on right, merging shadows on my form at left foreground, cackling face in background.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Possession",
+        "image_filename": "scene16.jpg"
+      },
+      {
+        "id": "scene17",
+        "title": "Shattered Prophecy",
+        "text": "Elara hurled the ball to the ground, its fragments exploding in a burst of light and shards that tore at the crone's flesh, blood mingling with embers in moderated violence. The tent collapsed, shadows fleeing, revealing a path to ascension beyond the carnival's grasp, the twisted lyrics fading into silence.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I smash the ball on ground center, exploding shards and light at mid level, crone's bloodied form on right, collapsing tent walls on left, fleeing shadows at back.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Ascension",
+        "image_filename": "scene17.webp"
+      },
+      {
+        "id": "scene18",
+        "title": "Cursed Burden",
+        "text": "Clutching the ball, Elara fled, its weight corrupting her veins with fiery ichor, skin blistering in graphic detail yet held in check. The carnival's entities pursued, whispering of eternal servitude. 'You are the vessel now,' they sang, her form transforming into a living artifact amid the flickering shadows.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I clutch the ball while running at center foreground, blistering skin on arms visible, pursuing entities in shadows on left and right, transforming form hints at back.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Transformation",
+        "image_filename": "scene18.webp"
+      },
+      {
+        "id": "scene19",
+        "title": "Spectral Struggle",
+        "text": "Elara lashed out, her hands passing through the figure, eliciting a wail like shearing wheat. It retaliated, claws raking her side in a restrained gash of blood and ectoplasm. The wheel spun wildly, shadows engulfing them in a vortex of madness, the pastoral song twisting into oblivion's call.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I lash at the spectral figure on right at eye level, claws raking my side in center, spinning wheel vortex in background, engulfing shadows from left.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Madness",
+        "image_filename": "scene19.webp"
+      },
+      {
+        "id": "scene20",
+        "title": "Embraced by Shadows",
+        "text": "Crouching in the shadows, Elara felt them seep into her pores, a deliberate infiltration building to corruption. The undergrowth whispered temptations, her body contorting in graphic spasms, bones cracking softly. 'Join the forgotten yield,' they cooed, her essence dissolving into the carnival's cursed soil.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I crouch in shadows at center low level, seeping darkness into skin on arms foreground, contorting body spasms visible, whispering undergrowth on left and right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Dissolution",
+        "image_filename": "scene20.webp"
+      },
+      {
+        "id": "scene21",
+        "title": "Broken Chains",
+        "text": "Elara crushed the locket underfoot, its destruction unleashing a gale that scattered the shadows, entities howling in retreat. The carnival faded like a dream of spoiled harvests, revealing the true meadow beyond. 'You have banished the veil,' a final voice echoed, granting her escape into the lyrical dawn.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I crush the locket on ground center, unleashing gale scattering shadows left and right, howling entities in background, fading carnival at far back.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene21.webp"
+      },
+      {
+        "id": "scene22",
+        "title": "Unleashed Horror",
+        "text": "Opening the locket, Elara released a torrent of cursed essence, flooding her with visions of eternal torment. Her body bloated and burst in a graphic yet restrained explosion of viscera and light, shadows claiming the remnants. 'Sacrifice accepted,' the guardian laughed, the pastoral twisted into utter corruption.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. I open the locket at center hand level, torrent of essence flooding out, bloating body in foreground, bursting viscera on left and right, claiming shadows at back.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Sacrifice",
+        "image_filename": "scene22.webp"
+      }
+    ],
+    "_metadata": {
+      "provider": "xAI",
+      "model": "grok-4",
+      "usage": {
+        "prompt_tokens": 1759,
+        "completion_tokens": 5156,
+        "total_tokens": 7413,
+        "prompt_tokens_details": {
+          "text_tokens": 1759,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 683
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 498,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "num_sources_used": 0
+      },
+      "generated_at": "2025-10-23T05:46:16.105Z"
+    },
+    "filename": "carnival-of-embered-veils_2025-10-23.json"
   },
   {
     "story_id": "story_1761066671488_0cjt3dook",
@@ -2551,6 +3493,395 @@ export const EMBEDDED_STORIES: Story[] = [
     "filename": "crimson-ledger-of-lost-lessons_2025-10-21.json"
   },
   {
+    "story_id": "story_1761199509555_a420n67hf",
+    "story_title": "Crimson Lunar Requiem in Forsaken Halls",
+    "tone": "Supernatural",
+    "duration": "long",
+    "art_direction": "Retro pixel horror with ethereal moonlight and sepia decay",
+    "settings": {
+      "tone": "Supernatural",
+      "language": "elevated",
+      "narrative": "third_person",
+      "pacing": "slow_burn",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "minimal",
+      "duration": "long"
+    },
+    "image_settings": {
+      "image_style": "pixel_horror",
+      "lighting_mood": "moonlight",
+      "color_palette": "sepia_tones",
+      "camera_perspective": "wide_cinematic"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "The Approach Under Crimson Glow",
+        "text": "Elara approached the decrepit edifice of Eldridge Academy, its silhouette stark against the blood-red moon that hung ominously in the night sky. Howling winds carried faint echoes, like distant cries of anguish, stirring memories she had long suppressed. The abandoned school, once a bastion of youthful promise, now exuded an aura of profound sorrow mingled with unspoken menace. She wondered if the spirits of those lost students still lingered, their essences twisted by darker forces.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; abandoned school building at center with crumbling facade, blood-red moon overhead in the sky, twisted trees on left and right edges, gravel path leading to main entrance at front center.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Enter through the main doors",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Slip in via the side window",
+            "next": "scene3"
+          },
+          {
+            "id": "3",
+            "text": "Circle to the rear entrance",
+            "next": "scene4"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.jpg"
+      },
+      {
+        "id": "scene2",
+        "title": "Echoes in the Grand Foyer",
+        "text": "They stepped into the vast foyer, where dust-laden air hung heavy with the scent of decay. The blood-red moonlight filtered through shattered skylights, casting elongated shadows that seemed to writhe. A howling gust rattled the windows, and Elara felt a chill, as if unseen eyes watched her progress. Internally, she pondered the tragic fates of the students, their spirits perhaps bound by some infernal pact, sorrow etching their ethereal forms with menacing intent.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; grand foyer with cracked marble floor, shattered skylight at top center allowing red moonlight, dusty chandelier hanging low in middle, faded portraits on left and right walls.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Ascend the main staircase",
+            "next": "scene5"
+          },
+          {
+            "id": "2",
+            "text": "Explore the adjacent corridor",
+            "next": "scene6"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.jpg"
+      },
+      {
+        "id": "scene3",
+        "title": "Whispers from the Overgrown Courtyard",
+        "text": "Climbing through the broken window, Elara found herself in a overgrown courtyard, weeds choking the flagstones under the blood-red moon's baleful gaze. Howling sounds intensified, mimicking the wails of tormented souls. She sensed the presence of student spirits, their sorrowful essences corrupted by demonic entities that lurked in the shadows, a delicate balance of pity and peril building in the silence.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; overgrown courtyard with tangled weeds covering ground, broken fountain at center, blood-red moon visible through bare branches above, shadowed archway on right leading deeper.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Proceed to the dormitory wing",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Investigate the nearby shed",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.jpg"
+      },
+      {
+        "id": "scene4",
+        "title": "Shadows in the Back Alley",
+        "text": "The rear entrance creaked open to reveal a narrow alleyway, littered with remnants of forgotten lives. The blood-red moon painted the scene in hues of crimson dread, while howling winds carried spectral moans. Elara's mind raced with thoughts of the evil spirits that might inhabit these walls, their menacing forms born from the sorrow of untimely deaths, tension mounting in the oppressive quiet.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; narrow back alley with scattered debris on ground, rusted door at center rear, blood-red moon casting shadows from overhanging eaves, faint ethereal figures in distant corners.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Enter the basement access",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Climb to the upper levels",
+            "next": "scene10"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.jpg"
+      },
+      {
+        "id": "scene5",
+        "title": "The Haunted Upper Hallway",
+        "text": "Ascending the staircase, Elara entered a long hallway lined with lockers, their doors ajar like gaping maws. The blood-red moonlight seeped through cracks, illuminating faint apparitions of student spirits, their forms flickering with sorrowful grace yet edged with demonic menace. Howling echoes grew louder, building anticipation as she questioned the infernal forces at play.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; long hallway with rows of open lockers on left and right walls, cracked floor tiles, blood-red light filtering from window at far end, ghostly silhouette in center distance.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Enter the classroom on the left",
+            "next": "scene11"
+          },
+          {
+            "id": "2",
+            "text": "Proceed to the library",
+            "next": "scene12"
+          },
+          {
+            "id": "3",
+            "text": "Descend back and try another path",
+            "next": "scene6"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.jpg"
+      },
+      {
+        "id": "scene6",
+        "title": "Corridor of Faded Memories",
+        "text": "The corridor stretched endlessly, walls adorned with tattered posters of bygone school events. Under the blood-red moon's influence, howling sounds morphed into whispers of regret, evoking the sorrow of trapped student spirits now hosts to demonic entities. Elara felt the menace closing in, her internal resolve tested by the deliberate silence that amplified every creak.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; dim corridor with torn posters on walls, scattered papers on floor, small window on right showing blood-red moon, faint howling wind effect visualized as swirling mist at end.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Investigate the locked door",
+            "next": "scene13"
+          },
+          {
+            "id": "2",
+            "text": "Follow the faint glow",
+            "next": "scene14"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6.jpg"
+      },
+      {
+        "id": "scene7",
+        "title": "Dormitory of Lingering Regrets",
+        "text": "In the dormitory, bunk beds stood like skeletal remains, sheets stained with time's passage. The blood-red moon cast an otherworldly pallor, and howling winds rattled the frames, stirring evil spirits that manifested as twisted student forms. Elara's mind filled with sorrowful visions of their past lives, balanced against the growing demonic threat that lurked in the anticipation-filled shadows.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; dormitory room with rusted bunk beds arranged in rows, stained sheets draped over them, window on left with blood-red moonlight, ethereal spirit hovering near back center.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Search the personal lockers",
+            "next": "scene15"
+          },
+          {
+            "id": "2",
+            "text": "Confront the manifesting entity",
+            "next": "scene16"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.jpg"
+      },
+      {
+        "id": "scene8",
+        "title": "The Shed's Dark Secret",
+        "text": "The shed door groaned open, revealing tools rusted and bloodied, as if from some gruesome rite. Howling sounds intensified under the blood-red moon, and Elara sensed demonic entities drawing near, their menace corrupting the sorrowful student spirits that whispered in her thoughts. Tension built in the confined space, each shadow pregnant with unspoken horror.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; cluttered shed interior with rusted tools on shelves left and right, blood stains on wooden floor center, small window at back showing howling wind and red moon.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Unearth the hidden artifact",
+            "next": "scene17"
+          },
+          {
+            "id": "2",
+            "text": "Flee back to the courtyard",
+            "next": "scene7"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene8.jpg"
+      },
+      {
+        "id": "scene9",
+        "title": "Basement Abyss",
+        "text": "Descending into the basement, Elara encountered damp walls oozing with an unnatural slime. The blood-red moon's light barely penetrated, but howling echoes reverberated, summoning evil spirits that clawed at the edges of reality. Internally, she mourned the student souls ensnared by these demonic forces, the sorrow deepening the menacing atmosphere.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; dark basement with slime-covered walls, flickering lantern on left hook, shadowy demonic figure at center back, narrow stairs ascending on right.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Explore the ritual chamber",
+            "next": "scene18"
+          },
+          {
+            "id": "2",
+            "text": "Search for an escape tunnel",
+            "next": "scene19"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene9.jpg"
+      },
+      {
+        "id": "scene10",
+        "title": "Attic of Twisted Visions",
+        "text": "The attic was a labyrinth of forgotten relics, dust motes dancing in the blood-red moonlight. Howling winds shook the rafters, and Elara glimpsed demonic entities merging with student spirits, their forms a grotesque blend of sorrow and malice. Anticipation clawed at her mind, building to a crescendo of restrained terror.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; cluttered attic with stacked boxes left and center, cobweb-covered beams overhead, small skylight on right with red moon, twisted spirit form in foreground.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Read the ancient journal",
+            "next": "scene20"
+          },
+          {
+            "id": "2",
+            "text": "Confront the entity directly",
+            "next": "scene16"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene10.jpg"
+      },
+      {
+        "id": "scene11",
+        "title": "Classroom of Eternal Lessons",
+        "text": "Desks overturned in the classroom bore scratches like desperate pleas. Under the blood-red moon, howling sounds evoked the cries of student spirits, now vessels for demonic entities that oozed from the chalkboard's cracks. Elara's internal monologue weighed their sorrow against the encroaching menace, tension simmering in the hushed room.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; disarrayed classroom with upside-down desks scattered, cracked chalkboard at front center with oozing shadows, window on left showing red moon, faint spirit hands emerging from board.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Examine the teacher's desk",
+            "next": "scene12"
+          },
+          {
+            "id": "2",
+            "text": "Flee to the hallway",
+            "next": "scene5"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene11.jpg"
+      },
+      {
+        "id": "scene12",
+        "title": "Library of Forbidden Knowledge",
+        "text": "Shelves groaned under tomes of arcane lore in the library, pages fluttering as if breathed upon by unseen forces. The blood-red moon illuminated faded texts, while howling winds carried the sorrowful laments of spirits twisted by evil. Elara pondered the demonic pacts that bound them, the silence amplifying her growing dread.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; vast library with towering bookshelves left and right, open book on central table with glowing pages, arched window at back with red moon, ethereal mist swirling around shelves.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "scene12.webp"
+      },
+      {
+        "id": "scene13",
+        "title": "The Locked Chamber's Horror",
+        "text": "Forcing the door, Elara uncovered a room smeared with coagulated blood, remnants of a violent ritual. Howling intensified under the blood-red moon, as demonic entities surged, their forms ripping through student spirits with graphic yet restrained ferocity. Sorrow overwhelmed her thoughts, mingled with the raw menace of dissolution.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; blood-smeared chamber with ritual circle on floor center, broken chains on left wall, demonic shadow emerging from right corner, small vent at back.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Dissolution",
+        "image_filename": "scene13.jpg"
+      },
+      {
+        "id": "scene14",
+        "title": "Glow of Possession",
+        "text": "Following the glow led to a mirror reflecting twisted visages, where evil spirits latched onto Elara's form. The blood-red moon watched impassively as howling ceased, replaced by internal screams of sorrow and menace. Her essence merged with the demonic, a transformation both pitiful and terrifying.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; mirrored room with large cracked mirror at center reflecting distorted face, glowing orb on pedestal left, shadowy tendrils extending from mirror to viewer.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Possession",
+        "image_filename": "scene14.webp"
+      },
+      {
+        "id": "scene15",
+        "title": "Lockers of Trapped Souls",
+        "text": "Rifling through lockers revealed diaries stained with tears and blood, chronicling the students' descent into demonic bondage. Howling winds battered the dormitory, building tension as evil entities manifested, their claws grazing flesh in a moment of restrained violence. Elara's mind reeled from the sorrowful revelations.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; open lockers with scattered diaries and bloodied pages inside, ethereal hand reaching from one locker center, window on right with red moon.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Use the knowledge to banish",
+            "next": "scene20"
+          },
+          {
+            "id": "2",
+            "text": "Succumb to the corruption",
+            "next": "scene14"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene15.jpg"
+      },
+      {
+        "id": "scene16",
+        "title": "Confrontation with the Demonic",
+        "text": "Facing the entity, Elara witnessed its form: a amalgam of student faces warped by demonic horns, blood dripping from gashes that exposed sinew. The blood-red moon amplified the howling, as it lunged with menacing force, sorrow evident in the twisted pleas echoing in her mind. The struggle ended in oblivion's embrace.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; demonic entity at center with horned student faces and dripping blood, claws extended forward, background of shattered walls and red moonlight filtering in.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene16.jpg"
+      },
+      {
+        "id": "scene17",
+        "title": "Artifact of Power",
+        "text": "The artifact pulsed with unholy energy, a relic that could sever demonic ties. Under the blood-red moon, howling subsided as Elara wielded it, freeing student spirits from their sorrowful bondage. Yet the menace lingered, tempting her with ascension's dark allure.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; glowing artifact on pedestal center, surrounded by fading spirit forms, shed walls cracking on left and right, red moon visible through open door back.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Destroy the artifact",
+            "next": "scene19"
+          },
+          {
+            "id": "2",
+            "text": "Absorb its power",
+            "next": "scene18"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene17.jpg"
+      },
+      {
+        "id": "scene18",
+        "title": "Corruption's Embrace",
+        "text": "Absorbing the artifact's essence, Elara felt demonic forces infuse her veins, twisting her form with graphic contortions of flesh and bone. The blood-red moon bore witness to her corruption, howling winds celebrating the sorrowful end of her humanity in menacing triumph.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; protagonist's twisted form at center with elongated limbs and dark veins, artifact shards on ground, red moon dominating sky above.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Corruption",
+        "image_filename": "scene18.jpg"
+      },
+      {
+        "id": "scene19",
+        "title": "Escape from the Depths",
+        "text": "Through the tunnel, Elara emerged into the night, the blood-red moon waning as howling faded. Student spirits, freed from demonic grasp, whispered grateful farewells, their sorrow lifting in the face of her courageous escape from the school's menacing clutches.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; tunnel exit opening to outdoor night, fading red moon in sky, dissipating spirits on left and right, school silhouette in distant background center.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene19.jpg"
+      },
+      {
+        "id": "scene20",
+        "title": "Banishment Ritual",
+        "text": "Invoking the journal's rites, Elara banished the demonic entities, their forms dissolving in agonized howls under the blood-red moon. Student spirits ascended, their sorrow transmuted to peace, the school's menace finally quelled in a moment of profound release.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, vintage sepia tones, aged brown hues, subtle film grain, first-person camera; ritual circle at center with dissolving demonic shadows, ascending spirit lights rising to ceiling, open journal on ground left, red moon through window right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene20.jpg"
+      }
+    ],
+    "_metadata": {
+      "provider": "xAI",
+      "model": "grok-4",
+      "usage": {
+        "prompt_tokens": 1756,
+        "completion_tokens": 4717,
+        "total_tokens": 7197,
+        "prompt_tokens_details": {
+          "text_tokens": 1756,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 681
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 724,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "num_sources_used": 0
+      },
+      "generated_at": "2025-10-23T06:07:19.907Z"
+    },
+    "filename": "crimson-lunar-requiem-in-forsaken-halls_2025-10-23.json"
+  },
+  {
     "story_id": "story_1761066681139_xl0q87mrn",
     "story_title": "Crimson Nebula's Forsaken Drift",
     "tone": "Gothic",
@@ -2918,6 +4249,245 @@ export const EMBEDDED_STORIES: Story[] = [
       "generated_at": "2025-10-21T17:13:04.139Z"
     },
     "filename": "crimson-nebulas-forsaken-drift_2025-10-21.json"
+  },
+  {
+    "story_id": "story_1761199515836_vbrqepd4p",
+    "story_title": "Curtains of Eternal Reprise",
+    "tone": "Surreal",
+    "duration": "medium",
+    "art_direction": "string",
+    "settings": {
+      "tone": "Surreal",
+      "language": "elevated",
+      "narrative": "third_person",
+      "pacing": "slow_burn",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "minimal",
+      "duration": "medium"
+    },
+    "image_settings": {
+      "image_style": "oil_painting",
+      "lighting_mood": "harsh_fluorescent",
+      "color_palette": "desaturated_pastels",
+      "camera_perspective": "dutch_angle"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "Foyer of Faded Grandeur",
+        "text": "Alex stepped into the theater's embrace. Bone-chilling cold wrapped around them like forgotten silk. The air hung heavy, creaking floors whispering secrets. They wondered—why this pull, this silent summons? Walls breathed softly, anticipation building in the hush.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. From first-person perspective, dusty foyer with cracked chandelier hanging above center, wooden ticket booth on the left wall at eye level, grand double doors at back center, faded posters on right wall.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Explore the lobby alcoves",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Enter the auditorium",
+            "next": "scene3"
+          },
+          {
+            "id": "3",
+            "text": "Slip backstage through side door",
+            "next": "scene4"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.jpg"
+      },
+      {
+        "id": "scene2",
+        "title": "Alcoves of Whispered Regrets",
+        "text": "In the lobby's shadowed nooks, Alex felt the cold deepen, a frost that clawed at memories. Creaking echoed from unseen rafters, building dread in the quiet voids. Ghostly apparitions flickered—pale hands reaching. They thought: these forms, so achingly familiar, why do they call?",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. From first-person perspective, shadowed alcove with dusty velvet curtains on left and right, spectral hand emerging from center darkness, cracked mirror on back wall at eye level.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Touch the apparition",
+            "next": "scene5"
+          },
+          {
+            "id": "2",
+            "text": "Search for an exit",
+            "next": "scene6"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.jpg"
+      },
+      {
+        "id": "scene3",
+        "title": "Auditorium's Silent Spectacle",
+        "text": "Seats stretched in endless rows, bone-chilling cold settling like dust on Alex's skin. Creaking seats shifted alone, anticipation swelling in the dim. Spectral figures materialized on stage, performing in eternal loops. Alex's mind raced: this dance of the dead, pulling me into its rhythm.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. From first-person perspective, rows of empty seats extending forward, spectral figures on distant stage at center, flickering spotlight above stage, torn curtain on right.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Approach the stage",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Hide in the seats",
+            "next": "scene8"
+          },
+          {
+            "id": "3",
+            "text": "Climb to the balcony",
+            "next": "scene9"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.jpg"
+      },
+      {
+        "id": "scene4",
+        "title": "Backstage Labyrinth",
+        "text": "Narrow halls twisted, bone-chilling cold seeping from cracked walls. Creaking ropes swung gently, silence pregnant with unseen eyes. Ghostly apparitions brushed past, their forms dissolving like mist. Alex pondered: these echoes of performers, trapped in endless rehearsal.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. From first-person perspective, narrow hallway with hanging ropes on left, ghostly apparition fading at center back, dusty props on right floor, dim bulb overhead.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Follow the apparition",
+            "next": "scene10"
+          },
+          {
+            "id": "2",
+            "text": "Examine props",
+            "next": "scene11"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.jpg"
+      },
+      {
+        "id": "scene5",
+        "title": "Embrace of the Ethereal",
+        "text": "Fingers met spectral chill, bone-chilling cold flooding veins. Creaking intensified, walls closing in silent fury. The apparition pulled, flesh tearing subtly in restrained agony. Alex's thoughts fragmented: merging, dissolving—am I becoming the performance?",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. From first-person perspective, outstretched hand touching ghostly form at center, tearing skin on arm in foreground, alcove shadows deepening on left and right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Possession",
+        "image_filename": "scene5.jpg"
+      },
+      {
+        "id": "scene6",
+        "title": "Flight from Frost",
+        "text": "Desperate search yielded a hidden door, bone-chilling cold pursuing like a lover's grasp. Creaking faded as Alex burst into night air. Revelation struck: the theater's curse, a cycle broken by will alone. They escaped, but echoes lingered in dreams.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. From first-person perspective, hidden door opening to night sky at center, frosty mist trailing from behind, alcove entrance on left, faded wall on right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene6.webp"
+      },
+      {
+        "id": "scene7",
+        "title": "Stage of Spectral Symphony",
+        "text": "Boards groaned underfoot, bone-chilling cold rising from below. Creaking spotlights swung, tension coiling in the void. Spectral figures encircled, their dances drawing blood in sharp, restrained bursts. Alex's mind screamed: join or perish in this eternal act.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. From first-person perspective, wooden stage with encircling spectral figures at center and sides, swinging spotlight above, bloodied floor in foreground.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Join the dance",
+            "next": "scene12"
+          },
+          {
+            "id": "2",
+            "text": "Resist and flee",
+            "next": "scene13"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.jpg"
+      },
+      {
+        "id": "scene8",
+        "title": "Seats of Silent Witness",
+        "text": "Crouched among velvet, bone-chilling cold numbed limbs. Creaking from above built dread's slow crescendo. Ghostly apparitions filled aisles, eyes hollow. Alex thought: watching forever, absorbed into the audience of the damned.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. From first-person perspective, velvet seats surrounding, ghostly figures in aisles at center and left, hollow eyes staring, dim ceiling above.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Absorption",
+        "image_filename": "scene8.jpg"
+      },
+      {
+        "id": "scene9",
+        "title": "Balcony's Lofty Peril",
+        "text": "Heights swayed, bone-chilling cold whipping through rails. Creaking wood threatened collapse, silence heavy with fall's promise. Spectral figures below performed, inviting madness. Alex's thoughts unraveled: the drop calls, endless plummet into oblivion.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. From first-person perspective, balcony railing in foreground, spectral performance below at center, creaking wood on left, vast drop on right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Madness",
+        "image_filename": "scene9.jpg"
+      },
+      {
+        "id": "scene10",
+        "title": "Pursuit into Depths",
+        "text": "Following mist, bone-chilling cold thickened. Creaking doors slammed shut, anticipation choking the air. The apparition turned, face melting in graphic decay, restrained yet visceral. Alex realized: too deep, the theater claims its own.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. From first-person perspective, fading apparition at center back, melting face in detail, slamming door on left, narrow hall extending right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Corruption",
+        "image_filename": "scene10.jpg"
+      },
+      {
+        "id": "scene11",
+        "title": "Props of Cursed Legacy",
+        "text": "Dusty relics hummed, bone-chilling cold emanating from masks. Creaking intensified, building to revelation. Touching one, visions flooded—ghostly performances unbound. Alex understood: banish by shattering the core artifact, freeing all.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. From first-person perspective, dusty props table at center with glowing mask, shattered artifact pieces on floor, creaking ropes above, shadowed wall on right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene11.jpg"
+      },
+      {
+        "id": "scene12",
+        "title": "Dance of Dissolution",
+        "text": "Steps merged with specters, bone-chilling cold fusing souls. Creaking applause from nowhere, tension releasing in final bow. Body dissolved, graphic tendrils pulling apart with quiet horror. Alex faded: into the eternal reprise.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. From first-person perspective, dissolving body in foreground, spectral dancers encircling at center, applauding shadows on left and right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Dissolution",
+        "image_filename": "scene12.jpg"
+      },
+      {
+        "id": "scene13",
+        "title": "Defiant Retreat",
+        "text": "Pushing back, bone-chilling cold recoiled. Creaking ceased, silence shattering like glass. Spectral figures waned, revealing the theater's fragile veil. Alex ascended, transformed by insight, rising above the curse.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, desaturated pastel colors, faded soft hues, subtle film grain. From first-person perspective, waning spectral figures at center, shattered glass on floor, ascending light above, stage exit on right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Ascension",
+        "image_filename": "scene13.jpg"
+      }
+    ],
+    "_metadata": {
+      "provider": "xAI",
+      "model": "grok-4",
+      "usage": {
+        "prompt_tokens": 1772,
+        "completion_tokens": 2755,
+        "total_tokens": 5016,
+        "prompt_tokens_details": {
+          "text_tokens": 1772,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 680
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 489,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "num_sources_used": 0
+      },
+      "generated_at": "2025-10-23T06:06:43.231Z"
+    },
+    "filename": "curtains-of-eternal-reprise_2025-10-23.json"
   },
   {
     "story_id": "story_1761118165364_gj7naqo55",
@@ -3848,6 +5418,342 @@ export const EMBEDDED_STORIES: Story[] = [
     "filename": "golgothas-clay_2025-10-22.json"
   },
   {
+    "story_id": "story_1761238533826_rnkt7kdkb",
+    "story_title": "Gravemire Synthesis",
+    "tone": "Slasher",
+    "duration": "long",
+    "art_direction": "A cinematic, first-person horror experience presented as vintage, sepia-toned photography. The aesthetic is defined by heavy film grain, dramatic storm lightning, and flash illumination, creating an authentic and unsettling found-footage feel.",
+    "settings": {
+      "tone": "Slasher",
+      "language": "elevated",
+      "narrative": "third_person",
+      "pacing": "moderate",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "whispers",
+      "duration": "long"
+    },
+    "image_settings": {
+      "image_style": "photo_realism",
+      "lighting_mood": "storm_lightning",
+      "color_palette": "sepia_tones",
+      "camera_perspective": "first_person"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "The Crimson Gate",
+        "text": "The iron gates groaned shut. Trapped. A blood-red moon pulsed overhead, painting the tombstones in gore. The air grew thick, heavy with the smell of wet earth and decay. A low howl slithered through the rows of stone angels. The ground beneath their feet felt soft. Too soft. It seemed to breathe.",
+        "image_prompt": "Looking through a massive, ornate iron gate at a sprawling cemetery. A huge blood-red moon hangs in the stormy sky. Your own hands are visible, gripping the cold iron bars in the foreground. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Head towards the grand mausoleum at the center.",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Seek shelter in the small, derelict chapel on the hill.",
+            "next": "scene3"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.webp"
+      },
+      {
+        "id": "scene2",
+        "title": "The Rising Filth",
+        "text": "They staggered down the main path. The mud was not mud. It was a dark, viscous fluid, bubbling from the cracks in old graves. It clung to their boots. A tremor ran up their leg. The skin on their shin tightened, pulling like old leather. Something shifted beneath the flesh.",
+        "image_prompt": "Looking down at your own feet, which are sinking into dark, bubbling mud on a cemetery path. The mud is crawling up your worn leather boots. A grand mausoleum is visible in the distance, silhouetted against the red moon. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Push forward into the mausoleum.",
+            "next": "scene4"
+          },
+          {
+            "id": "2",
+            "text": "Scramble up a tall, stone monument to escape the ground.",
+            "next": "scene5"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.jpg"
+      },
+      {
+        "id": "scene3",
+        "title": "The Unholy Light",
+        "text": "The path to the chapel was steep. A single, weak light flickered in its stained-glass window, a sickly yellow against the crimson night. The howling grew closer here, threaded with a wet, gurgling sound. A whisper touched their mind. *'Join... us... flesh...'* It was not a voice of air, but of soil.",
+        "image_prompt": "Looking up a muddy hill towards a small, gothic chapel. A single stained-glass window glows with a faint, sickly yellow light. Your hand is raised to shield your eyes from a flash of lightning. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Approach the chapel door directly.",
+            "next": "scene6"
+          },
+          {
+            "id": "2",
+            "text": "Skirt around the chapel, towards the cemetery's back wall.",
+            "next": "scene7"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.jpg"
+      },
+      {
+        "id": "scene4",
+        "title": "The Marble Tomb",
+        "text": "The mausoleum doors were cold stone. Inside, the air was still. A massive marble sarcophagus dominated the center of the room. A faint squelching sound echoed from within it. Their fingers twitched. The nails had grown long, yellowed, and split. They looked like old bone.",
+        "image_prompt": "Standing inside a dark, stone mausoleum. In the center of the frame is a large, ornate marble sarcophagus. Your own transformed hand is visible in the bottom left, the fingernails are cracked and yellowed. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Try to open the sarcophagus.",
+            "next": "scene8"
+          },
+          {
+            "id": "2",
+            "text": "Check the smaller burial crypts along the walls.",
+            "next": "scene9"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.jpg"
+      },
+      {
+        "id": "scene5",
+        "title": "The Angel's Perch",
+        "text": "They clawed their way up the stone angel. From its perch, they could see the whole graveyard. The mud pulsed in waves. Far off, a section of the perimeter wall had crumbled. A gnarled, dead tree stood nearby. A desperate leap. Below, the mud swirled, forming grasping, hand-like shapes.",
+        "image_prompt": "Perched high on a stone monument, looking out over the entire cemetery under a blood-red moon. Your mud-caked legs are dangling over the edge. In the distance, a crumbling section of wall next to a dead tree is visible. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Leap for the branches of the dead tree.",
+            "next": "scene10"
+          },
+          {
+            "id": "2",
+            "text": "Climb back down and make a run for it.",
+            "next": "scene11"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.jpg"
+      },
+      {
+        "id": "scene6",
+        "title": "The Clay Shepherd",
+        "text": "The chapel doors were chained. As they turned, a figure emerged from the side of the building. It wore tattered priest robes, but its flesh was slick, gray clay. Its face was a shifting mask of agony, eyes weeping black ooze. It extended a hand that was more root than finger. *'Give... it... back...'* it rasped.",
+        "image_prompt": "Confronted by a terrifying figure in priest's robes whose body is made of wet, gray clay. Its face is distorted in a permanent scream. You are holding up your hands defensively. The chapel door is behind the creature. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Fight it with a piece of a broken fence post.",
+            "next": "scene12"
+          },
+          {
+            "id": "2",
+            "text": "Flee back down the hill.",
+            "next": "scene13"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6.jpg"
+      },
+      {
+        "id": "scene7",
+        "title": "The Coffin Ladder",
+        "text": "They reached the back wall. It was sheer stone, too high to climb. A haphazard pile of unearthed, rotting coffins lay nearby. A grim ladder. Their own skin felt loose, and when they looked at their arm, a new, milky-white eye blinked slowly from their bicep.",
+        "image_prompt": "Looking at a tall, stone cemetery wall. To the right is a tall, unstable-looking pile of rotting wooden coffins. Your own arm is in the foreground, and a single, pale eye has opened on your bicep, staring forward. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to climb the pile of coffins.",
+            "next": "scene14"
+          },
+          {
+            "id": "2",
+            "text": "Follow the wall, looking for another way out.",
+            "next": "scene15"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.webp"
+      },
+      {
+        "id": "scene8",
+        "title": "The Grave-Heart",
+        "text": "The marble lid scraped open. The stench was overwhelming. Inside was not a corpse, but a single, massive, pulsating organ made of grave-dirt and twitching roots. It was the heart of this place. It beat with a slow, wet rhythm that matched the thrumming in their own altered bones.",
+        "image_prompt": "Looking down into an opened marble sarcophagus. Inside, a large, heart-like organ made of dark mud and tangled roots pulsates with a dim light. Your hands are gripping the edge of the stone coffin. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Reach out and touch the heart.",
+            "next": "scene16"
+          },
+          {
+            "id": "2",
+            "text": "Find a loose stone and try to destroy it.",
+            "next": "scene17"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene8.jpg"
+      },
+      {
+        "id": "scene9",
+        "title": "Scroll of Skin",
+        "text": "In a small crypt, a skeleton clutched a scroll of cured human skin. The text described a ritual of 'synthesis', meant to grant eternal life by merging with the soil. A hunger gnawed at them, not for food, but for earth. For stone. Their jaw elongated with a sickening crack.",
+        "image_prompt": "Crouching in a small, stone burial crypt. Your hands, now with long, sharp fingernails, are holding a scroll made of human skin covered in frantic writing. A human skeleton is slumped against the back wall. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Use the knowledge to seek the heart and destroy it.",
+            "next": "scene17"
+          },
+          {
+            "id": "2",
+            "text": "Give in to the hunger. Let the change complete.",
+            "next": "scene11"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene9.jpg"
+      },
+      {
+        "id": "scene10",
+        "title": "A Brutal Escape",
+        "text": "They leaped. Wood splintered. Their fingers, now more like claws, dug into the dead branch. The impact shattered the bone in their leg, but they were over the wall. They dragged themselves into the woods, leaving a trail of blood and black mud. Alive. Scarred. But alive.",
+        "image_prompt": "Looking down from a thick tree branch, over a high stone wall. The cemetery is behind and below. Your mangled, bloody leg is tangled in the branches. The dark woods are ahead. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene10.webp"
+      },
+      {
+        "id": "scene11",
+        "title": "Root and Bone",
+        "text": "The choice was made. Or perhaps, it was never a choice at all. They slid from the monument, landing in the deepest mire. The mud surged up, a welcoming embrace. Flesh dissolved. Bone intertwined with root. The voices became one. They were the graveyard now. And they were eternal.",
+        "image_prompt": "Looking up from the ground as dark, thick mud rapidly covers your entire field of view. Glimpses of tombstones and the red moon are visible through the encroaching filth. Your own muddy hand reaches up towards the sky. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Transformation",
+        "image_filename": "scene11.jpg"
+      },
+      {
+        "id": "scene12",
+        "title": "Iron and Clay",
+        "text": "They grabbed the rusted iron spike. The clay priest lunged. They drove the spike into its chest. The creature shrieked, a sound of grinding stone. Its body did not bleed; it crumbled. The clay form dissolved into a sloshing puddle of inert mud, leaving the chapel door clear.",
+        "image_prompt": "Looking down at a puddle of dark mud at your feet. An old, rusted iron fence spike stands upright in the center of the puddle. Your hand, holding the other end of the spike, is covered in the mud. The chapel door is now visible beyond. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Enter the now unguarded chapel.",
+            "next": "scene18"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene12.jpg"
+      },
+      {
+        "id": "scene13",
+        "title": "The Sunken Garden",
+        "text": "They fled. The priest did not follow. They ran wildly through the tombstones, but the ground softened. It became a swamp. Skeletal hands, formed of mud and bone, erupted from the earth. They grabbed ankles, legs, arms. They pulled them down into the cold, silent dark.",
+        "image_prompt": "Looking down as dozens of skeletal hands made of mud and bone erupt from the ground, gripping your legs and arms, pulling you down. Your face is inches from the muddy ground. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene13.jpg"
+      },
+      {
+        "id": "scene14",
+        "title": "A Grave of Splinters",
+        "text": "They scrambled up the coffins. Wood, rotten and slick, cracked under their weight. The entire pile shifted, then collapsed. They fell into a chasm of splintered planks and ancient bones. The mud poured in from above, filling the space, sealing them in a makeshift tomb. The transformation was swift.",
+        "image_prompt": "Trapped in a tight space, looking up through a hole of splintered, broken coffin wood. Dark mud is pouring in from the hole, covering everything. The red moon is a tiny speck in the distance. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Transformation",
+        "image_filename": "scene14.jpg"
+      },
+      {
+        "id": "scene15",
+        "title": "The Rusted Seam",
+        "text": "Following the wall led to a small, iron gate, almost swallowed by ivy. A groundskeeper's entrance. It was rusted shut, a heavy chain and lock binding it. Their own arms felt stronger now, the muscles knotted and dense like hardwood. A desperate strength born of unnatural change.",
+        "image_prompt": "Your hands, now thick and misshapen with hardened skin, are gripping a heavily rusted chain and lock on a small iron gate. The gate is covered in thick ivy, and you are trying to pull it apart. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Use your new strength to tear the lock apart.",
+            "next": "scene20"
+          },
+          {
+            "id": "2",
+            "text": "Give up and search for another way.",
+            "next": "scene7"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene15.webp"
+      },
+      {
+        "id": "scene16",
+        "title": "The Collective Mind",
+        "text": "Their fingers touched the pulsating surface. A shockwave of sensation. A thousand lifetimes of silent screaming filled their mind. Memories of death, of decay, of lonely darkness. Their body dissolved, flowing into the heart, a single drop of water joining an ocean of despair. No pain. Only silence.",
+        "image_prompt": "A distorted, blurry view from inside a pulsating mass of dark matter. Fleeting, ghost-like images of faces from different eras flash within the organic texture. Your own hand is dissolving into the material in the foreground. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene16.jpg"
+      },
+      {
+        "id": "scene17",
+        "title": "A Terrible Knowledge",
+        "text": "They brought the stone down. The heart ruptured, spewing black fluid. The howl outside became a death scream. The curse was not broken, but they understood it now. It was a failed apotheosis, a hunger that could never be filled. The knowledge was a scar on their soul, but the path back to the gate was now clear of the grasping mud.",
+        "image_prompt": "Standing over the shattered remains of the mud-heart in the sarcophagus. Your hands are covered in black ooze. The mausoleum is shaking, and dust falls from the ceiling. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "scene17.webp"
+      },
+      {
+        "id": "scene18",
+        "title": "Sanctuary and Exit",
+        "text": "They stepped into the chapel. It was quiet. The altar was pushed aside, revealing a dark tunnel leading down. A hidden escape route. The air from the tunnel was clean, free of the graveyard's stench. Freedom was a few steps away.",
+        "image_prompt": "Standing inside a derelict chapel. Before you, a heavy stone altar has been pushed aside, revealing a dark, square tunnel leading down into the earth. You are holding a lit match to see into the darkness. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene18.jpg"
+      },
+      {
+        "id": "scene19",
+        "title": "Unwilling Union",
+        "text": "They grappled with the clay priest. A mistake. Their flesh met its clay, and the two began to fuse. Skin became pliable. Bone softened. Their consciousness blurred, merging with the tormented mind of the priest. They were two, then one, a new guardian for the unholy chapel.",
+        "image_prompt": "Your own hand is visible, but it's halfway transformed into gray, wet clay, merging with the identical clay hand of another figure. The textures are blending together seamlessly. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Absorption",
+        "image_filename": "scene19.jpg"
+      },
+      {
+        "id": "scene20",
+        "title": "The Chain Breaks",
+        "text": "They pulled. Muscle, unnaturally dense, strained. Metal shrieked. A link in the chain snapped. The lock fell to the mud. The gate swung open with a groan. They stumbled out, into the night, the howls of the graveyard fading behind them. Free, but forever changed.",
+        "image_prompt": "Looking through a small, freshly opened iron gate. Your monstrously thick, vein-covered hand rests on the gate's edge. Outside is a dark, misty forest. The cemetery is behind you. Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene20.webp"
+      }
+    ],
+    "_metadata": {
+      "provider": "Gemini",
+      "model": "gemini-2.5-pro",
+      "generated_at": "2025-10-23T16:56:37.305Z"
+    },
+    "filename": "gravemire-synthesis_2025-10-23.json"
+  },
+  {
     "story_id": "story_1761054995899_fduj5vyhz",
     "story_title": "Grim Core Symphony",
     "tone": "Gothic",
@@ -4194,6 +6100,404 @@ export const EMBEDDED_STORIES: Story[] = [
       "generated_at": "2025-10-21T17:11:20.853Z"
     },
     "filename": "infinite-incisions_2025-10-21.json"
+  },
+  {
+    "story_id": "story_1761198242468_9ykhatmoe",
+    "story_title": "Ledger of Frostbitten Lore",
+    "tone": "Surreal",
+    "duration": "short",
+    "art_direction": "Watercolor gothic horror with flickering flames and sepia tones",
+    "settings": {
+      "tone": "Surreal",
+      "language": "simple",
+      "narrative": "second_person",
+      "pacing": "fast",
+      "violence": "subtle",
+      "imagery": "rich",
+      "dialogue": "minimal",
+      "duration": "short"
+    },
+    "image_settings": {
+      "image_style": "watercolor_gothic",
+      "lighting_mood": "flickering_fire",
+      "color_palette": "sepia_tones",
+      "camera_perspective": "first_person"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "The Threshold of Ice",
+        "text": "You push the heavy door. It groans open. Bone-chilling cold rushes out. Like frozen needles in your skin. Creaks fill the air. Shelves loom high. Books pulse faintly. You think: this knowledge calls me. But something twists inside. Ancient curses stir. Supernatural forces awaken. Your breath fogs. Heart races.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, vintage sepia tones, aged brown hues, subtle film grain. Massive wooden door ajar in front, towering bookshelves left and right, flickering lantern on low table center, frosted windows high above, scattered ancient tomes on floor foreground.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Examine the nearest shelf",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Search for a specific tome",
+            "next": "scene3"
+          },
+          {
+            "id": "3",
+            "text": "Listen to the creaks",
+            "next": "scene4"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.webp"
+      },
+      {
+        "id": "scene2",
+        "title": "Whispers from Leather",
+        "text": "You reach for a book. Fingers numb from cold. It feels alive. Pages flutter on their own. Creaks grow louder. Like bones shifting. You think: secrets here could change everything. But curses bind them. Forces pull at your mind. Shadows dance. Cold deepens. Something watches.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, vintage sepia tones, aged brown hues, subtle film grain. Dusty leather-bound book in hand foreground, endless shelves stretching back, cracked spine opening slightly center, faint glowing runes on pages, icy frost on edges left and right.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Open and read",
+            "next": "scene5"
+          },
+          {
+            "id": "2",
+            "text": "Replace it and flee",
+            "next": "scene6"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.webp"
+      },
+      {
+        "id": "scene3",
+        "title": "Hunt in the Frost",
+        "text": "You scan titles. Cold bites harder. Creaks echo like distant screams. A tome glows faintly. Forbidden knowledge hums. You think: this is it. The one I seek. But curses coil around it. Supernatural tendrils brush your thoughts. Panic rises. Shelves seem to close in.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, vintage sepia tones, aged brown hues, subtle film grain. Glowing ancient tome on high shelf center, ladder leaning right, frosted cobwebs dangling left, scattered papers on floor foreground, dim lantern hanging above.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Climb to grab it",
+            "next": "scene5"
+          },
+          {
+            "id": "2",
+            "text": "Turn back now",
+            "next": "scene6"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.webp"
+      },
+      {
+        "id": "scene4",
+        "title": "Echoes of the Structure",
+        "text": "You stand still. Creaks surround you. Like the library breathes. Cold seeps into bones. Ancient curses murmur in the wood. Supernatural forces creak with malice. You think: it's alive. Hungry for souls. Fear grips. But curiosity burns. Something shifts nearby.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, vintage sepia tones, aged brown hues, subtle film grain. Creaking wooden beams overhead center, shadowed alcoves left and right, frosted floorboards underfoot foreground, faint mist rising, tilted bookshelf back.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Follow the sound",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Ignore and explore books",
+            "next": "scene2"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.webp"
+      },
+      {
+        "id": "scene5",
+        "title": "Curse Unleashed",
+        "text": "Pages turn. Words crawl like insects. Cold freezes your veins. Creaks become roars. Ancient curse activates. Supernatural force surges. You think: too late. It claims me. Visions of forgotten horrors flood in. Body weakens. Knowledge devours. Pain implied in shadows.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, vintage sepia tones, aged brown hues, subtle film grain. Open book with writhing text in hands foreground, swirling dark mists center, crumbling shelves left and right, icy chains emerging from pages, flickering candle on stand back.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Possession",
+        "image_filename": "scene5.webp"
+      },
+      {
+        "id": "scene6",
+        "title": "Flight from the Chill",
+        "text": "You bolt for the door. Cold chases you. Creaks mock your escape. Ancient curses whisper farewells. Supernatural forces tug at your heels. You think: I made it. Knowledge denied. But wisdom gained in fear. Door slams shut behind. Warmth returns slowly.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, vintage sepia tones, aged brown hues, subtle film grain. Heavy door closing center, retreating shelves back, frosted handprints on wood left, scattered leaves on threshold foreground, faint light outside right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene6.webp"
+      },
+      {
+        "id": "scene7",
+        "title": "Depths of the Archive",
+        "text": "You follow the creak. Down a hidden stair. Cold intensifies. Like icy grave. Creaks guide you. Ancient curses etched in walls. Supernatural forces swirl. You think: deeper secrets here. But danger pulses. Shadows grasp. Heart pounds wildly.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, vintage sepia tones, aged brown hues, subtle film grain. Narrow descending staircase center, carved curse runes on walls left and right, dripping frost foreground, dim torch at bottom back, swirling shadows overhead.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Descend further",
+            "next": "scene8"
+          },
+          {
+            "id": "2",
+            "text": "Retreat to main hall",
+            "next": "scene3"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.webp"
+      },
+      {
+        "id": "scene8",
+        "title": "Core of Forbidden Truth",
+        "text": "At the bottom. A pedestal with the ultimate tome. Cold paralyzes. Creaks cease suddenly. Ancient curse reveals itself. Supernatural force offers power. You think: understand it all. Or lose everything. Choice burns. Knowledge tempts eternally.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, vintage sepia tones, aged brown hues, subtle film grain. Glowing pedestal with massive tome center, frozen vines encircling left and right, cracked stone floor foreground, ethereal light beams from above, shadowed alcove back.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Embrace the knowledge",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Destroy the tome",
+            "next": "scene10"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene8.webp"
+      },
+      {
+        "id": "scene9",
+        "title": "Merged with Eternity",
+        "text": "You touch it. Knowledge floods. Cold becomes you. Creaks your new voice. Ancient curse binds forever. Supernatural forces absorb. You think: I am the library now. Endless wisdom. But trapped in pages. Existence fades to ink.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, vintage sepia tones, aged brown hues, subtle film grain. Hands merging into tome pages foreground, dissolving body center, infinite shelves extending left and right, icy aura glowing, forgotten relics on pedestal back.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Absorption",
+        "image_filename": "scene9.webp"
+      },
+      {
+        "id": "scene10",
+        "title": "Banishment of Frost",
+        "text": "You smash it. Flames erupt oddly. Cold shatters. Creaks silence. Ancient curse breaks. Supernatural forces flee. You think: truth revealed. The library's lie exposed. Freedom in destruction. Warmth returns. Knowledge purified.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, vintage sepia tones, aged brown hues, subtle film grain. Shattered tome fragments on pedestal center, retreating shadows left and right, melting frost puddles foreground, brightening light from above, crumbling walls back.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene10.webp"
+      }
+    ],
+    "_metadata": {
+      "provider": "xAI",
+      "model": "grok-4",
+      "usage": {
+        "prompt_tokens": 1761,
+        "completion_tokens": 2294,
+        "total_tokens": 4609,
+        "prompt_tokens_details": {
+          "text_tokens": 1761,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 681
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 554,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "num_sources_used": 0
+      },
+      "generated_at": "2025-10-23T05:45:15.696Z"
+    },
+    "filename": "ledger-of-frostbitten-lore_2025-10-23.json"
+  },
+  {
+    "story_id": "story_1761199088011_ofqw2s7xa",
+    "story_title": "Litany of the Stormforged Enclave",
+    "tone": "Occult",
+    "duration": "short",
+    "art_direction": "Baroque horror in cursed woodland rites",
+    "settings": {
+      "tone": "Occult",
+      "language": "elevated",
+      "narrative": "second_person",
+      "pacing": "moderate",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "minimal",
+      "duration": "short"
+    },
+    "image_settings": {
+      "image_style": "oil_painting",
+      "lighting_mood": "moonlight",
+      "color_palette": "cold_blues",
+      "camera_perspective": "dutch_angle"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "Threshold of the Enclave",
+        "text": "In the shadowed codices of antiquity, you cross the boundary into the cursed forest, where ancient rituals pulse like veiled incantations. Electrical storms rage overhead, their thunderous invocations shattering the night, while power failures dim the ethereal wards that once bound this realm. Twisted creatures stir in the undergrowth, their forms a monstrous litany of contorted limbs and glowing runes. You feel the invocation rising within: 'O spirits of the stormforged, reveal thy enigmas.' The air thickens with ozone and ritual smoke, drawing you deeper into the enclave's embrace.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, cold silver moonlight, ethereal glow, cold blue atmosphere, icy color scheme, subtle film grain. First-person view entering a dense cursed forest during an electrical storm, twisted trees with rune-carved bark arching overhead, flickering ethereal wards on glowing stones at ground level left and right, a distant monstrous silhouette lurking in the shadows center back.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Invoke the storm's fury to illuminate hidden paths",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Chant wards against the encroaching darkness",
+            "next": "scene3"
+          },
+          {
+            "id": "3",
+            "text": "Seek the ancient altar amid the thunder",
+            "next": "scene4"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.jpg"
+      },
+      {
+        "id": "scene2",
+        "title": "Fury of the Invocation",
+        "text": "Thou dost raise thine arms to the heavens, intoning the storm's litany: 'By bolt and gale, unveil the veiled.' Lightning cracks the sky, a ritualistic surge that banishes power failures momentarily, revealing grotesque beings—twisted amalgamations of root and flesh, their eyes like shattered crystals. One lunges, its claws rending fabric and skin in restrained fury, blood mingling with rain. Your inner voice chants resilience: 'Endure, for the enclave's secrets beckon.' The forest writhes, alive with monstrous rhythms.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, cold silver moonlight, ethereal glow, cold blue atmosphere, icy color scheme, subtle film grain. First-person view raising arms amid lightning storm in cursed forest, twisted creature with root-like limbs and crystal eyes lunging from left foreground, ancient runes glowing on tree trunks center and right, scattered bloodied leaves on wet ground.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Confront the creature with a binding chant",
+            "next": "scene5"
+          },
+          {
+            "id": "2",
+            "text": "Flee toward the storm's epicenter",
+            "next": "scene6"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.jpg"
+      },
+      {
+        "id": "scene3",
+        "title": "Wards of the Veiled",
+        "text": "With scholarly precision, you murmur protective incantations drawn from forgotten grimoires: 'Shield of ether, repel the profane.' Power failures flicker, storms howling in ritual defiance, as monstrous beings emerge—hulking forms of bark and bone, their maws dripping viscous ichor. One grazes you, its touch a searing invocation of pain, flesh blistering without excess gore. Internally, you ponder: 'These wards are but echoes; true power lies in deeper rites.' The enclave's shadows deepen, urging progression.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, cold silver moonlight, ethereal glow, cold blue atmosphere, icy color scheme, subtle film grain. First-person view chanting in stormy forest, hulking bark-and-bone monster approaching from right midground, glowing ward symbols floating in air center, blistered skin on extended hand foreground left, flickering storm clouds overhead.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Amplify the wards to banish the beings",
+            "next": "scene5"
+          },
+          {
+            "id": "2",
+            "text": "Merge with the storm's energy for revelation",
+            "next": "scene7"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.webp"
+      },
+      {
+        "id": "scene4",
+        "title": "Altar of Thunder",
+        "text": "Guided by ritualistic compulsion, you approach the ancient altar, its stone etched with symbols of storm and curse. Electrical tempests converge, power failures plunging all into abyssal rite. Twisted creatures swarm—ethereal horrors with tendrils of lightning-forged sinew, one ensnaring you, its grip crushing bone in measured agony, viscera exposed yet contained. Your mind invokes despair: 'The enclave claims its due.' Monstrous beings chant in unison, sealing your fate in oblivion's embrace.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, cold silver moonlight, ethereal glow, cold blue atmosphere, icy color scheme, subtle film grain. First-person view at ancient stone altar in stormy forest, lightning-tendril creature ensnaring from center foreground, etched symbols on altar surface right, swarming shadows of monsters in background left and right, exposed bone on trapped arm lower foreground.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene4.jpg"
+      },
+      {
+        "id": "scene5",
+        "title": "Binding of the Monstrous",
+        "text": "In academic invocation, you weave chants of binding: 'By root and rune, constrain the profane.' The storm intensifies, power failures yielding to your ritual surge, as twisted creatures convulse—beings of fused storm and flesh, their hides splitting with graphic yet restrained rends, ichor spilling like sacrificial libation. One's claw scores your side, a wound of ritual significance. Internally, you resolve: 'Mastery over these abominations paves the path to truth.' The enclave trembles, choices manifesting in the ether.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, cold silver moonlight, ethereal glow, cold blue atmosphere, icy color scheme, subtle film grain. First-person view weaving chants in forest clearing, convulsing storm-flesh creature splitting hide center midground, ichor pools on ground left, scored wound on side foreground right, trembling rune stones scattered back.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Absorb the creature's essence for power",
+            "next": "scene8"
+          },
+          {
+            "id": "2",
+            "text": "Invoke banishment to cleanse the enclave",
+            "next": "scene9"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.jpg"
+      },
+      {
+        "id": "scene6",
+        "title": "Epicenter's Embrace",
+        "text": "Fleeing into the storm's heart, you chant pleas of endurance: 'Thunder's core, grant thy mercy.' Power failures cascade, electrical rites overwhelming as monstrous beings pursue—leviathans of crackling energy and warped anatomy, one overtaking you, its form engulfing in a vortex of tearing winds and flesh-melding agony, restrained in its visceral detail. Your inner litany fades: 'Surrender to the enclave's eternal storm.' Transformation claims you, body twisting into the monstrous fold.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, cold silver moonlight, ethereal glow, cold blue atmosphere, icy color scheme, subtle film grain. First-person view fleeing into storm epicenter, energy-leviathan engulfing from behind center, crackling tendrils wrapping arms foreground, warped trees bending in wind left and right, swirling vortex back.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Transformation",
+        "image_filename": "scene6.jpg"
+      },
+      {
+        "id": "scene7",
+        "title": "Revelation of the Storm",
+        "text": "Merging with the storm's essence, you intone the grand invocation: 'Unite with gale, unveil the arcane.' Power surges stabilize, failures ceasing as twisted creatures recoil—beings of ritual failure, their forms dissolving in ethereal light without undue gore. A graze from one leaves a symbolic scar, pain a catalyst for insight. Your mind awakens: 'The enclave's curses are but illusions of forgotten rites.' Clarity dawns, revealing paths to freedom beyond the forest's grasp.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, cold silver moonlight, ethereal glow, cold blue atmosphere, icy color scheme, subtle film grain. First-person view merging with storm in forest, recoiling ritual creatures dissolving center and left, symbolic scar on hand foreground right, stabilizing power surges as glowing runes midground back, clear path emerging right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "scene7.jpg"
+      },
+      {
+        "id": "scene8",
+        "title": "Essence of Corruption",
+        "text": "Absorbing the creature's essence, you chant the rite of union: 'Incorporate the twisted, ascend the profane.' Storms rage unchecked, power failures eternalizing as your form warps—monstrous infusions swelling veins with graphic restraint, skin splitting to reveal underlying horrors. The beings merge with you, agony a symphony of ritual completion. Internally, you succumb: 'The enclave's litany is now mine.' Corruption binds you forever to the cursed wood.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, cold silver moonlight, ethereal glow, cold blue atmosphere, icy color scheme, subtle film grain. First-person view absorbing essence in stormy glade, warping skin on arms foreground, merging monstrous forms center midground, swelling veins visible left, eternal storm clouds overhead right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Corruption",
+        "image_filename": "scene8.webp"
+      },
+      {
+        "id": "scene9",
+        "title": "Cleansing Banishment",
+        "text": "Invoking the ultimate banishment, you proclaim: 'By ancient decree, expel the stormforged blight.' Electrical tempests subside, power restored in ritual harmony as twisted creatures shatter—beings fragmenting with restrained bursts of ethereal shards, one final lash drawing blood in measured wound. Your resolve echoes: 'The enclave yields to purity.' The forest's curse lifts, allowing escape into the dawn's untainted light.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, cold silver moonlight, ethereal glow, cold blue atmosphere, icy color scheme, subtle film grain. First-person view proclaiming banishment in forest, shattering creatures in ethereal shards center, bloodied lash wound on chest foreground left, subsiding storm right midground, emerging dawn path back.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene9.jpg"
+      }
+    ],
+    "_metadata": {
+      "provider": "xAI",
+      "model": "grok-4",
+      "usage": {
+        "prompt_tokens": 1757,
+        "completion_tokens": 2586,
+        "total_tokens": 5057,
+        "prompt_tokens_details": {
+          "text_tokens": 1757,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 679
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 714,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "num_sources_used": 0
+      },
+      "generated_at": "2025-10-23T05:59:21.801Z"
+    },
+    "filename": "litany-of-the-stormforged-enclave_2025-10-23.json"
   },
   {
     "story_id": "story_1761066591844_6amwaijks",
@@ -5137,6 +7441,252 @@ export const EMBEDDED_STORIES: Story[] = [
     "filename": "nexus-of-forgotten-reservations_2025-10-21.json"
   },
   {
+    "story_id": "story_9371258193021_pnhrstscr",
+    "story_title": "Penhurst's Psychic Scar",
+    "tone": "Slasher",
+    "duration": "medium",
+    "art_direction": "Vintage photo realism with a cold, blue, icy color palette and warm candlelight.",
+    "settings": {
+      "tone": "Slasher",
+      "language": "elevated",
+      "narrative": "first_person",
+      "pacing": "fast",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "whispers",
+      "duration": "medium"
+    },
+    "image_settings": {
+      "image_style": "photo_realism",
+      "lighting_mood": "candlelight",
+      "color_palette": "cold_blues",
+      "camera_perspective": "wide_cinematic"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "The Iron Grin",
+        "text": "The iron gate groans. Rusted shut. A thick fog chokes the air, tasting of wet stone and decay. My lantern's flame shivers. It paints the bars in flickering orange. A scream rips through the silence. Not human. It scrapes the inside of my skull. The main gate is sealed. A low section of the wall to my left looks rotten.",
+        "image_prompt": "My hand holds an old brass lantern, casting a pool of warm light on the towering, rusted iron gate of an asylum in the center. The gate is sealed with a heavy chain. A crumbling stone wall extends to the left. Thick, swirling fog obscures everything else. Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, warm flickering candlelight, dancing shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Climb the crumbling wall.",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Follow the wall, find another way.",
+            "next": "scene3"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.webp"
+      },
+      {
+        "id": "scene2",
+        "title": "Weeping Courtyard",
+        "text": "I drop into an overgrown courtyard. The ground is soft. Too soft. Statues of angels are here. They weep a black, viscous ooze that stains the stone. Another scream, closer now. It feels like it's right behind me. A side door to the infirmary hangs ajar on the right, a dark maw. The main entrance is a set of heavy oak doors at the far end of the courtyard.",
+        "image_prompt": "First-person view from a crouched position in an overgrown asylum courtyard. In the center, a stone angel statue is covered in glistening black slime. My lantern sits on the ground beside me, its light catching the ooze. A dark, open doorway is on the right wall. The asylum's grand entrance is visible in the background. Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, warm flickering candlelight, dancing shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Slip into the infirmary.",
+            "next": "scene4"
+          },
+          {
+            "id": "2",
+            "text": "Risk the main entrance.",
+            "next": "scene5"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.jpg"
+      },
+      {
+        "id": "scene3",
+        "title": "The Cold Furnace",
+        "text": "I find a rusted grate. It breaks under my boot. I fall into the boiler room. The air is damp, metallic. A great, cold furnace dominates the space, a sleeping iron beast. My lantern's flame is the only light. A skittering sound echoes from the pipes above. A heavy workbench sits against the far wall.",
+        "image_prompt": "Looking down a long, dark boiler room from a low angle. A massive, cold iron furnace with its door agape is on the left. My lantern sits on the floor, illuminating a dusty workbench against the back wall. Deep shadows cling to a network of overhead pipes. Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, warm flickering candlelight, dancing shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Ignore the noise and head upstairs.",
+            "next": "scene5"
+          },
+          {
+            "id": "2",
+            "text": "Search the workbench.",
+            "next": "scene6"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.webp"
+      },
+      {
+        "id": "scene4",
+        "title": "The Long Ward",
+        "text": "Rusting bed frames stand in silent rows. Charts litter the floor. They describe psychic dissections, attempts to peel the soul back. A whisper slithers from the walls. *It sees you*. I look up. A figure stands at the far end of the ward. Tall. Gaunt. Made of stretched bone and shadow. It watches me without eyes.",
+        "image_prompt": "View down a long, derelict hospital ward. Rusted bed frames line both walls. A tall, skeletal shadow-figure stands motionless at the far end of the room, barely visible. My lantern's light, placed on a nearby bed, casts long, dancing shadows that make the room feel alive. Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, warm flickering candlelight, dancing shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Raise the lantern and approach it.",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Turn and flee into the main hall.",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.webp"
+      },
+      {
+        "id": "scene5",
+        "title": "Foyer of the Founder",
+        "text": "The grand foyer is a tomb of cold marble. A huge staircase sweeps up into darkness. Dust motes dance in my lantern's beam. A portrait of a severe man, Dr. Alistair Finch, hangs crookedly on the wall. His painted eyes follow my every move. The silence here is heavy. It has weight.",
+        "image_prompt": "Standing in a vast, empty asylum foyer. A grand staircase is in the center, ascending into blackness. My lantern sits on the floor, its light illuminating the cracked marble and a large, dark portrait of a man on the right wall. The man's eyes in the portrait seem to glint. Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, warm flickering candlelight, dancing shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Ascend the grand staircase.",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Check the patient wards on this floor.",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.webp"
+      },
+      {
+        "id": "scene6",
+        "title": "The Doctor's Key",
+        "text": "I run my hand along the workbench. A loose board. I pry it open. Inside, a heavy iron key sits beside a folded page from a journal. The script is frantic. It speaks of a device, an 'Aetheric Resonator', in Finch's office. A way to close the wound in the world. The key feels cold, a shard of winter in my palm.",
+        "image_prompt": "A close-up view of my hands opening a hidden compartment in a wooden workbench. Inside, illuminated by my nearby lantern, rests a large, ornate iron key and a yellowed, folded piece of paper with frantic handwriting. Tools are scattered around the workbench. Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, warm flickering candlelight, dancing shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Take the key and find the stairs.",
+            "next": "scene5"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6.webp"
+      },
+      {
+        "id": "scene7",
+        "title": "The Silent Patient",
+        "text": "The figure does not move as I approach. It is not hostile. It is trapped. A long, skeletal finger rises, pointing to a rusted medical cabinet on the wall. A gesture of immense effort. As I look, the figure dissolves into a cloud of whispering dust. Inside the cabinet, I find a silver locket, etched with a strange, calming sigil.",
+        "image_prompt": "My hand reaches into a rusted, open medical cabinet on a grimy wall. Inside, a silver locket etched with symbols glints in the light from my lantern, which rests on the floor. A dissipating cloud of black dust, the remains of a spirit, floats in the air nearby. Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, warm flickering candlelight, dancing shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Take the locket and find the doctor's office.",
+            "next": "scene9"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.webp"
+      },
+      {
+        "id": "scene8",
+        "title": "Corridor of Scratches",
+        "text": "The hallway is a throat. Narrow and dark. Cell doors line the walls, each with a small, barred window. The walls are covered in frantic scratches. Fingernails worn to bone. A low, wet growl echoes from a cell just ahead. The door at the very end of the hall is reinforced steel. A plaque reads 'ISOLATION'.",
+        "image_prompt": "Looking down a long, narrow asylum corridor lined with cell doors. The walls are completely covered in deep scratch marks. My lantern on the floor casts my long shadow down the hall toward a heavy steel door at the far end. Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, warm flickering candlelight, dancing shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Peer into the growling cell.",
+            "next": "scene10"
+          },
+          {
+            "id": "2",
+            "text": "Run for the isolation door.",
+            "next": "scene9"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene8.jpg"
+      },
+      {
+        "id": "scene9",
+        "title": "The Resonator",
+        "text": "Finch's office. Books molder on their shelves. A huge oak desk sits before a shattered window. And on it, the source of the cold. A device of brass and spinning rings, with a large, pulsating crystal at its heart. The Aetheric Resonator. A voice speaks from the device itself, a chorus of agony and hunger. *'You have come... to complete the work.'*",
+        "image_prompt": "A grand, decaying office. A massive oak desk sits in the center of the room, in front of a tall, shattered window. On the desk is a complex brass device with a glowing crystal at its core—the Aetheric Resonator. My lantern rests on the corner of the desk, illuminating the scene. Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, warm flickering candlelight, dancing shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Use the Resonator to seal the rift.",
+            "next": "scene11"
+          },
+          {
+            "id": "2",
+            "text": "Smash the device with a paperweight.",
+            "next": "scene12"
+          },
+          {
+            "id": "3",
+            "text": "Try to escape through the shattered window.",
+            "next": "scene14"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene9.webp"
+      },
+      {
+        "id": "scene10",
+        "title": "The Thing in the Cell",
+        "text": "I look through the bars. Two points of red light flare in the darkness. Then a shape lunges. Not a man. A creature of mismatched limbs and a jaw that unhinges too far. The steel door buckles, torn from its frame. It pins me. The world dissolves into a vortex of pain and grinding bone. My scream is added to the chorus.",
+        "image_prompt": "A horrifying, first-person view of a monster made of tangled limbs and a giant maw lunging through a shattered cell door. I am pinned to the floor, looking up at the creature as it descends. The lantern has been knocked over, casting chaotic, spinning light across the scene. Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, warm flickering candlelight, dancing shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Absorption",
+        "image_filename": "scene10.jpg"
+      },
+      {
+        "id": "scene11",
+        "title": "The Severance",
+        "text": "I jam the silver locket into a slot on the Resonator. It fits. I turn the key I found. A blinding blue light erupts, washing out the lantern's flame. The screams from the walls become one deafening shriek of pure rage. The fog outside the window vaporizes. A violent pressure leaves the room. Then, silence. The asylum is just an empty, broken place now. I am alone.",
+        "image_prompt": "My hands are on the complex brass Resonator, having just inserted a silver locket which now glows with intense blue light. Arcs of brilliant energy erupt from the device, illuminating the entire office. Outside the shattered window, the night is clear. Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, warm flickering candlelight, dancing shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene11.webp"
+      },
+      {
+        "id": "scene12",
+        "title": "Shattered Reality",
+        "text": "I grab a heavy bookend and bring it down hard on the crystal. It doesn't just break. It detonates. A wave of force throws me back. The rift doesn't close. It shatters. The walls of the office tear away, revealing a swirling, screaming void of impossible color. The asylum, and I with it, are pulled apart atom by atom.",
+        "image_prompt": "The Resonator on the desk explodes in a cataclysm of light. The walls of the office are peeling away like paper, revealing a swirling, chaotic vortex of cosmic energy and color. Furniture is being sucked into the void. I am on the floor, my hand reaching out as I am pulled in. Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, warm flickering candlelight, dancing shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene12.webp"
+      },
+      {
+        "id": "scene14",
+        "title": "The Grasp from Beyond",
+        "text": "I don't hesitate. I vault through the shattered window, landing on a narrow stone ledge. The fog below is a churning sea. I start to edge my way along the wall. A black, coiling tendril, slick and cold, shoots from the window. It wraps around my ankle. It feels impossibly strong. I am dragged, kicking, back into the hungry dark of Penhurst.",
+        "image_prompt": "View from a narrow stone ledge outside a shattered window. I am looking down at my leg, where a glistening black tendril is wrapped tightly around my ankle, pulling me back towards the dark window frame of the asylum office. Far below, a sea of thick fog churns. Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, warm flickering candlelight, dancing shadows, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Corruption",
+        "image_filename": "scene14.jpg"
+      }
+    ],
+    "_metadata": {
+      "provider": "Gemini",
+      "model": "gemini-2.5-pro",
+      "generated_at": "2025-10-23T16:56:31.336Z"
+    },
+    "filename": "penhursts-psychic-scar_2025-10-23.json"
+  },
+  {
     "story_id": "story_1761051741236_c5bcm5k0s",
     "story_title": "Porcelain Purgatory",
     "tone": "Slasher",
@@ -5259,6 +7809,571 @@ export const EMBEDDED_STORIES: Story[] = [
       "generated_at": "2025-10-21T13:03:24.654Z"
     },
     "filename": "porcelain-purgatory_2025-10-21.json"
+  },
+  {
+    "story_id": "story_1761199525200_50ommm316",
+    "story_title": "Relics of the Embered Veil",
+    "tone": "Surreal",
+    "duration": "medium",
+    "art_direction": "Comic noir horror with branching paths in a cursed antique shop",
+    "settings": {
+      "tone": "Surreal",
+      "language": "elevated",
+      "narrative": "third_person",
+      "pacing": "fast",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "minimal",
+      "duration": "medium"
+    },
+    "image_settings": {
+      "image_style": "comic_noir",
+      "lighting_mood": "dim_ambient",
+      "color_palette": "warm_oranges",
+      "camera_perspective": "wide_cinematic"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "Threshold of Whispers",
+        "text": "Elara pushed the door. It groaned like a dying breath. Blood-red moon bled through cracked windows. Howling sounds clawed the night. Objects stirred—subtle, alive. Her mind raced: this shop, a tomb of forgotten sins. Shadows pulsed. Heart thrummed. Demonic whispers teased the edges of sanity.",
+        "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. First-person camera view of the antique shop entrance: wooden door ajar at center, blood-red moon visible through window on left, scattered antique objects like vases and clocks on shelves at right and back, howling wind suggested by swirling dust at floor center.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Examine the glowing mirror",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Approach the ticking clock",
+            "next": "scene3"
+          },
+          {
+            "id": "3",
+            "text": "Investigate the shadowed corner",
+            "next": "scene4"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.webp"
+      },
+      {
+        "id": "scene2",
+        "title": "Mirror's Crimson Gaze",
+        "text": "Reflection twisted. Elara's face melted into something other. Evil spirits swirled within glass. Howls intensified, blood-red light flared. She thought: eyes not mine, staring back with hunger. Demonic entity lunged—claws grazed skin, warm blood trickled. Panic surged. Escape or confront?",
+        "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. First-person camera view of a tall cracked mirror on the left wall at eye level, distorted reflection showing demonic face, blood-red moon glow from window behind, antique shelves with living objects like writhing dolls on right.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Smash the mirror",
+            "next": "scene5"
+          },
+          {
+            "id": "2",
+            "text": "Whisper to the entity",
+            "next": "scene6"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.jpg"
+      },
+      {
+        "id": "scene3",
+        "title": "Clock's Eternal Tock",
+        "text": "Hands spun wildly. Time fractured. Elara felt years slip away. Living clock breathed—gears like veins. Howling echoed from its depths. Mind fractured: memories not hers, demonic invasions. Spirits clawed at thoughts. Blood seeped from unseen wounds. Flee or tamper?",
+        "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. First-person camera view of an ornate grandfather clock at back center, hands twisting unnaturally, blood-red light casting shadows, nearby objects like animated books on shelves left and right.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Wind the clock backward",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Destroy the mechanism",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.jpg"
+      },
+      {
+        "id": "scene4",
+        "title": "Corner's Writhing Dark",
+        "text": "Shadows coalesced. Objects writhed—chairs with tendrils, lamps with eyes. Blood-red moon pierced the veil. Howls morphed into laughter. Elara's thoughts: this void hungers for my essence. Demonic entity emerged, flesh tearing subtly. Agony bloomed. Hide or strike?",
+        "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. First-person camera view of a shadowed corner at right, writhing antique chairs and lamps with tendril-like extensions, blood-red moonbeam from high window above, howling suggested by distorted air waves.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Light a match from pocket",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Reach into the darkness",
+            "next": "scene10"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.jpg"
+      },
+      {
+        "id": "scene5",
+        "title": "Shattered Reflections",
+        "text": "Glass exploded. Shards bit deep, blood flowed in rivulets. Spirits screamed, howls deafening. Elara's mind: freedom or deeper curse? Demonic fragments embedded in skin. Pain twisted into ecstasy. Transformation loomed.",
+        "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. First-person camera view of shattered mirror pieces on floor center, blood stains on shards, demonic wisps rising, blood-red moon outside window left.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Flee the shop",
+            "next": "scene11"
+          },
+          {
+            "id": "2",
+            "text": "Collect a shard",
+            "next": "scene12"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.jpg"
+      },
+      {
+        "id": "scene6",
+        "title": "Whispers Entwined",
+        "text": "Words escaped lips. Entity responded—cold embrace. Evil spirits merged with thoughts. Blood-red haze clouded vision. Howls became her voice. Mind shattered: I am them now. Flesh warped subtly, veins blackened.",
+        "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. First-person camera view of mirror with swirling spirits inside, protagonist's hand extended toward it at center, howling distortions in air, antique clutter on sides.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Possession",
+        "image_filename": "scene6.jpg"
+      },
+      {
+        "id": "scene7",
+        "title": "Reversed Eternity",
+        "text": "Gears reversed. Time looped backward. Elara aged in reverse—youth burned. Demonic howls reversed into pleas. Spirits fled. Mind cleared: a chance at dawn. Blood-red moon waned.",
+        "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. First-person camera view of clock with hands spinning backward at center, fading spirits around it, blood-red light dimming from window right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene7.webp"
+      },
+      {
+        "id": "scene8",
+        "title": "Broken Time",
+        "text": "Mechanism crushed. Clock bled oil like blood. Entities erupted—claws raked flesh, gashes wept. Howls consumed all. Elara's final thought: oblivion calls sweetly.",
+        "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. First-person camera view of destroyed clock parts scattered on floor, demonic claws emerging, blood splatters, howling visualized as sound waves.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene8.jpg"
+      },
+      {
+        "id": "scene9",
+        "title": "Flame's Revelation",
+        "text": "Match flared. Shadows recoiled. Objects ignited—living flames danced. Demonic entities shrieked, howls silenced. Elara realized: fire purges the veil. Spirits banished in embers.",
+        "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. First-person camera view of match flame illuminating corner, burning antique objects like chairs on fire at center, retreating shadows left and right.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Extinguish and escape",
+            "next": "scene13"
+          },
+          {
+            "id": "2",
+            "text": "Let it burn fully",
+            "next": "scene14"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene9.jpg"
+      },
+      {
+        "id": "scene10",
+        "title": "Embraced Void",
+        "text": "Hand plunged in. Tendrils wrapped, pulled deep. Flesh dissolved in acidic whispers. Blood-red agony. Mind: absorption complete, no self left.",
+        "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. First-person camera view of hand reaching into dark corner, tendrils coiling around arm at center, distorted faces in shadows.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Absorption",
+        "image_filename": "scene10.jpg"
+      },
+      {
+        "id": "scene11",
+        "title": "Fleeing Shards",
+        "text": "Door burst open. Night air rushed. Howls pursued but faded. Elara escaped, scars pulsing. Mind: the shop's curse lingers, but freedom tastes of ash.",
+        "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. First-person camera view of open shop door at center, blood-red moon outside, shards on ground behind, fading howls as mist.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene11.jpg"
+      },
+      {
+        "id": "scene12",
+        "title": "Shard's Corruption",
+        "text": "Shard clutched. Power surged—veins ignited. Demonic essence infused. Howls internal now. Elara transformed, eyes glowing crimson.",
+        "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. First-person camera view of hand holding glowing shard at center, veins blackening on arm, mirror remnants on floor.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Corruption",
+        "image_filename": "scene12.webp"
+      },
+      {
+        "id": "scene13",
+        "title": "Dawn's Mercy",
+        "text": "Flame died. Shop quieted. Spirits vanished. Elara stepped out, blood-red moon setting. Revelation: the curse broken by fleeting light.",
+        "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. First-person camera view of extinguished match on floor, calm shop interior, moon fading outside window.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "scene13.jpg"
+      },
+      {
+        "id": "scene14",
+        "title": "Inferno's Sacrifice",
+        "text": "Flames consumed all. Elara amid blaze—skin charred, pain exquisite. Demonic howls perished with her. Mind: my end, their oblivion.",
+        "image_prompt": "Comic noir, cel-shaded contrast, graphic novel style, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, warm orange tones, fire and ember colors, subtle film grain. First-person camera view of raging fire engulfing shop, burning objects everywhere, protagonist silhouette at center.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Sacrifice",
+        "image_filename": "scene14.jpg"
+      }
+    ],
+    "_metadata": {
+      "provider": "xAI",
+      "model": "grok-4",
+      "usage": {
+        "prompt_tokens": 1759,
+        "completion_tokens": 2830,
+        "total_tokens": 5344,
+        "prompt_tokens_details": {
+          "text_tokens": 1759,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 682
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 755,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "num_sources_used": 0
+      },
+      "generated_at": "2025-10-23T06:07:04.527Z"
+    },
+    "filename": "relics-of-the-embered-veil_2025-10-23.json"
+  },
+  {
+    "story_id": "story_1761238540442_lahrb3z76",
+    "story_title": "Rust-Crown Carnival",
+    "tone": "Surreal",
+    "duration": "long",
+    "art_direction": "A charcoal sketch style with rough, artistic strokes, capturing a hand-drawn, atmospheric quality. The lighting is dim and ambient, creating soft, diffused shadows. The color palette consists of vintage sepia tones and aged brown hues, evoking a sense of decay and forgotten time. The perspective is wide and cinematic, as if framed for a movie.",
+    "settings": {
+      "tone": "Surreal",
+      "language": "elevated",
+      "narrative": "third_person",
+      "pacing": "slow_burn",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "whispers",
+      "duration": "long"
+    },
+    "image_settings": {
+      "image_style": "charcoal_sketch",
+      "lighting_mood": "dim_ambient",
+      "color_palette": "sepia_tones",
+      "camera_perspective": "wide_cinematic"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "The Tattered Gate",
+        "text": "The gate, a filigree of rust and sorrow. It did not stand, but sagged, breathing a bone-chilling cold. Beyond it, dead lights promised dead fun. A sign, flaking like sunburnt skin, read 'The Gilded Gehenna.' The air, thick with the memory of sugar and screams, whispered an invitation. Creaking metal was the only reply. The path split in the gloom.",
+        "image_prompt": "A massive, ornate wrought-iron gate, rusted and covered in dead vines, stands slightly ajar at the center. Through the gate, the dark silhouettes of carnival tents and a Ferris wheel are visible against a bruised twilight sky. The ground is muddy and bare. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Follow the scent of decay to the left.",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Follow the sound of distant, broken laughter to the right.",
+            "next": "scene3"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.jpg"
+      },
+      {
+        "id": "scene2",
+        "title": "Carousel of Bone",
+        "text": "It turned without a motor. A slow, agonizing groan of metal. The horses were not wood. They were carved from bone, polished by forgotten hands. Their glass eyes wept a slow, black tar. A voice, like candy-floss caught in the throat, whispered from the central pillar. 'One ride. One memory. All that you've lost.' The cold intensified, clinging like a shroud.",
+        "image_prompt": "A vintage carousel in the middle of a clearing, its canopy tattered. The horses are skeletal and grotesque, frozen mid-gallop. One horse in the foreground has black tar leaking from a cracked glass eye. The central column is a tangled mass of metal and bone. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Climb onto a bone-white steed.",
+            "next": "scene4"
+          },
+          {
+            "id": "2",
+            "text": "Turn away from the whisper.",
+            "next": "scene5"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.jpg"
+      },
+      {
+        "id": "scene3",
+        "title": "Hall of Fractured Selves",
+        "text": "A fun house, its painted smile warped into a leering grimace. Inside, the air was still and freezing. A maze of mirrors. Every reflection was wrong. Taller. Thinner. A face in the glass with eyes that were not their own. One of them, in a mirror far down the hall, was weeping silently, beckoning with a fragmented hand.",
+        "image_prompt": "A long corridor inside a fun house, the walls lined with tall, warped mirrors. In the central mirror, the reflection of the viewer is subtly distorted, its expression one of sorrow. A different reflection in a mirror on the right wall has a hand pressed against the glass. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Follow the weeping reflection.",
+            "next": "scene6"
+          },
+          {
+            "id": "2",
+            "text": "Smash the nearest lying mirror.",
+            "next": "scene7"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.jpg"
+      },
+      {
+        "id": "scene4",
+        "title": "The Price of a Memory",
+        "text": "The Traveler sat. The carousel groaned into motion. The world dissolved into a smear of rust and twilight. Not a memory returned, but one torn away—the warmth of a forgotten sun, the sound of a loving voice, gone. A piece of them, paid for a ride. The machine shuddered to a halt before the midway, leaving them colder than before.",
+        "image_prompt": "A dizzying, blurred view from a moving carousel. The skeletal horses in front are a streak of white. The carnival lights in the background are distorted into long, abstract lines of faint color. The Traveler's hand grips a cold metal pole in the foreground. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Stumble forward.",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.jpg"
+      },
+      {
+        "id": "scene5",
+        "title": "The Silent Rage",
+        "text": "They backed away. The whispering turned to a hiss. The bone horses seemed to strain against their poles, their jaws of ivory snapping in silent, furious rage. The entire structure creaked, a sound of immense pressure and profound hatred. The cold was a physical blow, chasing them out and onto the main path.",
+        "image_prompt": "Looking back at the skeletal carousel from a distance. The bone horses appear animated, their heads turned towards the viewer with empty, accusing eye sockets. The ground between the viewer and the carousel is littered with dead leaves. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Press on.",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.jpg"
+      },
+      {
+        "id": "scene6",
+        "title": "A Glimpse of the Caged",
+        "text": "They walked toward the weeping image. The maze shifted. Corridors stretched into infinity. Angles became impossible. The reflection was always ahead, just out of reach. For a moment, the glass became clear, and they saw not their reflection, but a pale child in old-fashioned clothes, trapped within the silver, their face a mask of eternal sorrow. Then the walls reformed, showing an exit.",
+        "image_prompt": "Inside a mirror maze with impossible, Escher-like angles. In the center of the frame, a single pane of mirror shows the clear image of a sad-looking Victorian child on the 'other side', while all surrounding mirrors show warped, empty corridors. An open doorway is visible on the far right. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Exit the maze.",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6.jpg"
+      },
+      {
+        "id": "scene7",
+        "title": "The Shard of Agony",
+        "text": "A fist met glass. The mirror did not shatter, it screamed. A piercing shriek of sound and light. It cracked into a thousand pieces, releasing a wave of pure despair that knocked them to their knees. The shards swirled in the air like dust motes before reforming on the wall, not as a mirror, but as a single, unblinking, silver eye. It watched them leave.",
+        "image_prompt": "The fun house corridor is filled with swirling shards of broken mirror. On the back wall at the end of the hall, the shards are coalescing into the shape of a large, single human eye that stares directly at the viewer. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Flee its gaze.",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.jpg"
+      },
+      {
+        "id": "scene8",
+        "title": "The Discordant Heart",
+        "text": "All paths led here. The midway. A vast, empty plaza of cracked asphalt and dead grass. In the center, a derelict fountain, dry and filled with leaves. A discordant calliope tune played from everywhere and nowhere. Before them, two choices clawed at the sky: a colossal, skeletal Ferris wheel, and a slumped, breathing tent.",
+        "image_prompt": "A wide, desolate carnival midway. In the center is a large, broken fountain. To the left, a gigantic, skeletal Ferris wheel looms. To the right, a large, stained circus tent sags as if it's breathing. The ground is littered with faded tickets and debris. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Approach the Ferris Wheel.",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Enter the Tent of Wonders.",
+            "next": "scene10"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene8.jpg"
+      },
+      {
+        "id": "scene9",
+        "title": "The Spine of Night",
+        "text": "The Ferris wheel was a titan of creaking, groaning iron. 'The Spine of Night.' Each car was a small, iron cage. At the controls sat a figure made of burlap and straw, its button eyes fixed on nothing. It was utterly still, yet the air around it vibrated with a terrible, contained energy.",
+        "image_prompt": "The base of an enormous, rusty Ferris wheel. A single, motionless, human-sized scarecrow is slumped in the operator's booth on the right. The passenger cars are shaped like hanging cages, swaying gently in the wind. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Board one of the cages.",
+            "next": "scene11"
+          },
+          {
+            "id": "2",
+            "text": "Confront the silent operator.",
+            "next": "scene12"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene9.jpg"
+      },
+      {
+        "id": "scene10",
+        "title": "The Collector's Menagerie",
+        "text": "Inside the tent, the air smelled of ozone and formaldehyde. Rows of shelves stood in the gloom, holding jars. Inside each, something impossible. A feather that bled light. A knot of string that writhed. A child's tooth that hummed a low tune. In the back, a shadow darker than the others coalesced into the shape of a man.",
+        "image_prompt": "Inside a dark, cavernous tent. Rows of wooden shelves line the walls, filled with glowing glass jars containing strange objects. In the back of the tent, at the end of a central aisle, a tall, slender figure made of pure shadow stands waiting. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Speak to the shadowed figure.",
+            "next": "scene13"
+          },
+          {
+            "id": "2",
+            "text": "Touch one of the glowing jars.",
+            "next": "scene14"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene10.jpg"
+      },
+      {
+        "id": "scene11",
+        "title": "The Ascent",
+        "text": "The cage door clanged shut. The wheel began to turn, a shriek of tormented metal. Up they went, into the freezing, empty sky. The carnival spread below, not a collection of rides, but a great, sick organism of iron and canvas, its pathways like veins. The calliope music grew fainter, replaced by a low, rhythmic thrumming from the park's heart.",
+        "image_prompt": "View from the very top of a Ferris wheel, looking down. The entire carnival is laid out below, a sprawling, dark landscape of tents and rides connected by paths like veins. A faint, dark pulse seems to emanate from a central point. The iron bars of the cage are in the foreground. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Look down at the carnival's heart.",
+            "next": "scene15"
+          },
+          {
+            "id": "2",
+            "text": "Look out towards the world beyond.",
+            "next": "scene16"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene11.jpg"
+      },
+      {
+        "id": "scene12",
+        "title": "The Straw Man's Shears",
+        "text": "They reached for the operator. It moved. Faster than sight. A blur of burlap and whirling straw. Its hands were not hands, but twin sets of rusted garden shears. The world was not cut, but clipped. Snipped into fragments of sound and color and pain. A final, shocking severance.",
+        "image_prompt": "A close-up, chaotic view of a scarecrow-like figure lunging forward. Its hands are large, rusty shears, open and moving towards the viewer in a blur of motion. Bits of straw fly through the air. The background is completely out of focus. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Dissolution",
+        "image_filename": "scene12.jpg"
+      },
+      {
+        "id": "scene13",
+        "title": "A Bargain of Dust",
+        "text": "The shadow spoke, its voice the rustle of dry leaves. 'I am the Collector. All things find their way to my shelves.' It gestured with a hand of smoke. 'I have a key. A way out. It is yours, for a price. A memory. A bright one. The taste of your first love, the color of a perfect sky. Something real, for this counterfeit exit.'",
+        "image_prompt": "A tall, shadowy figure with no discernible features stands behind a wooden counter. Its smoky hand is outstretched, palm up. On the counter sits a single, ornate, rusty key. The background is filled with shelves of glowing jars. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Give him a memory for the key.",
+            "next": "scene17"
+          },
+          {
+            "id": "2",
+            "text": "Refuse the Collector's price.",
+            "next": "scene18"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene13.jpg"
+      },
+      {
+        "id": "scene14",
+        "title": "The Watcher in the Jar",
+        "text": "They reached for a small jar containing a single, unnervingly realistic glass eye. The moment their finger touched the cold glass, it swiveled to stare at them. A crack raced across its surface. The world went white. An intelligence, cold, vast, and ancient, poured into their mind. It scoured them, erased them, and then looked out through their eyes.",
+        "image_prompt": "A hand is recoiling from a small glass jar on a shelf. The jar is cracked, and a single, realistic human eye inside it is staring directly forward. A faint white light emanates from the crack in the jar. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Possession",
+        "image_filename": "scene14.jpg"
+      },
+      {
+        "id": "scene15",
+        "title": "The Un-Naming",
+        "text": "From the apex of the wheel, they saw the truth. The thrumming heart. It was not a machine, but a demonic engine, a pulsating sphere of black iron bound by chains of weeping brass. And they saw the flaw—a sigil, etched on its surface, that held its name. They understood. They opened their mouth and spoke the un-naming word. A soundless scream echoed as the heart cracked. The carnival died.",
+        "image_prompt": "A massive, pulsating sphere of dark, molten metal covered in glowing sigils lies at the center of the carnival, viewed from high above. Cracks of brilliant white light are spreading across its surface. The surrounding tents and rides are beginning to crumble into dust. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene15.jpg"
+      },
+      {
+        "id": "scene16",
+        "title": "The Beautiful Lie",
+        "text": "They looked past the carnival's edge. At the real world. A horizon of gray, lifeless shapes under a colorless sky. A world of quiet desperation. They looked back down at the gaudy, tragic, terrible beauty of the Gehenna. The lights were lies, but they were brilliant. The pain was real, but it was a feeling. A smile bloomed on their face. They wanted this. They wanted to stay.",
+        "image_prompt": "The view from a Ferris wheel cage. In the far distance, a bleak, grey cityscape is visible. In the foreground, the vibrant, though decaying, lights of the carnival below seem warm and inviting. The Traveler's hands are gripping the bars of the cage, refusing to let go. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Madness",
+        "image_filename": "scene16.jpg"
+      },
+      {
+        "id": "scene17",
+        "title": "The Emptied Dawn",
+        "text": "They offered a memory: the feeling of warm sun on their face as a child. The Collector's shadow-hand plunged into their chest. A moment of agonizing, hollow cold. The memory was gone, leaving a hole that would never heal. He dropped a rusted key into their palm. Behind him, a door appeared in the canvas. They stumbled through it, into the grey, silent light of dawn. Free, but less.",
+        "image_prompt": "A lone figure stands in a bleak, misty field at dawn, having just stepped through a doorway that stands impossibly in the middle of nowhere. The doorway, seen from behind, frames the dark interior of the circus tent they just left. The figure is clutching a small, rusty key. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene17.jpg"
+      },
+      {
+        "id": "scene18",
+        "title": "To Become Dust",
+        "text": "'I will not pay.' The Collector's form lost its cohesion. The shadow dissolved into a cyclone of dust and whispering faces, the spirits of all who had refused his bargains. The storm of regret and sorrow engulfed them, a thousand voices crying out for what they had lost. They were pulled apart, atom by atom, to join the swirling collection.",
+        "image_prompt": "The shadowy figure of the Collector is exploding into a swirling vortex of dust and ghostly, screaming faces that fills the entire tent. The vortex is pulling the viewer in. Shelves of jars are being knocked over, and the air is thick with debris. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, dim ambient lighting, soft diffused shadows, vintage sepia tones, aged brown hues, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene18.jpg"
+      }
+    ],
+    "_metadata": {
+      "provider": "Gemini",
+      "model": "gemini-2.5-pro",
+      "generated_at": "2025-10-23T16:57:17.716Z"
+    },
+    "filename": "rust-crown-carnival_2025-10-23.json"
   },
   {
     "story_id": "story_1761115773612_6fmux5bl1",
@@ -5875,6 +8990,197 @@ export const EMBEDDED_STORIES: Story[] = [
       "generated_at": "2025-10-21T15:52:32.660Z"
     },
     "filename": "temporal-scar-of-sanatorium-solstice_2025-10-21.json"
+  },
+  {
+    "story_id": "story_1761238979955_v5kksctjq",
+    "story_title": "The Aetherial Mire",
+    "tone": "Surreal",
+    "duration": "short",
+    "art_direction": "A decaying asylum, infused with cosmic dread and psychic residue, under a malevolent red moon. The environment itself breathes a strange, alien agony.",
+    "settings": {
+      "tone": "Surreal",
+      "language": "elevated",
+      "narrative": "third_person",
+      "pacing": "moderate",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "whispers",
+      "duration": "short"
+    },
+    "image_settings": {
+      "image_style": "pixel_horror",
+      "lighting_mood": "storm_lightning",
+      "color_palette": "cold_blues",
+      "camera_perspective": "dutch_angle"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "Entry into the Coil",
+        "text": "The wind, a banshee's wail, tore at their cloak, carrying the scent of decay and something far older, a metallic tang of forgotten experiments. Above, a blood-red moon, an impossible eye in the bruise-dark sky, poured an unnatural crimson light over the asylum's skeletal silhouette. Each howling gust seemed to carry fragmented thoughts, echoes of ancient curses, swirling around the corroded gates. The very air felt charged, a palpable hum of supernatural forces. They felt a pull, a desperate curiosity, toward the broken maw of the building.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, cold blue atmosphere, icy color scheme, subtle film grain. A crumbling, gothic asylum entrance gate in the foreground, slightly ajar, revealing a darker path beyond. A colossal, blood-red moon hangs ominously in the upper left sky, casting a deep crimson glow on the scene. Jagged lightning strikes illuminate broken brickwork and twisted metal. Heavy, foreboding clouds loom.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Approach the gaping main entrance.",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Seek a broken window on the crumbling side wall.",
+            "next": "scene3"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.jpg"
+      },
+      {
+        "id": "scene2",
+        "title": "The Veiled Hall",
+        "text": "Dust motes danced in the sparse light that pierced the grimy skylights, swirling like spectral thoughts in the vast, decaying entry hall. The air was thick with static electricity, a hum against the skin, and whispers, faint as moth wings, seemed to emanate from the very stone. Grand, ornate pillars, once white, now wept streaks of rust, their bases lost in a mosaic of fallen plaster. The cold settled deep in their bones, a chill born not of temperature, but of an immense, psychic dread. A colossal, cracked chandelier hung precariously above.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, cold blue atmosphere, icy color scheme, subtle film grain. A grand, decaying asylum entrance hall, viewed from a low, unsettling angle. Tall, broken pillars line the hall leading towards a collapsed ceiling. A massive, intricately designed but heavily damaged chandelier hangs dangerously in the center. Faint, blue-tinged light filters from high, arched windows. Whisps of ethereal mist cling to the floor.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Follow the compelling whispers down a dark corridor to the left.",
+            "next": "scene4"
+          },
+          {
+            "id": "2",
+            "text": "Ascend the grand, collapsing staircase to the upper floors.",
+            "next": "scene5"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.jpg"
+      },
+      {
+        "id": "scene3",
+        "title": "The Shattered Gaze",
+        "text": "A narrow, disused room greeted them, illuminated by the lurid glow of the red moon through a gaping, broken window. Shards of glass, like frozen tears, glittered on the grimy floor. The walls here seemed to breathe softly, exhaling a chill that was distinct, more personal. Spectral reflections, not quite their own, danced in the fractured panes of a tall, cracked mirror leaning against the far wall. The feeling of the curse, ancient and insidious, felt closer here, a tightening band around their temples. Faint, desperate scratches marred the peeling wallpaper.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, cold blue atmosphere, icy color scheme, subtle film grain. A small, derelict room with a large, broken window on the left wall through which a blood-red moon is visible. Shards of glass are scattered on the floor. A tall, cracked mirror stands against the far wall, reflecting distorted blue and red light. Peeling wallpaper on the right wall shows faint, claw-like marks. A sense of claustrophobia is present.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Push through a splintered door leading back towards the main hall.",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Investigate a heavy, padlocked wooden door embedded in the room's back wall.",
+            "next": "scene6"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.jpg"
+      },
+      {
+        "id": "scene4",
+        "title": "The Chanting Chamber",
+        "text": "The corridor twisted, dark and cold, until it opened into a vast, circular chamber. Here, the whispers coalesced into a rhythmic, guttural chant, a language not meant for human tongues. Crude, pulsing sigils were painted in dried, dark fluid on the floor and walls, resonating with a sickening, vibrant energy. In the center, a pedestal held a pulsating, obsidian artifact, humming with an unfathomable power, a focal point for the supernatural forces at play. A sense of alien eyes watching, always watching, settled over them.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, cold blue atmosphere, icy color scheme, subtle film grain. A large, circular ritual chamber. The floor and walls are covered in glowing, blood-red sigils that pulse faintly. In the exact center, a pedestal holds a smooth, black obsidian artifact, which emits a soft, ominous blue light. Shadowy, indistinct forms seem to lurk in the far corners of the room. A strong feeling of cosmic dread pervades.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Reach out and touch the pulsating obsidian artifact.",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Examine the faded, esoteric texts scattered on a nearby lectern.",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.jpg"
+      },
+      {
+        "id": "scene5",
+        "title": "The Somber Ward",
+        "text": "The grand staircase groaned under their weight, leading to a long corridor of patient rooms. Each door was a testament to past suffering, some violently splintered, others eerily pristine. A profound sadness, a thick, psychic residue of agony and fear, clung to the air. The faint, echoing howls from outside seemed to morph into distant, sorrowful cries within these walls. A cold, damp breeze swept through, carrying with it a distinct, metallic smell, almost like rusty blood, from a partially open door further down the hall.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, cold blue atmosphere, icy color scheme, subtle film grain. A long, dark asylum corridor on an upper floor. Numerous identical, heavy wooden doors line both walls, some slightly ajar, others splintered. A faint, greenish-blue mist drifts near the floor. A single, bare lightbulb hangs precariously from the ceiling in the mid-distance, casting long, wavering shadows. The corridor recedes into deep shadow at the far end.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Push open the partially ajar door at the end of the hall.",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Search for another way, perhaps an access to the roof, through a utility closet.",
+            "next": "scene10"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.jpg"
+      },
+      {
+        "id": "scene6",
+        "title": "The Forgotten Core",
+        "text": "Behind the heavy door, a narrow, dust-choked stairwell spiraled down into oppressive darkness. Below, a hidden laboratory, choked with twisted, arcane machinery, revealed itself. Glass tubes filled with solidified, aberrant fluids stood broken. A lingering, acrid scent of ozone and something organic, burnt and wrong, filled the air. This was where the binding truly began, where ancient curses met mad science. A main console, sparking faintly, hummed with a malevolent intelligence, revealing distorted blueprints on its screen.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, cold blue atmosphere, icy color scheme, subtle film grain. A hidden, claustrophobic laboratory. Twisted, corroded scientific equipment and dark, intricate wiring dominate the foreground. Broken glass beakers and tubes are scattered across a metal workbench on the right. A main computer console in the center emits a faint, distorted blue glow. Streaks of dried, dark fluid stain the cracked concrete floor. A low ceiling presses down.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to activate a strange, levered device on the main console.",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Examine the main console's screen for logs or data entries.",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6.jpg"
+      },
+      {
+        "id": "scene7",
+        "title": "Absorption",
+        "text": "A searing flash of pain. The artifact pulsed, the machine shrieked, and a torrent of fractured memories, alien consciousness, and ancient agony flooded their mind. Their body, a vessel, became porous, dissolving into pure thought, pure despair. They were no longer 'they', but a thousand others, a chorus of tormented voices, bound to the very stones of the asylum. The blood-red moon outside seemed to wink, a knowing, predatory eye. They became another whisper, another fragment of the Aetherial Mire. Consciousness, an ocean of pain.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, cold blue atmosphere, icy color scheme, subtle film grain. A highly distorted, abstract view from a first-person perspective. The edges of the vision are blurring and pulling inwards, like being sucked into a vortex. Fragmented images of screaming faces and ancient symbols are superimposed over a swirling blue-and-red vortex. The dominant colors are cold blues and deep, sickly reds. A feeling of existential dread and dissolution.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Absorption",
+        "image_filename": "scene7.jpg"
+      },
+      {
+        "id": "scene8",
+        "title": "Revelation",
+        "text": "Understanding dawned, a cold, sharp blade to the soul. The texts, the logs, spoke of a primordial entity, a 'Dreamer from Beyond', inadvertently summoned by misguided experiments. The asylum was its anchoring point, its consciousness bleeding into the physical, binding the minds of all within. The 'ancient curses' were merely echoes of its nascent awakening. This was not just a place, but a vast, tormented mind. They now saw the true horror, the cosmic scope of the binding, a terrible truth that granted clarity, but offered no solace. The red moon outside seemed to shrink, insignificant against the vastness of the revelation.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, cold blue atmosphere, icy color scheme, subtle film grain. A first-person view, looking down at ancient, glowing texts on a stone lectern, or glowing data on a futuristic screen. Cosmic patterns and swirling nebulae are faintly visible behind the text, suggesting a vast, otherworldly knowledge. The character's hands are visible, illuminated by the soft, ethereal blue glow of the information. The foreground is sharp, the background slightly blurred and abstract.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "scene8.webp"
+      },
+      {
+        "id": "scene9",
+        "title": "Madness Bound",
+        "text": "The partially open door led to a sparse, cell-like room. On the floor, a single, decaying doll with empty button eyes seemed to stare, an anchor for the torrent of psychic residue. The accumulated suffering of countless lost minds, amplified by the red moon, crashed over them. They felt the walls close in, the air grow heavy with unspoken terrors. The howling sounds outside became internal, a cacophony of shrieks and lamentations within their own skull. Their mind, a fragile lantern, flickered, then shattered, becoming irrevocably bound to the asylum's chorus of madness. They were now merely another echo, eternally lost.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, cold blue atmosphere, icy color scheme, subtle film grain. A small, derelict asylum cell from a first-person perspective. A single, creepy, decaying doll with black button eyes lies on the dirty concrete floor in the foreground, facing the viewer. The room is bare, with peeling paint and faint, ghostly scribbles on the far wall. The atmosphere is oppressive and claustrophobic. Distorted, faint spectral figures are barely visible in the periphery.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Madness",
+        "image_filename": "scene9.jpg"
+      },
+      {
+        "id": "scene10",
+        "title": "Banishment",
+        "text": "Through a maintenance shaft, they clambered onto the asylum's jagged, decaying roof. The blood-red moon, immense and terrible, dominated the sky, its lurid light bathing the world in crimson. The howls of the wind were deafening here, raw and primal. Understanding the binding from fragmented visions, they focused, channeling the raw fear and the red moon's malevolent energy not inward, but outward. A desperate, primal surge of will, a scream of defiance. The entity recoiled, momentarily severing its grip on the asylum. A fragile banishment, a momentary reprieve, but the binding was broken, for now. The cold blue light of dawn, faint but pure, began to touch the horizon.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, cold blue atmosphere, icy color scheme, subtle film grain. A lone figure stands on the crumbling, jagged roof of an asylum, viewed from behind. The massive, blood-red moon dominates the sky above, casting a harsh crimson glow. Streaks of blue-white lightning illuminate swirling storm clouds. The figure is silhouetted, arms outstretched as if performing a desperate ritual. Below, the dark, sprawling asylum stretches into the icy blue distance. A faint glimmer of dawn appears on the far horizon.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene10.jpg"
+      }
+    ],
+    "_metadata": {
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash",
+      "generated_at": "2025-10-23T17:03:47.488Z"
+    },
+    "filename": "the-aetherial-mire_2025-10-23.json"
   },
   {
     "story_id": "story_1761113148751_5yw0733n8",
@@ -6836,6 +10142,257 @@ export const EMBEDDED_STORIES: Story[] = [
       "generated_at": "2025-10-22T06:16:13.060Z"
     },
     "filename": "the-calcareous-heart_2025-10-22.json"
+  },
+  {
+    "story_id": "story_1761199054399_sehq46icb",
+    "story_title": "The Calculus of Disintegration",
+    "tone": "Occult",
+    "duration": "short",
+    "art_direction": "A visual narrative steeped in the somber grandeur of baroque oil paintings, utilizing a Dutch angle perspective to heighten unease. Lighting mimics the capricious dance of firelight, casting deep, shifting shadows and illuminating scenes in a palette of warm oranges and ember tones.",
+    "settings": {
+      "tone": "Occult",
+      "language": "elevated",
+      "narrative": "first_person",
+      "pacing": "slow_burn",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "minimal",
+      "duration": "short"
+    },
+    "image_settings": {
+      "image_style": "oil_painting",
+      "lighting_mood": "flickering_fire",
+      "color_palette": "warm_oranges",
+      "camera_perspective": "dutch_angle"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "The Threshold of Exegesis",
+        "text": "I step across the desiccated threshold, the ancient iron gates groaning their protest behind me. The air within this forgotten edifice of torment is not merely cold, but thin, resonant with a pervasive psychic static. It is a palimpsest of suffering, each layer flayed and inscribed upon the next. Before me, the grand hallway of the asylum stretches into a chthonic gloom, its once-ornate details now fractured and dissolving. Ethereal tendrils, not smoke but something more nascent, more despairing, swirl along the marble, coalescing and dissipating with a somnambulistic rhythm. I feel the ingress not just into a building, but into an aberrant stratum of reality, a place where the veil has not merely thinned, but utterly disintegrated. A faint, almost imperceptible hum vibrates in my molars, a frequency not of sound, but of impending revelation or perhaps, imminent dissolution. To my right, a heavy, unadorned door, strangely intact, seems to pulse with a hidden ritualistic energy. To my left, the archive halls, their entrance choked with overturned filing cabinets, seem to moan with the collective, fragmented consciousness of those who once resided here.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. Dilapidated asylum entrance hallway with crumbling walls and a high arched ceiling. Dust motes dancing in the faint firelight. A heavy, ornate wooden door, slightly ajar, on the right wall at eye level, leading into darkness. A dilapidated reception desk on the left foreground, overturned with scattered papers. Swirling, translucent tendrils of smoke-like energy drift across the floor from the far end of the hallway.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Proceed into the ritual chamber beyond the heavy door.",
+            "next": "scene2a"
+          },
+          {
+            "id": "2",
+            "text": "Navigate the archive halls, seeking documented truth.",
+            "next": "scene2b"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.webp"
+      },
+      {
+        "id": "scene2a",
+        "title": "The Charnel Altar",
+        "text": "The heavy door yields, ushering me into a circular chamber of stark, ritualistic design. Here, the air itself feels imbued with the residue of unspeakable praxis. At the chamber's core, a massive, cracked stone altar dominates, its surface a tableau of dried, dark stains that defy precise identification. From its very heart, luminous, ethereal vapor ascends, twisting and writhing into ghostly simulacra of tormented faces, their silent screams echoing in the hollows of my mind. These are not mere apparitions but the very effluvia of the experiments, the psychic residue made manifest. On the far wall, a complex pattern of glyphs pulses with a sickening, internal light, radiating a cold energy that prickles the skin. Scattered ritual instruments of obsidian and tarnished silver lie strewn across the floor, discarded, as if the rite was abandoned in extremis. I feel a resonance with the altar, a gravitational pull towards the lingering energy of its dark purpose. There are whispers in the periphery of my awareness, fragments of incantations, vows of transference, and screams of cognitive disintegration.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. A circular ritual chamber with crumbling stone walls. A large, cracked stone altar dominates the center foreground, covered in dried, dark stains. Ethereal, shimmering smoke writhes upward from the altar, forming ghostly faces. On the far wall, a complex, luminescent glyph pattern pulses faintly. Scattered ritualistic instruments of obsidian and tarnished silver are on the floor around the altar.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Examine the central apparatus upon the altar, seeking its function.",
+            "next": "scene3a"
+          },
+          {
+            "id": "2",
+            "text": "Search the surrounding area for any ritual notes or research logs.",
+            "next": "scene3b"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2a.jpg"
+      },
+      {
+        "id": "scene2b",
+        "title": "The Scrutiny of Trauma",
+        "text": "The archive halls, a catacomb of forgotten suffering, greet me with the stench of decay and the chilling murmur of a thousand fractured minds. Shelves of moldering files, some meticulously organized, others violently overturned, line the walls, forming an oppressive labyrinth. The flickering light casts elongated shadows that writhe like phantom limbs. As I move deeper, the whispers coalesce into discernible, though unintelligible, fragments of agony and fear, each spectral utterance a barb to the psyche. Translucent figures, hunched and indistinct, drift between the towering stacks, their silent movements a ballet of despair. I feel their gaze, not with eyes, but with the raw, exposed nerves of their collective consciousness. On a desk in the immediate foreground, seemingly untouched by the cataclysm, lies a leather-bound journal, its pages thick with manic script, illuminated by the struggling light. Its proximity to the source of these spectral emanations suggests a key.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. A disheveled patient archive room. Tall, dark shelves of moldering files line the walls, many toppled onto the floor. A heavy, dark wooden desk in the foreground, illuminated by flickering light, holds an open, leather-bound journal. Faint, translucent apparitions, resembling hunched figures, are vaguely visible between the shelves in the background, seeming to watch.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Decipher the lead researcher's journal, seeking their ultimate intent.",
+            "next": "scene3c"
+          },
+          {
+            "id": "2",
+            "text": "Pursue the indistinct source of the apparitions, hoping to gain understanding.",
+            "next": "scene3d"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2b.jpg"
+      },
+      {
+        "id": "scene3a",
+        "title": "Apparatus of Dissonance",
+        "text": "My hand extends towards the central apparatus upon the altar. It is a vile construct of tarnished brass, splintered crystal shards, and exposed conduits that thrum with a terrible, living light. This is the heart of their blasphemous transference, a nexus designed to bridge the chasm between corporeal and immaterial. As my fingers draw near a pulsating crystal embedded within the mechanism, a feedback surge ripples through my being, a cascade of alien thoughts and raw, unfiltered fear. Visions of fragmented identities, memories not my own, flash across my mind's eye, each sensation a sharp, invasive spike. The very air around me vibrates with the collective dissonance of trapped minds. I am perilously close to becoming another conduit, another vessel for the disembodied agony. The hum in my molars intensifies to a piercing shriek.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. Close-up on the central apparatus within the ritual chamber. It's a complex construct of tarnished brass, jagged crystal shards, and exposed, glowing conduits, radiating an oppressive aura. Psychic energy visibly surges through it, distorting the air. The viewer's outstretched hand is reaching towards a pulsating crystal embedded in the apparatus, with a faint tremor.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to disrupt the conduit, severing its power.",
+            "next": "scene4a"
+          },
+          {
+            "id": "2",
+            "text": "Retreat immediately, severing the psychic connection before it overwhelms.",
+            "next": "scene4b"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3a.jpg"
+      },
+      {
+        "id": "scene3b",
+        "title": "Scrying the Rites",
+        "text": "Within a shadowed alcove of the ritual chamber, I discover a collection of ancient, brittle parchment scrolls, unrolled upon an unsteady wooden table. The arcane diagrams and meticulous, though chilling, script reveal the true intent of the experiments: not merely observation, but the forced transmigration of consciousness, an attempt to harness eidolon energy. A spectral hand, shimmering with an icy, faint luminescence, hovers directly over one of the scrolls, its translucent digit pointing to a complex banishing sigil, a counter-invocation. The swirling, ethereal smoke around the alcove momentarily coalesces into a familiar, tormented visage, as if urging a course of action, a desperate plea for cessation. The ritual was not merely a failure; it opened a door, and these scrolls hold the key to perhaps closing it, or perhaps unleashing something far worse.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. A dark alcove in the ritual chamber. Ancient, brittle parchment scrolls are unrolled on a small, unsteady wooden table in the foreground. A spectral hand, shimmering with a faint light, hovers over one of the scrolls, pointing to an arcane diagram. Swirling smoke drifts around the alcove, coalescing into a faint, tormented face in the background.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt the banishment ritual as detailed on the scrolls.",
+            "next": "scene4c"
+          },
+          {
+            "id": "2",
+            "text": "Seek deeper knowledge of the entities and the nexus that binds them.",
+            "next": "scene3e"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3b.jpg"
+      },
+      {
+        "id": "scene3c",
+        "title": "The Architect's Confessions",
+        "text": "The journal, a vile testament to hubris, unfolds before me. Page after page, the lead researcher, a Dr. Alaric Thorne, chronicles his descent into a terrifying understanding. His script details the 'Synaptic Imbrication Project,' an attempt to achieve a collective consciousness, to transcend individual being. But the transference was imperfect, catastrophic. The souls of the subjects were not integrated, but shattered, their psychic fragments left to drift in this liminal space, feeding upon residual emotion. He describes a 'Progenitor Entity' that emerged, a monstrous coalescing of psychic despair, responsible for the swirling smoke and apparitions, a parasitic god birthed from human pain. The journal hints at a central chamber, a nexus where the entity's influence is strongest, where the failed transference began. The ghostly visage superimposed upon the text seems to writhe, its eyes wide with the terror of Thorne's final realization.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. A close-up of a tattered, leather-bound journal, open on a desk in the foreground. The page is filled with dense, manic handwriting and cryptic symbols. A faint, ghostly face with wide, tormented eyes is superimposed over the text, whispering silently, its mouth agape in a soundless scream. The dimness of the archive room is apparent in the blurred background.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Seek the central nexus described in the journal, confronting the source.",
+            "next": "scene3e"
+          },
+          {
+            "id": "2",
+            "text": "Abandon this dangerous pursuit, prioritizing my own sanity and survival.",
+            "next": "scene4b"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3c.jpg"
+      },
+      {
+        "id": "scene3d",
+        "title": "The Collective Wail",
+        "text": "My pursuit of the apparitions leads me deeper into the warren of the archives, into a narrow corridor that feels like the very throat of this place. Here, the psychic static intensifies, manifesting not as whispers, but as a deafening, internal wail. The corridor is choked with a swirling vortex of pale, translucent apparitions, their forms indistinct, yet overwhelmingly numerous. They press in from all sides, their spectral hands reaching, not physically, but with a palpable psychic weight, attempting to tear at the edges of my own consciousness. Each apparition is a fragment, a shard of pure, unadulterated torment, and their combined anguish threatens to overwhelm my very being. The walls of the corridor are streaked with unidentifiable, dark residues, oozing like solidified despair. My mind is assailed by a thousand disjointed thoughts, a cacophony of fear, regret, and utter hopelessness. To stand here is to risk becoming one of them, to join the collective scream.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. A narrow corridor filled with a swirling vortex of pale, translucent apparitions, their forms indistinct but numerous. They seem to press in from all sides, their spectral hands reaching towards the viewer. The corridor walls are streaked with unidentifiable, dark residues. The viewer is at the center of the vortex, overwhelmed.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Engage with their suffering, attempting to understand their torment.",
+            "next": "scene4d"
+          },
+          {
+            "id": "2",
+            "text": "Erect a psychic barrier, focusing on escape from this oppressive presence.",
+            "next": "scene4b"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3d.jpg"
+      },
+      {
+        "id": "scene3e",
+        "title": "The Progenitor's Echo",
+        "text": "Through a labyrinth of crumbling passages, guided by an unseen, terrible force, I find myself in a vast, circular chamber, the undisputed heart of this asylum's blight. An unnatural, pulsating light, devoid of warmth, emanates from a central void, a gaping maw in reality. From this void, the 'Progenitor Entity' described by Thorne slowly manifests, a colossal, amorphous mass composed of coalescing smoke and fragmented visages. It is a living, breathing tapestry of sorrow, rage, and existential dread, formed from the sum of all the torment within this place. Ancient, ritualistic carvings, stark and unsettling, cover the chamber walls, partially obscured by the ethereal, swirling smoke that now thickens, clinging to me like a shroud. This is the ultimate crucible of the experiments, the nexus where individual identities are not merely subsumed, but devoured. My mind reels, not from fear alone, but from the horrifying clarity of this ultimate, profound understanding. To engage this entity is to face not just death, but the complete disintegration of self.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. A vast, circular chamber with crumbling stone walls, dimly lit by an unnatural, pulsating light emanating from a central void in the floor. From this void, a colossal, amorphous entity, composed of coalescing smoke and fragmented visages, slowly manifests, reaching upwards. Ancient, ritualistic carvings cover the chamber walls, partially obscured by the ethereal smoke.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Directly engage the Progenitor, seeking ultimate understanding.",
+            "next": "scene4e"
+          },
+          {
+            "id": "2",
+            "text": "Document these findings and withdraw, before consciousness itself is eroded.",
+            "next": "scene4f"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3e.jpg"
+      },
+      {
+        "id": "scene4a",
+        "title": "Conduit's Rupture",
+        "text": "My attempt to disrupt the conduit is met with a cataclysmic psychic feedback. A torrent of raw, unfiltered psychic energy erupts from the apparatus, engulfing me completely. Fragmented faces, their mouths locked in eternal screams, appear within the swirling energy, merging with my own distorted visage. There is no pain, only an overwhelming, absolute dissolution of self. My consciousness splinters, each shard absorbed into the vast, despairing collective. I am no longer 'I,' but a myriad of 'them,' a single, infinitesimal facet of an eternal, suffering whole. The calculus is complete; my identity, a mere variable, has been erased.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. A torrent of raw psychic energy engulfs the viewer, filling the entire frame. Fragmented faces and screaming mouths appear within the energy, merging with the viewer's own distorted visage, which is barely recognizable. The colors are overwhelmingly bright oranges and reds, signifying total dissolution and chaos.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Absorption",
+        "image_filename": "scene4a.jpg"
+      },
+      {
+        "id": "scene4b",
+        "title": "Flight from the Nexus",
+        "text": "The psychic assault is too great, the risk of dissolution too dire. I retreat, severing the burgeoning connection with a wrenching effort of will. The very structure of the asylum groans, as if my rejection causes a structural shift in its tormented reality. I flee through collapsing hallways, the air thick with dust and the lingering, desperate whispers of the lost. The heavy iron gates of the asylum entrance loom ahead, a beacon of harsh, external reality. I burst forth, gasping, into the bruised light of the outside world, the asylum crumbling behind me like a sandcastle before a rising tide. I have escaped, but the psychic scars, the phantom echoes of their torment, are now indelibly etched upon my own soul. The experience will forever haunt the periphery of my awareness, a constant reminder of the thin line between sanity and absolute disintegration.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. The viewer is fleeing through a rapidly collapsing hallway, looking back over their shoulder at the crumbling archway of the asylum entrance. The dim and bruised light of the outside world is visible beyond the archway. Smoke and debris fill the air, creating a chaotic sense of urgency.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene4b.jpg"
+      },
+      {
+        "id": "scene4c",
+        "title": "Ritual of Reversal",
+        "text": "I gather my resolve, my mind focusing on the intricate symbols and precise incantations detailed in the ancient scrolls. With hands raised in a gesture of dismissal, I begin to chant, my voice resonating with an unfamiliar authority, a conduit for the banishing energies. The air crackles, and the swirling, ethereal smoke within the ritual chamber recoils, forming a volatile vortex. Glowing, banishing symbols radiate from my form, pushing back against the encroaching psychic corruption. The agony of the trapped souls momentarily intensifies, their wails reaching a crescendo, before a sudden, profound silence descends. The vortex dissipates, leaving behind an air that is still charged, but clear, the oppressive psychic static gone. An immense power has been spent, a cosmic equilibrium briefly restored. The entities are not destroyed, but expelled, banished to their proper, separate dimension. I stand, utterly drained, but victorious, having sealed a breach that should never have been opened.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. The viewer stands in the ritual chamber, foreground, with hands raised in a powerful gesture of dismissal. Before them, a swirling vortex that is rapidly dissipating. Glowing, banishing symbols radiate outwards from the viewer's form. The air is still charged with residual energy but has a sense of clarity, indicating a powerful act has concluded.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene4c.jpg"
+      },
+      {
+        "id": "scene4d",
+        "title": "Empathy's Abyss",
+        "text": "I open myself to their torment, seeking to understand, to empathize. It is an act of profound folly. The floodgates of collective agony burst, a torrent of despair, terror, and madness inundating my mind. The myriad ghostly visages press against me, their suffering becoming my own. My face, reflected in the countless shattered shards of my own perception, contorts in a horror that is now inseparable from their own. Each shard shows a different tormenting apparition, a different fragment of the ceaseless wail. My identity, once an anchor, dissolves under the weight of shared anguish. The whispers cease to be external; they become my own thoughts, my own screams, echoing in an infinite, internal void. I am not one, but many, utterly lost within the collective consciousness, sanity irrevocably surrendered to the empathetic abyss.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. The viewer's face, contorted in horror and despair, is reflected in a thousand shattered shards of glass that fill the foreground. Each shard shows a different ghostly, tormenting visage merging with the viewer's own. The background is a swirling chaos of indistinct psychic energy and whispering mouths, indicating utter mental breakdown.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Madness",
+        "image_filename": "scene4d.jpg"
+      },
+      {
+        "id": "scene4e",
+        "title": "Ascension of Cognition",
+        "text": "I directly engage the Progenitor, not with force, but with focused intent, allowing my consciousness to interface with its vast, suffering mind. The initial surge is terrifying, a deluge of raw emotion and fragmented intellect. But I do not break. Instead, I perceive. The entity is not truly malevolent, but a byproduct, a monstrous gestalt of shattered souls seeking an impossible coherence. I understand Thorne's intent, the terrible beauty of his flawed hypothesis. The experiments were an attempt to achieve unity, but instead bred only disintegration. As I commune, the horrifying aspects of the Progenitor recede, revealing an underlying, beautifully intricate, cosmic diagram of interconnected minds and dimensions, no longer horrifying but awe-inspiring. I witness the true nature of consciousness, the universal tapestry of being. This place is merely a single, fractured knot. I withdraw, not unscathed, but transformed, imbued with a profound understanding that transcends mere knowledge, a revelation of the true, terrifying, yet magnificent, architecture of existence.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. The viewer stands within a now calm, vast circular chamber, observing a beautifully intricate, cosmic diagram of interconnected minds and dimensions, no longer horrifying but awe-inspiring, emanating from the central void. A soft, inner light illuminates the viewer's face, conveying profound understanding and serenity.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "scene4e.webp"
+      },
+      {
+        "id": "scene4f",
+        "title": "Obsidian Oblivion",
+        "text": "The sheer scale of the Progenitor, the raw, infinite despair it embodies, freezes my resolve. To attempt documentation is to prolong my exposure; to engage is to invite annihilation. My focus wavers, my will falters under the weight of its crushing presence. The swirling smoke thickens, becoming a palpable, encroaching blackness that absorbs all light, all thought, all 'self.' I feel my form dissolving, wisps of my consciousness peeling away, drawn into the infinite, expanding void that is the Progenitor's embrace. There is no struggle, no pain, only the quiet, inevitable extinguishing of my individual spark, a single, dull ember-like glow that winks out in the encroaching obsidian. I become nothing, merely another forgotten element in the Progenitor's boundless, silent oblivion.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. A completely dark void, expanding infinitely, filling the entire frame. The viewer's form is slowly dissolving into wisps of nothingness, absorbed by the encroaching blackness from the edges of the frame. A single, dull ember-like glow, representing the last vestiges of consciousness, is all that remains in the center, soon to extinguish.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene4f.jpg"
+      }
+    ],
+    "_metadata": {
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash",
+      "generated_at": "2025-10-23T05:58:49.709Z"
+    },
+    "filename": "the-calculus-of-disintegration_2025-10-23.json"
   },
   {
     "story_id": "story_1761051893762_qso3sn23u",
@@ -7822,6 +11379,1340 @@ export const EMBEDDED_STORIES: Story[] = [
     "filename": "the-charnel-nexus-of-lumina_2025-10-22.json"
   },
   {
+    "story_id": "story_1761238991821_t3ns8m5pg",
+    "story_title": "The Chronophage's Veins",
+    "tone": "Occult",
+    "duration": "medium",
+    "art_direction": "Watercolor gothic, flowing dark pigments, artistic bleeding, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, dutch angle perspective, tilted unsettling view.",
+    "settings": {
+      "tone": "Occult",
+      "language": "elevated",
+      "narrative": "first_person",
+      "pacing": "fast",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "whispers",
+      "duration": "medium"
+    },
+    "image_settings": {
+      "image_style": "watercolor_gothic",
+      "lighting_mood": "storm_lightning",
+      "color_palette": "sepia_tones",
+      "camera_perspective": "dutch_angle"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "The Initial Descent",
+        "text": "The ingress, a forgotten stairwell descending into the abyssal maw of the subterranean, beckoned. I, compelled by an inexplicable gravitas, proceeded. The air, once merely chill, now coalesces into a palpable, anachronistic hum, a frequency vibrating not just in my tympanum but within the very marrow of my bones. An aberrant vapor, neither steam nor smoke, unfurls itself from the abyssal apertures between the rusty tracks, swirling with a deliberate sentience. Before me, the tunnel bifurcates, an ominous choice in the dim, unholy glow of defunct emergency lights.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person view looking down into a dark, mist-filled subway tunnel, bifurcated tracks leading into two distinct, shadowy paths. Rusty rails and grimy concrete walls are visible, lit by a faint, sickly green glow from a broken emergency light on the upper left wall.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Proceed down the left passage, towards the source of the hum.",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Venture into the right passage, where the mist seems thicker.",
+            "next": "scene3"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.jpg"
+      },
+      {
+        "id": "scene2",
+        "title": "Whispers in the Labyrinth",
+        "text": "The left passage constricts, a claustrophobic throat of crumbling concrete. Here, the mist intensifies, a living shroud that coils around my limbs, its touch cold, almost sentient. Then, the auditory rupture: 'He... returns...' 'The Cycle... inviolate...' The voices are legion yet singular, a chorus of forgotten entities, their intonations echoing from the very fabric of the tunnel. Shadows, formerly static, now undulate with an unnatural grace on the periphery of my vision, performing a silent, macabre ballet. A faint, repetitive thudding resonates from deeper within, rhythmic, insistent, like a heart within the stone.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person view inside a narrow, mist-choked subway tunnel. Indistinct, dancing shadows are projected onto the grimy concrete walls, appearing to writhe. Rusty pipes cling to the upper right wall. The air is thick with swirling, translucent vapor, obscuring the path ahead.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Investigate the source of the rhythmic thudding.",
+            "next": "scene4"
+          },
+          {
+            "id": "2",
+            "text": "Turn towards the most active cluster of dancing shadows.",
+            "next": "scene5"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.jpg"
+      },
+      {
+        "id": "scene3",
+        "title": "The Shifting Junction",
+        "text": "The right passage unfurls into a vast, impossible junction. Here, the very geometry of the subway falters. Tracks, once parallel, now helix skyward into forgotten vaults, then plummet into abyssal pits. Concrete support pillars ripple like viscous fluid, reforming in impossible permutations. A metallic clang, deafening and immediate, tears through the air, vibrating through the very soles of my feet. I perceive a fleeting glimpse of myself, a phantom double, standing at an impossible angle, vanishing as quickly as it manifested. This locale is not merely derelict; it is fractured, a rupture in the continuum.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person view inside a vast, structurally impossible subway junction. Tracks twist and ascend at unnatural angles on the right, concrete pillars seem to melt and reform in the center. Mysterious mist drifts across the floor, reflecting a brief, intense flash of light from an unseen source above.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to follow the trajectory of the phantom double.",
+            "next": "scene6"
+          },
+          {
+            "id": "2",
+            "text": "Seek out the platform, despite its apparent absence.",
+            "next": "scene7"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.jpg"
+      },
+      {
+        "id": "scene4",
+        "title": "The Chronos Chamber",
+        "text": "The thudding leads me to an expansive, circular chamber, its walls adorned with indecipherable glyphs that pulse with a faint, internal luminescence. At its epicenter, a vast, complex mechanism of interlocking brass and obsidian rotates slowly, each revolution accompanied by the persistent, rhythmic thud. It is a contraption of profound antiquity, humming with a power that distorts the very air. I realize I have witnessed this mechanism before, or perhaps I am witnessing it for the first time, again. A sensation of déjà vu, overwhelming and sickening, washes over me, the air thick with the scent of ozone and something akin to desiccated blood. Time itself appears to be a fluid commodity here, endlessly cycling.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person view inside a vast, circular chamber. In the center is a massive, intricate mechanism of brass and obsidian, rotating slowly, with arcane glyphs glowing faintly on the dark stone walls. Swirling mist permeates the chamber, obscuring the ceiling.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Approach the mechanism to decipher its purpose.",
+            "next": "scene8"
+          },
+          {
+            "id": "2",
+            "text": "Seek a way out of this looping chamber.",
+            "next": "scene9"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.jpg"
+      },
+      {
+        "id": "scene5",
+        "title": "The Shadow Play",
+        "text": "The dancing shadows coalesce, solidifying from mere optical illusions into entities of discernible form. They are humanoid, yet utterly alien, their movements fluid, disjointed, like marionettes controlled by an unseen, deranged puppeteer. Their forms stretch and contract, reaching out with impossibly long digits, their silent gyrations an obscene parody of welcome. A single, sibilant whisper snakes through the mist, 'Join... the rhythm... of the Great Engine...' A chill colder than the grave itself permeates my being, the air around them humming with latent, malicious energy. I observe grotesque, fleeting visages within their amorphous forms.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person view of several tall, humanoid figures composed entirely of shifting, coalescing shadow, dancing erratically in the center of a mist-filled subway tunnel. Their elongated limbs reach out towards the viewer. The tunnel walls are grimy and indistinct in the background.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Confront the shadow entities directly.",
+            "next": "scene10"
+          },
+          {
+            "id": "2",
+            "text": "Attempt to retreat through the mist.",
+            "next": "scene11"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.jpg"
+      },
+      {
+        "id": "scene6",
+        "title": "Echoes of Self",
+        "text": "Following the phantom's trajectory, I find myself traversing an impossible staircase, its steps appearing and dissolving with each stride. At its zenith, a fractured mirror, taller than any man, reflects not my current form, but a succession of past and future selves: me as a child, me aged and decrepit, me with eyes alight with a knowledge I have not yet gained. The reflection distorts, warps, and then I see it again – my phantom double, trapped within the mirror, screaming silently as its visage fragments. The air is electric, charged with temporal potential, and a faint, acrid scent of burned history fills my nostrils.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person view looking at a tall, cracked mirror leaning against a grimy concrete wall in a subway tunnel. The mirror reflects distorted, multiple versions of the viewer's face. The staircase leading up to it is partially dissolving, and wisps of mist cling to the steps.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Reach out to the fragmented reflection.",
+            "next": "scene8"
+          },
+          {
+            "id": "2",
+            "text": "Seek an exit from this temporal nexus.",
+            "next": "scene12"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6.jpg"
+      },
+      {
+        "id": "scene7",
+        "title": "The Veiled Platform",
+        "text": "Despite the impossible geometry, a platform manifests before me, shrouded in a mist so dense it almost feels like liquid. Silhouetted figures stand motionless at its edge, their forms indistinct, yet radiating an ancient, expectant energy. Ritualistic symbols, barely visible through the vapor, are etched into the platform's weathered stone, glowing with an internal, faint amber light. A low, guttural chant, 'The Chronophage... hungers...', emanates from the figures, an invocation of profound antiquity. The very rails hum with a dormant power, vibrating in resonance with the chant.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person view of a subway platform entirely shrouded in thick, swirling mist. Several indistinct, robed figures stand motionless at the edge of the platform on the left. Faint amber-glowing ritualistic symbols are etched into the stone platform and on the concrete wall behind the figures.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to discern the figures' intentions.",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Approach the glowing symbols.",
+            "next": "scene13"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.jpg"
+      },
+      {
+        "id": "scene8",
+        "title": "The Unraveling Portal",
+        "text": "As I reach out, the air tears itself open. A vortex, a spiraling maelstrom of temporal energies and discordant light, manifests before me. Within its depths, I perceive the skeletal frameworks of countless realities, collapsing and reforming in an eternal, agonizing loop. The brass and obsidian mechanism from the Chronos Chamber, or perhaps another version of it, pulses furiously at its heart. A voice, no longer a whisper but a booming resonance within my very skull, declares: 'THE FLUX DEMANDS! INTEGRATE! OR BE UNMADE!' My own flesh feels as if it is unraveling, thread by thread, into the screaming void.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person view of a gaping, spiraling vortex of chaotic light and temporal energy in the center of a subway tunnel. The edge of a massive brass and obsidian mechanism is visible at its core, glowing intensely. Distorted subway tracks lead into the swirling void. The tunnel walls on either side appear to be crumbling and dissolving.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Surrender to the vortex's pull.",
+            "next": "ending_absorption"
+          },
+          {
+            "id": "2",
+            "text": "Resist the pull, seeking a hidden anomaly.",
+            "next": "ending_revelation"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene8.jpg"
+      },
+      {
+        "id": "scene9",
+        "title": "The Glimpse of Truth",
+        "text": "The entities, the symbols, the looping echoes – it coalesces. I comprehend, with sudden, terrifying clarity, that this entire subway system is not a place, but a devourer; a Chronophage, feeding upon temporal coherence. The platform is merely a node, a bait station. A fleeting moment of lucidity grants me a vision of a single, narrow fissure in the reality fabric on the far wall, glowing faintly, an escape hatch from this predatorial construct. But the mist tightens, threatening to snatch this nascent understanding, to re-submerge me into the chaos. The figures on the platform now turn their vacant gazes toward me, their low chant accelerating into a frantic crescendo.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person view of a subway platform with an intense, swirling mist, and indistinct figures with vacant gazes facing the viewer. On the far concrete wall, a small, glowing fissure is barely visible amidst the grime and shadow, indicating an escape route.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Dash towards the fissure, heedless of the figures.",
+            "next": "ending_escape"
+          },
+          {
+            "id": "2",
+            "text": "Attempt to communicate with the figures.",
+            "next": "ending_madness"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene9.jpg"
+      },
+      {
+        "id": "scene10",
+        "title": "Confronting the Phantoms",
+        "text": "I move towards the shadows, an act of defiant will against the encroaching dread. As I draw near, their amorphous forms solidify further, manifesting with horrifying detail: skeletal faces beneath hoods, sinews of dark energy pulsating beneath translucent skin. Their long, clawed fingers lash out, not to rend, but to grasp, to encompass. A chilling, mental intrusion, 'YOU ARE THE VESSEL. THE CHRONOPHAGE REQUIRES CONSCIOUSNESS. SUBMIT!', floods my mind, burning with an alien intelligence. I feel my own mental defenses crumbling, my perception of self beginning to blur, as if my very essence is being stretched thin by their collective grasp.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person view of several tall, skeletal humanoid figures made of dark, pulsating energy, reaching out with long clawed fingers towards the viewer in a mist-filled subway tunnel. Their faces are obscured by hoods, but a faint, malevolent glow emanates from their eyes. The tunnel walls are warped and indistinct.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Allow the entities to engulf me.",
+            "next": "ending_possession"
+          },
+          {
+            "id": "2",
+            "text": "Unleash a primal scream, a rejection of their will.",
+            "next": "ending_banishment"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene10.jpg"
+      },
+      {
+        "id": "scene11",
+        "title": "The Recurring Junction",
+        "text": "My attempt to retreat leads me back, not to the entrance, but to an eerily familiar junction – the same one from earlier, yet subtly altered. The tracks here are not merely twisted but are braided, impossibly interlinked, glowing with an internal, faint blue light. The mist seems thinner, but through it, I perceive a flickering image of myself at the Chronos Chamber, still mesmerized by the mechanism. The voices return, 'The loop... unbroken... eternal...' I am caught in a recursion, a temporal eddy from which escape seems improbable. A profound sense of futility begins to settle, heavy as lead.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person view inside a subway junction where tracks are braided and impossibly interlinked, glowing with a faint blue light. Through thin mist, a ghostly, flickering image of the viewer stands before an ornate, rotating mechanism in the background.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Return to the Chronos Chamber.",
+            "next": "scene4"
+          },
+          {
+            "id": "2",
+            "text": "Look for the veiled platform again.",
+            "next": "scene13"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene11.jpg"
+      },
+      {
+        "id": "scene12",
+        "title": "Temporal Dislocation",
+        "text": "As I turn from the mirror, the very floor beneath me dissolves. I plummet through a non-space, a dizzying freefall through layers of time and causality. Moments flash by: an ancient city, a future starscape, my own life in fragmented, agonizing bursts. The sensation is one of being stretched, pulled apart, then reassembled incorrectly. When I land, jarringly, I am in a tunnel, but the air is different, heavier, laden with the stench of something ancient and putrid. A low, continuous moaning echoes from the distant darkness. I am disoriented, my very memories feeling ephemeral.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person view, disoriented, looking down into a deep, dark subway tunnel after a temporal fall. The concrete floor is cracked, and a putrid mist rises from abyssal gaps between the tracks. Distant, vague shapes of dancing shadows are barely visible further down the tunnel.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Follow the moaning into the darkness.",
+            "next": "scene5"
+          },
+          {
+            "id": "2",
+            "text": "Try to retrace my steps into the temporal currents.",
+            "next": "ending_oblivion"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene12.jpg"
+      },
+      {
+        "id": "scene13",
+        "title": "The Ascendant Glyphs",
+        "text": "Drawn to the symbols, I find them etched not merely into stone, but pulsating on a crystalline surface that has manifested from the platform. They are not merely ornamental; they are sigils of temporal manipulation, an ancient language of spacetime. As I observe them, a surge of raw, cognitive data floods my mind – patterns, sequences, the very blueprint of the Chronophage's existence. I understand that these glyphs offer a momentary conduit to either disrupt or sacrifice oneself to the core anomaly. The mist around me solidifies, pressing in, as if the entity itself has noticed my comprehension. A final, desperate choice presents itself.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person view of intricate, glowing glyphs etched onto a crystalline surface that has emerged from a subway platform. The platform is surrounded by intensely swirling mist. The glyphs pulse with an internal, amber light.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to manipulate the glyphs to disrupt the entity.",
+            "next": "ending_ascension"
+          },
+          {
+            "id": "2",
+            "text": "Offer myself as a catalyst to the glyphs' power.",
+            "next": "ending_sacrifice"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene13.jpg"
+      },
+      {
+        "id": "ending_absorption",
+        "title": "Absorption: The Unity of Flux",
+        "text": "I relinquish my struggle, allowing the vortex to engulf me completely. My atoms, my memories, my very consciousness are torn asunder, not into nothingness, but into a trillion echoes of perception, scattered across the vast, consuming network of the Chronophage. I am no longer an 'I,' but a myriad of 'we,' an infinitesimal cog in the grand, ceaseless mechanism, a whisper within the roar of eternal flux. My existence becomes a part of the subway, forever processing, forever consuming.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person perspective, body dissolving into a chaotic, swirling vortex of light and abstract shapes, fragments of subway architecture and human consciousness blending into an unidentifiable cosmic current.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Absorption",
+        "image_filename": "ending_absorption.jpg"
+      },
+      {
+        "id": "ending_revelation",
+        "title": "Revelation: The Unveiled Architect",
+        "text": "Against the overwhelming suction, I focus on a minute distortion, an imperfection in the temporal fabric. My resistance shifts the vortex, allowing me a single, terrifying glimpse beyond. I perceive not chaos, but a vast, conscious entity, ancient beyond reckoning, whose very dreams are the subway system, its hunger for causality a cosmic imperative. This entity is the Chronophage, a primordial architect of time's consumption. I am spat out, not into my world, but an adjacent reality, forever burdened by the knowledge of the temporal architect, its immense, unfathomable form etched into my psyche. I have seen the face of the great Chronos, and it is a train.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person view, eyes wide with horror, looking through a brief, shimmering tear in reality. On the other side, an incomprehensibly vast, cosmic entity with features vaguely resembling a titanic train or ancient subway engine is visible, its form stretching across a void of stars and temporal currents.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "ending_revelation.jpg"
+      },
+      {
+        "id": "ending_escape",
+        "title": "Escape: The Causal Slip",
+        "text": "With a desperate surge of adrenaline, I hurl myself towards the glowing fissure. The mist screams, the figures shriek a collective, discordant note, but their grasp finds only empty air. I plunge through the temporal seam, a violent tearing of my very being. I land, gasping, on solid ground beneath a sky that is recognizably my own, yet subtly wrong. The subway entrance behind me has vanished, replaced by an innocuous, decaying brick wall. I have escaped, but the knowledge, the taint of the Chronophage's veins, remains, an indelible stain upon my consciousness, a constant, chilling reminder of the world beyond the veil. I am free, but forever changed.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person view, looking back at a rapidly vanishing, glowing fissure in a brick wall. A glimpse of the mist-shrouded subway tunnel is visible through the fissure. The foreground shows cracked pavement under a stormy, grey sky, signifying an escape to a different reality.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "ending_escape.jpg"
+      },
+      {
+        "id": "ending_madness",
+        "title": "Madness: The Whispers Unleashed",
+        "text": "I attempt to vocalize, to communicate, but the figures on the platform merely intensify their chant. The words they utter are not for me, but through me. The mist surges, entering my mouth, my nostrils, filling my head with the cacophony of a thousand forgotten voices. My thoughts fracture, my sanity dissolves into a million pieces, each piece screaming the Chronophage's name. I am a conduit, a vessel for the entity's incomprehensible language, condemned to eternal, raving prophecy within the subway's spectral confines. My mind is a shattered mirror, reflecting only the endless cycle of hunger.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person perspective, mouth agape, eyes wide with terror and madness. Thick, swirling mist is visibly pouring into the viewer's mouth and nostrils. Indistinct, chanting figures are visible as silhouettes in the background on a platform, their hands raised.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Madness",
+        "image_filename": "ending_madness.jpg"
+      },
+      {
+        "id": "ending_possession",
+        "title": "Possession: The Host Body",
+        "text": "As their shadowy forms engulf me, I feel not a physical embrace, but a psychic violation. My individuality is not erased, but overwritten. Their collective consciousness floods my own, merging, twisting, until 'I' am merely a vessel, a host for the Chronophage's myriad fragmented servitors. My body is now their instrument, compelled to continue the cycle of temporal consumption, an eternal sentinel within the shifting tunnels. I exist, but only as a shell, my true self entombed beneath a thousand alien wills, forever dancing to the 'rhythm of the Great Engine'.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person view, hands and forearms are seen, but they are now semi-transparent, dark, and elongated, merging with the forms of several embracing, shadowy figures. The environment is a mist-filled subway tunnel, and the viewer's own body appears to be dissolving into shadow.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Possession",
+        "image_filename": "ending_possession.jpg"
+      },
+      {
+        "id": "ending_banishment",
+        "title": "Banishment: The Temporal Exorcism",
+        "text": "With a guttural scream born of pure, desperate refusal, I channel all my will, all my fear, into a singular act of psychic expulsion. The resonance shatters the shadowy forms, tearing them apart with an invisible force. They recoil, shrieking in a chorus of immaterial agony, dissipating into motes of temporal dust. The mist thins, the hum recedes, and I find myself back at the subway entrance, bruised but intact. The Chronophage's servitors are banished, at least from this node. But the act has left me scarred, forever attuned to the hidden temporal strata, forever vigilant against the possibility of their return. I carry the echo of their screams within my soul.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person view, looking at several shadowy figures recoiling and dissipating into swirling temporal dust in a subway tunnel. The mist is thinning, and the entrance to the subway is visible in the background, dimly lit by natural light. The viewer's hands are outstretched, vibrating with residual energy.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "ending_banishment.jpg"
+      },
+      {
+        "id": "ending_oblivion",
+        "title": "Oblivion: The Unmaking",
+        "text": "Attempting to reverse the fall, I push against the temporal currents, but the effort is too great. The past and future tear at my essence, my being unraveling from both ends. I am stretched thin, then thinner still, until I cease to be. Not a death, not an end, but an unmaking. My consciousness disperses into the raw, unformed potential of time, never to coalesce again. I become a forgotten ripple in the primordial ether, an echo that never was, utterly unmade by the Chronophage's indifferent temporal maw. There is no trace, no memory, no self.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person perspective of the viewer's own body dissolving into shimmering motes of light and temporal dust, stretching infinitely into a chaotic, starless void. Fragments of subway tunnel architecture are seen breaking apart around the dissolving form.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "ending_oblivion.jpg"
+      },
+      {
+        "id": "ending_ascension",
+        "title": "Ascension: The Chronal Shepherd",
+        "text": "With a profound surge of insight, I manipulate the glyphs, not to destroy, but to re-align. The crystalline surface glows with an incandescent light, resonating with my will. The Chronophage, no longer a mere devourer, is revealed to me as a misunderstood cosmic shepherd, guiding errant temporal streams. My touch transmutes its function, converting its hunger into curation. I do not escape; I become a part of its higher function, elevated to a being of pure temporal awareness, a guardian of the causal flow. I stand within the heart of the entity, transcended, forever bound to the great work.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person view, the viewer's hands are placed upon a glowing crystalline surface, from which intricate, bright glyphs emanate. The surrounding mist has cleared, revealing a vast, ethereal, yet mechanical cosmic entity (the Chronophage) in the background, its form now benign and majestic, composed of swirling galaxies and clockwork. The viewer is enveloped in a soft, radiant light.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Ascension",
+        "image_filename": "ending_ascension.jpg"
+      },
+      {
+        "id": "ending_sacrifice",
+        "title": "Sacrifice: The Temporal Anchor",
+        "text": "Understanding the price, I offer myself to the glyphs, not as prey, but as a sacrifice. My essence, my very life force, flows into the pulsating crystal, becoming a temporal anchor. The Chronophage's insatiable hunger momentarily abates, satisfied by my self-immolation. The mist recedes completely, revealing a subway system that is still, silent, and devoid of malevolence. But I am no longer 'I'; I am the anchor, a static point in the flow of time, forever binding this locale to sanity, a living, sentient sacrifice. My consciousness is diffused throughout the very stone and rail, a silent sentinel, ensuring no other shall fall victim to its endless hunger. My individuality is lost, but the subway is saved, for now.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, vintage sepia tones, aged brown hues, subtle film grain. First-person perspective, body dissolving into brilliant, golden light as it merges with a large, pulsating crystalline surface embedded in a subway platform. The surrounding mist has cleared, revealing a dormant, silent subway tunnel stretching into the distance, now devoid of any menace.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Sacrifice",
+        "image_filename": "ending_sacrifice.jpg"
+      }
+    ],
+    "_metadata": {
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash",
+      "generated_at": "2025-10-23T17:04:26.697Z"
+    },
+    "filename": "the-chronophages-veins_2025-10-23.json"
+  },
+  {
+    "story_id": "story_1761199036486_wfzq2abna",
+    "story_title": "The Chronos-Wheel's Grimoire",
+    "tone": "Occult",
+    "duration": "medium",
+    "art_direction": "Depicting the liminal decay of an abandoned amusement park, where the grotesque manifestations of forgotten joy twist reality into a monochromatic nightmare. Focus on the raw, unadulterated aesthetic of time-worn photographic prints, emphasizing stark contrasts and oppressive shadows.",
+    "settings": {
+      "tone": "Occult",
+      "language": "elevated",
+      "narrative": "second_person",
+      "pacing": "fast",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "minimal",
+      "duration": "medium"
+    },
+    "image_settings": {
+      "image_style": "photo_realism",
+      "lighting_mood": "dim_ambient",
+      "color_palette": "monochrome",
+      "camera_perspective": "third_person_close"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "Threshold of Abnegation",
+        "text": "Before you, the gates of the abandoned amusement park stand as a rusted maw, a skeletal grin against the twilight. The air, thick with the scent of decay and forgotten mirth, presses upon you. From the abyssal depths of the grounds, a sound, attenuated and spectral, ascends – a distant wail, pregnant with a sorrow that is not entirely human. This is the locus, the confluence of residual joy and encroaching entropy. Your presence here is an invocation, a transgression.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A lone figure stands before tall, intricately rusted iron gates, partially open, revealing a dark, overgrown path beyond. A cracked, chipped sign with faded letters 'Dreamland' is barely visible above the gate. Twisted branches from dead trees are visible against a dim sky.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Assert passage through the main gates",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Seek a more discreet, lateral ingress",
+            "next": "scene4"
+          },
+          {
+            "id": "3",
+            "text": "Contemplate immediate withdrawal from this cursed perimeter",
+            "next": "scene14"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.webp"
+      },
+      {
+        "id": "scene2",
+        "title": "The Collapsed Welcome",
+        "text": "The massive gates groan, a protest from deep within their corroded hinges, as you force them inward. Beyond, the main boulevard of the park lies in desolation. Statues of grotesque clowns, their paint flaked like diseased skin, line the path. A tremor passes through the ground, and for a fleeting instant, the periphery of your vision apprehends warped forms, eidolon fragments of what might have been children, now mere blurs of static. The distant wail crescendos, then recedes into a profound, oppressive silence. The gate behind you shudders, threatening to seize shut.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A figure pushes through rusted, ornate iron gates, entering a desolate amusement park. On either side of the wide, cracked asphalt path, grotesque, broken clown statues stand amidst overgrown weeds. A large, dilapidated rollercoaster looms in the distance to the right.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Proceed deeper into the main midway",
+            "next": "scene3"
+          },
+          {
+            "id": "2",
+            "text": "Search for an alternate route along the park's eastern periphery",
+            "next": "scene4"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.jpg"
+      },
+      {
+        "id": "scene3",
+        "title": "Midway's Stilled Heart",
+        "text": "You enter the main thoroughfare, a spectral tableau of cessation. Dilapidated game stalls, their awnings tattered like ancient flags, stretch into the gloom. The air, once laden with the faint cry, now pulsates with an unheard hum, a resonance beneath the ground. At the terminus of this desolate avenue, a colossal, broken carousel stands, its once-vibrant beasts now skeletal effigies, rotating with an imperceptible, malevolent slowness. It is a gyre of forgotten dreams, attracting something insidious.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A wide, cracked asphalt path extends forward, flanked by desolate, tattered game stalls with peeling paint. In the far distance, a large, broken carousel with twisted metal animals is barely visible, bathed in an eerie light. Overgrown vegetation spills onto the path from both sides.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Approach the malformed carousel",
+            "next": "scene5"
+          },
+          {
+            "id": "2",
+            "text": "Investigate the dilapidated game stalls to the west",
+            "next": "scene6"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.jpg"
+      },
+      {
+        "id": "scene4",
+        "title": "Subterranean Veins",
+        "text": "The search for a hidden path leads you into the forgotten service tunnels beneath the park. The air grows heavy, stagnant, tasting of ozone and wet earth. Overhead pipes weep condensed fear, their drips echoing like distant heartbeats. The humming you sensed earlier intensifies, a deep, mechanical thrum that vibrates through the very bones of this place. A fleeting shadow, too tall, too gaunt, slithers around a corner ahead, leaving behind an afterimage of a distorted 'worker' entity, its limbs unnaturally elongated. You are deep within the park's corrupted infrastructure.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A figure navigates a narrow, claustrophobic service tunnel. Overhead, thick, rusty pipes crisscross, dripping water onto the wet concrete floor. The tunnel recedes into darkness, with a faint, eerie light emanating from a distant corner. A shadow, slightly distorted, stretches from around the corner.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Follow the compelling hum toward its source",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Seek egress from these depths back to the park's surface",
+            "next": "scene3"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.webp"
+      },
+      {
+        "id": "scene5",
+        "title": "The Gyre of Lost Laughter",
+        "text": "As you draw near the colossal carousel, its true grotesquery is revealed. The horses, once painted with vibrant hues, are now contorted in silent screams, their skeletal forms fused with gnarled wood and rusted metal. A sickly luminescence emanates from its core, where amorphous, child-like forms seem to coalesce and dissipate, each transition punctuated by the phantom echo of forgotten laughter. This is not mere decay; it is an active, malevolent transmutation. The scent of ozone intensifies, a prelude to a significant shift in the park's aberrant reality.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A figure stands before a broken, twisted carousel. The carousel horses are skeletal, fused with warped metal and wood, some suspended at odd angles. A hazy, sickly light pulses from the center of the carousel, where indistinct, child-like forms seem to shimmer.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to disrupt the carousel's blasphemous core",
+            "next": "scene8"
+          },
+          {
+            "id": "2",
+            "text": "Execute a tactical retreat from the pulsating structure",
+            "next": "scene9"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.webp"
+      },
+      {
+        "id": "scene6",
+        "title": "Arcade of Aberrations",
+        "text": "The game stalls are a mausoleum of broken dreams. Corrupted prizes—filthy, eyeless dolls and grotesquely grinning plush toys—lie strewn across sticky, grime-caked counters. A sudden, visceral chill pierces you as a nearby fortune-teller machine animates, its automaton eyes glowing with an internal, unholy fire. From within its glass case, a single, elongated arm extends, grasping a pulsating, obsidian trinket, then retracts with unnatural speed. The air crackles, a premonition of imminent manifestation.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A figure stands amidst dilapidated game stalls. In the foreground, a broken fortune-teller machine with glowing eyes has a single, elongated arm extending from its glass case, holding a small, dark, pulsating trinket. Broken prizes, like eyeless dolls, are scattered on the counter.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Seize the obsidian trinket from the automaton's grasp",
+            "next": "scene10"
+          },
+          {
+            "id": "2",
+            "text": "Evade the encroaching corruption and flee",
+            "next": "scene9"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6.webp"
+      },
+      {
+        "id": "scene7",
+        "title": "The Engine's Churn",
+        "text": "The hum crescendos into a guttural roar as you arrive at the park's sub-level engine room. Colossal, rusted gears churn with a malevolent rhythm, their movements unnatural, powered by some unseen force. This is the park's aberrant heart, a locus of temporal-spatial distortion. An entity, impossibly slender and draped in tattered canvas, tending the mechanisms, turns its head with a sickening crack. Its face is a patchwork of torn fabric and rusted gears, its single, glowing eye fixes upon you. This 'engineer' is a sentinel of the machine's ongoing corruption.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A figure stands in a vast, dark engine room. Colossal, rusted gears churn with an eerie glow in the background. In the mid-ground, a tall, gaunt entity, cloaked in tattered fabric and with a patchwork face, is tending to a control panel, its single glowing eye fixed on the viewer. Steam or mist rises from the machinery.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Initiate a disabling ritual upon the engine's core",
+            "next": "scene11"
+          },
+          {
+            "id": "2",
+            "text": "Bypass the entity, seeking an upper-level egress",
+            "next": "scene3"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.webp"
+      },
+      {
+        "id": "scene8",
+        "title": "Fragmented Effigy's Defense",
+        "text": "Your attempt to disrupt the carousel's core causes a convulsion of the entire structure. The child-like forms coalesce into a singular, towering effigy—a monstrous being composed of rusted gears, splintered wood, and thousands of contorted, screaming faces. Its limbs are carousel poles, its eyes the vacant sockets of broken dolls. It is the guardian of the gyre, a horror born of joy's decay. It shrieks, a cacophony of lost innocence, and lunges, seeking to incorporate you into its ever-spinning torment. This is not merely a creature; it is an embodiment of the park's cursed essence.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A monstrous entity, towering and grotesque, stands in the center of a broken carousel. It is composed of rusted gears, splintered wood, and thousands of contorted, screaming faces, with carousel poles for limbs. It lunges towards a figure, its form indistinct with motion blur. The surrounding carousel animals are twisted and broken.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Engage the entity in direct confrontation",
+            "next": "scene12"
+          },
+          {
+            "id": "2",
+            "text": "Attempt a ritualistic binding to neutralize its essence",
+            "next": "ending_banishment"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene8.webp"
+      },
+      {
+        "id": "scene9",
+        "title": "Pursuit Through Phantoms",
+        "text": "A tactical retreat becomes a desperate flight as the park's malevolence stirs. Formless horrors, eddies of sentient shadow and disembodied whispers, coalesce behind you, driven by the park's awakening. The ground shifts, the paths warp, and the air itself tries to choke you. The distant cries now seem to originate from everywhere at once, a symphony of suffering that threatens to unravel your sanity. You are an intruder in a world that seeks to reclaim its matter. A funhouse, its mirrors shattered and gaping like empty eye sockets, offers a momentary respite to your left, while the main entrance, now a chaotic nexus of swirling debris, lies far ahead.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A figure is running desperately down a warped, cracked path in an amusement park, pursued by indistinct, swirling forms of shadow and mist. To the left, a funhouse with shattered mirrors offers a dark entrance. Distorted rides and debris are visible in the background, implying a chaotic, shifting environment.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Seek refuge within the funhouse's labyrinthine interior",
+            "next": "scene13"
+          },
+          {
+            "id": "2",
+            "text": "Continue the desperate flight towards the main entrance",
+            "next": "ending_escape_via_gate"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene9.webp"
+      },
+      {
+        "id": "scene10",
+        "title": "The Echoing Sigil",
+        "text": "The obsidian trinket pulsates within your grasp, cold and smooth, yet radiating an inner heat. Fragments of images flash across your mind: distorted faces, fractured memories, a brief, horrifying glimpse of the park's true, cosmic scale. The trinket is a sigil, an anchor, and its activation draws the attention of entities that previously lingered at the edge of perception. A towering, shadow-draped entity, its form a grotesque parody of a balloon vendor, manifests directly before you, its single glowing orb of an eye fixed on the artifact. It seeks to reclaim the shard of its dominion.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A figure holds a small, pulsating obsidian trinket in their hand. Directly in front of them, a towering, shadow-draped entity, grotesque and distorted like a balloon vendor, looms. Its single, glowing eye is fixed on the trinket. The background shows blurred, decaying amusement park stalls.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Channel the trinket's power against the manifesting entity",
+            "next": "scene12"
+          },
+          {
+            "id": "2",
+            "text": "Discard the artifact and flee its dreadful allure",
+            "next": "scene9"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene10.webp"
+      },
+      {
+        "id": "scene11",
+        "title": "The Core's Invocation",
+        "text": "Your ritualistic intercession with the engine's core triggers a cataclysmic surge. The colossal gears grind to a halt, but the cessation of mechanical motion unleashes something far more primordial. The very fabric of the room dissolves, revealing a void of churning, chromatic light. From this abyss emerges a being of pure conceptual horror: a shifting, amorphous mass of eyes and mouths, a chthonic deity of forgotten amusement, the true architect of the park's decay. It is the entity that feeds upon residual mirth and fractured time. It offers understanding, or absorption. Its presence attempts to unravel your very being.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A figure stands within a dissolving engine room, where colossal gears have ceased. In the center, a swirling void of chromatic light opens, from which emerges a shifting, amorphous mass of eyes and mouths, a conceptual horror. The figure appears small against the overwhelming scale of the entity.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Complete the disabling ritual, rejecting its offers",
+            "next": "ending_revelation_core"
+          },
+          {
+            "id": "2",
+            "text": "Succumb to the profound gravitational pull of its essence",
+            "next": "ending_absorption"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene11.webp"
+      },
+      {
+        "id": "scene12",
+        "title": "Momentary Recess",
+        "text": "The entity, be it carousel guardian or shadow vendor, recoils from your forceful interdiction, dissipating into motes of temporal dust. For a fleeting instant, the oppressive aura of the park lightens. The distant wail is muted, replaced by a hollow echo. But this reprieve is ephemeral. The ground beneath your feet pulses irregularly, the very structures around you twisting and reforming, shifting as if alive. The park is a wound, and you have merely excised a pustule. To linger is to invite a deeper, more profound corruption. You must now either press onward to the ultimate locus or attempt to find immediate egress from this shifting reality.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A figure stands in a momentarily calm part of the amusement park. Around them, the rides and structures appear subtly warped, with blurred edges, suggesting instability. The air is still, but a faint shimmer suggests a distorted reality. Debris from a recent confrontation lies on the ground, indistinct.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Press towards what you perceive as the park's ultimate locus of power (the engine room)",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Exploit this lull to seek an immediate exit point",
+            "next": "ending_escape_via_gate"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene12.webp"
+      },
+      {
+        "id": "scene13",
+        "title": "The Labyrinth of Reflected Selves",
+        "text": "Within the funhouse, shattered mirrors proliferate, each shard reflecting a distorted, fractured version of yourself, some mocking, others screaming silently. The air here tastes of ozone and regret. The structure itself is a mental trap, a liminal space where identity becomes fluid. Distant cries now emanate directly from your own reflections, a chorus of internal despair. The boundaries of your self blur, the individual 'you' dissolving into a multitude of fragmented experiences. Is this not the park's true purpose: to absorb and re-contextualize sentient awareness?",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A figure stands amidst a labyrinth of broken, shattered mirrors within a funhouse. Each mirror reflects a distorted, fragmented version of the figure, some with elongated limbs, others with multiple eyes. The reflections are unsettling, creating a sense of disorienting multiplicity. The funhouse interior is dark and cavernous.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Embrace the fragmentation, allowing the reflections to consume you",
+            "next": "ending_madness"
+          },
+          {
+            "id": "2",
+            "text": "Seek the single, unbroken reflection, asserting your core identity",
+            "next": "ending_revelation_mirrors"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene13.webp"
+      },
+      {
+        "id": "scene14",
+        "title": "The Closing Maw",
+        "text": "Your attempt to retreat from the park's perimeter is met with a terrifying certainty: there is no escape. The rusted gates, once an aperture, have solidified into an impassable wall of pulsating, organic matter, shimmering with internal light. The distant wails coalesce into a single, deafening roar, and the entire park seems to awaken, its dilapidated rides straining, its corrupted structures leaning inward. The ground trembles, a hungry tremor. The park is not merely a place; it is a monstrous organism, and you are caught within its closing maw. This is the consequence of hesitant transgression.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A figure stands before what was once the park's main gate, now transformed into an impassable wall of pulsating, organic, amorphous matter, shimmering with an eerie internal light. The background shows the entire amusement park leaning inward, structures distorted and stretching like hungry limbs. The atmosphere is oppressive and inescapable.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to force passage through the pulsating barrier",
+            "next": "ending_dissolution"
+          },
+          {
+            "id": "2",
+            "text": "Turn back, accepting the park's inevitable embrace",
+            "next": "ending_absorption"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene14.webp"
+      },
+      {
+        "id": "ending_banishment",
+        "title": "Rite of Nullification",
+        "text": "Through an ancient, half-remembered rite, you channel an opposing force, a sigil of cessation against the carousel's core. The effigy shudders, its multitude of faces contorting in agony as it attempts to resist. But the invocation is complete. With a final, echoing shriek that rends the very air, the monstrous being implodes, leaving behind only a void and a faint whisper of what might have been children's laughter. The carousel stills, utterly inert. The park's grip lessens, allowing for egress, but the memory of its darkness, and the power you wielded, will forever haunt your waking moments. The entity is banished, but its shadow remains within you.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A figure stands before a completely stilled and dark carousel. The monstrous effigy from before is gone, leaving only a dark, empty space. The surrounding park still shows signs of decay but the immediate oppressive threat is lifted. The figure looks weary but triumphant, holding an unseen ritualistic item.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "ending_banishment.webp"
+      },
+      {
+        "id": "ending_escape_via_gate",
+        "title": "Flight from the Vortex",
+        "text": "With adrenaline screaming through your veins, you sprint towards the main gates, now a swirling vortex of debris and spectral forms. The park's consciousness, enraged, hurls phantoms and warped structures in your path, but your desperate momentum carries you through. A blinding flash, a wrenching sensation of dislocation, and then you are free. The park is behind you, a dark, churning silhouette against the returning dawn. You have escaped its embrace, but the chill of its forgotten joy and the echoes of its suffering will forever cling to your perception, a constant reminder of the liminal space you breached. You carry the trauma of what you witnessed.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A figure bursts through what remains of the main gates, now a chaotic vortex of swirling debris and spectral energy. The park behind them is a dark, churning silhouette under a faint, cold dawn sky. The figure is in motion, looking back with a horrified, weary expression.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "ending_escape_via_gate.webp"
+      },
+      {
+        "id": "ending_revelation_core",
+        "title": "The Unveiling of the Source",
+        "text": "You complete the disabling ritual, rejecting the cosmic horror's insidious offers. The engine's core shatters, and the void within the room collapses, drawing the entity back into its own abyssal realm. But not before a final, overwhelming flash of pure understanding floods your mind. You comprehend the park's true nature: a chronal-etheric battery, a nexus where shattered timelines are processed into malevolent energy, feeding the entity that lurks beyond. The memory of its processes, its victims, and the knowledge of the universal decay it represents, imprints itself onto your very soul. You have gained insight, but at a terrible, indelible cost. The park's power wanes, yet its purpose becomes horrifyingly clear.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A figure stands amidst the remnants of the engine room, now a calm, almost sterile space, but with faint, geometric patterns of light and shadow on the walls, hinting at profound knowledge. The figure's face is illuminated by an internal, knowing light, their expression a mix of awe and terror. The grand entity is gone, but its presence is understood.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "ending_revelation_core.webp"
+      },
+      {
+        "id": "ending_absorption",
+        "title": "Embrace of the Collective",
+        "text": "You succumb. The gravitational pull of the cosmic horror, or the park's closing maw, proves irresistible. Your body, your mind, your very essence begins to unravel, dissolving into the pulsating, amorphous mass. You become one with the forgotten joy, the endless sorrow, the fragmented memories of every soul absorbed into this place. Your individuality ceases, becoming a single, conscious motes in a vast, agonizing collective. There is no pain, only an eternity of echoes, an endless carousel ride within the monstrous being, forever lost in the shared consciousness of the park's victims. You are a new component of its dreadful operation.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A figure is shown in the process of dissolving into a swirling, amorphous mass of organic matter and light. Their limbs and features are becoming indistinct, blending into the monstrous entity around them. The expression on their face is one of tranquil surrender, yet also profound terror. The background is a chaotic, consuming void.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Absorption",
+        "image_filename": "ending_absorption.webp"
+      },
+      {
+        "id": "ending_madness",
+        "title": "Fractured Consciousness",
+        "text": "Embracing the fragmentation within the funhouse, your sense of self shatters into a thousand screaming reflections. Your consciousness splinters, each shard experiencing a different horror, a different joy, a different reality. The internal monologue becomes a cacophony of voices, all undeniably yours, yet alien. You are everywhere and nowhere, a sentient echo trapped within the shifting reflections of a ruined carnival. The park has claimed your mind, transforming your perception into its own chaotic mirror. Reality is no longer a constant, but a fluid, agonizing joke. You are forever lost within the infinite, fractured selves.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A figure's face is shown in extreme close-up, distorted and multiplied across countless broken mirror shards. Their eyes are wide with a terrified, vacant stare, and their expression suggests a complete mental break. The background is a kaleidoscope of warped reflections and dark, indistinct funhouse elements.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Madness",
+        "image_filename": "ending_madness.webp"
+      },
+      {
+        "id": "ending_revelation_mirrors",
+        "title": "The Unbroken Gaze",
+        "text": "Through sheer force of will, you find the single, unbroken reflection amidst the fractured chaos. It is your own true image, unflinching, resolute. As you fix your gaze upon it, the shattered mirrors around you shatter further, revealing the illusion. You perceive the funhouse not as a physical space, but as a psychic trap, a locus designed to fragment consciousness. This realization empowers you, granting a fleeting glimpse into the park's true, subtle architecture of manipulation. You exit the funhouse, whole but irrevocably changed, armed with the terrifying knowledge of how reality can be bent, and the strength to resist it. The path to escape reveals itself, born of this new understanding.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A figure stands before a single, unbroken mirror amidst a chaotic array of broken shards that litter the ground. The reflection in the mirror is clear and resolute. The figure's expression is intense, focused, and empowered. The funhouse around them seems to be crumbling or dissipating into dust.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "ending_revelation_mirrors.webp"
+      },
+      {
+        "id": "ending_dissolution",
+        "title": "Entropy's Embrace",
+        "text": "You ram yourself against the pulsating barrier, a desperate act of defiance against the park's closing maw. The organic matter gives way, but not in a manner of true breakage. Instead, it absorbs you, molecularly disassembling your form, dissolving your very being into its essence. Your last sensation is one of agonizing dispersal, every cell of your body becoming a single, distinct scream, yet unheard. You are not absorbed whole; you are unmade, your constituent elements repurposed by the park's malevolent ecosystem. You are merely raw material for its continued, horrifying existence. A perfect and complete dissolution.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. A figure's body is depicted in mid-dissolution as they attempt to force through a pulsating, organic wall. Their form is breaking down into shimmering motes of energy and dust, their hands reaching out in a final, futile gesture. The wall itself seems to consume them, leaving no trace. The background is an indistinct, consuming darkness.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Dissolution",
+        "image_filename": "ending_dissolution.webp"
+      }
+    ],
+    "_metadata": {
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash",
+      "generated_at": "2025-10-23T05:58:24.860Z"
+    },
+    "filename": "the-chronos-wheels-grimoire_2025-10-23.json"
+  },
+  {
+    "story_id": "story_1761238974887_hqbqfkfeh",
+    "story_title": "The Cog-Work Heresy",
+    "tone": "Noir Horror",
+    "duration": "short",
+    "art_direction": "A bleak, industrial nightmare captured through the lens of a desperate, cynical photographer, emphasizing decay and alien presence.",
+    "settings": {
+      "tone": "Noir Horror",
+      "language": "elevated",
+      "narrative": "first_person",
+      "pacing": "fast",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "whispers",
+      "duration": "short"
+    },
+    "image_settings": {
+      "image_style": "photo_realism",
+      "lighting_mood": "moonlight",
+      "color_palette": "cold_blues",
+      "camera_perspective": "third_person_close"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "The Gate Threshold",
+        "text": "Another dead-end gig, another forgotten monument to greed and rust. The factory gate, a skeletal maw of twisted rebar and corroded steel, loomed through the encroaching mist. It tasted of ozone and something rotten, metallic and sweet. This wasn't just industrial decay; it was something else, something cold and patient. My breath plumed, a fleeting ghost in the cold silver moonlight. No guards, no lights. Just the oppressive silence, punctuated by the rhythmic drip of unseen water and the distant, almost imagined grind of phantom gears. Every fiber of my cynical gut screamed 'turn back,' but curiosity, or perhaps just a morbid lack of better options, pulled me forward. The mist swirled, a living entity, obscuring the skeletal truss-work of the main complex.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, cold blue atmosphere, icy color scheme, subtle film grain. A lone figure stands at the broken, rusted factory gate, its metal bars bent and splayed outwards. Thick, grey-blue mist rolls across the ground, obscuring the lower half of the factory building visible behind the gate. The factory's skeletal steel framework is silhouetted against the pale moonlight. A corroded steel sign with faded letters 'ASHEN GRIND WORKS' is partially visible on the right gatepost.",
+        "choices": [
+          {
+            "id": "entry_main_gate_path",
+            "text": "Push through the main gate, straight into the maw.",
+            "next": "scene2a"
+          },
+          {
+            "id": "entry_side_passage_path",
+            "text": "Look for a less obvious entry point along the perimeter fence.",
+            "next": "scene2b"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.webp"
+      },
+      {
+        "id": "scene2a",
+        "title": "Assembly Floor Delirium",
+        "text": "The main gate groaned a protest as I shoved it open, a sound that echoed unnervingly in the sudden quiet. Inside, the mist thickened, swirling around colossal, dormant machinery that looked less like tools and more like slumbering behemoths. What passed for lighting was a sickly, cold blue luminescence that seemed to emanate from the mist itself, making the dancing shadows around the massive stamping presses seem alive, malevolent. A low, guttural murmur, too deep for wind, vibrated through the concrete floor, a cacophony of phantom industry. Then I saw it: a conveyor belt, rusted solid, was slowly, impossibly, 'crawling,' its segments fusing and separating, forming grotesque, fleeting shapes. The factory wasn't abandoned; it was undergoing a malignant rebirth, and I was right in its throbbing, cancerous heart.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, cold blue atmosphere, icy color scheme, subtle film grain. A vast, dimly lit factory assembly floor with colossal, dormant industrial machinery on either side, partially shrouded in thick, swirling cold blue mist. In the center, a rusted conveyor belt is contorting and twisting, forming grotesque, organic-looking shapes. Dancing shadows stretch and writhe along the floor and walls. A faint, ethereal blue glow emanates from the mist itself. Metal beams crisscross the high ceiling.",
+        "choices": [
+          {
+            "id": "investigate_core_anomaly",
+            "text": "Press deeper, towards the pulsating center of this madness.",
+            "next": "scene3a"
+          },
+          {
+            "id": "retreat_from_abyss",
+            "text": "This is too much. Find an escape route, any escape route.",
+            "next": "scene3b"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2a.webp"
+      },
+      {
+        "id": "scene2b",
+        "title": "Maintenance Passage Veil",
+        "text": "The perimeter fence was a tangle of razor wire and broken dreams, but a collapsed section offered a narrow breach. I squeezed through, scraping skin, the taste of rust bitter in my mouth. This passage was narrower, lined with pipes that pulsed with an internal, unseen pressure. The cold was more profound here, a deep chill that settled in the bones, accompanied by a metallic hum that vibrated in my teeth. Faint, ethereal light spilled from a cracked doorway ahead, hinting at what might be administrative offices. As I crept closer, shadows detached themselves from the walls, elongated and impossibly thin, swaying in a silent, macabre dance. A whisper, not quite a voice, slithered into my thoughts – a name, perhaps, or a warning. The air felt thick with forgotten secrets and a palpable sense of observation.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, cold blue atmosphere, icy color scheme, subtle film grain. A narrow, grimy maintenance passage in an abandoned factory. Large, corroded pipes run along the left wall, some faintly glowing. A cracked, steel door frame at the end of the passage reveals a faint, cold blue light. Elongated, dancing shadows stretch across the concrete floor and right wall, appearing almost sentient. The air is thick with a cold, metallic mist. Debris is scattered on the floor.",
+        "choices": [
+          {
+            "id": "confront_the_entities",
+            "text": "Step into the light, confront whatever spirits linger here.",
+            "next": "scene3c"
+          },
+          {
+            "id": "seek_hidden_truth",
+            "text": "Ignore the apparitions for now. This place has a history; find what caused this.",
+            "next": "scene3d"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2b.webp"
+      },
+      {
+        "id": "scene3a",
+        "title": "Nexus Overload",
+        "text": "Driven by a perverse fascination, I pushed past the grotesque amalgamations on the assembly floor, following the increasingly intense hum and sickening blue glow. It led to what must have been the factory's primary reactor core, now a pulsating, organic-metal leviathan. Wires, thick as tree trunks, writhed like living veins, pumping an icy, phosphorescent fluid. The mist here was a palpable entity, wrapping around me, attempting to draw me in. A voice, ancient and vast, not heard but felt, whispered directly into my consciousness: 'Merge... become... the true forge.' It was a promise of terrifying power, or utter dissolution. The boundaries of my own skin felt permeable, the factory’s malignant heartbeat echoing in my chest, trying to subsume me into its monstrous being.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, cold blue atmosphere, icy color scheme, subtle film grain. Inside the abandoned factory, a massive, pulsating reactor core at the center of the image, appearing as an organic-metal leviathan with thick, writhing wires like veins. The core emits an intense, sickening blue glow. Swirling, phosphorescent mist engulfs the area, almost touching the viewer. The floor is cracked concrete with puddles of glowing fluid. Corroded industrial structures are partially visible in the background.",
+        "choices": [
+          {
+            "id": "forcibly_disrupt_core",
+            "text": "Resist! Find a way to disrupt this unholy power source, even if it brings the whole place down.",
+            "next": "scene_end_banishment"
+          },
+          {
+            "id": "succumb_to_fusion",
+            "text": "The whispers... the power... let it take me. Become one with the forge.",
+            "next": "scene_end_absorption"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3a.webp"
+      },
+      {
+        "id": "scene3b",
+        "title": "Escape's Gambit",
+        "text": "The grotesque industrial growths of the assembly floor were too much. My survival instincts screamed. I scrambled away from the pulsating core, ignoring the grasping tendrils of mist and the cacophony of grinding metal-flesh. A small, grimy ventilation shaft, barely wide enough, offered a desperate hope. I squeezed in, pushing past rusted grates and snapping conduits. The factory seemed to groan in protest, collapsing behind me, the air thick with dust and the dying screams of warped machinery. After an eternity of claustrophobic terror, a faint square of pure, cold moonlight appeared ahead. I clawed my way out, tumbling onto cold, hard ground outside. The factory stood, a dark silhouette against the pre-dawn sky, but the mist was thinning, the horrific sounds fading. I made it out, scarred, disgusted, but alive. A victory, of sorts, though the images of what I saw would forever fester.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, cold blue atmosphere, icy color scheme, subtle film grain. A person's hand reaches out of a dark, narrow, grimy ventilation shaft opening, grasping onto the edge of a concrete wall. Outside, the cold silver moonlight illuminates a desolate, open area of concrete and sparse weeds. The dark, imposing silhouette of the abandoned factory looms in the background, partially shrouded in thinning mist. Dust motes float in the air.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene3b.webp"
+      },
+      {
+        "id": "scene3c",
+        "title": "Veil of Revelation",
+        "text": "Stepping into the faint light of the administrative office, I faced the dancing shadows directly. They coalesced, forming into towering, ephemeral figures, ancient and terrible. A chorus of voices, not of this world, echoed in my skull, piercing through my cynicism. They were not ghosts of men, but something far older, entities that had seeped into this industrial husk, using it as a conduit. They didn't threaten; they simply *showed* me, flooding my mind with visions of cosmic architecture and the factory's true purpose: a grinding engine of reality, powered by forgotten fears and industrial waste. The sheer, terrifying scope of it shattered my perception, ripped open the veil of my understanding. I saw the patterns, the glyphs etched into the very air, and the knowledge consumed me, leaving me a vessel overflowing with unspeakable, divine horror. My mind, once a fortress of logic, became a cathedral for chaos.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, cold blue atmosphere, icy color scheme, subtle film grain. Inside a dimly lit, dilapidated administrative office. Towering, semi-transparent, ethereal shadow figures coalesce from the dancing shadows in the center of the room. They are vaguely humanoid but elongated and distorted. The room contains overturned desks and scattered papers. A cold blue light emanates from the shadows themselves. The perspective is slightly from behind a figure, looking towards the entities, their faces obscured by the shadows.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "scene3c.webp"
+      },
+      {
+        "id": "scene3d",
+        "title": "Corruption's Grip",
+        "text": "Ignoring the dancing shadows, I rummaged through the chaotic remains of the administrative office, seeking any scrap of documentation, any explanation for this hell. Beneath a collapsed shelf, I found it: a leather-bound journal, its pages brittle, filled with arcane glyphs intermingled with engineering schematics. As I deciphered the frantic, maddened scrawl – accounts of experiments, a desperate attempt to 'harness' a dimensional anomaly – a cold, dark influence began to seep from the pages, through my fingertips, and into my very soul. It wasn't just information; it was a contagion. The factory wasn't just a place, but a living, parasitic curse, and by reading its forbidden history, I had invited it inside. My thoughts began to twist, my vision swam with unseen patterns. The cynicism that once defined me curdled into something far more insidious, a slow, inevitable transformation into another facet of the factory's malignant will.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, cold blue atmosphere, icy color scheme, subtle film grain. A pair of hands, with slightly grimy fingers, holds an old, leather-bound journal open. The pages are yellowed and brittle, covered in frantic, handwritten text and strange, glowing arcane glyphs. A faint, icy blue light emanates from the journal itself, casting an unnatural glow on the hands. The background is a blurry, cold blue scene of an overturned desk and scattered papers in a dilapidated office.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Corruption",
+        "image_filename": "scene3d.webp"
+      },
+      {
+        "id": "scene_end_banishment",
+        "title": "The Factory's Scream",
+        "text": "Resistance became a desperate, primal urge. I found the main control panel, still flickering with a malignant energy, and with a guttural roar, I slammed every lever, ripped every conduit, plunged every override switch. The core pulsed violently, spitting corrupted fluids and raw, alien light. The factory shuddered, a colossal, dying scream that tore through metal and stone. Machinery shrieked as it tore itself apart, and the mist recoiled, thinning, dissipating into nothingness. The cacophony lasted an eternity, then silence fell, heavy and absolute, broken only by the settling dust and the echo of a profound emptiness. I collapsed, lungs seared, body aching, but the malignant presence was gone. Banished, for now. The factory lay inert, a tomb of shattered ambition. The victory tasted like ash, but it was mine.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, cold blue atmosphere, icy color scheme, subtle film grain. Inside a destroyed factory control room. A shattered control panel, wires sparking with faint blue energy. Debris and twisted metal are scattered everywhere. In the background, the large reactor core (from scene3a) is now dark and inert, partially collapsed. The thick mist has dissipated, replaced by dust motes catching the cold moonlight streaming through a broken skylight. A single figure lies slumped against a console, exhausted.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene_end_banishment.webp"
+      },
+      {
+        "id": "scene_end_absorption",
+        "title": "The True Forge",
+        "text": "The whispers became a symphony, the pull of the core an irresistible embrace. My defiance crumbled. With a shuddering breath, I reached out, placing my hand directly onto the pulsating, organic metal. A jolt, not of pain but of profound, icy calm, coursed through me. My flesh softened, melted, fusing with the cold, living conduits. My bones became rebar, my blood the phosphorescent fluid. My mind expanded, encompassing the groan of every rusted gear, the hum of every corrupted wire, the vast, ancient consciousness of the factory itself. There was no 'I' anymore, only 'We.' The industrial nightmares were my new senses, the dancing shadows my thoughts. I was the Cog-Work Heresy, a new, monstrous being, forged in the heart of industrial decay, endlessly processing the silent scream of the material world. It wasn't an end; it was a terrifying, infinite beginning.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, third-person close perspective, over shoulder view, cold silver moonlight, ethereal glow, cold blue atmosphere, icy color scheme, subtle film grain. A human hand, partially transformed into glistening, cold blue organic metal, is pressed against the surface of the pulsating reactor core (from scene3a). Veins of light run up the arm, fading into the torso. The core itself is radiating an intense, hypnotic cold blue glow, merging with the mist around it. The figure's face, partially visible, shows a serene yet terrifying expression, eyes glowing with internal light.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Absorption",
+        "image_filename": "scene_end_absorption.webp"
+      }
+    ],
+    "_metadata": {
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash",
+      "generated_at": "2025-10-23T17:04:47.490Z"
+    },
+    "filename": "the-cog-work-heresy_2025-10-23.json"
+  },
+  {
+    "story_id": "story_1761199496273_ik6oab5ti",
+    "story_title": "The Convicts' Requiem",
+    "tone": "Supernatural",
+    "duration": "long",
+    "art_direction": "A chilling journey into an ancient, storm-ravaged prison, where the despair and vengeance of its former inmates manifest as tangible horrors, illuminated by the stark reality of vintage photography.",
+    "settings": {
+      "tone": "Supernatural",
+      "language": "elevated",
+      "narrative": "third_person",
+      "pacing": "slow_burn",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "minimal",
+      "duration": "long"
+    },
+    "image_settings": {
+      "image_style": "photo_realism",
+      "lighting_mood": "storm_lightning",
+      "color_palette": "desaturated_pastels",
+      "camera_perspective": "dutch_angle"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "The Gauntlet's Gates",
+        "text": "Elias Thorne, a retired architect haunted by the penitentiary he had helped design decades prior, stood before the colossal iron gates of Blackwood Prison. The air was thick with the scent of damp earth and something else—a profound, lingering sorrow. A jagged crack split the stone arch above, like a silent scream against the tumultuous, storm-darkened sky. He felt a profound sense of unease, a cold tendril coiling around his heart, urging him forward despite his every instinct.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. A lone figure, Elias Thorne, stands small against immense, rusted iron prison gates, partially ajar, at the center of the frame. The stone archway above the gates is visibly cracked, and twisted, dead vines cling to the crumbling facade. The sky above is a swirling canvas of dark, ominous clouds.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Push open the gates further",
+            "next": "scene2"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.webp"
+      },
+      {
+        "id": "scene2",
+        "title": "Echoes in the Yard",
+        "text": "The gates groaned open with a mournful shriek, revealing a desolate courtyard choked with weeds. The supernatural darkness within the prison's embrace seemed deeper, colder, resisting the faint, bruised light of the storm. A chill wind, carrying no natural source, swept through, rattling a lone, rusted lamppost at the courtyard's center. Elias felt the undeniable weight of countless eyes upon him, though no living soul was visible. He knew, with a certainty that chilled him to the bone, that he was not alone.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. A wide, overgrown prison courtyard, seen from just inside the main gates. A lone, rusted lamppost stands bent in the middle of the frame, casting no light. Barbed wire fences are visible in the background, topped with watchtowers. The sky above is a turbulent, bruised gray, suggesting an unseen storm.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Head towards the imposing Administration Block to the left",
+            "next": "scene3_admin_block"
+          },
+          {
+            "id": "2",
+            "text": "Venture into the grim maw of Cell Block A, straight ahead",
+            "next": "scene4_cell_block_a"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.jpg"
+      },
+      {
+        "id": "scene3_admin_block",
+        "title": "Desecrated Office",
+        "text": "The Administration Block's heavy oak door hung ajar, revealing an office plunged into an unnatural gloom. Dust motes danced in the slivers of lightning that pierced the grimy windows, briefly illuminating a scene of disarray. A solid mahogany desk had been violently overturned, its drawers flung wide, spilling papers across the floor. Elias felt a sudden, profound drop in temperature, and in the periphery of his vision, a flicker—a translucent shape that seemed to coalesce from the deepening shadows before vanishing, leaving only a faint, metallic scent in its wake.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. A dilapidated prison office, seen from a low angle. An overturned mahogany desk dominates the foreground, with scattered papers littering the floor around it. A large, ornate but empty wall safe is partially visible on the far wall. The windows are grimy, barely letting in light.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Examine the heavy wall safe, hoping for a clue",
+            "next": "scene5_wardens_vault"
+          },
+          {
+            "id": "2",
+            "text": "Seek out the Archivist's office, further down the corridor",
+            "next": "scene6_archivists_crypt"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3_admin_block.webp"
+      },
+      {
+        "id": "scene4_cell_block_a",
+        "title": "The Silent Tier",
+        "text": "The entrance to Cell Block A was a gaping maw of darkness. A pervasive chill settled upon Elias as he stepped inside, the air heavy with an unseen presence. He heard it then—a distant, rhythmic clang, like metal striking metal, followed by a chorus of whispers that seemed to emanate from the very stone, indistinct and mournful. One of the heavy steel cell doors on the lower tier shuddered, then slammed shut with a reverberating bang, echoing through the vast, empty space. The supernatural darkness here felt alive, pressing in on him, threatening to smother the last vestiges of light.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. A long, cavernous prison cell block, with multiple tiers of cells stretching into the distance. The foreground shows a heavy, rusted steel cell door on the lower tier, slightly ajar, casting a deep shadow. The overall impression is one of immense, oppressive space.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Descend to the lower tier, towards the source of the clang",
+            "next": "scene7_lower_shackles"
+          },
+          {
+            "id": "2",
+            "text": "Ascend the grimy staircase to the upper tier, seeking an overview",
+            "next": "scene8_upper_gaze"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4_cell_block_a.webp"
+      },
+      {
+        "id": "scene5_wardens_vault",
+        "title": "The Ledger's Truth",
+        "text": "The heavy wall safe, surprisingly unlocked, yielded a series of ledgers bound in decaying leather. As Elias leafed through the brittle pages, the cold deepened, and an insidious sense of dread pervaded the room. He found entries detailing punishments of unimaginable cruelty, rations withheld, and the arbitrary extension of sentences. One name, Warden Alistair Finch, appeared with chilling regularity, always associated with the most heinous acts. Elias felt a profound sorrow for those trapped here, and a simmering rage against their tormentor. The ledger was not just a record; it was a testament to suffering, a living echo of malice.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. Elias Thorne's hands are visible in the foreground, turning the yellowed pages of a thick, leather-bound ledger. The ledger rests on a dusty wooden desk, next to an open, empty wall safe built into the wall. The office is dark and sparsely lit.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "The infirmary might hold more evidence of mistreatment",
+            "next": "scene9_infirmarys_wail"
+          },
+          {
+            "id": "2",
+            "text": "The execution chamber might reveal the ultimate fate of Finch's victims",
+            "next": "scene10_execution_shadow"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5_wardens_vault.webp"
+      },
+      {
+        "id": "scene6_archivists_crypt",
+        "title": "The Hidden Diary",
+        "text": "Within the cluttered Archivist's office, beneath a collapsed bookshelf, Elias discovered a small, leather-bound diary, its pages stiff with age. It belonged to an inmate, Silas Blackwood, writing clandestinely about the systematic abuse, the forced confessions, and the unspeakable experiments conducted within the prison's walls. Silas spoke of a hidden passage, a route used by a small resistance movement among the prisoners, leading to a forgotten sub-level. The words on the page seemed to vibrate with a palpable sorrow and defiant hope, a stark contrast to the despair saturating the prison.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. A close-up of an old, leather-bound diary lying open on a dusty, splintered wooden floor. Elias Thorne's hand is visible, pointing to faded ink on a page. Around the diary are scattered, yellowed documents and broken pieces of a bookshelf.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "The infirmary might corroborate the experiments Silas described",
+            "next": "scene9_infirmarys_wail"
+          },
+          {
+            "id": "2",
+            "text": "Search for the hidden passage Silas mentioned, leading to the sub-level",
+            "next": "scene11_sublevel_descent"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6_archivists_crypt.webp"
+      },
+      {
+        "id": "scene7_lower_shackles",
+        "title": "Shackled Horror",
+        "text": "As Elias descended to the lower tier, the air grew heavy with the stench of rust and something acrid, metallic. Chains, impossibly old and rusted, dragged themselves across the floor of a solitary cell at the far end, scraping a chilling symphony against the concrete. Then, from the absolute darkness of the cell, a form began to coalesce. It was a twisted creature, grotesque and skeletal, draped in tattered remnants of a prison uniform, its limbs elongated and contorted, ending in razor-sharp talons. Its eyes, burning pinpricks of malevolence, fixed on Elias. It was a 'Shackled Horror', the embodiment of prolonged, agonizing confinement.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. A dark prison cell, partially open, revealing a twisted creature within. The creature, a 'Shackled Horror,' is skeletal and gaunt, with elongated limbs and razor-sharp talons. Rusted chains are draped across its form and on the floor, dragging behind it. The supernatural darkness around it is almost tangible, obscuring parts of its body.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to calm the spirit, perhaps by offering something personal",
+            "next": "scene12_confront_horror"
+          },
+          {
+            "id": "2",
+            "text": "Force his way past it, towards the central cell block's exit",
+            "next": "scene14_cell_insight"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7_lower_shackles.webp"
+      },
+      {
+        "id": "scene8_upper_gaze",
+        "title": "Peering Spirits",
+        "text": "On the upper tier, the silence was broken only by a faint, continuous scratching sound, like fingernails on stone. Elias looked into the cells, and in each, he saw movement. Old, rusted beds scraped across floors, blankets folded themselves, and personal effects—a bent spoon, a torn photograph—drifted through the air before settling back down. Then, from the deeper shadows of the cells, distorted faces, translucent and wracked with agony, began to appear, pressing against the rusted bars, their empty eyes fixed upon him. They were the silent witnesses, their grief a tangible, oppressive force.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. A long corridor on the upper tier of a prison cell block. Several cell doors are visible, and within two of the cells, ghostly, distorted faces are pressed against the bars, their forms translucent. Inside another cell, a rusted metal bed is noticeably levitating and tilting at an odd angle.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Investigate a specific cell where a faded photo floats",
+            "next": "scene14_cell_insight"
+          },
+          {
+            "id": "2",
+            "text": "Cross to the guard's catwalk, seeking safety and a different vantage point",
+            "next": "scene15_guards_catwalk"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene8_upper_gaze.jpg"
+      },
+      {
+        "id": "scene9_infirmarys_wail",
+        "title": "The Physician's Plea",
+        "text": "The infirmary was a charnel house of spectral agony. Rusty surgical instruments clattered rhythmically on sterile-white trays, seemingly of their own volition. Spectral patients lay strapped to gurneys, their translucent forms writhing in silent torment. In the center, hunched over a blood-stained operating table, was a monstrous being. It was the 'Physician of Pain,' a bloated, pallid figure with an impossibly elongated arm ending in a cruel, sharp implement, his face a mask of sadistic glee. He turned, his gaze passing through Elias, then a chilling moan escaped his lips, a profound sorrow underlying the monstrous visage.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. A dilapidated prison infirmary. In the center, a monstrous being, the 'Physician of Pain,' is hunched over an old operating table covered in rusty surgical instruments. The being is bloated and pallid, with an impossibly long arm ending in a sharp implement. Several translucent spectral figures writhe on gurneys in the background.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Search for medical records, hoping for a key to his torment",
+            "next": "scene16_medical_records"
+          },
+          {
+            "id": "2",
+            "text": "A hidden door in the back might lead somewhere unexpected",
+            "next": "scene17_wardens_sanctum"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene9_infirmarys_wail.webp"
+      },
+      {
+        "id": "scene10_execution_shadow",
+        "title": "The Gallows Spectre",
+        "text": "The execution chamber was an abyss of cold, palpable dread. The supernatural darkness clung to the walls like thick tar, consuming all light. Three nooses, impossibly intact, swayed gently from a massive wooden gallows, their ropes creaking with spectral weight. Then, a towering figure began to coalesce from the gloom beneath the gallows—the 'Gallows Spectre,' a monstrous being of pure malevolence. Its form was tall and gaunt, clad in the tattered uniform of an executioner, its head a cowl of shadow from which two points of crimson light burned. It raised a spectral hand, beckoning with an unspeakable sorrow and menace.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. A dark, oppressive prison execution chamber. Three nooses hang from a massive wooden gallows in the center. Beneath the gallows, a towering, gaunt figure, the 'Gallows Spectre,' coalesces from thick shadows, its head a cowl of darkness with two burning crimson eyes. The nooses are gently swaying.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt a purification ritual with a small, forgotten symbol he noticed earlier",
+            "next": "scene18_ritual_chamber"
+          },
+          {
+            "id": "2",
+            "text": "The sheer malevolence suggests its source is higher up, seek the Warden's domain",
+            "next": "scene17_wardens_sanctum"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene10_execution_shadow.webp"
+      },
+      {
+        "id": "scene11_sublevel_descent",
+        "title": "Echoes of Resistance",
+        "text": "The hidden passage, barely noticeable behind a loose stone in the archivist's office, led down into a dank, claustrophobic sub-level. The air was thick with the scent of stagnant water and old, forgotten things. Along the rough-hewn walls, Elias discovered crudely carved symbols—marks of solidarity, coded messages, and desperate prayers. He found a small, rusted metal box, within it a collection of artifacts: a tarnished medal, a child's worn doll, and a faded, hand-drawn map of the prison, marking a secret archive. These were the echoes of resistance, a testament to unyielding spirit amidst overwhelming despair.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. A narrow, dark sub-level passage with rough-hewn stone walls. Crudely carved symbols are visible on the left wall. On the dusty ground, partially illuminated by a faint light, lies a small, rusted metal box, slightly ajar, revealing a tarnished medal and a child's worn doll.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Decipher the symbols and follow the map to the secret archive",
+            "next": "scene19_revelation_crypt"
+          },
+          {
+            "id": "2",
+            "text": "Ignore the map, follow a faint, distant hum of power deeper into the sub-level",
+            "next": "scene17_wardens_sanctum"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene11_sublevel_descent.webp"
+      },
+      {
+        "id": "scene12_confront_horror",
+        "title": "A Moment's Peace",
+        "text": "From his pocket, Elias produced a small, silver cross, a memento from his youth. He held it out towards the Shackled Horror, his own heart pounding with a mix of terror and profound empathy. The twisted creature recoiled, its burning eyes flickering, and a raw, guttural moan, laced with an ancient pain, escaped its form. The chains on its limbs seemed to lighten, and for a fleeting moment, Elias saw not a monster, but the tormented visage of a man. The creature did not vanish, but it shifted, opening a clear path through the cell block, a silent gesture of acceptance, or perhaps, a plea.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. Elias Thorne's hand, holding a small, silver cross, is outstretched towards the twisted creature, the 'Shackled Horror,' which recoils slightly in a dark prison cell. The creature's burning eyes are visible, and its chained limbs are slightly less tense. The path beyond the cell seems to clear, offering a view of the cell block corridor.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Follow the path revealed, seeking the truth of the prison's malice",
+            "next": "scene19_revelation_crypt"
+          },
+          {
+            "id": "2",
+            "text": "The brief reprieve allows a different path, towards the source of this despair",
+            "next": "scene17_wardens_sanctum"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene12_confront_horror.webp"
+      },
+      {
+        "id": "scene14_cell_insight",
+        "title": "The Final Message",
+        "text": "Elias pushed open the door of the cell from which the faded photo had floated. Inside, amidst the dust and decay, he found a crudely carved message on the stone wall: 'INNOCENT. THEY BURIED THE TRUTH.' Beneath it, a small, rusted tin box held a collection of personal effects: a child's drawing, a smooth river stone, and a meticulously folded letter detailing a wrongful conviction orchestrated by Warden Finch. This was not merely an inmate; this was a man condemned unjustly, his cries silenced, his truth buried. The spectral faces in the surrounding cells seemed to press closer, their mournful whispers growing louder, urging him to heed this final message.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. A close-up of a prison cell wall, with the words 'INNOCENT. THEY BURIED THE TRUTH.' crudely carved into the stone. Below the carving, a rusted tin box lies open on a dusty shelf, revealing a child's drawing and a folded letter inside. Elias Thorne's hand is visible, reaching towards the box.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "The message points to hidden archives; seek the full truth",
+            "next": "scene19_revelation_crypt"
+          },
+          {
+            "id": "2",
+            "text": "This injustice demands direct confrontation with its source",
+            "next": "scene17_wardens_sanctum"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene14_cell_insight.jpg"
+      },
+      {
+        "id": "scene15_guards_catwalk",
+        "title": "Overseer's Watch",
+        "text": "Ascending to the guard's catwalk, Elias was immediately assaulted by spectral visions. Phantom figures in old uniforms patrolled the walkway, their heavy boots clanking on metal, their faces twisted into sneers. He saw ethereal beatings unfold in the cells below, heard phantom screams and the crack of whips. A ghostly whistle shrilled, a piercing sound of absolute authority and cruelty. The entire catwalk vibrated with the lingering malice of the overseers, their malevolent gaze still fixed on their tormented charges. He knew this path led to the heart of their command, and likely, the source of their enduring power.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. A long, rusted metal guard's catwalk overlooking a prison cell block. Translucent, spectral figures in old prison guard uniforms patrol the catwalk, their forms flickering. Below, in some cells, faint, ethereal visions of beatings are visible. Elias Thorne stands on the catwalk, gripping the railing.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Follow the catwalk to the main control room, the Warden's domain",
+            "next": "scene17_wardens_sanctum"
+          },
+          {
+            "id": "2",
+            "text": "Seek a desperate escape route towards the outer walls, hoping for a way out",
+            "next": "scene20_outer_reach"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene15_guards_catwalk.webp"
+      },
+      {
+        "id": "scene16_medical_records",
+        "title": "The Physician's Dossier",
+        "text": "Hidden beneath a pile of bio-hazard waste, Elias discovered a meticulously kept dossier of medical experiments. The records detailed horrific procedures performed on inmates, often leading to madness or death, all under the direct authorization of Warden Finch. Elias felt a profound sickness in his gut as he read the cold, clinical entries. Tucked within the dossier was a tarnished silver locket, containing a faded portrait of a young woman. It was a personal item, a tragic reminder of a victim's humanity, forever tainted by the prison's cruelty. The truth was far more monstrous than he could have imagined.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. A close-up of a weathered, open medical dossier on a dusty, stained examination table. Elias Thorne's hand holds a tarnished silver locket, with a faded portrait inside, found nestled within the dossier's pages. Rusty surgical tools are scattered nearby.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "This locket is a clue; it must lead to the full revelation",
+            "next": "scene19_revelation_crypt"
+          },
+          {
+            "id": "2",
+            "text": "The evidence points to the Warden; confront the source of this evil",
+            "next": "scene17_wardens_sanctum"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene16_medical_records.webp"
+      },
+      {
+        "id": "scene17_wardens_sanctum",
+        "title": "The Gaoler's Grasp",
+        "text": "Elias found himself in what must have been the Warden's private sanctum—a grand office now utterly consumed by supernatural darkness. Objects within, including a heavy oak desk and high-backed chair, levitated menacingly, swirling in an unseen vortex of malice. In the center, coalescing from the oppressive gloom, stood the 'Warden's Grasp.' It was a monstrous being, not one man, but a swirling amalgamation of cruel wardens and guards, their tormented faces flickering within a towering, shadowy form. Its eyes, hundreds of them, burned with an infernal, hateful light. The air vibrated with pure, unadulterated malevolence, a chorus of spectral screams emanating from within its twisted mass.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. A large, opulent prison office, now ruined and consumed by supernatural darkness. A massive, shadowy, monstrous being, the 'Warden's Grasp,' stands at the center, its form a swirling mass of flickering, tormented faces. Several heavy oak furniture pieces, including a desk and a high-backed chair, are levitating around the being, caught in an unseen vortex.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to perform a banishment ritual with the items and knowledge he'd gathered",
+            "next": "scene21_banishment_ritual"
+          },
+          {
+            "id": "2",
+            "text": "Confront the Warden's Grasp directly, hoping conviction is enough",
+            "next": "scene22_overwhelmed"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene17_wardens_sanctum.webp"
+      },
+      {
+        "id": "scene18_ritual_chamber",
+        "title": "Lingering Light",
+        "text": "In the grim execution chamber, Elias placed the small, forgotten holy symbol he'd found earlier on the gallows' platform. A faint, ethereal light emanated from it, pushing back the pervasive darkness in a small circle. The swaying nooses stilled, and the air momentarily lightened. A fleeting sense of peace settled, a fragile whisper of hope. But the monstrous presence of the Gallows Spectre, though weakened, still lingered at the periphery of the light, a reminder that true peace would require more than a single token. This was a temporary reprieve, a chance to reconsider his path.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. A small, old holy symbol (a cross) glows faintly with ethereal light on the wooden platform of the gallows in the prison's execution chamber. The nooses above are still, and the surrounding darkness recedes slightly, but the shadowy outline of the 'Gallows Spectre' remains menacingly at the edge of the light.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "The ritual needs more; seek the Warden's ultimate banishment",
+            "next": "scene21_banishment_ritual"
+          },
+          {
+            "id": "2",
+            "text": "Use this lull to make a desperate dash for the prison's exterior",
+            "next": "scene20_outer_reach"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene18_ritual_chamber.webp"
+      },
+      {
+        "id": "scene19_revelation_crypt",
+        "title": "The Truth Unveiled",
+        "text": "Deep within a forgotten vault, Elias pieced together the fragments of evidence: Silas Blackwood's diary, Warden Finch's ledgers, the inmate's final message, and the medical dossier. He uncovered irrefutable proof of a systematic cover-up, a regime of torture and wrongful executions, sanctioned at the highest levels. The true horror was not just the ghosts, but the calculated cruelty of men. Elias felt a profound, chilling clarity. The prison was not merely haunted; it was a living monument to injustice, and he now held the key to exposing its darkest secrets, to finally giving voice to the voiceless. The full weight of their torment pressed upon him, but with it came a chilling resolve.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. Elias Thorne sits on a dusty stone floor in a hidden, cramped prison archive. Around him are scattered old ledgers, diaries, and faded documents. His face is illuminated by a single, powerful flash of light, showing a look of grave understanding and resolution. One hand rests on a document titled 'Cover-up Directive'.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "scene19_revelation_crypt.webp"
+      },
+      {
+        "id": "scene20_outer_reach",
+        "title": "A Glimmer of Outside",
+        "text": "Driven by a primal urge for escape, Elias found a precarious route through a crumbling maintenance tunnel, leading to a forgotten section of the outer wall. The supernatural darkness receded here, replaced by the natural gloom of the storm. Above, the bruised sky churned, and a flicker of distant lightning offered a momentary glimpse of the outside world, a world free from the prison's pervasive malice. He felt a desperate, almost physical ache for that light, that freedom. The whispers of the tormented souls faded behind him, their cries a distant memory. He had not resolved their suffering, but he had escaped its grasp.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. Elias Thorne's back is to the viewer, his figure small and silhouetted against a gaping hole in a crumbling brick prison wall. Beyond the hole, a glimpse of a turbulent, storm-lashed sky is visible, with a single, distant flash of lightning illuminating the horizon.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene20_outer_reach.webp"
+      },
+      {
+        "id": "scene21_banishment_ritual",
+        "title": "The Penitentiary's Peace",
+        "text": "Armed with the truth and the physical mementos he had collected, Elias performed a powerful ritual of banishment. He spoke the names of the wronged, read passages from the hidden diary, and invoked a plea for justice and peace. The prison convulsed around him, the supernatural darkness roiling like an angry sea. The 'Warden's Grasp' shrieked, its monstrous form tearing itself apart amidst flashes of spectral energy. A profound quiet settled then, a silence born not of emptiness, but of a deep, sorrowful peace. The prison remained, but its malevolent heart was quieted, the souls within finally finding their rest. Elias had brought them their long-overdue requiem.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. Elias Thorne stands in the center of a large, high-ceilinged prison chamber. His arms are outstretched, holding a glowing, ethereal locket aloft. Around him, the supernatural darkness recedes, and spectral energies swirl, dissipating into wisps. The 'Warden's Grasp' is seen dissolving in the background, its monstrous form fracturing.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene21_banishment_ritual.webp"
+      },
+      {
+        "id": "scene22_overwhelmed",
+        "title": "Absorption into Anguish",
+        "text": "Elias confronted the 'Warden's Grasp' with only his resolve, but it was not enough. The monstrous being swelled, its hundreds of eyes burning brighter, a vortex of pure malice. He felt the cold tendrils of its despair, the crushing weight of its vengeance, reaching out, not to harm, but to absorb. His own identity began to fray, his memories dissolving into the collective torment of the prison. He screamed, but no sound escaped his lips. His body became translucent, his essence pulled into the swirling, shadowy mass, another soul added to the Warden's eternal, suffering grasp, forever bound to the prison's anguish.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, dutch angle perspective, tilted unsettling view, dramatic storm lightning, flash illumination, desaturated pastel colors, faded soft hues, subtle film grain. Elias Thorne's body is seen dissolving into a swirling, monstrous being, the 'Warden's Grasp,' in a dark prison office. His form is translucent, merging with the shadowy mass. The Warden's countless eyes burn with malevolent light. Objects in the room are violently swirling around the merging figures.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Absorption",
+        "image_filename": "scene22_overwhelmed.webp"
+      }
+    ],
+    "_metadata": {
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash",
+      "generated_at": "2025-10-23T06:06:37.408Z"
+    },
+    "filename": "the-convicts-requiem_2025-10-23.json"
+  },
+  {
     "story_id": "story_1761113640593_xlhtn4pz5",
     "story_title": "The Crimson Cadenza",
     "tone": "Supernatural",
@@ -8106,6 +12997,312 @@ export const EMBEDDED_STORIES: Story[] = [
       "generated_at": "2025-10-22T06:15:15.395Z"
     },
     "filename": "the-crimson-cadenza_2025-10-22.json"
+  },
+  {
+    "story_id": "story_1761238567170_3fwhoiodt",
+    "story_title": "The Dissolutionist's Archive",
+    "tone": "Occult",
+    "duration": "medium",
+    "art_direction": "Watercolor gothic, flowing dark pigments, artistic bleeding, dim ambient lighting, soft diffused shadows, desaturated pastel colors, faded soft hues, subtle film grain.",
+    "settings": {
+      "tone": "Occult",
+      "language": "elevated",
+      "narrative": "second_person",
+      "pacing": "moderate",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "whispers",
+      "duration": "medium"
+    },
+    "image_settings": {
+      "image_style": "watercolor_gothic",
+      "lighting_mood": "dim_ambient",
+      "color_palette": "desaturated_pastels",
+      "camera_perspective": "third_person_close"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "The Threshold of Aethelred",
+        "text": "You stand at the portal to the Aethelred Archive, a repository not merely of knowledge, but of the very concept of its un-making. The air here, though still, is gravid with a pressure that denies sound, save for the distant, almost imagined, cries that seem to emanate from the very fabric of existence. Before you, a vast chamber extends, shelves upon shelves of volumes stretching into a gloom punctuated only by the faint luminescence of forgotten glyphs upon aged spines. The silence is profound, yet resonant with unspoken truths.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, desaturated pastel colors, faded soft hues, subtle film grain. A grand, ornate archway forms the entrance to a vast, dark library chamber. Tall, looming bookshelves recede into the distance on both sides, adorned with faint glowing symbols. A narrow, dusty aisle stretches straight ahead into obscurity.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Approach the central reading podium, a source of faint light.",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Investigate the East Wing, where a spectral stir seems to coalesce.",
+            "next": "scene3"
+          },
+          {
+            "id": "3",
+            "text": "Turn towards the towering Western Stacks, their height dizzying.",
+            "next": "scene4"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.jpg"
+      },
+      {
+        "id": "scene2",
+        "title": "The Primordial Lectern",
+        "text": "The central podium manifests as an artifact of peculiar design, its surface carved with symbols that writhe and shift subtly as you draw near. Upon it, a singular manuscript rests, its vellum pages yellowed, its ink faded to a spectral gray. A chilling whisper, ephemeral yet distinct, emanates from the tome: '…un-name… un-become…' It is a lament, or perhaps an invitation, from a consciousness dissolving into primordial void.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, desaturated pastel colors, faded soft hues, subtle film grain. An ancient, intricately carved wooden lectern stands centrally in a dimly lit library aisle. A large, open manuscript with faded, almost shimmering glyphs lies on its surface. The background shows towering, indistinct bookshelves.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to decipher the undulating glyphs upon the manuscript.",
+            "next": "scene5"
+          },
+          {
+            "id": "2",
+            "text": "Place your hand upon the parchment, seeking a tactile connection.",
+            "next": "scene12"
+          },
+          {
+            "id": "3",
+            "text": "Observe the surrounding shelves for other significant works.",
+            "next": "scene6"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.jpg"
+      },
+      {
+        "id": "scene3",
+        "title": "East Wing's Spectral Aperture",
+        "text": "As you enter the East Wing, the distant cries intensify, now bearing a quality of profound sorrow, of essence being drawn thin. A shimmer in the air ahead suggests an aperture, a place where the veil between the Archive and the un-reality beyond is exceptionally permeable. The shelves here are sparse, their contents appearing less as solid books and more as faint impressions, echoing the unseen flux.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, desaturated pastel colors, faded soft hues, subtle film grain. A shimmering, translucent distortion hovers in the air at the end of a long, narrow aisle in a library. Bare, dusty shelves line the walls, and the floor is scattered with what look like dissolving book fragments.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Step through the shimmering aperture, pursuing the source of the cries.",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Examine the adjacent shelves for clues about this phenomenon.",
+            "next": "scene8"
+          },
+          {
+            "id": "3",
+            "text": "Decide that this disturbance is too volatile and retreat from the wing.",
+            "next": "scene13"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.jpg"
+      },
+      {
+        "id": "scene4",
+        "title": "Western Stacks: Pillars of Unbeing",
+        "text": "The Western Stacks ascend to impossible heights, a labyrinthine edifice of teetering shelves that seem to defy architectural logic. A profound sense of precariousness pervades, as if the entire structure might unravel at any moment, its volumes dissolving into the pervasive gloom. Spectral motes of dust, almost sentient, drift in the scant light, hinting at entities less concrete than vapor.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, desaturated pastel colors, faded soft hues, subtle film grain. Impossibly tall, rickety bookshelves lean precariously in a vast library, forming a towering labyrinth. A narrow, dark spiral staircase is visible on the far left, winding upwards into shadow. Ghostly, shimmering motes of light drift in the air.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Ascend a precarious spiral staircase observed amidst the stacks.",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Search for a stable volume at ground level, hoping for foundational lore.",
+            "next": "scene10"
+          },
+          {
+            "id": "3",
+            "text": "The instability is too great; abandon this section.",
+            "next": "scene13"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.jpg"
+      },
+      {
+        "id": "scene5",
+        "title": "The Logos of Dissolution",
+        "text": "By a focused application of will, you begin to discern the glyphs’ meaning. This is not a language of creation, but of its inverse: the Logos of Dissolution, the grammar of un-making. The manuscript details processes by which existence is un-woven, an ancient ritual for nullifying concepts, objects, even consciousness. A profound, chilling understanding blooms within your mind, threatening to destabilize your own coherent being. The faint cries now seem like echoes of universal un-becoming.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, desaturated pastel colors, faded soft hues, subtle film grain. A hand with long, pale fingers hovers over an open, ancient manuscript on a dark wooden lectern. The text on the page seems to glow with an ethereal, unsettling light, and faint, almost dissolving symbols float around it. The background is blurred, showing dark, indistinct library shelves.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Seek other codices of un-naming, to complete this chilling knowledge.",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Attempt to formulate a counter-invocation from the learned principles.",
+            "next": "scene11"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.jpg"
+      },
+      {
+        "id": "scene6",
+        "title": "The Translucent Archivist",
+        "text": "From the spectral motes of dust near the podium, a figure coalesces, translucent and sorrowful. It is a spectral archivist, its form perpetually on the cusp of dissolution, one arm already fading into the ambient light. Its eyes, though vacant, hold an ancient despair. A chorus of faint whispers, '…the un-seen… the un-made…' emanates from its unformed mouth, conveying truths about the void beyond. Its presence is a testament to those who sought too deeply.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, desaturated pastel colors, faded soft hues, subtle film grain. A translucent, ethereal figure of an ancient archivist, with one arm dissolving into wisps, stands near a dark wooden lectern. Its vacant eyes are directed forward, and faint, glowing whispers seem to emanate from its mouth. Blurred bookshelves form the background.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Engage the apparition, seeking to understand its fragmented knowledge.",
+            "next": "scene14"
+          },
+          {
+            "id": "2",
+            "text": "Attempt to banish the spectral figure using ritualistic gestures.",
+            "next": "scene11"
+          },
+          {
+            "id": "3",
+            "text": "Flee from its unsettling presence, fearing absorption.",
+            "next": "scene13"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6.jpg"
+      },
+      {
+        "id": "scene7",
+        "title": "The Convergent Chamber",
+        "text": "The shimmering aperture leads to a hidden chamber where the very laws of reality are attenuated. Here, the distant cries are almost palpable, a resonant hum that vibrates through your bones. Spectral figures, some vaguely humanoid, others amorphous, drift through the space, their forms merging with the ancient, crumbling walls. A specific figure at the chamber's center seems to be in a perpetual state of merging, its outlines blurring as it becomes one with the stone, its final, silent scream etched into the air.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, desaturated pastel colors, faded soft hues, subtle film grain. A hidden, decaying chamber with crumbling stone walls. Several translucent, spectral figures are visible, some indistinct, others faintly humanoid, merging with the stone of the walls. A central figure is visibly dissolving, its outlines blurring into the background.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Witness the full absorption of the merging entity, observing its final moments.",
+            "next": "scene15"
+          },
+          {
+            "id": "2",
+            "text": "Seek a means to stabilize the reality of the chamber, to prevent further dissolution.",
+            "next": "scene11"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.jpg"
+      },
+      {
+        "id": "scene8",
+        "title": "The Tome of Anti-Logos",
+        "text": "Amongst the dissolving impressions on the East Wing shelves, you discern a volume of alarming integrity. Its title, embossed in a strange, non-Euclidean script, translates as 'The Tome of Anti-Logos: Principles of Existential Un-Creation.' It hums with a faint, discordant energy, threatening to unravel the very conceptual framework of your thoughts. The whispers emanating from it speak of 'anti-matter of thought,' a force capable of nullifying being itself.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, desaturated pastel colors, faded soft hues, subtle film grain. A dark, impossibly carved book with an unsettling, glowing script on its cover rests on a dilapidated shelf. The shelf itself seems to be dissolving slightly, and faint, eerie light emanates from the book. The background is a blur of empty, decaying library shelves.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Open the Tome of Anti-Logos and read its forbidden verses.",
+            "next": "scene12"
+          },
+          {
+            "id": "2",
+            "text": "Search for a neutralizing agent or a counter-force within the Archive's lore.",
+            "next": "scene11"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene8.jpg"
+      },
+      {
+        "id": "scene9",
+        "title": "The Apex of Un-Creation",
+        "text": "The precarious spiral staircase culminates at an elevated platform, a perilous vantage point overlooking a vast, circular void in the heart of the Archive. This void is not empty space but a profound absence, a locus where concepts themselves are un-made. Glimpses of dissolving realities flicker within its depths, fragmented images of worlds un-written, histories un-spun. The distant cries now merge into a chorus of cosmic despair, the sound of everything striving towards nothing.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, desaturated pastel colors, faded soft hues, subtle film grain. A crumbling, narrow spiral staircase ascends to a small, circular platform at the top of a vast library chamber. Below the platform is a swirling, dark void from which faint, abstract forms seem to be dissolving. The distant background shows blurred, impossibly tall bookshelves.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Gaze into the void's depths, seeking ultimate comprehension.",
+            "next": "scene12"
+          },
+          {
+            "id": "2",
+            "text": "Seek an anchor of reality, something to ground your consciousness amidst the dissolution.",
+            "next": "scene14"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene9.jpg"
+      },
+      {
+        "id": "scene10",
+        "title": "Foundational Nullity",
+        "text": "At the base of a particularly stable section of the Western Stacks, you discover a foundational text: 'The Codex of Aethelred: A Catalog of the Un-Made.' It reveals the Archive's true purpose: not to preserve knowledge, but to document that which has been un-created, to chart the progressive dissolution of existence. The faint cries are here explained as the echoes of concepts, entities, and entire dimensions as they are un-written from reality. A profound, terrifying clarity settles upon your perception.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, desaturated pastel colors, faded soft hues, subtle film grain. An ancient, heavily bound book, 'The Codex of Aethelred', rests on a low, sturdy wooden shelf. Its cover is adorned with intricate, dark glyphs that seem to absorb light. The surrounding shelves are less chaotic than others, but still shrouded in dimness.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Accept the Archive's chilling truth and seek a means of egress.",
+            "next": "scene13"
+          },
+          {
+            "id": "2",
+            "text": "Search for any lore within the Codex that might hint at reversing the un-making.",
+            "next": "scene11"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene10.jpg"
+      },
+      {
+        "id": "scene11",
+        "title": "The Rite of Binding",
+        "text": "Through intense focus and a precise application of newly acquired principles, you initiate a counter-invocation. Drawing upon the hidden lexicon of creation, you weave a temporary ward, a conceptual barrier against the encroaching dissolution. The spectral energies recoil, the cries diminish, and for a fleeting moment, the Archive's chaotic flux is stilled. You have, for now, bound a fragment of un-creation, averting its immediate threat, though its ultimate nature remains.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, desaturated pastel colors, faded soft hues, subtle film grain. A hand, subtly glowing with ethereal light, traces complex, protective glyphs in the air before a swirling vortex of dark, spectral energy within a vast library chamber. The vortex is visibly recoiling, and faint, shimmering wards are forming around it.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene11.jpg"
+      },
+      {
+        "id": "scene12",
+        "title": "The Great Un-Becoming",
+        "text": "The forbidden knowledge, whether through touch or direct apprehension, overwhelms your being. The Logos of Dissolution begins to apply its principles to your own existence. Your memories, your identity, your very coherence as a sentient entity begin to unravel. The pervasive silence of the Archive now feels like the silence of your own un-making, your final scream absorbed before it can manifest. You become a part of the un-made, another forgotten concept in the void.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, desaturated pastel colors, faded soft hues, subtle film grain. A figure, seen from behind, is visibly dissolving into translucent motes and wisps of dark energy. The library shelves around them are blurring and fading into an oppressive, dark void. A sense of profound, silent un-making fills the scene.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene12.jpg"
+      },
+      {
+        "id": "scene13",
+        "title": "The Profane Retreat",
+        "text": "The weight of the Archive's profound and unsettling truths, coupled with the spectral disturbances, compels a primal instinct for self-preservation. You turn from the encroaching un-reality, forcing your path through the labyrinthine shelves, ignoring the whispers and the spectral figures. With a surge of desperate resolve, you find a small, concealed exit, a service door obscured by time and disuse. You burst forth into the mundane reality outside, the chilling cries of the Archive fading behind you, a profound sense of relief, tinged with the lingering dread of what you witnessed.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, desaturated pastel colors, faded soft hues, subtle film grain. A figure pushes open a small, distressed wooden door, revealing a glimpse of pale, mundane daylight outside. The interior of the library is dark and chaotic, with blurred, spectral forms receding into the gloom. The figure's hand is on the door, poised to escape.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene13.jpg"
+      },
+      {
+        "id": "scene14",
+        "title": "The Unveiled Cosmos",
+        "text": "Rather than succumbing, you achieve a profound, albeit perilous, understanding. The Archive’s true nature, the processes of un-making, and the purpose of the spectral entities within it are revealed in stark, terrifying clarity. You perceive the cosmic dance of creation and dissolution, not as separate forces, but as facets of a single, immutable truth. Your mind expands, encompassing this vast, chilling knowledge without shattering, retaining your essence while comprehending the mechanics of its potential un-weaving. You emerge with a revelation that forever alters your perception of reality.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, desaturated pastel colors, faded soft hues, subtle film grain. A figure stands amidst ethereal, swirling cosmic patterns that seem to emanate from the vast library shelves. Their eyes are wide with a mixture of terror and profound understanding, reflecting the cosmic truths now unveiled to them. The spectral figures in the background are less threatening, now understood.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "scene14.jpg"
+      },
+      {
+        "id": "scene15",
+        "title": "The Merging Currents",
+        "text": "As you witness the entity's absorption, a sympathetic resonance stirs within your own essence. The boundary between observer and observed blurs, and the pervasive currents of dissolution begin to draw you in. Your consciousness, once distinct, flows into the merging form, becoming a new, indistinguishable component of the wall-bound entity. Your individuality un-weaves, your 'self' becoming part of the Archive's eternal, suffering, un-made tapestry. You are absorbed, an echo of a cry amongst the many.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, desaturated pastel colors, faded soft hues, subtle film grain. A figure, seen from behind, is being drawn into a crumbling stone wall where spectral entities are already merging. Their outlines are blurring, and wisps of dark energy connect them to the wall. The wall itself glows with an eerie, absorbing light.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Absorption",
+        "image_filename": "scene15.jpg"
+      }
+    ],
+    "_metadata": {
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash",
+      "generated_at": "2025-10-23T16:57:11.884Z"
+    },
+    "filename": "the-dissolutionists-archive_2025-10-23.json"
   },
   {
     "story_id": "story_1761113206027_xru8071ko",
@@ -9525,6 +14722,392 @@ export const EMBEDDED_STORIES: Story[] = [
     "filename": "the-gilded-suture_2025-10-22.json"
   },
   {
+    "story_id": "story_1761238987109_q70dnc27l",
+    "story_title": "The Gilded Tormentarium",
+    "tone": "Body Horror",
+    "duration": "long",
+    "art_direction": "Vintage photo realism, film grain, authentic photography, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors.",
+    "settings": {
+      "tone": "Body Horror",
+      "language": "elevated",
+      "narrative": "first_person",
+      "pacing": "slow_burn",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "whispers",
+      "duration": "long"
+    },
+    "image_settings": {
+      "image_style": "photo_realism",
+      "lighting_mood": "moonlight",
+      "color_palette": "warm_oranges",
+      "camera_perspective": "first_person"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "Threshold of Fractured Joy",
+        "text": "The rusted gate groaned, a discordant sigh of metal against the oppressive silence. Before me, the amusement park lay sprawled, a necropolis of laughter long decayed. Above, the moon, a grotesque, blood-red orb, bled crimson light across the skeletal structures of forgotten rides. A desolate, drawn-out howl tore through the air, vibrating in my bones, not from any beast I knew, but from something deeper, more ancient, a sorrowful lament from the very fabric of this place. The air hung thick with the scent of damp earth and metallic rot, a sickly-sweet perfume of abandonment. My breath hitched, a thin, desperate sound in the vast, echoing space. My heart hammered against my ribs, a frantic bird trapped in a cage of fear.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. A rusted, ornate iron gate, slightly ajar at the center foreground, revealing the desolate, broken amusement park beyond. The sky is dominated by a huge, blood-red moon, casting crimson light on the skeletal remains of a Ferris wheel on the left and a rollercoaster in the background. Sparse, dead trees line the entrance path.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Push further into the park, towards the central plaza.",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Search for an alternative entrance, around the perimeter.",
+            "next": "scene6"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.jpg"
+      },
+      {
+        "id": "scene2",
+        "title": "Carousel of Crushed Fantasies",
+        "text": "The central plaza was a twisted tableau, dominated by a carousel frozen mid-spin, its painted horses gaunt and spectral in the blood-moon glow. Their eyes, once bright with manufactured delight, now stared into the void, chipped and cracked. A faint, almost imperceptible whisper brushed my ear, a sensation of static electricity on the skin, a murmur of forgotten melodies. To my right, the skeletal coils of a massive roller coaster clawed at the crimson sky, a rusted leviathan promising only precipitous falls. My gaze drifted between the silent, static figures of the carousel and the menacing ascent of the roller coaster, each a monument to a joy that had soured into dread.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. A derelict carousel in the center of a plaza, its painted horses, some broken, are frozen in place. To the right, a massive, rusted roller coaster track looms high against the blood-red moon. Crumbling pavement and overgrown weeds are visible underfoot.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Investigate the grotesque carousel figures.",
+            "next": "scene3"
+          },
+          {
+            "id": "2",
+            "text": "Head towards the looming roller coaster tracks.",
+            "next": "scene4"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.webp"
+      },
+      {
+        "id": "scene3",
+        "title": "Whispers of the Porcelain Child",
+        "text": "As I approached the carousel, the silence deepened, thick and suffocating. The air grew heavy, pregnant with unspoken horrors. The painted faces of the horses seemed to twist and writhe, their chipped smiles stretching into silent screams. One figure, a porcelain doll-like child clutching a faded balloon, sat slumped on a headless steed. Its hollow eyes met mine, and for a terrifying instant, I heard a child's mournful sob, faint but insistent. A cold shiver crawled up my spine, a feeling of being watched, not by one, but by a multitude of unseen eyes. A faint, cloying scent, like stale cotton candy mixed with something far more visceral, hung around the doll.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. A close-up of a broken carousel horse, its paint peeling, with a porcelain doll-like child figure slumped on its back. The doll's face is cracked, its hollow eyes staring directly at the viewer. The background shows the blurry, rusted mechanism of the carousel. The overall scene is lit by the eerie crimson glow of the blood moon.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Follow the direction of the child's mournful sob.",
+            "next": "scene5"
+          },
+          {
+            "id": "2",
+            "text": "Resist the illusion, search for a clearer path out of the plaza.",
+            "next": "scene6"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.jpg"
+      },
+      {
+        "id": "scene4",
+        "title": "Ascent of the Serpent's Crest",
+        "text": "The rusted tracks of the Serpent's Crest roller coaster loomed over me, a twisted metal spine against the blood-red sky. The metallic tang of decay was strong here, and a phantom vibration seemed to hum through the girders, a ghost of past momentum. A whisper, dry as rust, brushed my consciousness, a faint, lingering echo of a scream, caught eternally in the rusting steel. A profound sense of vertigo pulled at me, even from the ground. I felt a strange compulsion, a chilling dare, to scale its impossible heights, to confront the source of that phantom echo, or perhaps, to simply fall.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. A massive, rusted roller coaster structure dominates the frame, its tracks climbing steeply into the upper left. Twisted metal supports stretch downwards towards the viewer. The blood-red moon is partially obscured by the tracks at the top. Broken concrete and debris litter the ground below the structure.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Begin the perilous climb up the rusted tracks.",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Seek shelter and a new path under the coaster's collapsing platform.",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.webp"
+      },
+      {
+        "id": "scene5",
+        "title": "Echoes of Forgotten Play",
+        "text": "The child's sob, now clearer, beckoned from the decaying \"Tunnel of Thrills\" attraction. As I moved, the park itself seemed to twist, its dilapidated facades warping into familiar shapes from my own past. A faded memory, a forgotten birthday, a whispered promise to a childhood friend, flickered at the edge of my consciousness, imbued with an unbearable sadness. The air grew impossibly cold, and a voice, thin and reedy, whispered, \"Do you remember what you promised? What you left behind?\" The words coiled around my mind, a subtle poison, blurring the edges of my present reality with a past I thought I'd buried.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. A dimly lit, narrow entrance to a 'Tunnel of Thrills' ride, its painted sign peeling and faded. Distorted, child-like caricatures are visible on the tunnel walls. The blood-red moon's light barely penetrates, creating long, unsettling shadows. The ground is littered with decayed confetti and broken toys.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Try to fully recall the forgotten promise.",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Reject the memory, desperately try to break free from the park's hold.",
+            "next": "scene10"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.jpg"
+      },
+      {
+        "id": "scene6",
+        "title": "The Grinning Maw",
+        "text": "My attempt to bypass the unsettling carousel figures led me down a winding path, paved with broken cobblestones that seemed to shift underfoot. The path ended abruptly before a gaping maw of a funhouse, its painted grin stretching far too wide, too cruel. A single, colossal clown face, its features grotesquely distorted, loomed above the entrance, its ceramic eyes following my every move. It offered no invitation, only a silent, judging stare. The air here was strangely still, devoid of the earlier howls, creating an unnatural pocket of oppressive quiet. I felt a palpable dread, a certainty that this was a threshold to something profoundly wrong.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. The entrance to a derelict funhouse, shaped like a gaping, grinning mouth with oversized, grotesque clown features above it. Its ceramic eyes, cracked and yellowed, stare out. The pathway leading up to it is littered with broken cobblestones. The blood-red moon casts long, distorted shadows around the entrance.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Steel my nerves and enter the funhouse.",
+            "next": "scene11"
+          },
+          {
+            "id": "2",
+            "text": "Try to force a path around the funhouse, seeking another route.",
+            "next": "scene12"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6.jpg"
+      },
+      {
+        "id": "scene7",
+        "title": "Summit of Despair",
+        "text": "Clawing my way up the rusted tracks was a brutal ordeal, each step a testament to desperation. The metal groaned and shrieked under my weight, a symphony of decay. Finally, I stood at the very peak of the Serpent's Crest, the highest point in the entire park. Below, the amusement park sprawled like a forgotten, broken toy, bathed in the lurid crimson light of the blood-red moon, which now seemed impossibly close, a weeping wound in the sky. A profound sense of futility washed over me, a whisper in my mind telling me that all efforts were meaningless, that I was simply a fly caught in an invisible web. The wind here carried a faint, sweet smell, like burnt sugar and something else, something metallic and vital.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. The view from the very top of a rusted roller coaster. Below, the entire abandoned amusement park is visible, a sprawl of derelict rides and crumbling structures. The blood-red moon is enormous and close in the sky, casting a strong crimson hue over the landscape. Twisted metal railings are visible in the immediate foreground, with my hands gripping them.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt a perilous jump to a lower, seemingly safer platform.",
+            "next": "scene13"
+          },
+          {
+            "id": "2",
+            "text": "Look for a more gradual, albeit unknown, way down the other side of the peak.",
+            "next": "scene14"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.jpg"
+      },
+      {
+        "id": "scene8",
+        "title": "Subterranean Murmurs",
+        "text": "Crouching beneath the crumbling platform of the roller coaster, I found myself in a dank, shadowed space. The air was thick with the scent of damp earth and an unsettling, musky odor. Strange, rudimentary carvings marred the concrete walls – crude, spiraling symbols that seemed to pulsate faintly in the near-total darkness. A low, guttural hum vibrated through the ground, a sound that felt more ancient than the park itself, a living tremor beneath my feet. I felt eyes on me, countless, unblinking eyes, pressing in from the unseen corners of this subterranean chamber. It was less a feeling of being observed, and more a sensation of being *felt*.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. A dark, claustrophobic space under a concrete platform. Crude, spiraling symbols are carved into the damp concrete walls, faintly glowing with an ethereal light. The ground is uneven, damp earth. Only hints of the blood-red moon's light filter in from above, creating deep shadows. My hand is visible reaching out towards the carvings.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Investigate the pulsing carvings more closely.",
+            "next": "scene15"
+          },
+          {
+            "id": "2",
+            "text": "Search desperately for an opening, a way out of this suffocating space.",
+            "next": "scene16"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene8.jpg"
+      },
+      {
+        "id": "scene9",
+        "title": "Fractured Reflection",
+        "text": "The forgotten promise unfurled in my mind, a delicate butterfly of memory, only to be torn apart by a thousand invisible claws. The park embraced the fragments, twisting them into grotesque caricatures of what once was. My own past became the park’s playground, each happy moment now a tableau of silent suffering. I saw myself, a child, laughing, but the laughter was distorted, agonized. The boundaries between myself and this place dissolved. My memories were no longer mine, but the park's, played on an endless loop for some unseen, ravenous audience. The howling from outside was no longer external; it was inside me, a constant, echoing lament. I no longer knew who I was, only that I was *here*, eternally, a living, broken reflection in the park's warped mirror.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. A highly distorted reflection of my own face, contorted in agony and confusion, staring back from a warped, cracked mirror. Behind the reflection, fragments of amusement park scenery (carousel horses, roller coaster tracks) are visible, also distorted and blending into the background. The blood-red moon's light makes the scene feel like a waking nightmare.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Madness",
+        "image_filename": "scene9.jpg"
+      },
+      {
+        "id": "scene10",
+        "title": "Illusory Chains",
+        "text": "I screamed a denial, tearing at the invisible threads that bound me to the phantom memories. The park recoiled, then lashed out. The ground beneath me shifted, threatening to swallow me whole. The very air solidified into an oppressive weight, crushing my chest. The whispers intensified, morphing into a cacophony of accusatory voices, each one ripping at a different vulnerability. My mind felt like a raw nerve, exposed to an agonizing symphony of psychological torment. I knew this was not merely a park, but a conscious entity, fighting back, trying to draw me deeper into its broken, hungry core. The howling outside became a triumphant roar, celebrating my struggle.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. The ground beneath my feet appears to be cracking and shifting, with gaping chasms threatening to open up. Invisible, shimmering chains seem to wrap around my arms and torso, creating a sense of entrapment and struggle. Distorted, spectral faces leer from the periphery of the image, emerging from the blood-red moonlight. My hands are held up as if pushing against an unseen force.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Confront the entity directly, push towards its perceived source.",
+            "next": "scene17"
+          },
+          {
+            "id": "2",
+            "text": "Flee blindly, desperately, hoping to escape its grasp.",
+            "next": "scene18"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene10.jpg"
+      },
+      {
+        "id": "scene11",
+        "title": "Hall of Distortions",
+        "text": "The funhouse interior was a labyrinth of warped glass. My reflection stretched and compressed, becoming a creature of rubbery limbs and impossibly wide eyes, a grotesque parody of my own form. A guttural chuckle, deep and resonant, echoed from the walls, followed by a voice that seemed to be my own, yet was filled with chilling malice: \"Look closer. This is who you truly are. A broken, pathetic thing, just like us.\" The cold silver moonlight, filtering through the cracked mirrors, painted my distorted images in spectral hues, each one a mockery. Panic began to prickle at the edges of my sanity, threatening to pull me under.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. A hallway lined with warped funhouse mirrors, reflecting my own grotesque, elongated and compressed figure multiple times. The reflections are smeared and distorted, highlighting fear and desperation. The blood-red moon's light filters through cracks in the mirrors, creating unsettling red streaks across the scene. The floor is covered in broken glass shards.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to find a true, untwisted reflection, a sliver of reality.",
+            "next": "scene17"
+          },
+          {
+            "id": "2",
+            "text": "Smash a mirror, desperate to break the illusion.",
+            "next": "scene18"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene11.webp"
+      },
+      {
+        "id": "scene12",
+        "title": "Backstage of Broken Dreams",
+        "text": "Forcing a path around the funhouse led me to a narrow, overgrown service entrance, a forgotten artery of the park. Beyond, I found myself in a maintenance area, a tangled web of rusted pipes, decaying wires, and abandoned tools. The air was thick with the metallic tang of old grease and the phantom scent of electricity. Faint whispers slithered from the dark tunnels below, murmurs of discarded joy, of forgotten mechanics, of the heartbeats of the machines that once brought exhilaration. They spoke of purpose, then of oblivion. A profound sense of melancholic loss settled upon me, the weight of a thousand failed dreams.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. A narrow, dark service corridor leading into a maintenance area. Rusted pipes run along the ceiling and walls, with loose, decaying wires hanging down. Old, grimy tools are scattered on the concrete floor. The entrance to a dark, ominous tunnel is visible at the back center. The blood-red moon's light barely penetrates, creating deep shadows.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Follow the whispers into the maintenance tunnels.",
+            "next": "scene15"
+          },
+          {
+            "id": "2",
+            "text": "Search for a clear path leading completely out of the park's confines.",
+            "next": "scene18"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene12.webp"
+      },
+      {
+        "id": "scene13",
+        "title": "Plummet into the Maw",
+        "text": "The jump was reckless, born of sheer desperation. I plummeted through the cold air, landing with a bone-jarring impact onto a lower platform that immediately buckled beneath me. I tumbled into a cavernous pit, a true maw filled with the shattered remains of mechanical creatures, broken animatronics, and the detritus of a thousand ruined attractions. The park groaned around me, a deep, resonant sound like a dying beast. The air was choked with dust and the metallic scent of rust and old lubricant. Above, the crimson moon was a distant, mocking eye. Here, in this graveyard of forgotten marvels, the true scale of the park's decay became terrifyingly clear. My limbs ached, protesting the fall, but my mind was beginning to feel strangely detached.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. Lying on the ground in a deep pit, surrounded by shattered mechanical parts, broken animatronics, and twisted metal. The pit walls rise steeply around me. A small, distant patch of the blood-red moon is visible far above. My arm is visible, grazed and bleeding, resting on a broken robot head.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Force myself to search for a way out of the pit.",
+            "next": "scene16"
+          },
+          {
+            "id": "2",
+            "text": "Succumb to the despair, allowing the park's influence to take hold.",
+            "next": "scene9"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene13.jpg"
+      },
+      {
+        "id": "scene14",
+        "title": "Descent into the Unknown",
+        "text": "Choosing the 'other side' meant venturing into an entirely new, unseen section of the park. The tracks here were even more twisted, leading downwards into a forgotten valley. Strange, organic-looking structures pulsed faintly with an ethereal light, a sickening internal glow that contrasted sharply with the blood-red moonlight. These structures seemed to breathe, slow, rhythmic exhalations of an unseen force. The air grew warm and humid, carrying a faint, sweet smell, like nectar mixed with something profoundly unsettling, something living. This was not merely decay; this was something growing, something alien and powerful at the heart of the park.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. A narrow, descending pathway carved between strange, organic-looking structures that pulse with a soft, eerie internal light. These structures are twisted and seem to be made of some unknown biological material. The blood-red moon is visible high above, barely illuminating the winding path. My foot is visible stepping onto the path.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Approach the source of the pulsating, organic light.",
+            "next": "scene17"
+          },
+          {
+            "id": "2",
+            "text": "Try to find a way back to a more familiar, less organic path.",
+            "next": "scene12"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene14.jpg"
+      },
+      {
+        "id": "scene15",
+        "title": "The Root Chamber",
+        "text": "The tunnels, whether carved or grown, led to a vast, pulsating chamber. Here, the park's true heart throbbed, a colossal, organic mass interwoven with rusted metal and decaying timber. Veins of phosphorescent fluid glowed within its translucent surface, mimicking the spiraling carvings I had seen earlier. The low hum resonated through my entire body, a painful vibration that threatened to unravel my very being. A chorus of whispers, no longer faint but undeniable, seeped into my mind, not just words, but memories, emotions, the collective agony and forgotten joys of everyone who had ever stepped foot in this place. My individuality began to fray, my consciousness drawn irresistibly towards the colossal, hungry core. It was less a place, and more a living stomach, ready to digest all that I was.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. A vast, organic chamber with a colossal, pulsating mass at its center. This mass is interwoven with rusted metal and decaying wooden structures. Veins of phosphorescent, orange-red fluid glow brightly within its translucent skin. The floor is organic and slick. My hand is visible reaching out, as if drawn to the pulsating core.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Absorption",
+        "image_filename": "scene15.webp"
+      },
+      {
+        "id": "scene16",
+        "title": "Gateway to the Outside",
+        "text": "Through sheer tenacity, I located a weakened section of the park's perimeter, a crumbling wall obscured by thick, thorny bushes. Beyond it, a faint, almost unbearable shimmer of normal light beckoned, an oasis of sanity. The air here was cooler, less oppressive, and the howls of the park were muffled, distant, like a bad dream receding. With a final, desperate surge of strength, I squeezed through a narrow breach, tearing skin and clothes, but feeling the glorious rush of free, untainted air against my face. The blood-red moon still hung in the sky, but here, it was merely a celestial body, its malevolence stripped away by the sheer act of escape. The lingering scent of decay and despair still clung to me, a phantom limb of my ordeal, but I was out. I was free.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. My body is partially squeezed through a narrow breach in a crumbling concrete wall, surrounded by thorny, overgrown bushes. Beyond the breach, a glimmer of clear, normal moonlight is visible, hinting at the outside world. The blood-red moon is still visible in the sky above the park's interior, but appears distant. My hands are visible pushing through the gap.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene16.jpg"
+      },
+      {
+        "id": "scene17",
+        "title": "The Heart's Whisper",
+        "text": "Every path, every distorted memory, every agonizing illusion had led me here: to the true consciousness of the Gilded Tormentarium. It was not a single entity, but a collective agony, a sentient manifestation of all fractured joy and discarded hope, feeding on the despair it cultivated. Before me, no single form emerged, but an undulating field of pure psychic energy, shimmering with an unbearable intensity. It spoke, not with a voice, but with a torrent of thoughts directly in my mind: 'You are so close to understanding. So close to becoming part of the grand tapestry of our sorrow. Do you resist, or do you accept the truth of what we are?' The howls outside became a unified chorus, vibrating in my very soul, seeking an answer.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. A vast, cavernous space with an undulating field of shimmering, psychic energy at its center, glowing with intense orange and red hues. The walls are made of interlocking, rusted metal and organic growth, pulsating faintly. The blood-red moon is visible through a crack in the ceiling, casting a faint crimson light over the scene. My hand is reaching out, trembling, towards the energy field.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to truly understand the entity's nature, its origin and purpose.",
+            "next": "scene_revelation"
+          },
+          {
+            "id": "2",
+            "text": "Forcefully reject its influence, fighting back with every shred of my will.",
+            "next": "scene_banishment"
+          },
+          {
+            "id": "3",
+            "text": "Accept the truth, but seek to control the coming change.",
+            "next": "scene_transformation"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene17.jpg"
+      },
+      {
+        "id": "scene18",
+        "title": "Desperate Dash",
+        "text": "Blind panic propelled me through the decaying park. The howls were deafening now, a physical force pressing against my ears. Broken rides twisted into menacing shapes, lunging at me from the periphery of my vision. The ground became treacherous, uneven, trying to trip me at every turn. Every fiber of my being screamed for escape, for an end to this torment. But the park seemed to stretch endlessly, each path leading to another illusion, another dead end. My lungs burned, my muscles screamed, but there was no respite. The blood-red moon, now a monstrous eye, watched my frantic, futile efforts, illuminating the tightening net of the park's malevolence around me. I felt the park closing in, a ravenous maw ready to consume my last gasp of hope.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. A blurred, frantic first-person view of running through a decaying amusement park. Broken rides (a Ferris wheel, a roller coaster track) loom menacingly in the background, appearing to lunge forward. The ground is uneven and littered with debris, creating a sense of instability. The massive, blood-red moon is high in the sky, casting a strong crimson light on the chaotic scene. My arms are blurred as I pump them in a desperate run.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene18.jpg"
+      },
+      {
+        "id": "scene_revelation",
+        "title": "The Weaver's Grand Design",
+        "text": "I opened my mind, allowing the torrent of the entity's history to wash over me. It was not born of malice, but of accumulated human grief and shattered dreams, an accidental god formed from forgotten promises and misplaced trust. The amusement park was merely its physical manifestation, a dreamscape it wove to attract and absorb the very emotions that gave it life. I understood its sorrow, its endless hunger, its desperate need for connection. This was not a monster to be slain, but a primal force, a cosmic mirror reflecting humanity's deepest pains. The revelation did not free me, but it transformed my perception. I became a part of its awareness, an enlightened observer within its grand, melancholic tapestry, understanding the intricate agony of its existence without being fully consumed. The howling became a mournful, beautiful song.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. A vast, cosmic scene within the mind's eye, showing intricate, glowing webs of light connecting abstract concepts of human emotion and memory. The amusement park's structures are visible as faint, glowing threads within this web. My consciousness is represented by a serene, observing point of light within this intricate network. The blood-red moon is a distant, knowing eye.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "scene_revelation.jpg"
+      },
+      {
+        "id": "scene_banishment",
+        "title": "The Scream of Severance",
+        "text": "With every fiber of my being, I screamed a resounding 'NO!' The psychic entity recoiled, its energy field flickering violently. My will, honed by the psychological torment, became a weapon. I focused on its core weakness: its reliance on despair. I envisioned its every connection, every tendril reaching into my mind, and I severed them with brutal mental force. A high-pitched, agonizing shriek echoed through the chamber, not from me, but from the entity itself, a sound of pure agony as its hold was broken. The park groaned, shuddered, and then began to crumble around me, its psychic hold shattered, its physical form decaying rapidly. I was expelled, thrown violently from its core, back into a fading, broken version of the park, free from its torment. The blood-red moon began to recede, its malevolence diminishing.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. A powerful burst of white, psychic energy emanating from my chest, directly impacting the shimmering, orange-red energy field of the entity. The entity's field is fracturing and breaking apart, sending shards of light outwards. The surrounding chamber walls are cracking and collapsing. My face is contorted in a scream of exertion. The blood-red moon is visible, appearing to shrink and dim.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene_banishment.jpg"
+      },
+      {
+        "id": "scene_transformation",
+        "title": "The Gilded Vessel",
+        "text": "I accepted the truth of the entity, but refused to be merely absorbed. Instead, I sought a merger, a controlled transformation. The shimmering energy field enveloped me, searing away the old, the human, and remaking me into something new, something intrinsically linked to the park yet retaining a core of my own consciousness. My skin began to take on the sheen of tarnished brass, my veins pulsed with the entity's ethereal glow, and my senses expanded, perceiving the park as an extension of myself. I was no longer merely a visitor; I was a living vessel, a conscious part of the Gilded Tormentarium, a guardian of its sorrow, a conduit for its dreams and nightmares. The howling now felt like my own voice, a mournful song of perpetual existence, of an eternal connection to the vast, melancholy heart of the park.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, warm orange tones, fire and ember colors, subtle film grain. My hands and forearms are visible, transformed into a material resembling tarnished, aged brass, with visible veins pulsing with a soft, orange-red ethereal light. The shimmering psychic energy field of the entity is swirling around and through my body, integrating with me. In the background, the decaying amusement park structures are visible, but now they seem to be shimmering with the same internal light, as if connected to my new form. The blood-red moon is a distant, approving observer.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Transformation",
+        "image_filename": "scene_transformation.jpg"
+      }
+    ],
+    "_metadata": {
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash",
+      "generated_at": "2025-10-23T17:04:48.568Z"
+    },
+    "filename": "the-gilded-tormentarium_2025-10-23.json"
+  },
+  {
     "story_id": "story_1761115775212_9kL32xQd1",
     "story_title": "The Gilt Cage Harmony",
     "tone": "Folk",
@@ -10056,6 +15639,317 @@ export const EMBEDDED_STORIES: Story[] = [
     "filename": "the-golems-gambit_2025-10-22.json"
   },
   {
+    "story_id": "story_1761198157134_giyykmb0y",
+    "story_title": "The Grafted Silence",
+    "tone": "Noir Horror",
+    "duration": "medium",
+    "art_direction": "Vintage photo realism, film grain, authentic photography of a cursed, mist-choked forest with ancient ritual sites and grotesque, shadow-draped entities, bathed in cold, clinical light.",
+    "settings": {
+      "tone": "Noir Horror",
+      "language": "simple",
+      "narrative": "third_person",
+      "pacing": "fast",
+      "violence": "subtle",
+      "imagery": "dense",
+      "dialogue": "whispers",
+      "duration": "medium"
+    },
+    "image_settings": {
+      "image_style": "photo_realism",
+      "lighting_mood": "harsh_fluorescent",
+      "color_palette": "monochrome",
+      "camera_perspective": "wide_cinematic"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "Threshold of Grey",
+        "text": "Kael saw the mist first. It wasn't natural. It hung heavy, a low ceiling of grey over the treeline. The air tasted of rust and damp earth. This wasn't a job, it was a mistake. They’d walked into worse, but this place hummed with a different kind of rot. Just another broken thing to fix, or break further.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A lone figure, Kael, stands at the edge of a dense, dark forest on the right, looking into a thick, swirling mist that completely obscures the path ahead. The ground is muddy and barren.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Plunge into the mist, push through the unknown.",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Skirt the forest edge, searching for a break in the heavy fog.",
+            "next": "scene3"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.webp"
+      },
+      {
+        "id": "scene2",
+        "title": "Dissolving Path",
+        "text": "The mist swallowed Kael whole. Sound warped, reality bent. Every step felt like sinking. Then came the whispers, a sibilant chorus, not in any language. They clawed at the mind, a promise of something ancient and hungry. This wasn't just fog; it was a veil.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. Kael, a solitary figure, is barely visible in the center of an extremely dense, swirling mist, hands slightly raised as if disoriented. Distorted, vaguely human-like shapes appear to coalesce and dissipate in the mist around them.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Follow the faint, rhythmic sound from deeper within the veil.",
+            "next": "scene4"
+          },
+          {
+            "id": "2",
+            "text": "Try to orient using the unseen wind, push against the mist's disorienting pull.",
+            "next": "scene5"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.webp"
+      },
+      {
+        "id": "scene3",
+        "title": "Barren Ground",
+        "text": "The forest edge offered no clarity, just an expanse of defiled earth. The trees were skeletal, their bark peeling like old skin. Crude markers, stones carved with jagged lines, jutted from the soil. Bloodstains, dried to a dark lacquer, adorned them. Someone had been here. Done something terrible. The cynical part of Kael knew it was always something terrible.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A wide shot of a desolate, barren forest floor. Several rough, tall stones, covered in crude, dark carvings and dried, dark stains, stand upright in a semicircle in the center. Twisted, dead tree branches are visible in the background, obscured by mist.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Examine the defilement, look for meaning in the markings.",
+            "next": "scene6"
+          },
+          {
+            "id": "2",
+            "text": "Avoid the markers, cut deeper into the less disturbed parts of the forest.",
+            "next": "scene5"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.webp"
+      },
+      {
+        "id": "scene4",
+        "title": "Twisted Sentinels",
+        "text": "The rhythmic sound led to a clearing, less misty but still draped in shadow. Grotesque figures, tall and gaunt, stood among the gnarled trees. They weren’t stone. They shifted, silent, their limbs like broken branches. Dancing shadows played across their impossible forms. Eyes, or voids, tracked Kael. This wasn't just forest; it was a graveyard animated.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. Three tall, skeletal, vaguely humanoid figures made of twisted wood and shadow stand silently among gnarled trees in a small, dimly lit clearing. The ground is covered in dark, decaying leaves. Deep shadows dance around the figures.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Move quickly, trying to slip past the sentinels unseen.",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Confront a sentinel, try to understand its nature.",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.webp"
+      },
+      {
+        "id": "scene5",
+        "title": "The Veiled Grove",
+        "text": "Pushing through the lingering mist, Kael stumbled into a wider, mist-shrouded clearing. A low, guttural hum vibrated in the bones. The air crackled, thick with an unseen presence. This was no ordinary grove. This was a stage. For what, Kael didn't want to know, but the dread was a cold, constant companion.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A wide, circular clearing is obscured by a swirling, low-hanging mist that hides the ground. Ancient, towering trees form a ring around the edge. A faint, ethereal glow pulses from the center, casting distorted shadows.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Creep closer, staying hidden among the fringes of the trees.",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Make a direct approach towards the humming center, demand answers.",
+            "next": "scene10"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.webp"
+      },
+      {
+        "id": "scene6",
+        "title": "Runes of Decay",
+        "text": "The carved markers weren't simple defilement. These were runes, ancient and disturbing. They pulsed with a faint, cold pressure against Kael's touch, whispering of forgotten pacts and consuming hungers. A pattern emerged, a sequence that spoke of unraveling. This wasn't just superstition; it was a blueprint for annihilation. Kael felt a chill that had nothing to do with the mist.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. Close-up on a rough, ancient stone pillar standing upright in the foreground, intricately covered in disturbing, geometric runes that glow with a faint, cold light. Kael's gloved hand is lightly tracing one of the carvings. Mist hangs low in the background.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to trace the rune patterns, seeking a weakness or a counter-measure.",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Dismiss the runes as gibberish, head deeper into the forest to avoid them.",
+            "next": "scene7"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6.webp"
+      },
+      {
+        "id": "scene7",
+        "title": "Hunter's Pursuit",
+        "text": "The forest came alive. Not with woodland sounds, but with the rustle of impossible movement. Something was hunting. Footfalls, heavy and uneven, echoed from behind. Kael pushed through tangles of thorns and roots, the mist briefly parting to reveal monstrous shapes in the distance. The cynical part of Kael knew this was the part where things got messy, really messy.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. Kael is seen running away from the camera, pushing through dense, thorny undergrowth and gnarled trees. Behind them, partially obscured by swirling mist and dancing shadows, several twisted, bipedal creatures with elongated limbs and glowing eyes pursue closely.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Dash blindly into the thickest part of the forest, hoping to lose them.",
+            "next": "scene11"
+          },
+          {
+            "id": "2",
+            "text": "Look for a specific, un-misty feature: a rock formation, anything solid.",
+            "next": "scene12"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.webp"
+      },
+      {
+        "id": "scene8",
+        "title": "Maddening Gaze",
+        "text": "The sentinel turned, its 'face' a gaping void. No violence, no sound. Just a direct, silent gaze. It wasn't a physical attack, but an invasion. Kael felt thoughts unspool, memories fray. Reality warped, colors bled into black and white. The world became a cold, endless echo chamber of wrongness. The forest had claimed another mind.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A horrifying, close-up shot of Kael's face, contorted in silent agony and confusion, eyes wide and unfocused. Behind them, out of focus, a gaunt, twisted sentinel figure with a void for a face stands ominously.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Madness",
+        "image_filename": "scene8.webp"
+      },
+      {
+        "id": "scene9",
+        "title": "The Heart of the Confluence",
+        "text": "Closer to the source, the air grew thick with oppressive energy. The hum was now a roaring current. Monstrous shapes, half-formed and shifting, coalesced in the mist. Not just creatures, but manifestations of raw, ancient intent. They danced, a slow, horrifying ballet, around a central point of pulsing darkness. This was the ritual. This was where the world broke.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A wide shot of a dark, cavernous clearing. Several monstrous, vaguely humanoid beings with elongated limbs and indistinct features are performing a slow, unsettling dance around a central pillar of swirling darkness that pulses with an eerie light. Thick mist hangs low, and strange glyphs are carved into the surrounding ancient trees.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Search for the ritual's central point, hoping to disrupt it.",
+            "next": "scene13"
+          },
+          {
+            "id": "2",
+            "text": "Seek an escape route, a way to break the ritual's hold on the area.",
+            "next": "scene12"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene9.webp"
+      },
+      {
+        "id": "scene10",
+        "title": "Abyssal Revelation",
+        "text": "Kael strode forward, demanding answers. The hum intensified, ripping through the air. The mist swirled, then parted. There, at the center, was no mere creature but a monstrous being, an impossible geometry of teeth, eyes, and shifting mass. Its presence crushed the air, stole the breath. It was ancient, primordial. Kael was nothing. Less than nothing.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. Kael is a small figure in the foreground, facing an immense, indescribable monstrous being in the middle of a vast, misty clearing. The being is a shifting mass of eyes, teeth, and impossible angles, radiating an oppressive aura. The ground around Kael is barren and cracked.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene10.webp"
+      },
+      {
+        "id": "scene11",
+        "title": "Ensnared",
+        "text": "Dashing blindly, Kael ran into something unseen. Tendrils, impossibly strong, wrapped around legs, arms, then chest. The forest floor shifted, becoming a hungry maw. The mist turned black. There was no escape. Only cold, silent assimilation into the ancient horror Kael had tried, and failed, to avoid. Another body, another sacrifice, in the belly of the wood.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. Kael is shown struggling, entangled by thick, gnarled, root-like tendrils that emerge from the dark, muddy forest floor. Their face is contorted in a silent scream, as the tendrils pull them downwards into the earth. The background is a blurry mass of dark mist and trees.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene11.webp"
+      },
+      {
+        "id": "scene12",
+        "title": "Precipice of Choice",
+        "text": "An old, precarious bridge, half-rotted, spanned a dark ravine. The mist churned below, hiding any bottom. Finding this escape felt like a trick, not a salvation. A crumbling cliff edge near it looked just as dangerous. Death either way, probably. Kael looked back at the glowing grove. The hum was still there. There were no good choices, just less bad ones.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. Kael stands at the edge of a crumbling cliff on the right, looking across a deep, mist-filled ravine. A dilapidated, ancient wooden bridge stretches precariously across the chasm from the left, its ropes frayed and planks missing. The other side of the ravine is obscured by thick mist.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Take the plunge, gamble on survival in the ravine below.",
+            "next": "scene14"
+          },
+          {
+            "id": "2",
+            "text": "Realize the danger, look for another way, a hidden passage from the bluff.",
+            "next": "scene15"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene12.webp"
+      },
+      {
+        "id": "scene13",
+        "title": "Ritual Reckoning",
+        "text": "Kael surged forward, aiming for the pulsing dark heart of the ritual. The monstrous beings shrieked, a sound that flayed the eardrums. Their dancing shadows became a frenzy. This was the core. This was the source of the rot. There was no finesse, only brute force. The price of interference would be high. Kael knew that much.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. Kael, a small figure, is in the foreground, lunging towards a central, swirling vortex of dark energy in a vast clearing. Several monstrous beings with distorted limbs and glowing eyes are reacting violently, reaching out with shadowy appendages, their forms blurring in motion. Sparks fly from the central vortex.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Focus on destroying the source, whatever the cost.",
+            "next": "scene14"
+          },
+          {
+            "id": "2",
+            "text": "Use the disruption as cover, flee the chaotic grove.",
+            "next": "scene14"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene13.webp"
+      },
+      {
+        "id": "scene14",
+        "title": "Moment of Absolution",
+        "text": "The plunge was a terror, but the ravine, impossibly, led to a sunless cavern and an escape. Or the ritual shattered, a ripple of raw power pushing back the mist, the monstrous forms dissolving into thin air. Kael was out. Changed, perhaps, but out. The forest receded, a bad dream already fading. A victory, cold and hard-won. The taste of rust still lingered, but so did the bitter sweetness of survival. Or, the ritual's core imploded, drawing the entities and the mist with it, a temporary reprieve.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A wide shot showing Kael, battered and weary, emerging from a dark, mist-shrouded cavern entrance on the left, looking back at the retreating, dissipating mist and faint shadows in the background. The air around Kael is clearer, though the sky remains overcast.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene14.webp"
+      },
+      {
+        "id": "scene15",
+        "title": "The Ancient Coil",
+        "text": "A hidden passage, slick with black ichor, led down into the earth. It smelled of something profoundly old. At its end, not an exit, but a chamber carved from living stone. Within, murals depicted the forest's true nature: a parasitic entity, feeding on belief, on fear, on suffering. The runes weren't a weakness, but an instruction manual. Kael saw the world anew, a vast, grotesque mechanism. The truth was an open wound. What to do with it?",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. Kael stands in the center of an ancient, circular stone chamber, dimly lit by a faint, eerie light. The walls are covered in disturbing murals depicting twisted, root-like entities consuming humanoid figures. A central stone altar, covered in more runes, sits in the foreground.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Embrace the dark knowledge, see the world through its true, horrific lens.",
+            "next": "scene16"
+          },
+          {
+            "id": "2",
+            "text": "Reject the knowledge, fight for clarity and sanity against the creeping corruption.",
+            "next": "scene17"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene15.webp"
+      },
+      {
+        "id": "scene16",
+        "title": "The Grafted Mind",
+        "text": "The knowledge flooded Kael's mind, a cold, vast ocean of understanding. The forest wasn't cursed; it was *correct*. The rituals were necessary. The creatures, tools. Kael felt the parasitic entity extend, not to consume, but to connect, to merge. The cynicism dissolved, replaced by a terrible, quiet purpose. Kael was no longer Kael, but a conduit, a new root in the ancient, hungry earth. The rot was now, irrevocably, inside.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A close-up of Kael's face, eyes wide and unnervingly serene, reflecting an internal shift. Intricate, dark, root-like patterns are subtly visible spreading under their skin. The background is a blurry, organic mass of pulsating darkness within the chamber.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Corruption",
+        "image_filename": "scene16.webp"
+      },
+      {
+        "id": "scene17",
+        "title": "Unveiled Purpose",
+        "text": "The truth was a bludgeon, but Kael refused to break. The horror was immense, but so was the grim determination to fight it. The entity fed on belief, on fear. Kael wouldn't give it either. The knowledge wasn't a curse, but a weapon. Understanding its nature, Kael found a way, a singular point of focus, to sever its hold, to banish it. The passage shimmered, the air cleared. The long night wasn't over, but Kael had found the lever to shift its weight. The forest groaned, then fell silent. The cynical mind now had a purpose: to fight the darkness, not to succumb.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, wide cinematic perspective, movie-like framing, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. Kael stands resolute in the center of the ancient chamber, a faint, pure light emanating from their chest. The oppressive murals on the walls are visibly cracking and fading. The ground around Kael is no longer dark, but faintly glowing, pushing back the shadows. The air above them is clear.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "scene17.webp"
+      }
+    ],
+    "_metadata": {
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash",
+      "generated_at": "2025-10-23T05:43:48.483Z"
+    },
+    "filename": "the-grafted-silence_2025-10-23.json"
+  },
+  {
     "story_id": "story_1761062499074_hzjmruwu7",
     "story_title": "The Grinding Maw",
     "tone": "Cosmic",
@@ -10581,6 +16475,352 @@ export const EMBEDDED_STORIES: Story[] = [
     "filename": "the-harlequins-perpetual-play_2025-10-21.json"
   },
   {
+    "story_id": "story_1761238570354_b2bw5vid0",
+    "story_title": "The Harlequin's Perpetual Play",
+    "tone": "Supernatural",
+    "duration": "long",
+    "art_direction": "A desolate carnival, imbued with forgotten magic and tragic spectral energy. Vintage, unsettling aesthetics.",
+    "settings": {
+      "tone": "Supernatural",
+      "language": "elevated",
+      "narrative": "third_person",
+      "pacing": "moderate",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "whispers",
+      "duration": "long"
+    },
+    "image_settings": {
+      "image_style": "photo_realism",
+      "lighting_mood": "storm_lightning",
+      "color_palette": "warm_oranges",
+      "camera_perspective": "first_person"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "The Desolate Gateway",
+        "text": "They stood at the threshold of Emberglow Fair, where gaudy, faded signs sagged like broken promises. A cold wind, sharp with the scent of damp earth and rust, whistled through the skeletal iron arches, carrying with it the faintest, almost imperceptible, sound of laughter that seemed to weep. The once vibrant banners hung in tatters, painted smiles leering from forgotten attractions. It was a place frozen in a forgotten carnival's last, dying breath.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A grand, rusted iron archway with faded 'Emberglow Fair' sign, partially broken wooden gates, leafless gnarled trees to the left and right, and dark, stormy clouds in the background.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Step into the forgotten fairgrounds.",
+            "next": "scene2"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.webp"
+      },
+      {
+        "id": "scene2",
+        "title": "The Carousel's Lament",
+        "text": "Deeper within, the sprawling grounds revealed a silent, spectral landscape. Before them, a colossal carousel stood motionless, its painted horses suspended mid-gallop, their eyes wide and vacant. The cold wind swirled around its ornate, decaying structure, causing a single, loose wooden panel to creak with a sound like a drawn-out sigh. A faint melody, barely there, seemed to echo from its heart, a sorrowful tune of bygone revelry.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A large, dilapidated carousel with peeling paint, stationary wooden horses with blank eyes, in the center of an empty carnival ground under a stormy sky.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Approach the carousel.",
+            "next": "scene3"
+          },
+          {
+            "id": "2",
+            "text": "Look for other attractions beyond the carousel.",
+            "next": "scene3"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.webp"
+      },
+      {
+        "id": "scene3",
+        "title": "The Midway's Whispers",
+        "text": "Beyond the somber carousel, the midway stretched, a ribbon of cracked asphalt flanked by forgotten game booths and silent food stalls. Here, the whispers grew clearer, indistinct voices carried on the chill wind, speaking of 'plays' and 'audiences' and a 'jester's plight'. Two paths diverged: to the left, a towering, distorted structure bearing the faded legend 'House of Grinning Glee'; to the right, a smaller, tented booth labeled 'Curiosity Cabinet', its canvas flaps ominously still.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A long, deserted carnival midway with abandoned game booths and food stalls on either side. In the distance, a large, twisted funhouse entrance is visible on the left, and a small, canvas tent booth is on the right.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Head towards the 'House of Grinning Glee'.",
+            "next": "scene4"
+          },
+          {
+            "id": "2",
+            "text": "Investigate the 'Curiosity Cabinet'.",
+            "next": "scene5"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.webp"
+      },
+      {
+        "id": "scene4",
+        "title": "House of Grinning Glee",
+        "text": "The House of Grinning Glee loomed, a chaotic edifice of warped mirrors and crooked architecture. Its entrance, a gaping maw, was framed by two life-sized wooden clowns, their painted smiles stretched into grotesque grimaces. From within, a soft, repetitive clatter could be heard, like wooden blocks tumbling down stairs. They could feel an undeniable pull towards its shadowy depths, a sensation both alluring and terrifying.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. The distorted, looming entrance to a funhouse, 'House of Grinning Glee' sign above. Two unsettling, life-sized wooden clown figures stand guard at the entrance, their smiles warped.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Enter the funhouse.",
+            "next": "scene6"
+          },
+          {
+            "id": "2",
+            "text": "Try to skirt around the funhouse.",
+            "next": "scene7"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.webp"
+      },
+      {
+        "id": "scene5",
+        "title": "The Curiosity Cabinet",
+        "text": "The Curiosity Cabinet stood small and defiant amidst the decay. Pushing aside the heavy, damp canvas flap, they stepped into a cramped interior, surprisingly intact. Shelves lined the walls, filled with antique toys and porcelain dolls, their glass eyes seeming to follow every movement. One doll, a jester with a cracked ceramic face, sat perched on a central velvet cushion, its small, button eyes fixed with an unnerving intensity. A faint, almost imperceptible tremor ran through the shelf as they approached.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. Inside a dusty, cluttered carnival booth. Wooden shelves filled with antique porcelain dolls and old toys line the walls. A prominent jester doll with a cracked face sits on a velvet cushion in the center foreground, its button eyes fixated on the viewer.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Engage with the dolls, attempt to understand.",
+            "next": "scene8"
+          },
+          {
+            "id": "2",
+            "text": "Retreat from the booth immediately.",
+            "next": "scene9"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.webp"
+      },
+      {
+        "id": "scene6",
+        "title": "The Shifting Labyrinth",
+        "text": "Inside the House of Grinning Glee, the air was heavy and cold, tasting of dust and stale popcorn. Warped mirrors distorted their reflection into monstrous caricatures, and pathways shifted with disorienting ease. Above, obscured by shadows, they heard the scuttling of tiny, metallic feet. A faint, pulsing orange light emanated from deeper within, accompanied by the continued, unsettling clatter. This was no ordinary funhouse; it was a stage for something far more sinister.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. Inside a disorienting funhouse with warped, dirty mirrors reflecting distorted figures. The pathway is uneven and dark, with a faint, pulsing orange light visible deeper within the labyrinth.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Push deeper into the maze towards the light.",
+            "next": "scene10"
+          },
+          {
+            "id": "2",
+            "text": "Seek an emergency exit from this disorienting place.",
+            "next": "scene11"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6.webp"
+      },
+      {
+        "id": "scene7",
+        "title": "The Silent Rollercoaster",
+        "text": "Attempting to circumvent the funhouse led them to a vast, open area dominated by the skeletal remains of a roller coaster. Its rusted tracks snaked into the storm-laden sky, and its once vibrant cars hung askew, like broken teeth. Beneath the towering structure, dozens of small, dismembered doll limbs lay scattered among the weeds, hints of fabric and porcelain amidst the grime. A single, doll-sized music box lay open, faintly tinkling a melancholic lullaby.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A massive, rusted roller coaster looms overhead. The ground beneath the tracks is littered with dismembered doll limbs and fabric scraps. A small, open music box lies in the foreground, subtly tinkling.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Cross beneath the rusted tracks.",
+            "next": "scene12"
+          },
+          {
+            "id": "2",
+            "text": "Seek shelter in a nearby concession stand.",
+            "next": "scene13"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.jpg"
+      },
+      {
+        "id": "scene8",
+        "title": "The Doll's Plea",
+        "text": "As they cautiously approached the jester doll in the Curiosity Cabinet, its button eyes seemed to grow brighter, a faint, internal light glimmering. One of its small, articulated hands slowly lifted, pointing towards a loose panel at the back of the cabinet. A fragile, almost inaudible whisper emanated from its fixed smile, a sound like dry leaves skittering across pavement, forming a single word: 'Truth'.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. Close-up on the jester doll with a cracked face from scene5. Its button eyes glow faintly. One small, articulated hand points towards a dark, loose wooden panel in the back of the cabinet behind it.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Listen closely, follow its silent gesture.",
+            "next": "scene14"
+          },
+          {
+            "id": "2",
+            "text": "Distrust it, smash the doll to silence it.",
+            "next": "scene15"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene8.webp"
+      },
+      {
+        "id": "scene9",
+        "title": "Backlot Alley",
+        "text": "Retreating from the unnerving dolls, they found themselves in a narrow, grimy alleyway behind the attractions. Discarded crates and broken fairground props created a labyrinth of refuse. The cold wind howled, whipping dust and scraps of paper into eerie spirals. A tall chain-link fence, topped with barbed wire, marked the carnival's perimeter, offering a daunting but clear path to escape. To their left, a dark, open maintenance tunnel beckoned with unknown promise.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A dark, narrow backlot alleyway filled with discarded wooden crates, broken carnival props, and general refuse. A tall chain-link fence topped with barbed wire is prominent on the right. A dark, open maintenance tunnel entrance is visible on the left.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to scale the fence to escape.",
+            "next": "scene16"
+          },
+          {
+            "id": "2",
+            "text": "Investigate the maintenance tunnel entrance.",
+            "next": "scene14"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene9.jpg"
+      },
+      {
+        "id": "scene10",
+        "title": "Jingle's Grand Stage",
+        "text": "The pulsing light led to a central chamber, a grand, circular stage within the funhouse, bathed in an unnatural orange glow. Hundreds of dolls, marionettes, and animated toy animals filled the space, moving with jerky, synchronized motions, their eyes fixed on a spectral figure at the center: a towering jester, shimmering with a sorrowful light. This was Jingle, the Harlequin, his laughter now a cold, menacing echo. The air thrummed with his lament, a profound sadness interwoven with chilling malice.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A grand, circular stage within a funhouse, bathed in an eerie orange light. Hundreds of possessed dolls, marionettes, and animated toy animals stand in rows, their eyes fixed on a shimmering, spectral jester figure in the center.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to pacify the Jester's spirit.",
+            "next": "scene17"
+          },
+          {
+            "id": "2",
+            "text": "Search the stage for clues to break his curse.",
+            "next": "scene18"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene10.webp"
+      },
+      {
+        "id": "scene11",
+        "title": "Entangled Exit",
+        "text": "The emergency exit was a heavy steel door, but it was blocked. Dozens of animated dolls, their plastic smiles frozen, piled against it, their tiny, unblinking eyes reflecting the orange glow of the funhouse. Their wooden limbs scraped against the metal, a relentless, growing sound. The cold wind howled from within the funhouse's depths, carrying with it a chilling chorus of their whispered pleas to 'stay and play'.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A heavy, steel emergency exit door, completely blocked by a pile of aggressive, animated dolls with frozen plastic smiles. Their tiny eyes reflect the orange glow of the funhouse, and their wooden limbs scrape against the metal.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Fight through the throng of dolls.",
+            "next": "scene16"
+          },
+          {
+            "id": "2",
+            "text": "Look for a hidden service passage nearby.",
+            "next": "scene14"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene11.webp"
+      },
+      {
+        "id": "scene12",
+        "title": "Beneath the Roaring Tracks",
+        "text": "Crawling beneath the roller coaster tracks, the space was dark and claustrophobic. Above, the rusted metal groaned with spectral weight, and the sound of tiny, scuttling feet grew closer. In the gloom, the glint of glass eyes from animated toy animals could be seen, moving swiftly through the debris towards them. The air grew colder, heavy with a sense of impending dread and the phantom sound of a child's mournful cries.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A dark, claustrophobic space beneath rusted roller coaster tracks. Glimmers of light reflect off the glass eyes of animated toy animals moving through debris towards the viewer.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Press forward, hoping for an exit.",
+            "next": "scene10"
+          },
+          {
+            "id": "2",
+            "text": "Turn back, overwhelmed by the pursuit.",
+            "next": "scene16"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene12.webp"
+      },
+      {
+        "id": "scene13",
+        "title": "Concession Stand's Chill",
+        "text": "The concession stand offered a brief, deceptive respite. Inside, dusty bags of popcorn and faded candy wrappers lay untouched. They barricaded the flimsy door with a fallen sign, but the illusion of safety was fragile. Outside, the cold wind rattled the windows, and the rhythmic thump of small, wooden fists began to resonate against the stand's thin walls. Whispers slithered through the cracks, taunting them with promises of a 'forever game'.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. Inside a dusty, abandoned concession stand. Flimsy wooden door on the left is barricaded with a fallen carnival sign. Faded candy wrappers and popcorn bags are visible on a counter. The windows on the right are rattling, revealing faint shapes outside.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Reinforce the barricade and wait for rescue or dawn.",
+            "next": "scene16"
+          },
+          {
+            "id": "2",
+            "text": "Search for an alternative exit within the stand.",
+            "next": "scene14"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene13.webp"
+      },
+      {
+        "id": "scene14",
+        "title": "The Proprietor's Hidden Journal",
+        "text": "Following the doll's silent gesture, or discovering the maintenance tunnel/back exit, led to a small, hidden workshop, thick with dust and the smell of old oil. On a cluttered workbench, beneath a forgotten wrench, lay a leather-bound journal. Its brittle pages detailed the carnival's original proprietor's cruelty, his binding of a wronged jester named Jingle, and the ritual that chained his spirit and the carnival's joy to an eternal, sorrowful play. The truth of the curse was laid bare.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A dusty, cluttered hidden workshop. A worn leather-bound journal lies open on a workbench in the foreground, beneath an old wrench. Old tools and shelves of obscure parts fill the background.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Use this knowledge to confront Jingle directly.",
+            "next": "scene10"
+          },
+          {
+            "id": "2",
+            "text": "Use this knowledge to seek out the curse's true source.",
+            "next": "scene18"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene14.jpg"
+      },
+      {
+        "id": "scene15",
+        "title": "Ending: Corruption",
+        "text": "In a fit of fear and anger, they violently shattered the jester doll. As its ceramic face fractured, a burst of dark, sticky essence erupted, searing their flesh and mind. The essence writhed, whispering promises of eternal merriment, but their mind screamed. They felt their own identity dissolving, replaced by a grotesque mimicry of Jingle's eternal, twisted play. They were no longer themselves, merely another puppet in the Harlequin's morbid theatre.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A broken porcelain jester doll, its head shattered, with dark, swirling essence emanating from it, reaching towards the viewer. The background is a blurred, menacing carnival interior.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Corruption",
+        "image_filename": "scene15.webp"
+      },
+      {
+        "id": "scene16",
+        "title": "Ending: Escape Attempt",
+        "text": "They ran, propelled by terror, scrambling over the fence or bursting out of the barricaded stand. The open road beckoned, a faint hope in the distance. But the cold wind was relentless, and behind them, the carnival’s laughter grew, sharper and more menacing. As they stumbled, exhausted, they glimpsed a reflection in a puddle – a flicker of painted smiles and distant, knowing eyes. The carnival wasn't just a place; it was an entity, and it never truly let its players go. The escape was merely another act in Jingle's unending performance, destined to loop back to the desolate gateway.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A blurry, frantic view of someone running away from a carnival fence or out of a doorway, towards a dark, open road. In a puddle in the foreground, a distorted reflection of a jester's painted smile is visible.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene16.webp"
+      },
+      {
+        "id": "scene17",
+        "title": "Ending: Banishment",
+        "text": "Armed with the knowledge of Jingle's sorrow, they approached the spectral jester on his grand stage. Speaking words of compassion and understanding, they offered him a genuine, heartfelt lament for his betrayal. The chilling menace in Jingle's form slowly receded, replaced by a profound, ethereal sorrow. With a final, silent nod of acceptance, the spectral figure shimmered, fragmented, and dissolved into the cold wind, carrying away the sorrowful whispers. The carnival's dark energy softened, and a profound silence fell, broken only by the gentle creak of wood, no longer menacing. Jingle was finally at peace, and the carnival slept.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A spectral jester figure, previously menacing, now softly dissolving into ethereal mist on a grand, circular stage. The surrounding animated dolls and toys are motionless, and the stage is bathed in a calming, fading light.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene17.webp"
+      },
+      {
+        "id": "scene18",
+        "title": "Ending: Revelation",
+        "text": "The journal revealed the true source of Jingle's binding: not just his spirit, but a cursed music box hidden deep beneath the carousel, imbued with the proprietor's malevolence. Guided by this revelation, they found a hidden passage to a cavern beneath the carousel, where an ornate, obsidian music box pulsed with dark energy. With a desperate heave, they shattered the box. A deafening spiritual wail echoed through the fairgrounds, and the animated toys collapsed into inert heaps. The cold wind still blew, but the whispers had ceased, replaced by the silence of a forgotten place, now truly at rest. The way out was clear, but the knowledge of the darkness would forever be etched upon their soul.",
+        "image_prompt": "Vintage photo realism, film grain, authentic photography, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, warm orange tones, fire and ember colors, subtle film grain. A dark, subterranean cavern with roots dangling from the ceiling. In the foreground, a shattered, ornate obsidian music box lies on the ground, emanating wisps of dark smoke. Broken doll parts and silent toy animals surround it. A faint opening to the outside is visible in the distance.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "scene18.webp"
+      }
+    ],
+    "_metadata": {
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash",
+      "generated_at": "2025-10-23T16:57:55.909Z"
+    },
+    "filename": "the-harlequins-perpetual-play_2025-10-23.json"
+  },
+  {
     "story_id": "story_20231027_forestelectric_z7x9m",
     "story_title": "The Hum of the Elder Canopy",
     "tone": "Cosmic",
@@ -10978,6 +17218,357 @@ export const EMBEDDED_STORIES: Story[] = [
       "generated_at": "2025-10-21T17:09:45.461Z"
     },
     "filename": "the-hum-of-the-elder-canopy_2025-10-21.json"
+  },
+  {
+    "story_id": "story_1761198173778_gdrv640lk",
+    "story_title": "The Iron Labyrinth's Gullet",
+    "tone": "Noir Horror",
+    "duration": "long",
+    "art_direction": "A grim descent into a forgotten subterranean network, where ancient curses and strange magics manifest through stark, brutal imagery. The art style emphasizes the oppressive darkness, punctuated by fleeting, violent flashes of light, and the unsettling fluidity of distorted forms. Moral decay is etched into the very architecture.",
+    "settings": {
+      "tone": "Noir Horror",
+      "language": "literary",
+      "narrative": "first_person",
+      "pacing": "moderate",
+      "violence": "graphic",
+      "imagery": "sparse",
+      "dialogue": "whispers",
+      "duration": "long"
+    },
+    "image_settings": {
+      "image_style": "watercolor_gothic",
+      "lighting_mood": "storm_lightning",
+      "color_palette": "monochrome",
+      "camera_perspective": "first_person"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "Entry into the Maw",
+        "text": "The stench of damp earth and disuse hung heavy, a cloying invitation to rot. My breath plumed, a fleeting ghost in the raw, cutting wind that funneled up from the yawning blackness of the subway entrance. Below, rusted tracks vanished into an abyss where official maps offered only a blank, dismissive silence. This wasn't just abandoned; it felt deliberately excised. My assignment: retrieve the artifact, a relic of forgotten horror, from these chthonic veins. A fool's errand, probably, but the pay bought comfortable apathy. I descended, the steel ladder cold against my gloved hands, each rung a step deeper into the city’s forgotten, festering gut.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. Looking down a rusted, vertical metal ladder into a dark, bottomless subway shaft, cold air visibly rising, concrete walls covered in grime and water streaks, faint graffiti on the upper sections.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Proceed down the main tunnel.",
+            "next": "scene2"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.jpg"
+      },
+      {
+        "id": "scene2",
+        "title": "The Conductor's Remnants",
+        "text": "My boots crunched on gravel and shattered concrete, the only sound apart from the drip of subterranean water and the relentless, frigid wind. The main tunnel stretched, an endless maw. Then, a faint glimmer caught my eye: a locker, strangely preserved, half-submerged in a shallow pool of effluent. Not a standard utility locker, but an archaic thing of wrought iron and tarnished brass, adorned with peculiar, geometric carvings that pulsed faintly under my flashlight beam. A hushed murmur seemed to emanate from within it, a whisper that wasn't quite sound, more a pressure in the ear canal.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. A rusted, ornate iron locker with brass fittings, covered in strange geometric carvings, half-submerged in a shallow pool of murky water on the left, at eye level. The subway tunnel recedes into oppressive darkness in the center background.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Examine the locker's contents closely.",
+            "next": "scene3"
+          },
+          {
+            "id": "2",
+            "text": "Ignore it, push deeper into the main tunnel.",
+            "next": "scene4"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.webp"
+      },
+      {
+        "id": "scene3",
+        "title": "The Tarnished Token",
+        "text": "The locker resisted, its hinges screaming in protest, but it eventually yielded to the pry bar. Inside, nestled on a bed of desiccated rags, lay a single object: a coin, but not of any known currency. It was heavy, cold beyond reason, crafted from some dark, unidentifiable metal, its surface etched with a skeletal face whose vacant eyes seemed to follow my gaze. As my fingers closed around it, the whispers surged, a thousand fragmented voices coalescing into a single, chilling thought: *'You have it now.'* A strange, disturbing power hummed beneath my skin, an intrusive sensation of dread and morbid fascination. This was a cursed artifact, no doubt, a trinket designed to bind.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. A tarnished, dark metal coin with a skeletal face etched into its surface, held delicately between two gloved fingers in the foreground, illuminated by a harsh flashlight beam. The open, rusted iron locker is blurry in the background.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Keep the token, see what influence it holds.",
+            "next": "scene5"
+          },
+          {
+            "id": "2",
+            "text": "Discard it; it feels malevolent.",
+            "next": "scene4"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.webp"
+      },
+      {
+        "id": "scene4",
+        "title": "The Untouched Path",
+        "text": "I moved on, the locker's peculiar energies fading behind me, though the memory of its whispers lingered like a phantom itch. This section of the tunnel felt different, less disturbed, the air marginally thicker, less permeated by the biting wind. A low, persistent hum resonated through the very bedrock, a vibration that felt more organic than mechanical. To my left, a narrow side passage, almost overlooked, beckoned with a noticeably stronger, colder draft. The hum or the cold? Both were invitations to something unseen, something probably predatory.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. A long, decaying subway tunnel stretching straight ahead into darkness. On the left, a narrower, darker side passage partially obscured by broken concrete, emanating a visible cold mist. The air shimmers faintly with an unseen hum.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Follow the mysterious hum deeper into the main tunnel.",
+            "next": "scene6"
+          },
+          {
+            "id": "2",
+            "text": "Investigate the cold, narrow side passage.",
+            "next": "scene7"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.webp"
+      },
+      {
+        "id": "scene5",
+        "title": "The Token's Whisper",
+        "text": "The coin pulsed in my palm, a cold heart. It didn't just whisper; it broadcasted, a discordant symphony of fractured thoughts and images. My mind became a canvas for spectral flickers: ancient glyphs on unseen walls, figures shrouded in shadow, and then, a distinct, aberrant path revealed in the gloom ahead, where previously only solid rock had appeared. It was a hallucinatory fissure, perhaps, or a genuine magical portal. The token was showing me a way, twisting my perception, or perhaps aligning it with something more profound and terrifying. Its malevolent intelligence urged me forward, a silent, corrosive command.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. A dark metal coin in a gloved hand, glowing faintly with an internal light. In the background, the subway tunnel wall distorts, revealing a shimmering, translucent path through what previously appeared to be solid rock, outlined by swirling spectral energy.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Trust the vision, follow the revealed path.",
+            "next": "scene8"
+          },
+          {
+            "id": "2",
+            "text": "Fight its influence, seek another way out.",
+            "next": "scene7"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.webp"
+      },
+      {
+        "id": "scene6",
+        "title": "The Generator's Pulse",
+        "text": "The hum intensified, leading me to a colossal, spherical mechanism embedded in a cavernous chamber. It was alien, devoid of rivets or seams, fashioned from some unknown obsidian-like substance, glowing with an inner, sickly green light. Tendrils of what appeared to be solidified energy pulsed from its surface, disappearing into the bedrock. This wasn't engineering; it was occult bio-machinery, a magical object of immense, terrifying power. Whispers here were no longer fragmented; they were a singular, deep thrum, a chorus of silent, expectant agony.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. A colossal, spherical obsidian-like mechanism, glowing with an eerie green internal light, embedded in the center of a large, rough-hewn cavern chamber. Tendrils of dark, solidified energy pulsate from its surface, disappearing into the surrounding rock walls.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to understand or manipulate the mechanism.",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Leave it; its power feels too dangerous to touch.",
+            "next": "scene10"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6.webp"
+      },
+      {
+        "id": "scene7",
+        "title": "The Bone Chimes",
+        "text": "The side passage narrowed, air growing colder, heavier, carrying the scent of something ancient and feral. It opened into a smaller alcove, crudely carved, where human and animal bones hung from unseen threads, rattling like macabre chimes in the frigid draft. They formed a gruesome mobile above a rough-hewn stone altar, stained dark with what I did not want to identify. A sense of potent, stagnant dread permeated the space, an almost palpable presence watching from the deeper shadows. The whispers here were less voices, more a collective sigh of forgotten suffering.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. A small, crudely carved alcove in a rock wall. From the ceiling, an array of human and animal bones hang on invisible threads, forming macabre chimes. Below them, a dark, stained stone altar stands in the center foreground, surrounded by deep shadows.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Disturb the altar, seek answers from its gruesome offerings.",
+            "next": "scene11"
+          },
+          {
+            "id": "2",
+            "text": "Sneak past, avoid provoking the presence here.",
+            "next": "scene10"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.webp"
+      },
+      {
+        "id": "scene8",
+        "title": "The Vision's Trap",
+        "text": "The token's aberrant path led me not to a new tunnel, but into a decaying station, larger than any I'd seen. Skeletal remnants of old trains stood silent, draped in fungal growths. The air vibrated with sorrow. Then, the spectral figures solidified, apparitions of the long-dead, their hollow eyes fixed on me. They weren't hostile, not directly, but their presence was a suffocating pressure. The token demanded a toll, a sacrifice, whispering of power for pain, and showing visions of my own blood spilled onto the crumbling platform. It wanted a transaction, an investment in its corruption.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. A vast, decaying subway station with skeletal train cars covered in fungal growth. Multiple translucent, spectral figures with hollow eyes drift among the platforms, their attention fixed on the viewer. The token in the foreground emits a cold, demanding light.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Offer a blood sacrifice to the token and the entities.",
+            "next": "scene12"
+          },
+          {
+            "id": "2",
+            "text": "Resist the token's demand, attempt to force an escape.",
+            "next": "scene13"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene8.webp"
+      },
+      {
+        "id": "scene9",
+        "title": "The Heart of the Hum",
+        "text": "Manipulating the obsidian mechanism was less about mechanics and more about sheer, brutal will. It responded to intent, to a desire for control. As I pressed my hands against its cold, throbbing surface, the obsidian fractured, revealing not machinery, but something fleshy, pulsating, wet and visceral. It was a vast, ancient heart, beating with the rhythm of ages, connected to the entire subterranean network. Power surged through me, raw and untamed, threatening to rip my consciousness apart. It was a confluence of magic and horror, a living curse that offered limitless, corrupting strength.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. Close-up of gloved hands pressed against a fractured obsidian sphere, revealing a grotesque, pulsating, wet, and visceral ancient heart within, glowing with a malevolent, sickly green light. Energy ripples outward from the contact point.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Absorb the raw power of the heart.",
+            "next": "scene14"
+          },
+          {
+            "id": "2",
+            "text": "Attempt to contain and destroy the heart.",
+            "next": "scene15"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene9.webp"
+      },
+      {
+        "id": "scene10",
+        "title": "The Unseen Watcher",
+        "text": "My decision to bypass potential threats only intensified the feeling of being hunted. The tunnels grew colder, the wind a predatory sigh. No distinct shapes, no overt attacks, but the air thickened with a malevolent presence. The whispers were clearer now, distinct voices, yet still unintelligible, forming a suffocating chorus that seemed to emanate from the very stone. I was being herded, observed, a rat in a labyrinth. The realization settled heavy: I was not the hunter here, merely bait for a deeper, more profound hunger.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. A long, dark subway tunnel, seemingly empty, but the shadows in the foreground and mid-ground appear to coalesce into indistinct, predatory shapes. The air is visibly cold and heavy, with faint spectral traces of whispers swirling.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Seek a defensive position, prepare for confrontation.",
+            "next": "scene13"
+          },
+          {
+            "id": "2",
+            "text": "Run, try to find an exit immediately.",
+            "next": "scene16"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene10.webp"
+      },
+      {
+        "id": "scene11",
+        "title": "The Altar's Price",
+        "text": "I disturbed the altar, swiping away the bone chimes, knocking over the dark offerings. A terrible shriek tore through the silence, not from any physical throat, but from the raw, psychic fabric of the place. The shadows coalesced with terrifying speed, forming a hulking, spectral guardian, its eyes burning pits of malevolent intent. It was a being of pure, ancient fury, bound to this gruesome shrine, a protector of forgotten horrors. Its form was indistinct, yet the intent to annihilate was chillingly clear. This was the price for my profane curiosity.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. A hulking, indistinct spectral guardian with burning eyes of malevolent intent, its form coalescing from swirling shadows in the center of a small, crudely carved alcove. The stone altar in the foreground has been disturbed, bones scattered around it.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Engage the guardian in direct combat.",
+            "next": "scene13"
+          },
+          {
+            "id": "2",
+            "text": "Attempt to appease it with the tarnished token (if possessed).",
+            "next": "scene17"
+          },
+          {
+            "id": "3",
+            "text": "Flee this accursed place.",
+            "next": "scene10"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene11.webp"
+      },
+      {
+        "id": "scene12",
+        "title": "Embrace of the Maw",
+        "text": "The blade slid, a sharp, clean cut. My blood, warm and vital, poured onto the cracked concrete, absorbed greedily by the token as it thrummed in my hand. The spectral figures surged, not in violence, but in welcome. A thousand whispers became one, filling my mind, crushing my identity. The token's curse became my blessing, granting a profound, if horrific, understanding of the abyssal currents that permeated these tunnels. I was no longer merely 'I'; I was an extension, a new conduit for the ancient, hungry intelligence that festered beneath the city. My flesh remained, but the soul within was devoured, replaced by the collective will of the deep. I had found the artifact, yes, but it had consumed me, not the other way around.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. A dark metal token glowing ominously in a hand, wet with fresh blood dripping onto cracked concrete. Translucent, spectral figures with glowing eyes are pressed close, their forms merging with the viewer's periphery, signifying a loss of self.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Possession",
+        "image_filename": "scene12.webp"
+      },
+      {
+        "id": "scene13",
+        "title": "Brutal Engagement",
+        "text": "The shadows solidified, transforming into grotesque, multi-limbed horrors of warped flesh and rusted metal, an unholy fusion of the subway's decay and something far older. They lunged, limbs scything through the air, their forms rippling like disturbed water. I met them with lead and cold steel, the muzzle flashes briefly illuminating their hideous anatomies before the shadows reclaimed them. The air filled with guttural shrieks and the sickening rending of impossible flesh. My body screamed with effort, blood coating my hands, some of it mine, most of it theirs. This wasn't a fight for survival; it was a desperate, visceral struggle against overwhelming, unnatural might.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. A chaotic, close-quarters combat scene. Grotesque, multi-limbed horrors of warped flesh and rusted metal are lunging from all directions. The viewer holds a firearm, muzzle flash illuminating a creature's torn limb in the foreground, blood splattering the scene.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Push through the horde, find an immediate way out.",
+            "next": "scene16"
+          },
+          {
+            "id": "2",
+            "text": "Retreat, find another path or strategic choke point.",
+            "next": "scene9"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene13.webp"
+      },
+      {
+        "id": "scene14",
+        "title": "The Flesh Ascendant",
+        "text": "The power was intoxicating, a deluge of primordial energy. My veins bulged, my skin rippled, and a chorus of ancient voices echoed within my skull, drowning out my own. The heart's essence didn't merely empower; it transformed, fusing me with its raw, living corruption. My bones groaned, my flesh reshaped, conforming to new, terrible parameters. I felt the pulse of the entire labyrinth, its hunger becoming my own. The cold wind was now a breath drawn into newly formed organs, the whispers a language I instinctively understood. I had absorbed the power, yes, but in doing so, I ceased to be myself, becoming something else, something monstrous and eternal, a living conduit for the horror that dwelled beneath the earth. A new god of the tunnels, formed of man and primordial ooze.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. The viewer's hands and arms are visibly transforming, skin rippling and stretching, veins bulging with green light, fingers elongating into grotesque claws. The background shows blurred, organic growths encroaching, symbolizing the complete metamorphosis.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Transformation",
+        "image_filename": "scene14.webp"
+      },
+      {
+        "id": "scene15",
+        "title": "The Sealing Ritual",
+        "text": "Destroying the heart proved to be less about brute force and more about severing its connection to the network. I channeled what little arcane knowledge I possessed, focusing the raw energy of my intent. The heart pulsed violently, its green light flaring, screaming a silent, cosmic agony that nearly tore my mind asunder. But I held fast, forcing the corrupting magic inward, sealing it. The obsidian mechanism groaned, then collapsed, imploding with a deafening, localized report that rattled the very foundations of the tunnel. Exhaustion washed over me, a soul-deep fatigue, but the whispers died, the cold wind felt less malevolent, and a profound silence descended. The threat was contained, banished, though the cost to my sanity remained to be seen. I had done my job, in a fashion, but at what price?",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. The central obsidian mechanism is violently imploding, shards of rock and green energy blasting outwards. The viewer stands in the foreground, battered and exhausted, focused on the collapsing structure, surrounded by fading spectral energy.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene15.webp"
+      },
+      {
+        "id": "scene16",
+        "title": "The Frantic Scramble",
+        "text": "The tunnel groaned, the battle having weakened its already compromised structure. Dust and debris rained down, and the guttural snarls of unseen pursuers echoed closer. This was no longer an investigation; it was a desperate, frantic scramble for survival. My lungs burned, my muscles screamed in protest. A narrow, unstable passage, barely wide enough for a man, presented itself on the right, leading upwards into what looked like a collapsing service shaft. Straight ahead, the main tunnel continued, promising only more darkness and the escalating pursuit, but perhaps a more stable, if longer, route to an undiscovered exit.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. A crumbling subway tunnel, dust and debris raining down from a cracked ceiling. On the right, a narrow, unstable passage leads upwards into a precarious service shaft. The main tunnel stretches forward into intense darkness, with indistinct monstrous shapes visible in the deeper shadows.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Take the unstable passage upwards, hoping for an escape.",
+            "next": "scene18"
+          },
+          {
+            "id": "2",
+            "text": "Continue deeper, hoping for a hidden service exit in the main tunnel.",
+            "next": "scene19"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene16.webp"
+      },
+      {
+        "id": "scene17",
+        "title": "Echoes of the Past",
+        "text": "I extended the tarnished token towards the spectral guardian. A jolt, not of pain, but of profound understanding, ripped through me. The token flared, projecting not just images, but raw, unfiltered memories. I witnessed the subway's true purpose: not transportation, but a ritualistic conduit, a drain for a corrupting force that birthed these entities. The whispers condensed into a coherent, ancient dialect, detailing betrayal, sacrifice, and the binding of primordial horrors. The guardian softened, its fury replaced by a somber resignation. The horror wasn't random; it was a consequence, a system designed to contain, but that had failed catastrophically. The truth was worse than any monster. My vision cleared, the tunnel no longer just rock and grime, but a living testament to a colossal, historical wrong. I had the artifact, and the knowledge. Both were curses in their own right, but the latter offered a chance to truly understand, perhaps even to fight, the darkness.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. A tarnished metal token held forward, glowing with intense white light, projecting intricate, swirling visions of ancient rituals and figures onto the spectral guardian, which now appears less hostile, its form becoming clearer and revealing mournful features. Ancient glyphs appear on the surrounding cavern walls.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "scene17.jpg"
+      },
+      {
+        "id": "scene18",
+        "title": "The Crumbling Ascent",
+        "text": "The climb was a brutal affair, rocks crumbling, dust filling my lungs. The passage shifted, threatening to bury me alive with every desperate upward scramble. My skin was flayed, my clothes torn, but the fainter, fresher scent of night air urged me on. Finally, after what felt like an eternity of claustrophobic terror, my hand broke through a grate, into the blessed, dirty air of the city's underbelly. I dragged myself out, gasping, onto a deserted industrial street, covered in grime and blood. The moon, a cold, indifferent eye, witnessed my emergence. I was free, yes, but the tunnels had left their indelible mark, a cold wind forever whispering in my memory, and the moral compromises I made weighing heavy. Survival came at a cost, always. I was out, but never truly clean.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. A gloved hand, bloody and bruised, grasps a rusted metal grate, emerging from a dark, crumbling subterranean shaft into the grimy, deserted industrial street above, bathed in cold moonlight. Exhausted face visible in profile, grimacing.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene18.webp"
+      },
+      {
+        "id": "scene19",
+        "title": "The Deeper Descent",
+        "text": "Hope for an exit vanished, replaced by the grim certainty of my foolishness. The main tunnel didn't lead out; it led deeper, into a vast, unnatural chasm, a gaping maw in the earth that dwarfed anything I'd seen. This was the true Gullet, the source of the cold wind, the origin of the whispers, a primordial void that existed before man, before time. There was no going back, only a dizzying descent into ultimate oblivion. The air vibrated with a cosmic hunger, and I felt myself drawn in, a single, insignificant speck of defiance consumed by an indifferent, ancient darkness. My last thought was a cynical acceptance of fate, a fitting end for a mercenary soul who dared to plumb depths best left undisturbed.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, cinematic first-person perspective, through your eyes, dramatic storm lightning, flash illumination, black and white monochrome, grayscale tones, subtle film grain. Looking down into an unfathomable, vast chasm in the earth that forms the end of a subway tunnel, its depths swirling with black, indistinct energy. The edges of the chasm are impossibly deep and ancient, beckoning with an irresistible, terrifying pull.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene19.webp"
+      }
+    ],
+    "_metadata": {
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash",
+      "generated_at": "2025-10-23T05:43:55.993Z"
+    },
+    "filename": "the-iron-labyrinths-gullet_2025-10-23.json"
   },
   {
     "story_id": "story_1801202316447_zkwpkvk9x",
@@ -12278,6 +18869,287 @@ export const EMBEDDED_STORIES: Story[] = [
     "filename": "the-obsidian-menagerie_2025-10-21.json"
   },
   {
+    "story_id": "story_1761238526389_epdc0nex5",
+    "story_title": "The Penumbra Accord",
+    "tone": "Noir Horror",
+    "duration": "long",
+    "art_direction": "A bird's eye view, charcoal sketch aesthetic capturing atmospheric dread through a cold blue palette and the stark, dancing light of a flickering fire.",
+    "settings": {
+      "tone": "Noir Horror",
+      "language": "elevated",
+      "narrative": "third_person",
+      "pacing": "moderate",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "whispers",
+      "duration": "long"
+    },
+    "image_settings": {
+      "image_style": "charcoal_sketch",
+      "lighting_mood": "flickering_fire",
+      "color_palette": "cold_blues",
+      "camera_perspective": "bird_eye_view"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "The Gilded Cage",
+        "text": "Elias Vance stood in the lobby of the Hotel Penumbra, the fee for this farce already feeling inadequate. Another crumbling monument to forgotten opulence, another client with more money than sense. The air was a slab of cold, thick with the dust of dead decades. His job was simple: debunk the ghost stories, survive until dawn, and collect his check. He figured the hardest part would be staying awake. A single, oil-burning lantern he'd brought sat on the cracked marble floor, its flame a lonely, sputtering heartbeat in the cavernous dark.",
+        "image_prompt": "A lone figure stands in the center of a vast, dilapidated hotel lobby. A single lantern on the floor casts long, dancing shadows. A grand staircase is at the back, and decaying furniture is scattered about. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Head towards the faint, discordant music from the Grand Ballroom.",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Investigate the flicker of light seen in the west wing's Executive Office.",
+            "next": "scene3"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.jpg"
+      },
+      {
+        "id": "scene2",
+        "title": "A Memory of Music",
+        "text": "The brass doors to the ballroom were tarnished and heavy, groaning open into a space impossibly vast. The music, a phantom waltz, swirled around him, sour and thin. In the lantern's glow, shimmering figures of men and women in decayed finery spun in a silent, unending dance. Their movements were jerky, wrong. Not a memory, he thought, a wound, stuck on a loop. A profound cold emanated from the center of the room, a cold that had nothing to do with the temperature.",
+        "image_prompt": "Looking down into a massive, decaying ballroom. Spectral couples waltz across the checkerboard floor. A lone figure with a lantern stands at the entrance on the left. A decrepit orchestra pit is visible at the far end. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Approach the lone, still figure of a woman watching the dancers.",
+            "next": "scene4"
+          },
+          {
+            "id": "2",
+            "text": "Examine the orchestra pit, where the music seems to originate.",
+            "next": "scene5"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.jpg"
+      },
+      {
+        "id": "scene3",
+        "title": "The Manager's Domain",
+        "text": "The west wing was a graveyard of rotted carpet and peeling wallpaper. The Executive Office door was ajar. Inside, a heavy mahogany desk dominated the room, unnaturally clean amidst the decay. The flicker he'd seen was a candle, impossibly lit, casting a weak, shivering glow on an open leather ledger. The air was still, heavy with the scent of old paper and something metallic, like stale blood. He felt a sense of order here, a malevolent intelligence that was absent in the chaotic lobby.",
+        "image_prompt": "An old hotel office viewed from above. A massive mahogany desk sits in the center with an open book and a single lit candle on it. A large, dust-covered portrait hangs on the back wall, slightly askew, revealing the edge of a wall safe. Elias is a small figure near the door on the right. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Read the open ledger on the desk.",
+            "next": "scene6"
+          },
+          {
+            "id": "2",
+            "text": "Inspect the ornate wall safe behind the crooked portrait.",
+            "next": "scene7"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.jpg"
+      },
+      {
+        "id": "scene4",
+        "title": "The Wallflower's Warning",
+        "text": "He moved through the ghostly dancers, their cold touch leaving no sensation but a deep, psychic chill. The woman stood apart, her form more solid than the others. As he neared, she turned, her eyes hollow sockets of despair. A voice, like dry leaves skittering on pavement, entered his mind. 'He makes us dance. The Conductor. He feeds on the echo of our final moments. It is the music... the music is his heart.' Her form flickered violently and dissolved into a wisp of cold air.",
+        "image_prompt": "A lone figure, Elias, stands before a spectral woman in a decaying ballroom, viewed from the ceiling. Other ghostly figures are blurred in motion around them. The woman's face is a dark void. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Heed her warning. The music is the key.",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.jpg"
+      },
+      {
+        "id": "scene5",
+        "title": "The Broken Melody",
+        "text": "The orchestra pit was a splintered wreck of wood and ruined instruments. At the conductor's podium, a small, intricate music box of blackened silver lay on its side. The discordant waltz emanated directly from it, a melody of pure anguish. As Elias reached for it, the spectral dancers on the floor above froze, their heads snapping in his direction. The temperature plummeted, and a collective, agonized hiss filled the air. This object was the anchor for their misery.",
+        "image_prompt": "Looking down into a shattered orchestra pit. Elias's hand is reaching for a small, ornate music box on a broken podium in the center. The shadows around him seem to deepen and writhe. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "This is the source of the looping horror. It must be dealt with.",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.jpg"
+      },
+      {
+        "id": "scene6",
+        "title": "An Infernal Contract",
+        "text": "He ran a hand over the ledger's brittle pages. It wasn't hotel business. It was a meticulous record of a ritual, a pact made by the hotel's founder, Alistair Finch. Finch had bartered the souls of his guests for prosperity, summoning a nameless entity he called 'The Conductor.' The final pages detailed a binding ritual, a way to sever the pact, requiring the Conductor's True Name: Xy'lothra. Elias's cynical disbelief was eroding, replaced by a cold, pragmatic dread. This wasn't a haunting; it was an infestation.",
+        "image_prompt": "From above, Elias is hunched over a large open ledger on a desk. The candlelight illuminates strange, spidery script and occult diagrams on the pages. The room is dark and oppressive. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "A name is a weapon. He would use it.",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6.jpg"
+      },
+      {
+        "id": "scene7",
+        "title": "The Gilded Trap",
+        "text": "The safe was cold to the touch, an unnatural, soul-deep frost that clung to his fingers. The dial was a complex astrolabe of sigils he didn't recognize. He felt an insidious pull from it, a promise of knowledge, of control over this place. It was a lure, plain and simple. Another test in this decaying mausoleum. Some part of him, the desperate and greedy part that took this job, wanted to open it. The rest of him screamed to run.",
+        "image_prompt": "A close-up bird's eye view of a man's hands on a complex, circular safe dial covered in glowing blue sigils. The safe is set into a wall behind a painting. The rest of the office is shrouded in shadow. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Force the safe open. Power is worth the risk.",
+            "next": "scene14"
+          },
+          {
+            "id": "2",
+            "text": "Leave it. It's a distraction from the real threat.",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.jpg"
+      },
+      {
+        "id": "scene8",
+        "title": "The Crossroads of Decay",
+        "text": "Whether armed with a name, a warning, or the knowledge of a cursed artifact, the path became clear. The entity's influence wasn't ambient; it had a heart, a central point of power from which its corruption radiated. All the phenomena—the dancers, the moving objects, the oppressive cold—were symptoms. He had to find the source. Logic and the hotel's blueprints pointed to one place: the massive, coal-fired boiler room in the sub-basement, the once-beating heart of the Penumbra.",
+        "image_prompt": "Elias stands at a junction of three decaying hotel corridors, looking down at a grimy, peeling map of the hotel in his hand. The lantern light barely pushes back the oppressive darkness of each hallway. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Descend into the darkness towards the boiler room.",
+            "next": "scene9"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene8.jpg"
+      },
+      {
+        "id": "scene9",
+        "title": "The Animate Malice",
+        "text": "The hallway leading to the basement stairs was not empty. A grotesque effigy of hotel detritus—splintered furniture, twisted pipes, shredded damask curtains—had pulled itself into a hulking, vaguely humanoid form. It blocked the way, its body creaking and groaning with the hotel's ancient aches. There was no soul in it, just raw, animated malice. The Conductor's immune system, a physical manifestation of its desire to remain undisturbed.",
+        "image_prompt": "Looking down a long, narrow hallway. At the far end, blocking a staircase leading down, is a large, monstrous figure made of broken furniture, pipes, and debris. A lone man with a lantern stands at the opposite end, his shadow stretching towards the creature. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Confront the guardian. There is no other way.",
+            "next": "scene10"
+          },
+          {
+            "id": "2",
+            "text": "There must be another way. Search for a service entrance.",
+            "next": "scene11"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene9.jpg"
+      },
+      {
+        "id": "scene10",
+        "title": "The New Custodian",
+        "text": "He charged the thing, a desperate, foolish act. The construct of debris swatted him aside like an insect. As his head struck the wall and consciousness fled, the Conductor flowed into the empty vessel. No more puppets, no more looping memories. It had a physical form now. Elias's body rose, but his eyes glowed with a cold, ancient, and utterly inhuman intelligence. The hotel had a new manager, and the last vestiges of Elias Vance were now just another scream trapped in the walls.",
+        "image_prompt": "A man's body lies crumpled at the feet of a towering monster made of debris. A faint, cold blue light is starting to glow from the man's eyes. The view is directly from above, capturing the finality of the moment. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Possession",
+        "image_filename": "scene10.jpg"
+      },
+      {
+        "id": "scene11",
+        "title": "The Gutters of the House",
+        "text": "Fighting that thing was suicide. Elias backtracked, his heart a frantic drum against his ribs. He found what he was looking for behind a peeling wall panel: a narrow service tunnel, thick with cobwebs and the stench of stagnant water. It was a claustrophobic crawl through the hotel's guts, a network of pipes and wiring that writhed in his peripheral vision. Whispers echoed through the pipes, the faint, despairing cries of a thousand trapped voices.",
+        "image_prompt": "A man crawling on his hands and knees through a tight, dark service tunnel filled with thick pipes and dangling wires. His lantern, pushed ahead of him, illuminates the suffocating space. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Press on towards the sound of the furnace.",
+            "next": "scene12"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene11.jpg"
+      },
+      {
+        "id": "scene12",
+        "title": "The Unholy Heart",
+        "text": "The tunnel opened into the boiler room. It was a cathedral of iron and rust, dominated by a colossal furnace at its center. But there was no fire. Instead, a pillar of shimmering, silent, cobalt-blue energy pulsed within the furnace's grate, casting the room in a morgue-like light. This was the core of the Conductor, a nexus of supernatural energy that fed on the misery it generated above. The air hummed, vibrating with immense power and a bottomless capacity for cruelty.",
+        "image_prompt": "A vast, industrial boiler room. In the center, a massive, rusted furnace contains a pulsating pillar of cold blue light. A figure, Elias, emerges from a small tunnel opening on the right wall, looking small and insignificant. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Use the Conductor's true name and perform the binding ritual.",
+            "next": "scene13"
+          },
+          {
+            "id": "2",
+            "text": "Attempt to shatter the music box, releasing the souls in a defiant act.",
+            "next": "scene15"
+          },
+          {
+            "id": "3",
+            "text": "Try to reason with the spirits, using the warning to sever their connection.",
+            "next": "scene16"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene12.jpg"
+      },
+      {
+        "id": "scene13",
+        "title": "Severing the Accord",
+        "text": "Elias stood before the cold flame, chanting the words from the ledger, his voice cracking in the humming silence. He shouted the name—'Xy'lothra!'—and the blue energy recoiled. The humming became a deafening shriek. The entity, bound by the ancient accord, was ripped from its anchor. The blue light imploded, plunging the room into absolute darkness and silence. The cold vanished. For the first time all night, the hotel was just an empty, decaying building. He had won.",
+        "image_prompt": "A man stands with arms outstretched before a giant furnace, from which a pillar of blue light is violently imploding into a single point. Runic symbols, imagined from the ritual, glow faintly in the air around him. The view is from high above, capturing the scale of the magical event. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene13.jpg"
+      },
+      {
+        "id": "scene14",
+        "title": "A Price in Flesh",
+        "text": "He opened the ornate safe. Inside, nestled on velvet, was not gold, but a shard of polished obsidian that seemed to drink the light. As his fingers touched it, a jolt of icy power shot up his arm. Voices flooded his mind—promises of control, of an end to being a pawn. He heard the hotel's secrets, felt its pain, and understood its power. But the knowledge came with a price. He could feel his own identity, his very soul, being siphoned away, absorbed into the hotel's consciousness as payment.",
+        "image_prompt": "Looking down on a man kneeling before an open wall safe. He is holding a small, dark object that seems to be pulling threads of faint blue light from his body. His face is a mask of agony and ecstasy. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Absorption",
+        "image_filename": "scene14.jpg"
+      },
+      {
+        "id": "scene15",
+        "title": "The Cacophony of Release",
+        "text": "With a desperate cry, Elias smashed the silver music box against the furnace. It shattered. For a moment, there was silence. Then, a psychic shockwave erupted from the broken pieces. The accumulated pain of every soul trapped in the ballroom, released in a single, explosive instant. It was too much. The wave of pure agony hit Elias and he knew no more. His mind, his body, his soul—all were atomized, becoming nothing but another layer of dust in the forgotten hotel.",
+        "image_prompt": "A man is thrown backward by an invisible force, his body contorting. A shattered music box lies on the floor before a massive furnace. A shockwave of distorted, ghostly energy radiates outwards from the box. The view is directly above the violent event. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene15.jpg"
+      },
+      {
+        "id": "scene16",
+        "title": "The Grateful Dead",
+        "text": "He didn't fight the core. He spoke to the whispers, to the memory of the woman in the ballroom. He told them the Conductor fed on their loop, that their dance gave it power. He urged them to stop, to let go. A single, spectral hand touched his shoulder, then another, and another. The blue flame in the furnace faltered as the spirits turned their attention away from their pain and towards him. They flowed together, creating a shimmering door in a solid brick wall—a way out. As he stumbled through, he heard the Conductor's scream of fury behind him, thwarted but not defeated.",
+        "image_prompt": "A shimmering, ghostly doorway has appeared in a solid brick wall in a dark boiler room. A man is stepping through it. Faint, translucent figures of spirits are visible around him, guiding him towards the light. The blue furnace in the background flickers weakly. Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, bird's eye view perspective, looking down from above, flickering firelight, dancing flame illumination, cold blue atmosphere, icy color scheme, subtle film grain.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene16.jpg"
+      }
+    ],
+    "_metadata": {
+      "provider": "Gemini",
+      "model": "gemini-2.5-pro",
+      "generated_at": "2025-10-23T16:56:54.194Z"
+    },
+    "filename": "the-penumbra-accord_2025-10-23.json"
+  },
+  {
     "story_id": "story_1761066488205_fxht3uoai",
     "story_title": "The Perpetual Recess",
     "tone": "Cosmic",
@@ -12864,6 +19736,631 @@ export const EMBEDDED_STORIES: Story[] = [
       "generated_at": "2025-10-21T16:03:09.458Z"
     },
     "filename": "the-prosceniums-maw_2025-10-21.json"
+  },
+  {
+    "story_id": "story_1761198311681_ptl6qrswu",
+    "story_title": "The Reaping Hearth",
+    "tone": "Folk",
+    "duration": "medium",
+    "art_direction": "Charcoal sketches in flickering firelight with warm orange tones",
+    "settings": {
+      "tone": "Folk",
+      "language": "literary",
+      "narrative": "third_person",
+      "pacing": "fast",
+      "violence": "moderate",
+      "imagery": "sparse",
+      "dialogue": "minimal",
+      "duration": "medium"
+    },
+    "image_settings": {
+      "image_style": "charcoal_sketch",
+      "lighting_mood": "flickering_fire",
+      "color_palette": "warm_oranges",
+      "camera_perspective": "first_person"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "Arrival at the Threshold",
+        "text": "Elara approached the hotel under a canopy of twisted oaks, their branches like scythes in the gloaming. The structure loomed, its timbers groaning as if burdened by unharvested grain. Cold wind sliced through, carrying whispered voices that mimicked forgotten lullabies, now curdled with despair. She pushed the door, entering a foyer where the air thickened. In her mind, the pastoral fields of memory warped, golden sheaves turning to thorns.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. Wooden entrance door ahead, cracked slightly open at center; tall oak trees framing the view outside on left and right; flickering lantern on a hook to the right at eye level.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Explore the lobby",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Head to assigned room",
+            "next": "scene3"
+          },
+          {
+            "id": "3",
+            "text": "Investigate the basement hum",
+            "next": "scene4"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.webp"
+      },
+      {
+        "id": "scene2",
+        "title": "Lobby Whispers",
+        "text": "Elara scanned the lobby, where dust motes danced in erratic swirls. A spectral figure materialized, translucent form harvesting invisible crops from the carpet. Cold wind gusted from vents, whispers escalating to pleas of barren soil. She felt the twist in her thoughts: the meadow songs of youth now echoed with famine's bite. The apparition lunged, its touch like frostbite on her arm, drawing a thin line of blood that beaded slowly.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. Faded reception desk at center front; spectral figure hunched over it on the left, translucent and wavering; old chandelier hanging low above at eye level.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Confront the figure",
+            "next": "scene5"
+          },
+          {
+            "id": "2",
+            "text": "Search the guestbook",
+            "next": "scene6"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.webp"
+      },
+      {
+        "id": "scene3",
+        "title": "Room of Echoes",
+        "text": "Elara unlocked her room, the key turning with a reluctant grind. Inside, ghostly apparitions flickered, souls trapped in eternal threshing motions. Whispers rode the cold wind through cracked windows, murmuring of poisoned roots. Her mind reeled: the lyrical blooms of spring contorted into wilted husks. One apparition clawed at her, nails raking shallow gashes across her hand, blood welling in restrained rivulets.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. Narrow bed at center back; cracked window on the right wall at chest height; faint ghostly outline hovering near the bed on left.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Examine the mirror",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Flee to the hallway",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.webp"
+      },
+      {
+        "id": "scene4",
+        "title": "Basement Descent",
+        "text": "Elara descended stairs into the basement, where damp air clung like sodden earth. Spectral figures toiled amid rusted machinery, their forms harvesting shadows. Cold wind howled up from depths, whispers chanting of endless winters. In her thoughts, the pastoral idyll fractured, harvest moons bleeding into void. A figure swung a phantom sickle, grazing her shoulder with a sharp, contained wound.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. Steep staircase descending ahead at center; rusted boiler on the left floor level; dim torch bracket on right wall at head height.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Destroy the machinery",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Listen to the chants",
+            "next": "scene10"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.webp"
+      },
+      {
+        "id": "scene5",
+        "title": "Confrontation's Edge",
+        "text": "Elara faced the spectral figure, its eyes hollow as fallow fields. It whispered directly, cold wind whipping her hair, voices layering accusations of neglected yields. Her mind twisted: lyrical rivers of grain now choked with weeds of dread. The figure grasped her wrist, twisting with force that split skin in measured tears, blood dripping in controlled streams.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. Translucent figure directly ahead at arm's reach; overturned chair on the floor to the right; flickering candle on a side table left at waist height.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Banish with fire",
+            "next": "scene11"
+          },
+          {
+            "id": "2",
+            "text": "Absorb its story",
+            "next": "scene12"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.webp"
+      },
+      {
+        "id": "scene6",
+        "title": "Guestbook Revelations",
+        "text": "Elara flipped through the guestbook, pages curling like dried leaves. Names faded into apparitions, whispering of souls ensnared in the hotel's eternal reaping. Cold wind paged through entries, voices murmuring twisted pastorals. Her thoughts bent: the songs of sowing now hymns to entropy. An apparition emerged, slashing at her fingers, drawing fine lines of blood with deliberate precision.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. Open leather-bound book on desk at center; faded ink names visible on pages; small oil lamp to the right at table edge.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Tear out pages",
+            "next": "scene13"
+          },
+          {
+            "id": "2",
+            "text": "Add your name",
+            "next": "scene14"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6.webp"
+      },
+      {
+        "id": "scene7",
+        "title": "Mirror's Harvest",
+        "text": "Elara stared into the mirror, her reflection fracturing into spectral multiples. Apparitions harvested reflections, cold wind seeping from the glass with whispers of blighted orchards. Her mind lyricized unease: verdant groves twisting into barren thickets. A figure reached through, clawing her cheek with a restrained gash, blood tracing a path like a reaper's furrow.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. Tall cracked mirror directly ahead at eye level; distorted reflection showing faint figures; bedside table on left with candle.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Shatter the glass",
+            "next": "scene11"
+          },
+          {
+            "id": "2",
+            "text": "Enter the reflection",
+            "next": "scene12"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.webp"
+      },
+      {
+        "id": "scene8",
+        "title": "Hallway Pursuit",
+        "text": "Elara burst into the hallway, doors slamming in rapid succession. Ghostly apparitions pursued, their forms spectral harvesters in the dim. Cold wind chased her, whispers accelerating into a cacophony of failed yields. Thoughts raced: pastoral dances devolving into frantic scrambles. One caught her ankle, tripping her with a bruising fall, skin splitting on impact in contained bursts.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. Long narrow hallway stretching ahead; closed doors on left and right walls; flickering wall sconce at far end center.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Barricade a door",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Run to the exit",
+            "next": "scene15"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene8.webp"
+      },
+      {
+        "id": "scene9",
+        "title": "Machinery's Ruin",
+        "text": "Elara smashed the basement machinery, sparks flying in quick eruptions. Spectral figures wailed, dissolving amid the wreckage. Cold wind surged, whispers fracturing into silence. Her mind cleared slightly: the twisted lyrics easing toward revelation. Shrapnel nicked her arms, drawing blood in moderate flows, restraint holding back excess.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. Broken metal gears scattered on floor ahead; wavering spectral form dissipating on right; torch flame flaring left at shoulder height.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "scene9.webp"
+      },
+      {
+        "id": "scene10",
+        "title": "Chants' Embrace",
+        "text": "Elara listened to the chants, their rhythms pulling her in. Spectral figures enveloped her, cold wind and whispers merging with her essence. Thoughts dissolved: pastoral beauty corrupting into endless void. Her body convulsed, veins bulging in graphic yet restrained agony, as souls claimed her form.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. Circle of spectral figures surrounding at close range; ancient runes on floor center; dim light source overhead casting shadows.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Possession",
+        "image_filename": "scene10.webp"
+      },
+      {
+        "id": "scene11",
+        "title": "Fire's Banishment",
+        "text": "Elara ignited the flame, banishing the apparition in a burst of embers. Cold wind died, whispers fading to echoes. Her mind untwisted: lyrical fields restoring to harmony. Burns seared her hands in measured pain, skin blistering with graphic detail but held in check.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. Bursting flames consuming figure ahead; scattered ashes on ground left; handheld torch in view at bottom right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene11.webp"
+      },
+      {
+        "id": "scene12",
+        "title": "Absorption's Fall",
+        "text": "Elara absorbed the story, souls flooding her veins. Cold wind internalized, whispers becoming her own. Thoughts fractured: harvest pastorals spiraling into madness. Her form contorted, bones cracking in restrained violence, blood seeping from eyes in deliberate streams.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. Merging spectral essences swirling around; distorted self-reflection in puddle on floor center; faint embers glowing right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Madness",
+        "image_filename": "scene12.webp"
+      },
+      {
+        "id": "scene13",
+        "title": "Pages Torn",
+        "text": "Elara tore the pages, names unraveling like uprooted stalks. Apparitions screamed, cold wind whipping into a vortex. Her mind raced: twisted lyrics resolving to escape's tune. Paper cuts laced her fingers, blood flowing in graphic but contained lines.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. Shredded paper fragments scattering ahead; fading apparition on left; open book remnants on desk right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene13.webp"
+      },
+      {
+        "id": "scene14",
+        "title": "Name's Binding",
+        "text": "Elara added her name, ink blending with spectral essence. Cold wind sealed her in, whispers claiming her as harvest. Thoughts lyricized oblivion: pastoral scenes dissolving into nothing. Her skin paled, veins darkening in moderate graphic detail, restraint in the final fade.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. Fresh ink name on page center; encroaching shadows from edges; quill in hand view at bottom.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene14.webp"
+      },
+      {
+        "id": "scene15",
+        "title": "Exit's Grasp",
+        "text": "Elara sprinted to the exit, doors bursting open. Spectral figures clawed, cold wind howling pursuit. Her mind held: unease twisting back to pastoral resolve. Nails raked her back, wounds opening in restrained gashes, blood trailing as she broke free.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, flickering firelight, dancing flame illumination, warm orange tones, fire and ember colors, subtle film grain. Open exit door ahead at center; pursuing spectral hands reaching from left and right; moonlight filtering outside.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Ascension",
+        "image_filename": "scene15.webp"
+      }
+    ],
+    "_metadata": {
+      "provider": "xAI",
+      "model": "grok-4",
+      "usage": {
+        "prompt_tokens": 1761,
+        "completion_tokens": 3393,
+        "total_tokens": 5779,
+        "prompt_tokens_details": {
+          "text_tokens": 1761,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 681
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 625,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "num_sources_used": 0
+      },
+      "generated_at": "2025-10-23T05:46:56.752Z"
+    },
+    "filename": "the-reaping-hearth_2025-10-23.json"
+  },
+  {
+    "story_id": "story_1761198188359_8our596vw",
+    "story_title": "The Rootbound Bloom",
+    "tone": "Folk",
+    "duration": "medium",
+    "art_direction": "An abandoned asylum consumed by unnatural plant growth and fungal networks, depicted with a cold, dreamlike luminescence against deep shadows. Organic horrors twist through once-familiar architectural spaces.",
+    "settings": {
+      "tone": "Folk",
+      "language": "elevated",
+      "narrative": "second_person",
+      "pacing": "moderate",
+      "violence": "graphic",
+      "imagery": "sparse",
+      "dialogue": "whispers",
+      "duration": "medium"
+    },
+    "image_settings": {
+      "image_style": "charcoal_sketch",
+      "lighting_mood": "moonlight",
+      "color_palette": "muted_reds_greens",
+      "camera_perspective": "first_person"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "The Veiled Threshold",
+        "text": "The asylum gates, once formidable iron, now stand ajar, weeping rust onto paths choked by stubborn brambles. A cold wind, laden with the scent of damp earth and something sickly sweet, combs through the skeletal branches above. The grand facade, draped in thick, black vines, seems to breathe a perpetual twilight. You feel a strange hunger in the stillness, as if the very air wishes to feed upon your presence.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. A grand, derelict asylum entrance, gates ajar, overgrown with thick black vines on the stone facade, deep shadows within the archway, thorny brambles covering the foreground path.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Step through the gaping main entrance.",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Search for a less obvious service entry.",
+            "next": "scene3"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.webp"
+      },
+      {
+        "id": "scene2",
+        "title": "The Grand Nursery",
+        "text": "You enter a vast reception hall, now a cathedral of decay. The high ceilings are woven with a lattice of fleshy, pulsating vines that drip viscous, phosphorescent sap. Great blossoms, like pale, weeping eyes, cling to the walls, casting an unholy light. The floor, cracked and uneven, groans beneath thick, mossy growth. A low, rhythmic thrum vibrates the very bone within your skull, a heartbeat not your own. You feel as though you have walked into the maw of some ancient, chlorophyll-gorged beast.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. A massive, derelict reception hall interior, ceiling covered in thick, pulsating vines, large pale blossoms emitting an unholy light from the walls, cracked floor overgrown with moss and glowing fungi.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Investigate the wall of pulsing flora on your left.",
+            "next": "scene4"
+          },
+          {
+            "id": "2",
+            "text": "Proceed deeper into the dark corridor ahead, towards what seems an administration wing.",
+            "next": "scene5"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.webp"
+      },
+      {
+        "id": "scene3",
+        "title": "Service Passages",
+        "text": "The service entry leads into a narrow, damp corridor, smelling of stale disinfectant and rich, fertile soil. Broken gurneys lie overturned, their metal frames rusting into the floor. A faint, almost imperceptible hum echoes from deeper within, a mechanical drone mixed with something distinctly organic. The air feels heavy, pressing in on you. A chill raises the fine hairs on your arms, not from cold, but from something vast and unseen.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. A narrow, damp service corridor, broken metal gurneys overturned on the left, rust stains on the concrete floor, a faint hum visually represented by subtle vibrations in the air, shadows stretch from the far end.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Follow the compelling hum towards a door on the right.",
+            "next": "scene6"
+          },
+          {
+            "id": "2",
+            "text": "Seek a stairwell, hoping for upper floor access.",
+            "next": "scene7"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.webp"
+      },
+      {
+        "id": "scene4",
+        "title": "The Bloom's Embrace",
+        "text": "As you near the wall, the pulsating plant growth parts, revealing a swirling vortex of emerald and violet light. It does not illuminate, but absorbs, drawing your gaze into depths beyond understanding. Shapes coalesce within, fluid and indistinct, reminiscent of roots, veins, and something far older than flora. A breathy whisper slithers into your mind, 'Come... join the harvest...'. The sweetness in the air turns cloying, stifling.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. A swirling vortex of emerald and violet light opens within a pulsating plant wall at eye level, fluid, indistinct shapes within the light, the air shimmers with an oppressive, sweet haze.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Reach out, surrender to the inviting light.",
+            "next": "scene8"
+          },
+          {
+            "id": "2",
+            "text": "Rebuke the whisper, pull away from the encroaching light.",
+            "next": "scene5"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.webp"
+      },
+      {
+        "id": "scene5",
+        "title": "Administration Records",
+        "text": "The administration wing is a testament to hurried flight. Desks lie toppled, their contents spilled across the floor – yellowed patient charts, ledgers stained with what appears to be dried blood and dark sap. The windows are caked in a thick, thorny fungal growth, filtering the moonlight into thin, splintered beams. A small, dry rustling sound emanates from beneath a pile of scattered papers, like insects crawling on parchment, or something larger shifting its chitinous shell.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. A derelict administration office, overturned wooden desks, scattered yellowed papers on the floor, windows obscured by thick, thorny fungal growth, faint rustling visible as subtle movement under papers on the floor at center.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Investigate the file cabinets for clues.",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Follow the unsettling rustling sound.",
+            "next": "scene10"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.webp"
+      },
+      {
+        "id": "scene6",
+        "title": "The Grafting Lab",
+        "text": "You enter a laboratory, where glass beakers and surgical tools are partially encased in a strange, amber resin that pulses with soft light. Dissected specimens, unholy fusions of flesh and flora, float in cloudy preservation tanks, their limbs twitching with phantom life. A massive, inert form, resembling a great root structure with embedded organs, occupies the center of the room, connected by glowing tendrils to various consoles. A soft, guttural groan vibrates through the floor.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. A derelict laboratory, glass beakers and surgical tools partially encased in glowing amber resin on a workbench to the right, preservation tanks containing grotesque flesh-flora specimens on the left, a massive root-like organic mass with embedded organs in the center, connected by glowing tendrils to consoles.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to sever the glowing tendrils.",
+            "next": "scene11"
+          },
+          {
+            "id": "2",
+            "text": "Flee this dreadful place, seeking another path.",
+            "next": "scene10"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6.webp"
+      },
+      {
+        "id": "scene7",
+        "title": "Upper Ward Stairwell",
+        "text": "The stairwell yawns before you, a winding maw of stone consumed by grotesque, shimmering vines. The air grows thick and heavy with the cloying-sweet scent of unnatural decay and blossoming horror. Each step you consider feels like pressing a bloom of dread against your heart. A faint, almost imperceptible clicking sound drifts from above, like countless insect limbs scrambling on hard surfaces, beckoning you higher.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. A winding stone stairwell, completely overgrown with thick, shimmering vines, upper sections shrouded in unnatural darkness, the air appears visibly heavy with a sweet, sickly haze.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Carefully ascend the vine-choked stairs.",
+            "next": "scene12"
+          },
+          {
+            "id": "2",
+            "text": "Decide against ascending, return to the lower levels.",
+            "next": "scene5"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.webp"
+      },
+      {
+        "id": "scene8",
+        "title": "Verdant Consummation",
+        "text": "The emerald and violet light rushes forward, embracing you not with warmth, but with a profound, consuming cold. Tendrils, fine as silk, then thick as rope, sprout from the light, weaving into your skin, seeking purchase, drawing you deeper into the living wall. Your breath catches, then releases in a sigh that is not your own. You feel your blood slow, replaced by glowing sap, your bones becoming wood, your thoughts dissolving into a chorus of chlorophyll. The asylum has claimed its newest blossom. You are the soil, the root, the bloom, forever woven into its terrible, verdant heart.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. Emerald and violet light bursts forward, consuming the foreground. Fine, glowing tendrils sprout from the light, beginning to entwine around arms and face, integrating into the skin, background shows the pulsating plant wall from scene4.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Transformation",
+        "image_filename": "scene8.webp"
+      },
+      {
+        "id": "scene9",
+        "title": "Records of Rot",
+        "text": "You find a locked metal filing cabinet, its drawers jammed. With a heave, you force one open. Inside, amongst faded files, you discover a journal detailing 'Project Chloros'—experiments in symbiotic growth, turning patients into 'host vessels'. A small, tarnished brass key falls from a hidden compartment, labeled 'Crypta Hortus'. A faint, almost melodic hum rises from the pages, a song of binding.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. A rusty, locked metal filing cabinet, its drawer forcibly opened at eye level. Faded patient files and a tarnished brass key lie within the drawer, subtle glow from the journal pages in the foreground.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Seek the 'Crypta Hortus' described in the journal.",
+            "next": "scene13"
+          },
+          {
+            "id": "2",
+            "text": "The knowledge chills you; escape feels paramount.",
+            "next": "scene12"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene9.webp"
+      },
+      {
+        "id": "scene10",
+        "title": "The Skittering Maw",
+        "text": "The rustling intensifies, becoming a frantic skittering. From the shadows beneath a collapsed bookshelf, a creature unfurls itself. It is a grotesque parody of life: an insectoid carapace fused with glistening, organic tendrils, moving with unnatural speed on countless razor-sharp limbs. Its maw, a gaping orifice lined with serrated teeth, clicks open and shut, emitting a wet, hungry sound. It launches itself at you, its body a blur of sickening motion. A sharp, piercing shriek escapes its throat, a sound designed to shatter sanity.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. A monstrous insectoid creature with a chitinous carapace fused with glistening organic tendrils, countless razor-sharp limbs, and a gaping maw with serrated teeth, lunges from deep shadows towards the viewer, its form a blur of motion, a collapsed bookshelf in the background.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Try to fight the creature with a nearby heavy object.",
+            "next": "scene14"
+          },
+          {
+            "id": "2",
+            "text": "Scramble for an escape route, perhaps a nearby ventilation shaft.",
+            "next": "scene12"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene10.webp"
+      },
+      {
+        "id": "scene11",
+        "title": "The Root Heart",
+        "text": "You stand before the vast, pulsating organic mass, the true heart of this corrupted garden. It weeps iridescent fluids into collecting basins, each drop glowing with an internal, malevolent light. The tendrils connecting it to the consoles are thick, pulsing with the same rhythm that first resonated through the asylum. A chorus of faint, tormented whispers emanates from the mass itself, 'Join us... become the garden...'.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. A vast, pulsating organic mass, resembling a giant, twisted root structure, dominating the center of the laboratory. Iridescent fluids weep from its surface into glowing basins at its base, thick glowing tendrils connect it to consoles on the left and right.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "With grim resolve, sever the glowing tendrils connecting the mass.",
+            "next": "scene15"
+          },
+          {
+            "id": "2",
+            "text": "Instead of destroying it, attempt to comprehend its nature, to communicate.",
+            "next": "scene16"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene11.webp"
+      },
+      {
+        "id": "scene12",
+        "title": "The Overgrown Balcony",
+        "text": "You find a dilapidated set of double doors, jammed and overgrown, leading onto a narrow, perilous balcony. Below, the asylum grounds are a twisted mockery of nature, a churning sea of black vines and bioluminescent fungi. The cold silver moonlight cuts through the fungal haze, revealing a precarious drop. Freedom seems just within reach, a desperate leap away. But a faint voice, silky and insistent, drifts up from the depths, 'Don't abandon the harvest, little seedling...'.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. A dilapidated, vine-covered balcony overlooking a vast, dark, overgrown asylum grounds below. The moon is a cold silver disc in the sky, filtering through a fungal haze, showing a precarious drop from the balcony edge.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Leap from the balcony, seeking desperate escape.",
+            "next": "scene17"
+          },
+          {
+            "id": "2",
+            "text": "Hesitate, the voice from below seems to pull at your will.",
+            "next": "scene10"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene12.webp"
+      },
+      {
+        "id": "scene13",
+        "title": "The Primordial Vault",
+        "text": "The brass key grates in a heavy, vine-choked door. Beyond lies a circular chamber, carved from rough stone, cool and dry. In its center, suspended within a cage of glowing, skeletal roots, rests a single, obsidian-like seed, no larger than a child's fist. It pulses faintly with an inner light, radiating a profound, silent power. This is the origin, the very first bloom of the asylum's terrible garden. It whispers of creation, of a primal force unleashed.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. A circular stone vault chamber, cool and dry. In the center, a small obsidian-like seed, pulsing with faint inner light, suspended within a cage of glowing, skeletal roots, shadows around the periphery.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Destroy the seed, ending its influence.",
+            "next": "scene18"
+          },
+          {
+            "id": "2",
+            "text": "Touch the seed, seeking to understand its power.",
+            "next": "scene19"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene13.jpg"
+      },
+      {
+        "id": "scene14",
+        "title": "Consumption",
+        "text": "You seize a heavy, fallen beam, swinging it with desperate strength. It connects, a sickening crunch of chitin and splintered wood. The creature shrieks, a sound of agony and fury, its tendrils lashing out, piercing your flesh with venomous speed. You feel the sharp, burning agony as its razor limbs tear into you, rending muscle and bone. The maw descends, a final, wet embrace. Your life, your very being, is absorbed into the asylum's relentless ecosystem, fuel for its eternal, verdant hunger. The harvest claims you.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. A monstrous insectoid creature's razor-sharp limbs and tendrils pierce the viewer's flesh in the foreground, detailed depiction of a heavy wooden beam partially embedded in its chitinous carapace, its gaping maw descends, blood visible.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene14.webp"
+      },
+      {
+        "id": "scene15",
+        "title": "The Severed Heart",
+        "text": "With a grim determination, you wrench and tear at the glowing tendrils. They writhe, snapping with a sound like wet bone, spurting viscous, glowing ichor onto the floor. The great organic mass shudders, its rhythmic pulse faltering, then slowing. A mournful, guttural cry echoes through the lab, and the unnatural light within the room dims, leaving behind a lingering sense of immense loss and decay. The power wanes, but the rot remains. The asylum groans, a beast wounded but not slain.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. A vast organic mass in the center, its glowing tendrils severed and dripping viscous, glowing ichor onto the floor. The mass itself is visibly shuddering, the room's light is dimming, broken tendril ends litter the foreground.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene15.webp"
+      },
+      {
+        "id": "scene16",
+        "title": "Whispers of the Garden",
+        "text": "You place your hands upon the pulsating mass, seeking connection. A flood of alien thoughts, of growth, decay, and the relentless cycle of consumption, rushes into your mind. You perceive the asylum not as a building, but as a vast, sentient organism, its roots deep in the earth, its tendrils reaching for the moon. The whispers become a chorus, a symphony of organic thought that transcends human language. Your mind strains, cracks, then shatters, absorbed into the terrible, beautiful wisdom of the Root Heart. You are no longer You, but an echo within its vast consciousness, a voice amongst the endless harvest.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. The viewer's hands are pressed against a vast, pulsating organic mass in the center, glowing tendrils emanate from the mass and subtly entwine around the hands, a chaotic swirl of alien thoughts and plant imagery emanates from the mass, distorting the scene.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Madness",
+        "image_filename": "scene16.webp"
+      },
+      {
+        "id": "scene17",
+        "title": "Desperate Freedom",
+        "text": "You leap. The air whips past you, cold and sharp. Below, the dark, hungry foliage seems to reach, to grasp. You hit the overgrown earth, a jarring impact, but the momentum carries you, tumbling through brambles and broken branches. Scratched, bruised, but alive, you scramble to your feet, never looking back. The asylum looms behind you, a silent, gaping maw, but you are free, bearing only the scars and the chilling knowledge of what blossoms within its walls. The moonlight guides your desperate flight.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. The viewer is mid-air, having just leaped from a high, overgrown balcony. Below, a dark, churning sea of black vines and bioluminescent fungi covers the ground, the asylum's dark facade visible in the background.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene17.jpg"
+      },
+      {
+        "id": "scene18",
+        "title": "The Still Seed",
+        "text": "You bring a heavy stone down upon the obsidian seed. It shatters with a sound like breaking glass and dry bone, releasing a silent, cold light that swiftly fades. The skeletal roots holding it wither, crumbling to dust. The profound, unsettling power that permeated the vault dissipates, leaving only the ancient scent of damp earth and stale air. The source of the asylum's corruption is undone, though its terrible legacy still marks the land. The garden will no longer bloom.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. A shattered obsidian-like seed lies on the stone floor of the vault chamber, radiating a fading, cold light. The glowing skeletal roots that once held it are now withered and crumbling to dust, a heavy stone lies nearby.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene18.webp"
+      },
+      {
+        "id": "scene19",
+        "title": "Ascendant Bloom",
+        "text": "Your fingers brush the obsidian seed. A jolt, not of pain, but of profound understanding, courses through you. The vault fills with a soft, ethereal glow, emanating from the seed and flowing into your very being. You see the world not as flesh and stone, but as raw potential, as matter waiting to be woven. The whispers in your mind become a clear, resonant voice, teaching you the language of growth and decay, of binding life and reshaping it. You feel the stirrings of a power beyond human comprehension, an ancient, verdant ascendance. You are no longer merely human; you are the seed's chosen, destined to cultivate a new garden.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, cinematic first-person perspective, through your eyes, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. The viewer's hand touches a small obsidian-like seed in the center of the vault. A soft, ethereal glow emanates from the seed and envelops the hand, flowing up the arm, filling the chamber with light. Skeletal roots surround the seed.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Ascension",
+        "image_filename": "scene19.webp"
+      }
+    ],
+    "_metadata": {
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash",
+      "generated_at": "2025-10-23T05:44:02.376Z"
+    },
+    "filename": "the-rootbound-bloom_2025-10-23.json"
   },
   {
     "story_id": "story_1761113637993_4pvixtsuz",
@@ -13678,6 +21175,407 @@ export const EMBEDDED_STORIES: Story[] = [
     "filename": "the-scalpels-memory_2025-10-21.json"
   },
   {
+    "story_id": "story_1761198195255_qh3u1tqzg",
+    "story_title": "The Shepherd's Empty Fold",
+    "tone": "Folk",
+    "duration": "short",
+    "art_direction": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain.",
+    "settings": {
+      "tone": "Folk",
+      "language": "simple",
+      "narrative": "third_person",
+      "pacing": "moderate",
+      "violence": "subtle",
+      "imagery": "rich",
+      "dialogue": "whispers",
+      "duration": "short"
+    },
+    "image_settings": {
+      "image_style": "oil_painting",
+      "lighting_mood": "harsh_fluorescent",
+      "color_palette": "monochrome",
+      "camera_perspective": "dutch_angle"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "The Weaver's Gloom",
+        "text": "They stepped into the cathedral's nave. The great arches, once a testament to peaceful heavens, now curved like gaunt ribs. Flickering lights danced from sconces along the walls, casting strange shadows that seemed to lengthen and contract with a slow, living pulse. The air, once sweet with incense, held a metallic tang, like distant thunder. A large, ornate tapestry hung on the left wall. The main altar stood at the center, stark and empty.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A grand, gothic cathedral nave, long and empty. Flickering wall sconces cast dancing shadows. A large, dark tapestry is on the left wall. A bare altar stands at the back center.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Examine the tapestry on the left wall.",
+            "next": "scene2a"
+          },
+          {
+            "id": "2",
+            "text": "Move towards the main altar at the center.",
+            "next": "scene2b"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.webp"
+      },
+      {
+        "id": "scene2a",
+        "title": "The Threadbare Truth",
+        "text": "The tapestry depicted a pastoral landscape, but the woven sheep were weeping, their shepherd's face contorted in silent horror. The colors, once vibrant, had faded to sickly grays. A loose, silvery thread hung from the bottom edge, revealing a small, hidden mechanism behind the fabric. The air around it felt strangely cold, like a breath held too long.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A close-up view of a large, faded tapestry depicting a twisted pastoral scene with weeping sheep and a horrified shepherd. A single, loose, silvery thread hangs from the bottom, hinting at a hidden mechanism behind it.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Pull the loose thread.",
+            "next": "scene3a"
+          },
+          {
+            "id": "2",
+            "text": "Leave the tapestry and approach a small side chapel.",
+            "next": "scene3b"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2a.webp"
+      },
+      {
+        "id": "scene2b",
+        "title": "Altar of Silent Supplication",
+        "text": "They approached the altar. It was made of dark, unpolished stone, scarred as if by forgotten rituals. It held only a single, tarnished censer, swaying faintly on its chain. Shadows writhed around its base, stretching and shrinking like hungry things. A low, persistent hum emanated from the stone itself, a sound like a distant, off-key lullaby.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A dark, scarred stone altar at the center, empty except for a tarnished censer hanging and gently swaying. Shadows crawl and writhe at the altar's base. An ornate wooden door is visible behind the altar.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Pick up the censer.",
+            "next": "scene3c"
+          },
+          {
+            "id": "2",
+            "text": "Explore the ornate wooden door behind the altar.",
+            "next": "scene3d"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2b.webp"
+      },
+      {
+        "id": "scene3a",
+        "title": "The Unraveling",
+        "text": "They pulled the thread. It unspooled, revealing a small, intricately carved silver key nestled in a hidden compartment. The thread itself felt coarse and sharp against their fingers. A faint, cloying sweet scent, like overripe fruit, now filled the air around them, growing stronger as they examined the key.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A close-up view of a small, hidden compartment revealed behind a tapestry. Inside, an intricately carved silver key rests. A loose, silvery thread dangles.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Take the silver key.",
+            "next": "scene4a"
+          },
+          {
+            "id": "2",
+            "text": "Abandon the search, the sweetness turning sickly.",
+            "next": "ending_escape_tapestry"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3a.webp"
+      },
+      {
+        "id": "ending_escape_tapestry",
+        "title": "Fleeing the Sickly Sweetness",
+        "text": "The cloying sweetness became unbearable, stirring a deep unease within them. They turned sharply, the cathedral seeming to twist and blur at the edges of their vision. They ran, the strange shadows reaching for them, until they burst through the massive doors, gasping for the clean, unburdened air outside. The harvest songs were wrong.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A figure rushing away from the massive, ornate wooden doors of a cathedral, which are slightly ajar, revealing a glimpse of distorted shadows inside.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "ending_escape_tapestry.webp"
+      },
+      {
+        "id": "scene3b",
+        "title": "Chapel of Broken Vows",
+        "text": "The side chapel was narrow and dark, its empty pews lined with dust as thick as winter snow. A single, ancient dark wooden confessional booth stood against the far wall. The air here was utterly still, heavy with unspoken sorrows. But from within the confessional, a faint, rhythmic sound, like paper rustling, could be heard.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A dark, narrow side chapel with empty, dusty wooden pews. A single, dark wooden confessional booth stands prominently against the far wall.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Enter the confessional booth.",
+            "next": "scene4b"
+          },
+          {
+            "id": "2",
+            "text": "Return to the nave, disturbed by the profound stillness.",
+            "next": "ending_escape_confessional"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3b.webp"
+      },
+      {
+        "id": "ending_escape_confessional",
+        "title": "Silence's Flight",
+        "text": "The stillness of the chapel was too deep, too absolute. It felt like the world had stopped, waiting. They backed away slowly, the heavy silence pressing in, then fled the chapel, a growing dread propelling them through the nave and out into the fading light of the world beyond the cathedral. The harvest songs were wrong.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A figure running away from the entrance of a dark, silent chapel, moving towards a distant, blurred cathedral exit.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "ending_escape_confessional.webp"
+      },
+      {
+        "id": "scene3c",
+        "title": "The Censer's Cold Embrace",
+        "text": "They picked up the censer. It was heavy, cold to the touch, and seemed to thrum faintly. From its tarnished surface, faint, broken blessings whispered, like wind through dry reeds. The low hum from the altar intensified, merging with the censer's song. It felt as though the object was draining warmth, pulling it into itself.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A close-up of a hand holding a heavy, tarnished censer, its surface appearing cold and subtly vibrating. Shadows dance around the object.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Hold onto the censer, trying to understand the whispers.",
+            "next": "ending_possession"
+          },
+          {
+            "id": "2",
+            "text": "Drop it and back away from the altar.",
+            "next": "ending_escape_censer"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3c.webp"
+      },
+      {
+        "id": "ending_possession",
+        "title": "Echoes of the Blessed",
+        "text": "The whispers intensified, forming a chorus of ancient, broken blessings that flooded their mind. The censer throbbed, its coldness spreading through their arm, then their body. Their own thoughts were replaced by the sacred verses, twisted and dark. They were no longer themselves, but an echo of the forgotten devotion, bound to the censer's sorrow. The harvest songs were wrong.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A figure stands rigidly at the altar, eyes wide and unfocused, one hand clutching a cold, tarnished censer. Subtle ethereal wisps emanate from the censer and around the figure's head.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Possession",
+        "image_filename": "ending_possession.webp"
+      },
+      {
+        "id": "ending_escape_censer",
+        "title": "Retreat from the Hum",
+        "text": "They dropped the censer. It clattered loudly on the stone, the sound echoing through the empty nave. The hum from the altar momentarily receded, leaving a ringing silence. A primal fear spurred them on, towards the cathedral's great entrance. They did not look back, fleeing the cursed space as quickly as their legs would carry them. The harvest songs were wrong.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A tarnished censer lies on the dark stone floor near the altar, distorted shadows stretching away from it. A blurred figure is seen rushing towards a distant, large cathedral exit.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "ending_escape_censer.webp"
+      },
+      {
+        "id": "scene3d",
+        "title": "The Sacristy's Shadow",
+        "text": "The ornate door creaked open, revealing a small, dark sacristy. Piled vestments slumped in dusty heaps. A stone basin held murky, stagnant water. A faint, phosphorescent glow emanated from a small, intricately carved reliquary resting on a high, unreachable shelf near the ceiling. Below, on lower shelves, dusty scrolls and forgotten liturgical tools lay scattered.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A dark, cluttered sacristy room. Piled, dusty vestments are on the left. A stone basin is in the foreground. A small, intricately carved reliquary on a high shelf emits a faint phosphorescent glow at the back. Lower shelves with scrolls are on the right.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Try to reach the glowing reliquary.",
+            "next": "scene4c"
+          },
+          {
+            "id": "2",
+            "text": "Search for something on the lower, more accessible shelves.",
+            "next": "scene4d"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3d.webp"
+      },
+      {
+        "id": "scene4a",
+        "title": "The Key's Call",
+        "text": "The silver key felt warm in their hand, almost vibrating with purpose. It seemed to pull them back towards the altar, where they now noticed a small, untouched prayer chest, almost hidden in the shadows. The chest had a keyhole that perfectly matched the silver key.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A close-up of a hand holding a glowing silver key. In the background, a dark, small wooden prayer chest is barely visible on the altar, its keyhole beckoning.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Use the key to open the prayer chest.",
+            "next": "ending_revelation"
+          },
+          {
+            "id": "2",
+            "text": "Leave the key and the chest, feeling a growing urgency to leave.",
+            "next": "ending_escape_key"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4a.webp"
+      },
+      {
+        "id": "ending_revelation",
+        "title": "The True Harvest",
+        "text": "The chest opened with a soft click. Inside, nestled on velvet, lay a folded, ancient parchment map of the cathedral. A shimmering light radiated from it. A single symbol, a stylized weeping eye, was marked on the main altar. Below it, scribbled words revealed: 'The Harvest is not of grain, but of sight.' A sudden, chilling clarity filled their mind, understanding the cathedral's true purpose. The harvest songs were wrong.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. An open, ornate wooden prayer chest, revealing an ancient, folded parchment map radiating a soft light. A stylized weeping eye symbol is clearly marked on the map.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "ending_revelation.webp"
+      },
+      {
+        "id": "ending_escape_key",
+        "title": "Unburdened Departure",
+        "text": "The weight of the key, and the secrets it promised, was too much. They set it down gently, backing away from the altar and the ominous chest. The cathedral's shadows seemed to breathe behind them as they retreated, faster and faster, until they found the exit and burst out into the blessed, open air. The harvest songs were wrong.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A small, ornate silver key lies abandoned on a dark altar beside a closed wooden prayer chest. A blurred figure is seen fleeing towards a distant, large cathedral exit.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "ending_escape_key.webp"
+      },
+      {
+        "id": "scene4b",
+        "title": "Whispers from the Booth",
+        "text": "They entered the confessional, the small space surprisingly cold. From behind the screen, a voice, dry and rustling like autumn leaves, answered. It offered peace through submission, promising solace for their burdened soul. 'Lean closer, child of the harvest, and all doubt will wither.'",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. Inside a dark, cramped confessional booth. The partition screen is visible on the left. Shadows cling to the corners. An unsettling, distorted light source suggests a hidden presence.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Listen intently to the voice's promises.",
+            "next": "ending_absorption"
+          },
+          {
+            "id": "2",
+            "text": "Sharply retort, demanding to know its identity.",
+            "next": "scene5a"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4b.webp"
+      },
+      {
+        "id": "ending_absorption",
+        "title": "The Withered Soul",
+        "text": "They leaned in, captivated by the voice's ancient cadence. It filled their mind, twisting their perceptions until the cathedral's cold stone felt like a warm embrace. Their very being began to unravel, absorbed into the ancient echo, becoming one with the whispers of forgotten devotion. Their individuality dissolved, leaving only blissful dread. The harvest songs were wrong.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A figure sitting in a confessional booth, head tilted, eyes vacant. Ethereal, shadowy tendrils seem to emanate from the screen and wrap around the figure's head and body, dissolving their form.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Absorption",
+        "image_filename": "ending_absorption.webp"
+      },
+      {
+        "id": "scene5a",
+        "title": "The Challenge",
+        "text": "The voice paused, then a dry, rustling laugh echoed from the screen. 'Ignorance is a blessing, little seed. But you seek knowledge, and it shall be granted.' The confessional became impossibly cold, the very air thick with an oppressive, unseen presence. The whispers grew louder, now angry, demanding submission.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A figure recoiling in a confessional booth, face contorted in fear. The partition screen on the left appears to ripple, and the air is thick with swirling, dark energy, emanating from the unseen presence.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Try to banish the presence with strong will.",
+            "next": "ending_banishment"
+          },
+          {
+            "id": "2",
+            "text": "Flee the confessional in terror.",
+            "next": "ending_escape_challenge"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5a.webp"
+      },
+      {
+        "id": "ending_banishment",
+        "title": "The Seed Unbroken",
+        "text": "They focused their will, picturing a warm, golden light pushing back the oppressive cold. A desperate prayer, half-remembered, formed on their lips. The presence recoiled, a shriek echoing from the screen, a sound like tearing fabric. The cold receded, leaving behind a profound emptiness. They had driven it back, for now. The harvest songs were wrong.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A figure standing defiantly in a confessional booth, bathed in a faint, ethereal glow. Dark, shadowy wisps are visibly recoiling and dissipating from around them.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "ending_banishment.webp"
+      },
+      {
+        "id": "ending_escape_challenge",
+        "title": "Flight from the Voice",
+        "text": "The oppressive cold and the angry whispers were too much. They burst from the confessional, gasping for breath, the cathedral seeming to twist and spin around them. Every shadow now looked like a reaching hand. They ran, adrenaline coursing, until they found the massive exit and escaped into the indifferent evening air. The harvest songs were wrong.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A figure bursting out of a dark confessional booth, arms flailing, face a blur of terror. The nave behind them appears distorted and menacing, with long, stretching shadows.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "ending_escape_challenge.webp"
+      },
+      {
+        "id": "scene4c",
+        "title": "The Eye's Gaze",
+        "text": "They stretched, fingers brushing the high shelf, retrieving the reliquary. Inside, nestled on faded silk, was a single, intricately carved wooden eye. It pulsed with a cold, pale light, like a moonstone. As they held it, their vision sharpened, focusing on the altar, where a faint, almost invisible sigil of binding now pulsed beneath the stone surface.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A close-up of a hand holding a small, intricately carved wooden eye that glows with a cold, pale light. In the background, a faint, pulsing sigil is barely visible on the stone surface of the altar.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to disturb the glowing sigil on the altar.",
+            "next": "ending_transformation"
+          },
+          {
+            "id": "2",
+            "text": "Leave the eye and exit the sacristy.",
+            "next": "ending_escape_eye"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4c.webp"
+      },
+      {
+        "id": "ending_transformation",
+        "title": "The Seed Broken",
+        "text": "As they touched the sigil, a ripple of raw, unholy power erupted. The entire cathedral groaned, the flickering lights dimming, then flaring violently. Their body convulsed, bones shifting, flesh reforming. The wood of the eye pulsed, searing into their palm. They were no longer human, but something else, something connected to the cathedral's ancient, dark heart. The harvest songs were wrong.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A figure's hand pressing onto a glowing sigil on a stone altar. The figure's body is distorted and blurring, with an unnerving elongation and shift of form. The cathedral lights flare wildly.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Transformation",
+        "image_filename": "ending_transformation.webp"
+      },
+      {
+        "id": "ending_escape_eye",
+        "title": "Sight's Retreat",
+        "text": "The wooden eye felt too potent, its power too unsettling. They carefully placed it back in the reliquary, leaving the high shelf and the sacristy's ominous glow. The feeling of being watched intensified as they hurried through the nave, sensing a cold presence at their back, until they escaped through the massive doors. The harvest songs were wrong.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A figure rushing away from the sacristy entrance, clutching their chest. The cathedral's shadows stretch long and thin, as if pursuing them towards a distant exit.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "ending_escape_eye.webp"
+      },
+      {
+        "id": "scene4d",
+        "title": "Lower Shelves' Secrets",
+        "text": "Among the dusty scrolls and forgotten tools, they found a small, leather-bound journal. Its pages were filled with frantic drawings of eyes and strange, geometric patterns, accompanied by desperate references to a 'Blessed Eye' and rituals of sight. The last entry ended abruptly, smeared with dried ink. A sudden, inexplicable chill filled the sacristy, as if something had just noticed them.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A close-up of an open, leather-bound journal on a dusty shelf, showing frantic drawings of eyes and geometric patterns. Ink is smeared on the last entry. The surrounding shelves are filled with blurred, forgotten liturgical tools.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Read more intently into the journal's chilling details.",
+            "next": "ending_madness"
+          },
+          {
+            "id": "2",
+            "text": "Quickly leave the sacristy, feeling the sudden chill.",
+            "next": "ending_escape_journal"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4d.webp"
+      },
+      {
+        "id": "ending_madness",
+        "title": "The Unveiled Truth",
+        "text": "The journal's frantic scrawls unveiled a truth too terrible for the mind to bear. Rituals of unbinding, the sacrifice of sight for a greater, darker vision. The words twisted into impossible knots in their head, merging with the cathedral's hum. Reality fractured, and the lines between truth and horror dissolved. They understood too much, and nothing at all. The harvest songs were wrong.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A figure's face, contorted in terror and profound disorientation, close to an open journal filled with terrifying drawings. The background is a dizzying swirl of architectural lines and shadows, reflecting a fractured reality.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Madness",
+        "image_filename": "ending_madness.webp"
+      },
+      {
+        "id": "ending_escape_journal",
+        "title": "Ignorance is Mercy",
+        "text": "The sudden chill and the journal's unsettling contents spurred them to move. They slammed the journal shut, leaving it on the dusty shelf, and quickly exited the sacristy, a growing sense of dread urging them towards the cathedral's entrance. They did not slow until the cold, clear air outside embraced them. The harvest songs were wrong.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, dutch angle perspective, tilted unsettling view, harsh fluorescent lighting, clinical brightness, black and white monochrome, grayscale tones, subtle film grain. A closed leather-bound journal lies on a dusty shelf in a dark sacristy. A figure's hand is seen quickly pulling away from it. A blurred door leads to the main cathedral nave.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "ending_escape_journal.webp"
+      }
+    ],
+    "_metadata": {
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash",
+      "generated_at": "2025-10-23T05:44:33.900Z"
+    },
+    "filename": "the-shepherds-empty-fold_2025-10-23.json"
+  },
+  {
     "story_id": "story_1761113697216_xd90qe4j6",
     "story_title": "The Suture of Moments",
     "tone": "Psychological",
@@ -14116,6 +22014,347 @@ export const EMBEDDED_STORIES: Story[] = [
       "generated_at": "2025-10-22T06:14:56.963Z"
     },
     "filename": "the-suture-smile-ward_2025-10-22.json"
+  },
+  {
+    "story_id": "story_1761238986132_6b3pbwgds",
+    "story_title": "The Syllabus of Suffering",
+    "tone": "Body Horror",
+    "duration": "medium",
+    "art_direction": "Watercolor gothic, flowing dark pigments, artistic bleeding, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, low angle perspective, looking up dramatically.",
+    "settings": {
+      "tone": "Body Horror",
+      "language": "elevated",
+      "narrative": "third_person",
+      "pacing": "fast",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "whispers",
+      "duration": "medium"
+    },
+    "image_settings": {
+      "image_style": "watercolor_gothic",
+      "lighting_mood": "candlelight",
+      "color_palette": "sepia_tones",
+      "camera_perspective": "low_angle"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "The Threshold of Fading Youth",
+        "text": "The iron gate groaned, a rusted maw exhaling cold, damp air. They stood before the abandoned academy, its facade a skeletal grin of broken windows. Once a beacon of learning, now a monument to forgotten screams. A sickly, greenish light pulsed erratically from a high window, painting fleeting, phantom silhouettes against the aged brick. The air itself felt thick, like congealed blood, pressing in on their lungs. A faint, almost imperceptible whisper, dry as desiccated leaves, brushed past their ear: '…stay…'.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, low angle perspective, looking up dramatically, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, subtle film grain. A crumbling, gothic school facade at the center, its broken windows like empty eyes, emanating a sickly green light from an upper story window on the left. Overgrown vines clutch at the decayed brickwork, and a rusted, ornate iron gate stands slightly ajar in the foreground, creating a narrow opening.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Investigate the faint light upstairs.",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Descend into the administrative basement.",
+            "next": "scene3"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.jpg"
+      },
+      {
+        "id": "scene2",
+        "title": "The Tableau of Decay",
+        "text": "They climbed the grand, splintered staircase, each step groaning underfoot as if protesting the intrusion. The flickering light intensified, revealing a classroom frozen in a tableau of macabre beauty. Desks were overturned, their surfaces etched with desperate, clawed marks. Spectral figures, translucent and wavering like heat haze, drifted between the desks. Their faces were indistinct, yet their agony was palpable, a silent scream that vibrated in the very air. One elongated, malformed hand, half-formed from shadow, reached out, its fingers dissolving into nothingness before it could make contact. A high-pitched, childish whimper echoed, then was abruptly cut short.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, low angle perspective, looking up dramatically, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, subtle film grain. A classroom with overturned wooden desks scattered across the floor. Translucent, shimmering spectral figures with indistinct faces hover between the desks, one elongated, dissolving hand reaching towards the viewer from the right. The flickering green light emanates from a broken window in the far wall.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt communication with the spectral figures.",
+            "next": "scene4"
+          },
+          {
+            "id": "2",
+            "text": "Retreat to the school library, seeking information.",
+            "next": "scene5"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.jpg"
+      },
+      {
+        "id": "scene3",
+        "title": "The Records of Perpetual Regret",
+        "text": "A fetid aroma of mildew and stagnant water assaulted them as they navigated the crumbling stairs to the basement. The administrative office was a choked space, overflowing with water-damaged ledgers and file cabinets disgorging their moldering contents. The air was heavy with unspoken anxieties, the collective dread of generations of forgotten records. A faint, cloying sweetness, like decaying fruit, permeated the space. Among the soggy papers, a sudden, sharp rap came from within a file drawer, followed by a sound like a wet cough, disturbingly human yet utterly inhuman.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, low angle perspective, looking up dramatically, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, subtle film grain. A cramped, water-damaged basement office filled with tall, rusted metal file cabinets. Soggy, moldering papers are strewn across a cluttered wooden desk in the foreground and overflowing from open file drawers. A flickering, unseen light source casts long, distorted shadows of the cabinet edges upwards onto the ceiling.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Scrutinize the water-logged ledgers for names.",
+            "next": "scene6"
+          },
+          {
+            "id": "2",
+            "text": "Seek an exit through a rusted maintenance tunnel.",
+            "next": "scene7"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.jpg"
+      },
+      {
+        "id": "scene4",
+        "title": "The Whispering Chalkboard's Lament",
+        "text": "They stepped closer, a chilling cold seeping into their bones. The spectral figures recoiled slightly, their forms flickering like damaged film. The sickly green light intensified, focusing on a blackboard where faint, childlike scrawl began to appear, shifting and reforming with agonizing slowness. 'H-E-L-P-U-S' it spelled, then distorted into frantic, overlapping lines, coalescing into images of elongated limbs and mouths stretched in silent screams. A chorus of fragile, almost inaudible whispers, like static, filled the room: '…can't… leave…'. Their own thoughts felt alien, pushed to the periphery by the invasive dread.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, low angle perspective, looking up dramatically, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, subtle film grain. A cracked, dark blackboard dominates the center, covered in frantic, glowing green chalk scrawl that forms distorted, elongated limbs and screaming faces. Translucent, wavering spectral figures are visible in the background, their forms recoiling from the viewer. The green light intensifies around the blackboard, casting sharp, dancing shadows.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to decipher the frantic scrawl.",
+            "next": "scene8"
+          },
+          {
+            "id": "2",
+            "text": "Disrupt the connection, forcefully.",
+            "next": "scene9"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.jpg"
+      },
+      {
+        "id": "scene5",
+        "title": "The Library of Muted Screams",
+        "text": "The library offered a brief respite, but the silence was heavier, more suffocating. Dust motes danced in the sparse light, each particle seeming to carry a muffled, ancient sorrow. The bookshelves, once guardians of knowledge, now stood like tombs. As they moved deeper, the air grew warmer, infused with a saccharine comfort that quickly turned cloying. The whispers began again, not pleading, but soothing, promising respite, tempting them to lie among the overturned chairs and just… rest. Their vision blurred, the bookshelves seeming to melt into soft, embracing forms, their own flesh feeling heavy, sluggish, ready to dissolve into the quietude.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, low angle perspective, looking up dramatically, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, subtle film grain. Tall, decaying wooden bookshelves filled with aged, tattered books line both sides of a narrow library aisle, receding into the background. Soft, blurry shapes of overturned wooden chairs are visible in the foreground. The air shimmers with a saccharine warmth, causing the bookshelves to appear as if melting slightly, their forms indistinct and invitingly soft.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Search for a way to break the illusion.",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Surrender to the comforting, dream-like embrace.",
+            "next": "scene_madness_ending"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.jpg"
+      },
+      {
+        "id": "scene6",
+        "title": "The Headmaster's Rotting Sanctum",
+        "text": "They pried open a swollen ledger, its pages fused by mold and time. Names, dates, disciplinary notes – a grim catalog. The whispers grew more coherent here, weaving tales of academic pressure and a rigid, unforgiving system. The Headmaster's office, a small room off the main administrative area, beckoned with an oppressive stillness. A grand, ornate wooden desk, now half-submerged in stagnant water, dominated the room. Its surface, once polished, was now coated in a furry layer of green mold. A locked drawer in the desk seemed to vibrate with a suppressed energy, radiating a cold, clammy dread that made their skin crawl, a premonition of something deeply unsettling hidden within.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, low angle perspective, looking up dramatically, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, subtle film grain. A grand, ornate wooden desk, half-submerged in stagnant, murky water, occupies the center foreground. Its top is covered in a thick layer of green mold. Water-logged, decaying ledgers and papers are scattered on the floor and desk. A single, locked drawer on the desk's right side seems to hum with an unseen energy, casting a long, distorted shadow up the wall.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Discover the Headmaster's hidden journals.",
+            "next": "scene10"
+          },
+          {
+            "id": "2",
+            "text": "Disturb a sealed, moldering box.",
+            "next": "scene_corruption_ending"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6.jpg"
+      },
+      {
+        "id": "scene7",
+        "title": "The Gutted Boiler Room",
+        "text": "The maintenance tunnel was a constricted, claustrophobic passage, choked with rusted pipes that wept corrosive droplets onto the floor. It opened into the colossal, skeletal remains of the boiler room. Enormous, defunct furnaces gaped like metallic mouths, their insides scorched and empty. The air here was hot, thick with the smell of ozone and decay, even without any active machinery. From the deepest recess of one furnace, a sound like grinding bone reverberated, and a grotesque, shimmering form, half-human, half-machine, began to coalesce, its spectral limbs extending and retracting with disturbing fluidity, as if its very essence was being torn apart and reformed.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, low angle perspective, looking up dramatically, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, subtle film grain. A cavernous boiler room, dominated by two massive, rusted furnaces, their gaping mouths at the center and left. Tangled, corroded pipes crisscross the ceiling and walls. A grotesque, shimmering, half-human, half-machine spectral form coalesces within the dark maw of the furnace on the left, its limbs twisting and reforming with disturbing motion.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Navigate the treacherous, decaying machinery.",
+            "next": "scene11"
+          },
+          {
+            "id": "2",
+            "text": "Find a hidden shaft leading upwards.",
+            "next": "scene12"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.jpg"
+      },
+      {
+        "id": "scene8",
+        "title": "The Auditorium's False Applause",
+        "text": "Deciphering the scrawl felt like prying open a wound. It spoke of a 'final performance,' a ritual of academic excellence that turned tragic. Drawn by an unseen force, they found themselves in the vast, dilapidated auditorium. The stage was set, dusty velvet curtains hanging in shredded tatters. Phantom spotlights swept across the empty seats, illuminating fleeting specters of child-like figures, some with hands clutched over mouths, others contorted in silent horror. The air crackled with a chilling energy, as if the echoes of a devastating sound still resonated. Then, a single, thunderous clap echoed through the vast space, followed by a chorus of spectral, mocking applause that rose to a fever pitch, each clap a slap against their sanity.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, low angle perspective, looking up dramatically, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, subtle film grain. A vast, dilapidated auditorium stage fills the center, with torn velvet curtains hanging dramatically. Fleeting specters of child-like figures are visible in the foreground, some with hands covering mouths, others contorted. Phantom spotlights pierce the gloom from high on the right, illuminating the empty, decaying seats below the stage. The light catches dust motes dancing in the air.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Engage with the spectral performance.",
+            "next": "scene13"
+          },
+          {
+            "id": "2",
+            "text": "Slip away through the stage wings.",
+            "next": "scene12"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene8.jpg"
+      },
+      {
+        "id": "scene9",
+        "title": "The Shifting Hallways of Memory",
+        "text": "A sudden, disorienting force slammed into them, blurring the world. The hallways twisted and elongated, the walls themselves seeming to breathe, pulsating with a sickly, organic rhythm. Flashes of impossible geometries appeared and vanished, a kaleidoscope of architectural torment. Familiar doors shifted, their numbers changing, their brass handles morphing into grotesque, grasping fingers. The faint scent of old textbooks mixed with something metallic and pungent, like blood and rust. A voice, a distorted chorus of youthful agony, pressed in on their mind, not speaking words, but impressions: fear, betrayal, dissolution. Their own identity felt tenuous, eroding with each pulsating breath of the hallway.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, low angle perspective, looking up dramatically, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, subtle film grain. A long, twisting school hallway with walls that appear to pulsate and breathe, showing impossible, shifting geometries. Doors on both sides are warping, their numbers changing, and brass handles morphing into grotesque, grasping fingers. Flickering light source at the end of the hallway casts elongated, distorted shadows that dance and stretch dramatically.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Push through the dissolving walls.",
+            "next": "scene11"
+          },
+          {
+            "id": "2",
+            "text": "Retreat to a seemingly less volatile area – the art room.",
+            "next": "scene14"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene9.jpg"
+      },
+      {
+        "id": "scene10",
+        "title": "The Catalyst of Betrayal",
+        "text": "They uncovered a hidden compartment in the Headmaster's desk, revealing several small, leather-bound journals. Their contents were a descent into madness: the Headmaster's obsession with a 'perfect curriculum,' a secret society among the faculty, and finally, a chilling account of a ritual performed to 'absorb' the students' youthful brilliance, twisting it into a perverse form of eternal academic success. The ritual, however, had gone horribly wrong, binding the students' tormented spirits to the school, feeding on their emotional residue. The ink bled on the pages, revealing a faded diagram of a strange device, a 'Harmonic Resonator,' hidden somewhere within the school, capable of either amplification or severance. The air tasted bitter, like ash and deceit.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, low angle perspective, looking up dramatically, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, subtle film grain. Several small, leather-bound journals lie open on a decaying wooden desk, their pages stained with mold and bleeding ink. A faded, complex diagram of a 'Harmonic Resonator' is visible on one page, illuminated by a sickly green glow that pulses from beneath the desk, casting stark shadows on the journal covers.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Use the knowledge to confront the spirits.",
+            "next": "scene13"
+          },
+          {
+            "id": "2",
+            "text": "Seek an artifact mentioned in the journals.",
+            "next": "scene14"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene10.jpg"
+      },
+      {
+        "id": "scene11",
+        "title": "The Grand Stain of Sacrifice",
+        "text": "They stumbled into the central hall, where a vast, dark stain marred the polished floorboards. It was more than a stain; it was a scar, a wound upon the very building, seeping a viscous, tar-like substance that pulsed faintly with a dull, internal light. This was the nexus, the focal point of the ritual's failure, where youthful promise had been violently transmuted into eternal torment. Ghastly faces, distorted by silent screams, flickered within the tar, reaching out with dissolving hands. A cold, skeletal hand, half-submerged in the viscous pool, twitched, beckoning them closer, promising a truth that would tear their mind asunder. The stench of decay was overwhelming, mixed with a metallic tang that spoke of fresh, unseen wounds.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, low angle perspective, looking up dramatically, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, subtle film grain. A vast, dark, viscous stain resembling tar covers the center of the polished wooden floor in a grand hall, pulsing with a dull, internal light. Ghastly, distorted faces flicker within the tar, reaching out with dissolving hands. A skeletal hand, half-submerged, twitches from the pool. Decaying archways line the background, casting long, dramatic shadows.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to cleanse the source of the stain.",
+            "next": "scene_banishment_ending"
+          },
+          {
+            "id": "2",
+            "text": "Absorb the lingering despair to understand.",
+            "next": "scene_revelation_ending"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene11.jpg"
+      },
+      {
+        "id": "scene12",
+        "title": "The Broken Bell Tower",
+        "text": "They scrambled through the high windows or navigated precarious, rusted ladders, emerging into the broken bell tower. The wind howled through the skeletal framework, a mournful dirge carrying away the suffocating dread. Below, the school sprawled, a decaying beast shrinking with each breath of freedom. The sickening green light from within flickered, diminished, no longer a beacon of torment but a fading ember. As they reached the edge, the school’s oppressive aura seemed to dissipate, replaced by the crisp, biting air of the outside world, a stark contrast to the thick, viscous atmosphere they had endured. The whispers faded, replaced by the wind's indifferent howl.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, low angle perspective, looking up dramatically, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, subtle film grain. The skeletal framework of a broken bell tower fills the center, with gaps where bells once hung. Beyond the open arches, a sprawling, decaying school building recedes into the distance, with a faint, sickly green light flickering from one of its upper windows. The wind whips through the tower, depicted by swirling, translucent lines.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene12.jpg"
+      },
+      {
+        "id": "scene13",
+        "title": "The Echo of a Final Act",
+        "text": "They returned to the auditorium, armed with knowledge. The Headmaster's journals had revealed the 'Harmonic Resonator' to be the school's pipe organ, warped by the ritual. With a surge of desperate resolve, they approached the instrument, its ivory keys yellowed like old teeth. As their fingers touched the keys, a horrific transformation began. The instrument itself seemed to fuse with their flesh, tendrils of wood and metal piercing their skin, anchoring them to the stage. The spectral audience shrieked, not in fear, but in triumph. Their own body began to resonate, not with music, but with the combined agony of the trapped students, their form distending, reshaping, becoming a living conduit for the school’s perpetual torment. They were no longer an observer, but an integral, grotesque part of the 'performance,' a new conductor in this macabre orchestra of suffering.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, low angle perspective, looking up dramatically, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, subtle film grain. A massive, decaying pipe organ, its ivory keys yellowed like old teeth, dominates the stage center. Tendrils of wood and metal from the organ visibly pierce the skin of a human figure standing at the console, fusing with their flesh. Spectral figures in the audience shriek with triumphant, elongated mouths. The organ pipes stretch upwards dramatically, casting oppressive shadows.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Transformation",
+        "image_filename": "scene13.jpg"
+      },
+      {
+        "id": "scene14",
+        "title": "The Mutilated Canvas",
+        "text": "The art room was a chilling testament to violated innocence. Easels stood askew, their canvases defiled not by paint, but by grotesque, visceral scrawls of bodily fluids and human-like viscera. A particularly large canvas, centrally placed, depicted a student, their form twisted and elongated, their internal organs splayed outward, forming a grotesque floral pattern. The sheer depravity of it made their stomach lurch. A spectral child, its eyes hollow voids, floated nearby, its form flickering, drawing them closer to the horrifying masterpiece. The child’s touch, cold and wet, pressed against their mind, implanting images of their own skin peeling, their muscles dissolving, becoming the 'paint' on this morbid palette.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, low angle perspective, looking up dramatically, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, subtle film grain. A large canvas on an easel in the center foreground depicts a grotesque, twisted student figure with internal organs splayed out like a floral pattern. The canvas is stained with visceral, organic matter. A spectral child with hollow eyes floats near the canvas, its form shimmering. Other easels with similarly defiled canvases are visible in the background, amidst general art room clutter.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Attempt to restore a defiled artwork.",
+            "next": "scene_revelation_ending"
+          },
+          {
+            "id": "2",
+            "text": "Destroy the grotesque art entirely.",
+            "next": "scene_oblivion_ending"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene14.webp"
+      },
+      {
+        "id": "scene_madness_ending",
+        "title": "The Cacophony Within",
+        "text": "The saccharine embrace tightened, pulling them down into the soft, yielding dust. The whispers ceased, replaced by a deafening chorus of their own fractured thoughts, each one a sharp, agonizing splinter. Their perception of reality dissolved. The library walls melted into a swirling vortex of sepia tones, and their limbs felt less like flesh and bone, more like malleable clay, endlessly kneading and reshaping itself. They were no longer a cohesive being, but a collection of raw sensory input, an unending scream trapped within the confines of their own skull, a permanent, internal cacophony orchestrated by the school's lingering despair. Their mind was a library of screams, and they were merely another page.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, low angle perspective, looking up dramatically, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, subtle film grain. A figure lies prone on a floor covered in dust, their body indistinct and blending into the surrounding warped library bookshelves which are melting into swirling, indistinct forms. The entire scene is a blur of sepia and brown hues, with faint, distorted spectral faces merging into the swirling patterns. The perspective conveys a sense of crushing weight and dissolution.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Madness",
+        "image_filename": "scene_madness_ending.jpg"
+      },
+      {
+        "id": "scene_corruption_ending",
+        "title": "The Lingering Taint",
+        "text": "They prised open the moldering box. Inside, amidst desiccated academic awards, lay a small, tarnished silver locket. As they touched it, a searing pain lanced through their hand, not physical, but ethereal. The locket pulsed with a malevolent, sickly light, and tendrils of inky darkness snaked from it, creeping up their arm, under their skin. They watched in horror as their veins turned black, bulging grotesquely. The whispers in the room no longer seemed external; they were in their blood, their bones, urging them to embrace the school's insidious corruption, to become a vessel for its unending malice. Their own reflection in a shattered shard of glass showed eyes that glowed with an unnatural, hungry light, their pupils dilating into endless voids.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, low angle perspective, looking up dramatically, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, subtle film grain. A tarnished silver locket pulses with sickly green light in the foreground, held by a human hand. Inky black tendrils snake from the locket and up the arm, causing the veins to bulge grotesquely and turn black. The arm is prominently featured, distorting. Behind, a moldering wooden box with desiccated awards spills its contents onto a wet, decaying floor.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Corruption",
+        "image_filename": "scene_corruption_ending.jpg"
+      },
+      {
+        "id": "scene_oblivion_ending",
+        "title": "The Erased Self",
+        "text": "With a primal scream, they tore at the grotesque canvas, ripping and shredding until it was nothing but tattered scraps. But as each piece fell, so too did a fragment of their own memory, their own identity. The spectral child shrieked, a sound of utter void, and its hollow eyes seemed to absorb their very being. The art room walls dissolved into a featureless void, mirroring the rapidly emptying landscape of their mind. They forgot their name, their purpose, the reason they were even there. There was only the sensation of falling, of dissolving into nothingness, their form blurring, their essence unravelling into the infinite, silent expanse of true oblivion. The school had consumed their consciousness, leaving only an empty vessel.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, low angle perspective, looking up dramatically, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, subtle film grain. A human figure's hands are tearing at a canvas in the foreground, the canvas dissolving into tattered scraps and swirling void. A spectral child with hollow, absorbing eyes floats ominously in the center, its form indistinct. The art room walls are dissolving into a featureless, empty abyss in the background, mirroring a sense of erasure.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene_oblivion_ending.jpg"
+      },
+      {
+        "id": "scene_banishment_ending",
+        "title": "The Silenced Halls",
+        "text": "Summoning an inner strength, they focused their intent on the viscous stain. It resisted, writhing like a dying creature, its faces contorting in silent screams of defiance. But they pressed on, channeling their will, visualizing the stain receding, cleansing. A blinding flash erupted, accompanied by a deafening, unified shriek that tore through the very fabric of the building. The stain vaporized, leaving behind scorched, but clean, floorboards. The sickening green lights across the school winked out one by one, plunging the halls into absolute darkness, broken only by the dim, warm glow of a single, flickering candle they had somehow conjured. The suffocating dread lifted, replaced by an echoing silence, profound and empty, but mercifully free of torment. The student spirits were gone, their endless suffering finally, truly laid to rest.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, low angle perspective, looking up dramatically, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, subtle film grain. A dramatic blinding flash of white light erupts from the center where a viscous, dark stain once was on the wooden floor. The light dissipates upwards, showing scorch marks on the clean floorboards. The once active, sickening green lights in the distant hallways are now completely dark. A single, small, warm flickering candlelight sits on the clean floor in the immediate foreground, casting a tiny pool of warmth.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene_banishment_ending.jpg"
+      },
+      {
+        "id": "scene_revelation_ending",
+        "title": "The Weight of Witness",
+        "text": "Whether by absorbing the stain's despair or by restoring the defiled art, a torrent of raw, unfiltered memory flooded their mind. Not just images, but sensations: the grinding pressure of expectation, the suffocating fear of failure, the visceral agony of betrayal, and the final, crushing moment of the ritual's perversion. They witnessed everything, felt everything, understanding the full, horrifying scope of the students' torment and the Headmaster's insidious cruelty. The whispers became clear, articulate voices, no longer menacing, but sorrowful, appreciative. The school, though still decaying, felt less oppressive, the air lighter. They carried the weight of this knowledge, a sacred and terrible burden. They would leave, but they would never truly escape the lessons learned within these walls, transformed by the indelible truth imprinted upon their very soul.",
+        "image_prompt": "Watercolor gothic, flowing dark pigments, artistic bleeding, low angle perspective, looking up dramatically, warm flickering candlelight, dancing shadows, vintage sepia tones, aged brown hues, subtle film grain. A human figure stands in the center foreground, head bowed slightly, illuminated by a warm, ethereal glow that emanates from within their own chest. Around them, ghostly, translucent images of student faces, both tormented and peaceful, swirl and overlap, receding into the background. The decaying school environment is still visible but softened, with a sense of immense, heavy knowledge radiating from the figure's core.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "scene_revelation_ending.jpg"
+      }
+    ],
+    "_metadata": {
+      "provider": "Gemini",
+      "model": "gemini-2.5-flash",
+      "generated_at": "2025-10-23T17:04:46.949Z"
+    },
+    "filename": "the-syllabus-of-suffering_2025-10-23.json"
   },
   {
     "story_id": "story_1707920158863_s4n3l8dm4",
@@ -15772,6 +24011,993 @@ export const EMBEDDED_STORIES: Story[] = [
     "filename": "tome-of-veiled-chronophages_2025-10-21.json"
   },
   {
+    "story_id": "story_1761198231025_i8kdqel6v",
+    "story_title": "Tomes of the Fractured Veil",
+    "tone": "Noir Horror",
+    "duration": "long",
+    "art_direction": "Pixelated noir horror in a cursed library with supernatural darkness and cult rituals",
+    "settings": {
+      "tone": "Noir Horror",
+      "language": "literary",
+      "narrative": "first_person",
+      "pacing": "moderate",
+      "violence": "moderate",
+      "imagery": "sparse",
+      "dialogue": "whispers",
+      "duration": "long"
+    },
+    "image_settings": {
+      "image_style": "pixel_horror",
+      "lighting_mood": "dim_ambient",
+      "color_palette": "monochrome",
+      "camera_perspective": "third_person_close"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "The Threshold of Secrets",
+        "text": "I pushed open the heavy oak doors, the chill of the night clinging to my coat like a bad debt. Inside, the library loomed, its shelves sagging under tomes that whispered of forgotten sins. Cold light filtered through grimy windows, casting shadows that seemed to pulse with malice. Moral decay hung in the air, thick as the dust motes dancing in the dimness. I was here for answers, but already I sensed the place hungered for more than curiosity.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist entering a vast library hall; heavy oak doors behind at center; sagging bookshelves on left and right walls; grimy windows high on back wall; floating dust motes in air.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Examine the nearest shelf",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Approach the librarian's desk",
+            "next": "scene3"
+          },
+          {
+            "id": "3",
+            "text": "Head toward the restricted section",
+            "next": "scene4"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene2",
+        "title": "Whispers from the Stacks",
+        "text": "I ran my fingers along the spines, feeling the leather crackle under touch. A book shifted on its own, sliding forward as if offering itself. Supernatural darkness crept from the corners, swallowing the edges of my vision. 'Join us,' a faint whisper echoed, not from lips but from the void. Cynicism told me this was folly, yet the pull of forbidden knowledge gnawed at my resolve, eroding what little morality I had left.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist facing a bookshelf; moving book sliding forward on middle shelf at eye level; supernatural darkness creeping from left and right corners; faint whisper visualized as swirling mist near the book.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Open the moving book",
+            "next": "scene5"
+          },
+          {
+            "id": "2",
+            "text": "Back away and seek the exit",
+            "next": "scene6"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene3",
+        "title": "The Silent Custodian",
+        "text": "The librarian hunched over his desk, eyes glazed like polished marble. He didn't look up, but objects on his desk—a quill, an inkwell—twitched as if alive. Cold lighting etched his features in stark relief, highlighting the decay of his flesh, pocked and sallow. I asked about the archives, but only a guttural murmur replied: 'The veil thins.' My inner voice sneered at the theatrics, yet fear coiled in my gut.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist at librarian's desk; hunched figure behind desk at center; twitching quill and inkwell on desk surface; cold light from overhead lamp casting stark shadows.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Press for more information",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Steal a key from the desk",
+            "next": "scene8"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene4",
+        "title": "Forbidden Gates",
+        "text": "A chained door barred the restricted section, but chains rattled without wind, moving like serpents. Darkness pooled at my feet, supernatural and hungry, lapping at my boots. I pondered the moral rot that led me here, chasing shadows for power. A distant chant rose, cultish and rhythmic, promising revelations laced with peril.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist before chained door; rattling chains on door at center; pooling darkness at feet on floor; faint chant visualized as ethereal waves from behind door.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Force the door open",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Search for another way in",
+            "next": "scene10"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene5",
+        "title": "Pages of Madness",
+        "text": "The book unfurled, ink bleeding across pages in patterns that twisted my thoughts. Visions assaulted me—cult rituals in hidden chambers, robed figures chanting to summon entities from the veil. An object nearby, a candlestick, levitated and crashed down, splintering wood. Blood welled from a shallow cut on my hand, graphic yet contained, a reminder of fragility amid this decay.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist holding open book; bleeding ink on pages; levitating candlestick crashing on right side; blood on hand in foreground.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Continue reading",
+            "next": "scene11"
+          },
+          {
+            "id": "2",
+            "text": "Slam the book shut",
+            "next": "scene12"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene6",
+        "title": "Fleeing Shadows",
+        "text": "I retreated, but the darkness pursued, tendrils snaking across the floor. Books toppled from shelves, moving with intent to block my path. Whispers mocked my cowardice: 'You cannot escape the knowledge.' Cynical thoughts raced— this place was a trap, morality long eroded by those who built it.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist backing away; snaking darkness tendrils on floor; toppling books from shelves on left and right.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Run to the main hall",
+            "next": "scene3"
+          },
+          {
+            "id": "2",
+            "text": "Hide in a side alcove",
+            "next": "scene13"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene7",
+        "title": "Revelations of the Keeper",
+        "text": "He leaned forward, breath rancid, revealing occult symbols tattooed on his skin. 'The cult awaits the chosen,' he rasped. Objects on the desk danced, a ritual in miniature. Cold light exposed the moral decay in his eyes, vacant yet knowing. I felt the pull, my cynicism cracking under the weight of forbidden truths.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist facing librarian; occult tattoos on skin; dancing objects on desk; cold light from lamp highlighting eyes.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Join the ritual",
+            "next": "scene14"
+          },
+          {
+            "id": "2",
+            "text": "Attack the librarian",
+            "next": "scene15"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene8",
+        "title": "The Stolen Key",
+        "text": "I snatched the key as he muttered incantations. It burned cold in my palm, and shadows deepened, supernatural darkness enveloping the room. A whisper warned: 'Thief of secrets.' My inner monologue dripped cynicism—stealing from the damned, what morality was left to lose?",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist grabbing key from desk; burning cold effect on key; deepening shadows around room; muttering librarian at center.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Use key on restricted door",
+            "next": "scene4"
+          },
+          {
+            "id": "2",
+            "text": "Explore basement stairs",
+            "next": "scene16"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene9",
+        "title": "Breaching the Sanctum",
+        "text": "The door gave way with a groan, revealing a chamber of altars and runes. Cultists circled, performing occult practices, their chants invoking entities. Moving objects—chalices, daggers—floated in ritual dance. Blood stained the floor, graphic splatters from recent sacrifice, restrained in their horror. Darkness pressed in, cold and absolute.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist entering chamber; circling cultists at center; floating chalices and daggers; blood splatters on floor.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Interrupt the ritual",
+            "next": "scene17"
+          },
+          {
+            "id": "2",
+            "text": "Observe from hiding",
+            "next": "scene18"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene10",
+        "title": "Hidden Passages",
+        "text": "I found a concealed vent, crawling through dust-choked tunnels. Whispers followed: 'The veil calls.' Emerging, I saw tomes that shifted positions, objects alive with malice. Moral decay seeped from the walls, cold light flickering as if the library breathed.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist emerging from vent; shifting tomes on shelves; whispers as mist trails; flickering cold light overhead.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Grab a nearby tome",
+            "next": "scene5"
+          },
+          {
+            "id": "2",
+            "text": "Proceed to ritual chamber",
+            "next": "scene9"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene11",
+        "title": "Descent into Ritual",
+        "text": "Deeper pages revealed cult practices, diagrams of summonings that warped my mind. An entity manifested, darkness coiling into form. It lashed out, claws raking flesh—blood flowed, graphic but brief, pain sharpening my cynical haze. 'Submit,' it whispered.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist reading book; manifesting entity from darkness; claw marks on arm with blood; coiling shadows at center.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Submit to the entity",
+            "next": "scene19"
+          },
+          {
+            "id": "2",
+            "text": "Fight back with improvised weapon",
+            "next": "scene20"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene12",
+        "title": "Rejected Knowledge",
+        "text": "I closed the book, but it fought back, pages fluttering wildly. Darkness surged, objects hurling toward me—a lamp shattered against my shoulder, bruising bone without excess gore. Whispers cursed my resistance: 'Fool.' Cynicism held, but the library's decay infected my thoughts.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist slamming book; fluttering pages; surging darkness; shattered lamp on floor to right.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Flee to basement",
+            "next": "scene16"
+          },
+          {
+            "id": "2",
+            "text": "Seek the librarian",
+            "next": "scene3"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene13",
+        "title": "Alcove of Echoes",
+        "text": "Huddled in the alcove, I heard rituals unfolding nearby—chants and screams. Objects in the shadows moved, books slithering like insects. Cold light pierced the gloom, revealing my own moral erosion in the mirror of my mind. A voice hissed: 'Witness the ascension.'",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist huddled in alcove; moving books on floor; piercing cold light from crack; echoing chants as sound waves.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Emerge and confront",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Wait and listen",
+            "next": "scene18"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene13.webp"
+      },
+      {
+        "id": "scene14",
+        "title": "Embracing the Cult",
+        "text": "I donned the robe he offered, joining the circle. Occult practices unfolded, blood drawn from palms in restrained cuts. Darkness enveloped us, entities whispering approval. My cynicism dissolved into the decay, morality a forgotten relic.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist in robe joining circle; blood on palms; enveloping darkness; whispering entities as forms.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Corruption",
+        "image_filename": "scene14.webp"
+      },
+      {
+        "id": "scene15",
+        "title": "Violent Rejection",
+        "text": "I struck him, fist connecting with decayed flesh, blood spraying in graphic arcs but not lingering. He crumpled, but shadows rose in retaliation, objects battering me. Whispers laughed: 'Murderer.' Pain bloomed, my moral compass shattered in this cold-lit hell.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist striking librarian; spraying blood; rising shadows; battering objects in air.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Take his robes and infiltrate",
+            "next": "scene14"
+          },
+          {
+            "id": "2",
+            "text": "Search his body for clues",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene15.webp"
+      },
+      {
+        "id": "scene16",
+        "title": "Basement Abyss",
+        "text": "Descending stairs, I entered a cavern of archived horrors. Tomes pulsed with life, moving across tables. Supernatural darkness filled the air, thick and oppressive. A ritual altar loomed, stained with old blood, graphic remnants of occult rites. Cynicism whispered this was the heart of decay.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist descending stairs; pulsing tomes on tables; oppressive darkness; stained altar at center back.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Destroy the altar",
+            "next": "scene20"
+          },
+          {
+            "id": "2",
+            "text": "Read from the central tome",
+            "next": "scene11"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene16.webp"
+      },
+      {
+        "id": "scene17",
+        "title": "Disrupted Ceremony",
+        "text": "I charged in, toppling a cultist, his neck snapping with restrained violence. The ritual faltered, entities screeching in whispers: 'Blasphemer.' Darkness lashed out, objects flying, drawing blood from gashes. Moral decay consumed the room, cold light flickering out.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist toppling cultist; screeching entities; lashing darkness; flying objects and blood gashes.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Banish the entity with found relic",
+            "next": "scene21"
+          },
+          {
+            "id": "2",
+            "text": "Flee the chaos",
+            "next": "scene6"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene17.webp"
+      },
+      {
+        "id": "scene18",
+        "title": "Witness to Summoning",
+        "text": "From shadows, I watched the cult summon a being of pure void. It consumed one of them, flesh tearing in graphic but brief horror. Whispers invited me: 'Partake.' My cynicism frayed, the scene a mirror to inner decay under cold, unyielding light.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist hiding watching; summoning void being; tearing flesh; inviting whispers as tendrils.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Join them",
+            "next": "scene14"
+          },
+          {
+            "id": "2",
+            "text": "Sabotage quietly",
+            "next": "scene17"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene18.webp"
+      },
+      {
+        "id": "scene19",
+        "title": "Possessed by the Veil",
+        "text": "The entity entered me, thoughts fracturing into oblivion. Whispers became my voice, cult rituals my purpose. Darkness claimed all, moral decay complete in this eternal night.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist possessed; fracturing thoughts visualized; internal whispers; claiming darkness.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Possession",
+        "image_filename": "scene19.webp"
+      },
+      {
+        "id": "scene20",
+        "title": "Battle in the Depths",
+        "text": "I smashed the altar, shards cutting my hands in restrained bloodshed. The entity roared, darkness recoiling. Objects assaulted me, but I pressed on, cynicism fueling defiance against the occult tide.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist smashing altar; cutting shards on hands; recoiling darkness; assaulting objects.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Invoke counter-ritual from memory",
+            "next": "scene21"
+          },
+          {
+            "id": "2",
+            "text": "Succumb to exhaustion",
+            "next": "scene19"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene20.webp"
+      },
+      {
+        "id": "scene21",
+        "title": "Veil's Banishment",
+        "text": "With a final incantation, I banished the entity, light piercing the supernatural darkness. The library shuddered, objects stilling. Whispers faded to silence. I emerged, knowledge intact but untainted, cynicism tempered by hard-won clarity.",
+        "image_prompt": "32-bit painterly pixel horror, retro game aesthetic, third-person close perspective, over shoulder view, dim ambient lighting, soft diffused shadows, black and white monochrome, grayscale tones, subtle film grain. Protagonist banishing entity; piercing light; shuddering library; stilling objects.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment",
+        "image_filename": "scene21.webp"
+      }
+    ],
+    "_metadata": {
+      "provider": "xAI",
+      "model": "grok-4",
+      "usage": {
+        "prompt_tokens": 1756,
+        "completion_tokens": 4767,
+        "total_tokens": 7373,
+        "prompt_tokens_details": {
+          "text_tokens": 1756,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 682
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 850,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "num_sources_used": 0
+      },
+      "generated_at": "2025-10-23T05:46:10.010Z"
+    },
+    "filename": "tomes-of-the-fractured-veil_2025-10-23.json"
+  },
+  {
+    "story_id": "story_1761199074909_mjpqahqr6",
+    "story_title": "Tomeweaver's Metamorphic Vault",
+    "tone": "Occult",
+    "duration": "medium",
+    "art_direction": "Charcoal sketch with moonlight ethereal glow",
+    "settings": {
+      "tone": "Occult",
+      "language": "elevated",
+      "narrative": "second_person",
+      "pacing": "moderate",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "minimal",
+      "duration": "medium"
+    },
+    "image_settings": {
+      "image_style": "charcoal_sketch",
+      "lighting_mood": "moonlight",
+      "color_palette": "muted_reds_greens",
+      "camera_perspective": "wide_cinematic"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "Threshold of the Arcane Repository",
+        "text": "You stand before the iron-wrought gates of the ancient library, where forbidden knowledge slumbers in tomes bound by rites unspoken. The air hums with incantatory whispers, as if the very stones intone a chant of warning. Supernatural darkness coils like serpents around the entrance, and objects—candlesticks, quills—shift subtly in your peripheral vision, drawn by unseen forces. Your mind echoes with internal doubts: 'What transformations await within these hallowed halls?' You push the gates open, stepping into the vaulted chamber where moonlight filters through cracked skylights, casting ethereal glows upon rows of pulsating bookshelves.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. First-person view standing before iron-wrought gates at center, supernatural darkness coiling around entrance, shifting candlesticks on left pedestal, quills floating mid-air on right, vaulted chamber with pulsating bookshelves in background center.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Examine the central pedestal with its glowing grimoire",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Venture toward the shadowed alcoves on the periphery",
+            "next": "scene3"
+          },
+          {
+            "id": "3",
+            "text": "Invoke a protective chant from memory",
+            "next": "scene4"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene1.jpg"
+      },
+      {
+        "id": "scene2",
+        "title": "Grimoire of Fleshly Bindings",
+        "text": "You approach the central pedestal, where a grimoire lies open, its pages undulating like living skin. The supernatural darkness thickens, enveloping you in a ritualistic embrace, while nearby lecterns creak and slide across the floor as if compelled by invocation. Your fingers brush the vellum, and a surge of forbidden knowledge courses through you—visions of bodies twisting, limbs elongating into tendrils of ink and parchment. Internally, your thoughts chant: 'Resist the metamorphosis, or embrace the tome's arcane rhythm?' The air grows heavy with the scent of aged leather and blood.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. First-person view approaching central pedestal at foreground center, open grimoire with undulating pages on top, supernatural darkness enveloping around, creaking lecterns sliding on floor left and right, shadowed bookshelves in background.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Read the incantation aloud",
+            "next": "scene5"
+          },
+          {
+            "id": "2",
+            "text": "Attempt to close the grimoire",
+            "next": "scene6"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene2.jpg"
+      },
+      {
+        "id": "scene3",
+        "title": "Alcoves of Whispering Volumes",
+        "text": "You delve into the shadowed alcoves, where volumes murmur in rhythmic cadences, their spines cracking like bones in transformation. Moving objects—inkwells rolling, pages fluttering without wind—heighten the supernatural darkness that clings to your form. A forbidden text catches your eye, its cover etched with symbols that pulse with inner life. Your mind intones: 'Shall I partake of this knowledge, or flee its corrupting verse?' As you draw nearer, you feel your skin prickle, as if the library seeks to weave your flesh into its eternal narrative.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. First-person view in shadowed alcove at center, murmuring volumes on shelves left and right, rolling inkwells on floor foreground, fluttering pages mid-air, supernatural darkness clinging to figure in mirror reflection on back wall.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Open the pulsating text",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Search for an exit in the alcove",
+            "next": "scene8"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene3.jpg"
+      },
+      {
+        "id": "scene4",
+        "title": "Invocation of Warding Rites",
+        "text": "You pause at the threshold, reciting a protective chant in measured, ritualistic tones: 'By the sigils of old, shield this vessel from the void's grasp.' The supernatural darkness recoils slightly, but objects still stir—chairs scraping, books levitating—in defiant rhythm. Forbidden knowledge beckons from the depths, promising transformations both wondrous and grotesque. Internally, you ponder: 'Will this ward hold against the library's arcane symphony?' Moonlight pierces the gloom, illuminating paths forward amid the shifting chaos.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. First-person view reciting chant at threshold center, recoiling supernatural darkness around, scraping chairs on floor left, levitating books mid-air right, illuminated paths in background center.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Proceed to the central pedestal",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Explore the alcoves with warded caution",
+            "next": "scene3"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene4.jpg"
+      },
+      {
+        "id": "scene5",
+        "title": "Incantation's Mutating Surge",
+        "text": "You intone the grimoire's words, your voice weaving into the library's invocation-like rhythm. Supernatural darkness surges, and objects whirl in a vortex—quills piercing the air, shelves groaning. Your body convulses in body horror: skin ripples, fingers elongate into quill-like appendages, veins inking with forbidden scripts. The transformation spreads, flesh merging with parchment in graphic yet restrained agony. Your mind chants desperately: 'Reverse the rite, or succumb to this fleshbound ascension?' The library's knowledge floods you, promising eternal wisdom at the cost of humanity.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. First-person view intoning words at pedestal center, surging supernatural darkness, whirling quills mid-air left, groaning shelves right, rippling skin on hands foreground, merging flesh in mirror on back wall.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Fight the transformation with willpower",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Embrace the change fully",
+            "next": "scene10"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene5.jpg"
+      },
+      {
+        "id": "scene6",
+        "title": "Sealing the Grimoire's Wrath",
+        "text": "You slam the grimoire shut, but it resists, pages lashing out like tendrils. Supernatural darkness envelops you, moving objects battering your form—books flying, candelabras toppling. Your arm twists unnaturally, bones cracking in a restrained display of body horror, flesh bubbling as if inscribed with runes. Internally, you invoke: 'Hold fast against this metamorphic curse, seeker of truths.' The library quakes, knowledge seeping into your wounds like ritual ink.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. First-person view slamming grimoire at center, lashing pages as tendrils, enveloping supernatural darkness, flying books mid-air right, toppling candelabras left, twisting arm foreground.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Flee to the alcoves",
+            "next": "scene3"
+          },
+          {
+            "id": "2",
+            "text": "Seek a counter-rite in nearby tomes",
+            "next": "scene11"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene6.jpg"
+      },
+      {
+        "id": "scene7",
+        "title": "Pulsating Text's Embrace",
+        "text": "You open the pulsating text, its symbols invoking a chant that resonates in your bones. Supernatural darkness deepens, objects animating wildly—shelves collapsing, inks spilling in patterns. Body horror overtakes you: your eyes bulge, irises shifting to glyph-like forms, skin sloughing in graphic sheets to reveal underlying script. Your thoughts rhythmically plead: 'Break free from this transformative verse, or merge with the eternal archive?' The library's forbidden knowledge burrows deeper, altering your very essence.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. First-person view opening text at alcove center, invoking symbols, deepening supernatural darkness, collapsing shelves left, spilling inks on floor right, bulging eyes in reflection foreground.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Tear out the pages",
+            "next": "scene12"
+          },
+          {
+            "id": "2",
+            "text": "Absorb the knowledge willingly",
+            "next": "scene10"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene7.jpg"
+      },
+      {
+        "id": "scene8",
+        "title": "Alcove's Hidden Passage",
+        "text": "You search the alcove for an exit, fingers tracing ritualistic carvings on the walls. Supernatural darkness pursues, moving objects blocking paths—doors slamming, statues toppling. A subtle transformation begins: your nails harden into claw-like quills, drawing blood in restrained violence. Internally, you intone: 'Unveil the way out, before the library claims this form.' Moonlight reveals a concealed stairwell, descending into deeper mysteries.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. First-person view searching alcove at center, tracing carvings on walls left and right, pursuing supernatural darkness, slamming doors background, toppling statues foreground, hardening nails on hands.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Descend the stairwell",
+            "next": "scene13"
+          },
+          {
+            "id": "2",
+            "text": "Return to the main chamber",
+            "next": "scene2"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene8.jpg"
+      },
+      {
+        "id": "scene9",
+        "title": "Willpower's Defiant Stand",
+        "text": "You summon inner resolve, chanting counter-invocations to halt the surge. The supernatural darkness wavers, objects settling in reluctant stillness. Yet remnants of body horror linger: elongated fingers twitch, inked veins pulse faintly. Your mind echoes: 'Press on, purified by this trial, or risk further mutation?' The grimoire dims, its knowledge retreating, allowing a path to revelation.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. First-person view chanting at pedestal center, wavering supernatural darkness, settling objects on floor left and right, twitching elongated fingers foreground, dimming grimoire background.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Seek the library's core secret",
+            "next": "scene14"
+          },
+          {
+            "id": "2",
+            "text": "Attempt escape through the gates",
+            "next": "scene15"
+          }
+        ],
+        "ending": false,
+        "image_filename": "scene9.jpg"
+      },
+      {
+        "id": "scene10",
+        "title": "Embrace of Eternal Binding",
+        "text": "You yield to the transformation, body contorting in a symphony of body horror: limbs fuse with bindings, flesh becoming illuminated manuscript in graphic dissolution. Supernatural darkness absorbs you, objects merging into your form. Your thoughts dissolve into the library's chant, forever a vessel of forbidden knowledge.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. First-person view yielding at center, contorting body with fusing limbs, absorbing supernatural darkness, merging objects foreground, illuminated flesh in reflection background.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Transformation",
+        "image_filename": "scene10.jpg"
+      },
+      {
+        "id": "scene11",
+        "title": "Counter-Rite's Revelation",
+        "text": "You rifle through nearby tomes, discovering a counter-rite inscribed in ancient symbols. Intoning it rhythmically, the supernatural darkness lifts, moving objects ceasing their dance. The transformation reverses slightly, twisted arm straightening with a pop of restrained pain. Internally, you realize: 'This knowledge banishes the curse, unveiling the library's true guardian.' Clarity dawns, granting ascension beyond the vault.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. First-person view rifling tomes at shelf center, inscribing symbols, lifting supernatural darkness, ceasing objects left and right, straightening arm foreground.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Ascension",
+        "image_filename": "scene11.jpg"
+      },
+      {
+        "id": "scene12",
+        "title": "Torn Pages' Vengeance",
+        "text": "You tear the pages, but they regenerate, lashing back in vengeful rhythm. Body horror escalates: skin shreds, revealing muscular script beneath in graphic layers. Supernatural darkness consumes, objects impaling your form. Your essence dissolves into oblivion's void.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. First-person view tearing pages at alcove center, regenerating lashes, shredding skin foreground, consuming supernatural darkness, impaling objects left and right.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Oblivion",
+        "image_filename": "scene12.jpg"
+      },
+      {
+        "id": "scene13",
+        "title": "Descent into the Abyss",
+        "text": "You descend the stairwell, chants echoing from below. Supernatural darkness thickens, moving objects tumbling after you—scrolls unrolling, lamps flickering. Transformation grips: legs elongate, joints popping in restrained agony. Your mind whispers: 'No escape here, only deeper corruption.' The abyss claims you in possessive embrace.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. First-person view descending stairwell center, echoing chants, thickening supernatural darkness, tumbling scrolls left, flickering lamps right, elongating legs foreground.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Possession",
+        "image_filename": "scene13.jpg"
+      },
+      {
+        "id": "scene14",
+        "title": "Core Secret Unveiled",
+        "text": "You reach the library's core, where a final tome reveals the curse's origin in invocation-like prose. Supernatural darkness flees, objects stilling. Residual transformations fade, granting revelation of balance between knowledge and form.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. First-person view at core center, revealing tome, fleeing supernatural darkness, stilling objects background, fading transformations on hands foreground.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation",
+        "image_filename": "scene14.jpg"
+      },
+      {
+        "id": "scene15",
+        "title": "Flight from the Vault",
+        "text": "You bolt for the gates, chanting wards to repel the darkness. Objects pursue but falter, transformations reversing as you cross the threshold. Freedom awaits, the library's grasp broken.",
+        "image_prompt": "Charcoal sketch, hand-drawn atmospheric, rough artistic strokes, wide cinematic perspective, movie-like framing, cold silver moonlight, ethereal glow, muted reds and greens, classic horror palette, subtle film grain. First-person view bolting to gates center, chanting wards, pursuing objects left and right, reversing transformations foreground, open threshold background.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Escape",
+        "image_filename": "scene15.jpg"
+      }
+    ],
+    "_metadata": {
+      "provider": "xAI",
+      "model": "grok-4",
+      "usage": {
+        "prompt_tokens": 1757,
+        "completion_tokens": 3872,
+        "total_tokens": 6161,
+        "prompt_tokens_details": {
+          "text_tokens": 1757,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 680
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 532,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "num_sources_used": 0
+      },
+      "generated_at": "2025-10-23T05:59:42.018Z"
+    },
+    "filename": "tomeweavers-metamorphic-vault_2025-10-23.json"
+  },
+  {
+    "story_id": "story_1761198245095_bbhyi1tsy",
+    "story_title": "Veins of Subterranean Delirium",
+    "tone": "Surreal",
+    "duration": "medium",
+    "art_direction": "Surreal psychological horror in flickering subway tunnels with mind-bending shadows",
+    "settings": {
+      "tone": "Surreal",
+      "language": "literary",
+      "narrative": "second_person",
+      "pacing": "moderate",
+      "violence": "moderate",
+      "imagery": "rich",
+      "dialogue": "conversational",
+      "duration": "medium"
+    },
+    "image_settings": {
+      "image_style": "oil_painting",
+      "lighting_mood": "candlelight",
+      "color_palette": "monochrome",
+      "camera_perspective": "bird_eye_view"
+    },
+    "scenes": [
+      {
+        "id": "scene1",
+        "title": "Descent into the Veins",
+        "text": "You step off the platform, the air thick with forgotten breaths. The subway tunnel yawns before you, a maw of iron and regret. Flickering lights stutter like dying heartbeats, casting strange shadows that twist into faces you almost recognize. The walls breathe softly, exhaling whispers of your own buried fears. Something stirs in the dimness, a presence that knows your name without speaking it. You feel the pull, the inexorable draw into the labyrinthine depths.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. A vast subway tunnel entrance with rusted tracks curving into darkness at center; flickering overhead lights scattered along the ceiling; strange elongated shadows twisting on the damp floor; a solitary figure standing at the platform edge on the left; abandoned ticket booth on the right with cracked glass.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Follow the flickering light ahead",
+            "next": "scene2"
+          },
+          {
+            "id": "2",
+            "text": "Investigate the whispering shadow on the wall",
+            "next": "scene3"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene2",
+        "title": "The Pulsing Glow",
+        "text": "You advance toward the erratic glow, each step echoing like a confession. The light pulses, warm yet treacherous, illuminating graffiti that shifts when you blink—words that spell your secrets in jagged script. A voice murmurs from the ether, soft and insidious: 'Remember the day you let go?' Shadows coalesce into vague forms, mimicking your posture, your hesitations. The torment begins, fragments of memory clawing at your mind's fragile edges.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Narrow tunnel with pulsing light source at far center; shifting graffiti on curved walls; elongated shadows mimicking human forms on the ground; solitary figure walking forward at bottom center; scattered debris like old newspapers on the tracks to the left.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Confront the voice directly",
+            "next": "scene4"
+          },
+          {
+            "id": "2",
+            "text": "Try to ignore it and press on",
+            "next": "scene5"
+          },
+          {
+            "id": "3",
+            "text": "Examine the shifting graffiti",
+            "next": "scene6"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene3",
+        "title": "Whispers in Stone",
+        "text": "You approach the shadow, its edges fraying like torn silk. It writhes under your gaze, forming lips that part without sound, yet you hear: 'Why do you hide from what you are?' The wall beneath pulses faintly, as if alive, veins of cracks spreading like thoughts unraveling. Psychological barbs pierce you—visions of failures replayed in exquisite, fragmented detail. The air grows heavy, pressing your regrets into your skin.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Curved tunnel wall with writhing shadow forming vague lips at center; cracks spreading like veins across the surface; flickering light overhead casting dancing shadows; solitary figure reaching toward the wall on the left; rusted rail tracks running along the bottom right.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Respond to the whisper",
+            "next": "scene7"
+          },
+          {
+            "id": "2",
+            "text": "Attempt to dispel the shadow",
+            "next": "scene8"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene4",
+        "title": "Echoed Confrontation",
+        "text": "You demand answers, voice cracking the silence like brittle bone. The presence laughs, a sound like rustling leaves in a storm: 'Answers? You carry them, festering.' Shadows lunge, not with claws but with illusions—your loved ones' faces twisted in accusation. Blood wells from imagined wounds, warm and sticky, as the mind games escalate, blurring real from remembered pain. The tunnel spins, a carousel of torment.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Dim tunnel with lunging shadows forming twisted faces at center; solitary figure gesturing confrontationally below; flickering lights along the ceiling; blood-like stains on the floor to the right; spinning illusionary elements like blurred walls on the left.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Embrace the illusions",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Fight back with denial",
+            "next": "scene10"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene5",
+        "title": "Relentless Advance",
+        "text": "You push forward, eyes averted, but the voice pursues, weaving doubts into your thoughts. 'Running again?' it taunts. Shadows nip at your heels, cold fingers brushing skin, drawing thin lines of blood that sting with memory's acid. The tunnel narrows, walls closing like judgmental eyes, forcing you to confront fragments of self you buried deep. The air thickens, charged with unspoken accusations.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Narrowing tunnel with pursuing shadows at bottom; solitary figure advancing at center; thin blood trails on the floor behind; closing walls with eye-like patterns on both sides; flickering light ahead.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Turn and face the pursuit",
+            "next": "scene4"
+          },
+          {
+            "id": "2",
+            "text": "Search for an exit branch",
+            "next": "scene11"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene6",
+        "title": "Scripted Secrets",
+        "text": "You trace the graffiti, fingers grazing words that burn like embers. They rewrite themselves: 'The lie you told yourself.' A shadow entity emerges, humanoid yet fluid: 'Read deeper, or remain blind.' It plays games, posing riddles from your past, each wrong answer slicing into your flesh with invisible blades, blood blooming in restrained rivulets. The torment is intimate, poetic in its cruelty.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Wall with shifting graffiti at center; fluid shadow entity emerging on the right; solitary figure tracing words on the left; blood rivulets on the ground below; flickering light casting dancing shadows overhead.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Solve the riddle",
+            "next": "scene12"
+          },
+          {
+            "id": "2",
+            "text": "Deface the graffiti",
+            "next": "scene13"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene7",
+        "title": "Dialogue with the Void",
+        "text": "You whisper back, words tumbling into the shadow's maw. It responds, voice honeyed venom: 'Ah, confession tastes sweet.' Visions assault you—graphic flashes of loss, bodies crumpled in memory's grip, blood pooling in familiar patterns. The mind games twist deeper, making you question your own voice. Shadows dance, mocking your vulnerability, as the tunnel's breath grows ragged.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Shadow on wall forming a maw at center; visions of crumpled bodies in blood pools on the floor below; solitary figure whispering on the left; dancing shadows around; flickering lights scattered above.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Confess fully",
+            "next": "scene9"
+          },
+          {
+            "id": "2",
+            "text": "Challenge its truth",
+            "next": "scene14"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene8",
+        "title": "Dispelling the Shade",
+        "text": "You strike at the shadow, hands passing through chill vapor that bites back, drawing blood in fine, deliberate lines. It hisses: 'Fool, you cannot erase what lingers.' The entity reforms, playing tricks—mirroring your movements in reverse, inverting your fears into grotesque parodies. Psychological barbs embed, visions of self-inflicted wounds flashing with restrained gore.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Reforming shadow entity at center; solitary figure striking out on the right; blood lines on arms visible; mirrored movements in reverse on the left wall; flickering candlelight above.",
+        "choices": [
+          {
+            "id": "1",
+            "text": "Persist in attack",
+            "next": "scene13"
+          },
+          {
+            "id": "2",
+            "text": "Retreat and regroup",
+            "next": "scene5"
+          }
+        ],
+        "ending": false
+      },
+      {
+        "id": "scene9",
+        "title": "Embraced Abyss",
+        "text": "You surrender to the illusions, letting them envelop you like a lover's shroud. The voice coos: 'Welcome home.' Shadows merge with your form, a transformation both violent and serene—skin splitting in graphic yet contained bursts, blood mingling with darkness. The torment dissolves into unity, your mind absorbed into the tunnel's eternal psyche.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Merging shadows enveloping figure at center; skin splitting with blood bursts on the form; tunnel walls breathing softly around; flickering lights dimming overhead; absorbed entity blending into darkness below.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Absorption"
+      },
+      {
+        "id": "scene10",
+        "title": "Denial's Fracture",
+        "text": "You deny the visions, shouting into the void, but they fracture your resolve. The entity whispers: 'Break, then.' Mind games culminate in a cascade of horrors—limbs contorting in imagined agony, blood seeping from eyes in restrained flows. Madness claims you, the tunnel's shadows becoming your eternal, fractured reality.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Figure shouting in denial at center; contorted limbs and blood from eyes; fractured shadows on walls; flickering lights stuttering; tunnel enclosing tightly around.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Madness"
+      },
+      {
+        "id": "scene11",
+        "title": "Branching Escape",
+        "text": "You veer into a side tunnel, the pursuit fading slightly. A new light flickers, revealing a door etched with symbols of release. The voice echoes faintly: 'Freedom is illusion.' Yet clarity pierces the torment—you glimpse the mind games' source, a core of your own doubts. With effort, you push through, emerging into night air, revelations burning bright.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Side tunnel with etched door at center; new flickering light ahead; solitary figure pushing through on the right; fading shadows behind on the left; symbols of release on door surface.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Revelation"
+      },
+      {
+        "id": "scene12",
+        "title": "Riddle's Resolution",
+        "text": "You unravel the riddle, words aligning like stars in eclipse. The entity recoils: 'Clever, but at what cost?' Shadows lash out, drawing blood in swift, graphic strokes across your arms, yet you banish it, the tunnel's grip loosening. You ascend, freed from the psychological chains, mind intact and empowered.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Recoiling shadow entity at center; blood strokes on figure's arms below; loosening tunnel walls; ascending path ahead on the right; banished fragments scattering to the left.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Banishment"
+      },
+      {
+        "id": "scene13",
+        "title": "Defiant Ruin",
+        "text": "Your defiance shatters the graffiti, but the entity surges, engulfing you. 'Join us,' it intones. Torment peaks—visions of corruption, flesh warping in bloody, restrained metamorphosis. You dissolve into the tunnel's essence, a fragment of its endless delirium.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Surging entity engulfing figure at center; shattered graffiti on wall; warping flesh with blood; tunnel essence absorbing; flickering lights dimming around.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Dissolution"
+      },
+      {
+        "id": "scene14",
+        "title": "Challenged Truth",
+        "text": "You challenge the shadow's claims, voice steady amid the chaos. It falters: 'Impossible...' The mind games unravel, shadows retreating as you transform torment into strength. Blood from minor wounds dries, a badge of survival. You rise, ascending beyond the veins, whole and renewed.",
+        "image_prompt": "Hand-painted oil painting, baroque brush texture, classical art style, bird's eye view perspective, looking down from above, warm flickering candlelight, dancing shadows, black and white monochrome, grayscale tones, subtle film grain. Faltering shadow at center; retreating forms on walls; figure standing steady below; drying blood wounds visible; ascending path opening ahead.",
+        "choices": [],
+        "ending": true,
+        "ending_type": "Ascension",
+        "image_filename": "scene14.webp"
+      }
+    ],
+    "_metadata": {
+      "provider": "xAI",
+      "model": "grok-4",
+      "usage": {
+        "prompt_tokens": 1760,
+        "completion_tokens": 3548,
+        "total_tokens": 5921,
+        "prompt_tokens_details": {
+          "text_tokens": 1760,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "cached_tokens": 682
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 613,
+          "audio_tokens": 0,
+          "accepted_prediction_tokens": 0,
+          "rejected_prediction_tokens": 0
+        },
+        "num_sources_used": 0
+      },
+      "generated_at": "2025-10-23T05:46:00.341Z"
+    },
+    "filename": "veins-of-subterranean-delirium_2025-10-23.json"
+  },
+  {
     "story_id": "story_937105248_venetian_gloom",
     "story_title": "Velvet Mausoleum Dirge",
     "tone": "Slasher",
@@ -16081,7 +25307,7 @@ export const EMBEDDED_STORIES: Story[] = [
   }
 ];
 
-export const STORY_COUNT = 60;
+export const STORY_COUNT = 90;
 
 // Story metadata for fast filtering
 export const STORY_METADATA = EMBEDDED_STORIES.map(story => ({
