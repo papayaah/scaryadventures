@@ -1,9 +1,7 @@
 ![Scary Adventures](src/client/public/assets/title.png)
 
-<video width="100%" controls autoplay muted loop>
-  <source src="https://dkmrgxmlsmcmnvsntspm.supabase.co/storage/v1/object/public/demos/scaryadventures-demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Scary Adventures Demo](scaryadventures-demo.gif)
+
 
 **Scary Adventures** is an interactive story game that runs directly within Reddit posts. Players navigate through AI-generated branching storylines where every choice determines their fate. Each playthrough offers a different experience with multiple possible endings across various scary categories.
 
