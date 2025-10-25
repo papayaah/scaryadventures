@@ -8,7 +8,7 @@ const AIIndicator: React.FC = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <div 
+    <div
       className={`ai-indicator ${isExpanded ? 'expanded' : ''}`}
       onClick={() => setIsExpanded(!isExpanded)}
     >
@@ -180,6 +180,7 @@ export const MainMenu: React.FC<MainMenuProps> = ({
         <video
           ref={videoRef}
           className="hero-video"
+          poster="/assets/hero-poster.jpeg"
           autoPlay
           muted
           loop

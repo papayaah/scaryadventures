@@ -303,6 +303,35 @@ export const trackStoryCompletion = async (req: Request, res: Response) => {
     sessions.push(newSession);
     await redis.set(userPlaySessionsKey, JSON.stringify(sessions));
 
+    // Track playtime in analytics (both global and community)
+    if (playTime && playTime > 0) {
+      try {
+        const subredditName = req.headers['x-subreddit-name'] as string || 'unknown';
+        
+        // Track ALL playtime for this story (completed + abandoned) - GLOBAL
+        const globalStoryPlayTimeKey = `analytics:global:story_all_playtime:${storyId}`;
+        const globalPlayTimesJson = await redis.get(globalStoryPlayTimeKey);
+        const globalPlayTimes = globalPlayTimesJson ? JSON.parse(globalPlayTimesJson) : [];
+        globalPlayTimes.push(playTime);
+        await redis.set(globalStoryPlayTimeKey, JSON.stringify(globalPlayTimes));
+        
+        // Track ALL playtime for this story (completed + abandoned) - COMMUNITY
+        const communityStoryPlayTimeKey = `analytics:${subredditName}:story_all_playtime:${storyId}`;
+        const communityPlayTimesJson = await redis.get(communityStoryPlayTimeKey);
+        const communityPlayTimes = communityPlayTimesJson ? JSON.parse(communityPlayTimesJson) : [];
+        communityPlayTimes.push(playTime);
+        await redis.set(communityStoryPlayTimeKey, JSON.stringify(communityPlayTimes));
+
+        // Track TOTAL playtime across ALL stories - GLOBAL
+        await redis.incrBy('analytics:global:total:playtime', Math.round(playTime));
+        
+        // Track TOTAL playtime across ALL stories - COMMUNITY
+        await redis.incrBy(`analytics:${subredditName}:total:playtime`, Math.round(playTime));
+      } catch (error) {
+        console.error('Error tracking playtime analytics:', error);
+      }
+    }
+
     // If completed, add to completed stories and update streak
     if (status === 'completed') {
       const completionsKey = getUserCompletionsKey(userId);

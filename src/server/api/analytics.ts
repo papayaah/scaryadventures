@@ -4,33 +4,40 @@ import { redis } from '@devvit/web/server';
 export const trackStoryStart = async (req: Request, res: Response) => {
   try {
     const { storyId, tone, duration } = req.body;
-    
+
     console.log(`Tracking story start: ${storyId}, tone: ${tone}, duration: ${duration}`);
-    
+
     // Check if Redis is available (only in Devvit environment)
     const isDevvitEnvironment = typeof redis !== 'undefined';
-    
+
     if (!isDevvitEnvironment) {
       // Local development fallback
       return res.json({ success: true, message: 'Analytics tracked (local mock)' });
     }
-    
-    // Track story start
-    await redis.incrBy(`analytics:story:${storyId}:started`, 1);
-    
-    // Track tone preference
+
+    // Get subreddit context for community-specific tracking
+    const subredditName = req.headers['x-subreddit-name'] as string || 'unknown';
+
+    // Track GLOBAL analytics (across all communities)
+    await redis.incrBy(`analytics:global:story:${storyId}:started`, 1);
+    await redis.incrBy('analytics:global:total:started', 1);
+
+    // Track COMMUNITY-SPECIFIC analytics
+    await redis.incrBy(`analytics:${subredditName}:story:${storyId}:started`, 1);
+    await redis.incrBy(`analytics:${subredditName}:total:started`, 1);
+
+    // Track tone preference (both global and community)
     if (tone) {
-      await redis.incrBy(`analytics:tone:${tone}`, 1);
+      await redis.incrBy(`analytics:global:tone:${tone}`, 1);
+      await redis.incrBy(`analytics:${subredditName}:tone:${tone}`, 1);
     }
-    
-    // Track duration preference
+
+    // Track duration preference (both global and community)
     if (duration) {
-      await redis.incrBy(`analytics:duration:${duration}`, 1);
+      await redis.incrBy(`analytics:global:duration:${duration}`, 1);
+      await redis.incrBy(`analytics:${subredditName}:duration:${duration}`, 1);
     }
-    
-    // Track total games started
-    await redis.incrBy('analytics:total:started', 1);
-    
+
     res.json({ success: true });
   } catch (error) {
     console.error('Error tracking story start:', error);
@@ -41,23 +48,28 @@ export const trackStoryStart = async (req: Request, res: Response) => {
 export const trackStoryComplete = async (req: Request, res: Response) => {
   try {
     const { storyId } = req.body;
-    
+
     console.log(`Tracking story completion: ${storyId}`);
-    
+
     // Check if Redis is available (only in Devvit environment)
     const isDevvitEnvironment = typeof redis !== 'undefined';
-    
+
     if (!isDevvitEnvironment) {
       // Local development fallback
       return res.json({ success: true, message: 'Analytics tracked (local mock)' });
     }
-    
-    // Track story completion
-    await redis.incrBy(`analytics:story:${storyId}:completed`, 1);
-    
-    // Track total games completed
-    await redis.incrBy('analytics:total:completed', 1);
-    
+
+    // Get subreddit context for community-specific tracking
+    const subredditName = req.headers['x-subreddit-name'] as string || 'unknown';
+
+    // Track GLOBAL completion
+    await redis.incrBy(`analytics:global:story:${storyId}:completed`, 1);
+    await redis.incrBy('analytics:global:total:completed', 1);
+
+    // Track COMMUNITY-SPECIFIC completion
+    await redis.incrBy(`analytics:${subredditName}:story:${storyId}:completed`, 1);
+    await redis.incrBy(`analytics:${subredditName}:total:completed`, 1);
+
     res.json({ success: true });
   } catch (error) {
     console.error('Error tracking story completion:', error);
@@ -65,43 +77,96 @@ export const trackStoryComplete = async (req: Request, res: Response) => {
   }
 };
 
-// Track playtime for any story session (completed or abandoned)
-export const trackStoryPlaytime = async (req: Request, res: Response) => {
+// Track scene views
+export const trackSceneView = async (req: Request, res: Response) => {
   try {
-    const { storyId, playTime, status } = req.body;
+    const { storyId, sceneId } = req.body;
     
-    console.log(`Tracking story playtime: ${storyId}, time: ${playTime}s, status: ${status}`);
+    console.log(`Tracking scene view: ${storyId}/${sceneId}`);
     
     // Check if Redis is available (only in Devvit environment)
     const isDevvitEnvironment = typeof redis !== 'undefined';
     
     if (!isDevvitEnvironment) {
       // Local development fallback
+      return res.json({ success: true, message: 'Scene view tracked (local mock)' });
+    }
+
+    // Get subreddit context for community-specific tracking
+    const subredditName = req.headers['x-subreddit-name'] as string || 'unknown';
+    
+    // Track GLOBAL scene views
+    await redis.incrBy('analytics:global:total:scenes', 1);
+    await redis.incrBy(`analytics:global:story:${storyId}:scenes`, 1);
+    
+    // Track COMMUNITY-SPECIFIC scene views
+    await redis.incrBy(`analytics:${subredditName}:total:scenes`, 1);
+    await redis.incrBy(`analytics:${subredditName}:story:${storyId}:scenes`, 1);
+    
+    res.json({ success: true });
+  } catch (error) {
+    console.error('Error tracking scene view:', error);
+    res.status(500).json({ error: 'Failed to track scene view' });
+  }
+};
+
+// Track playtime for any story session (completed or abandoned)
+export const trackStoryPlaytime = async (req: Request, res: Response) => {
+  try {
+    const { storyId, playTime, status } = req.body;
+
+    console.log(`Tracking story playtime: ${storyId}, time: ${playTime}s, status: ${status}`);
+
+    // Check if Redis is available (only in Devvit environment)
+    const isDevvitEnvironment = typeof redis !== 'undefined';
+
+    if (!isDevvitEnvironment) {
+      // Local development fallback
       return res.json({ success: true, message: 'Playtime tracked (local mock)' });
     }
-    
+
     if (!storyId || playTime === undefined) {
       return res.status(400).json({ error: 'Story ID and play time are required' });
     }
-    
-    // Track ALL playtime for this story (completed + abandoned)
-    const storyAllPlayTimeKey = `story_all_playtime:${storyId}`;
-    const allPlayTimesJson = await redis.get(storyAllPlayTimeKey);
-    const allPlayTimes = allPlayTimesJson ? JSON.parse(allPlayTimesJson) : [];
-    
-    allPlayTimes.push(playTime);
-    await redis.set(storyAllPlayTimeKey, JSON.stringify(allPlayTimes));
-    
+
+    // Get subreddit context for community-specific tracking
+    const subredditName = req.headers['x-subreddit-name'] as string || 'unknown';
+
+    // Track ALL playtime for this story (completed + abandoned) - GLOBAL
+    const globalStoryPlayTimeKey = `analytics:global:story_all_playtime:${storyId}`;
+    const globalPlayTimesJson = await redis.get(globalStoryPlayTimeKey);
+    const globalPlayTimes = globalPlayTimesJson ? JSON.parse(globalPlayTimesJson) : [];
+    globalPlayTimes.push(playTime);
+    await redis.set(globalStoryPlayTimeKey, JSON.stringify(globalPlayTimes));
+
+    // Track ALL playtime for this story (completed + abandoned) - COMMUNITY
+    const communityStoryPlayTimeKey = `analytics:${subredditName}:story_all_playtime:${storyId}`;
+    const communityPlayTimesJson = await redis.get(communityStoryPlayTimeKey);
+    const communityPlayTimes = communityPlayTimesJson ? JSON.parse(communityPlayTimesJson) : [];
+    communityPlayTimes.push(playTime);
+    await redis.set(communityStoryPlayTimeKey, JSON.stringify(communityPlayTimes));
+
+    // Track TOTAL playtime across ALL stories - GLOBAL
+    await redis.incrBy('analytics:global:total:playtime', Math.round(playTime));
+
+    // Track TOTAL playtime across ALL stories - COMMUNITY
+    await redis.incrBy(`analytics:${subredditName}:total:playtime`, Math.round(playTime));
+
     // Also track completion times separately (for backwards compatibility)
     if (status === 'completed') {
-      const storyCompletionTimesKey = `story_completion_times:${storyId}`;
-      const completionTimesJson = await redis.get(storyCompletionTimesKey);
-      const completionTimes = completionTimesJson ? JSON.parse(completionTimesJson) : [];
-      
-      completionTimes.push(playTime);
-      await redis.set(storyCompletionTimesKey, JSON.stringify(completionTimes));
+      const globalCompletionTimesKey = `analytics:global:story_completion_times:${storyId}`;
+      const globalCompletionTimesJson = await redis.get(globalCompletionTimesKey);
+      const globalCompletionTimes = globalCompletionTimesJson ? JSON.parse(globalCompletionTimesJson) : [];
+      globalCompletionTimes.push(playTime);
+      await redis.set(globalCompletionTimesKey, JSON.stringify(globalCompletionTimes));
+
+      const communityCompletionTimesKey = `analytics:${subredditName}:story_completion_times:${storyId}`;
+      const communityCompletionTimesJson = await redis.get(communityCompletionTimesKey);
+      const communityCompletionTimes = communityCompletionTimesJson ? JSON.parse(communityCompletionTimesJson) : [];
+      communityCompletionTimes.push(playTime);
+      await redis.set(communityCompletionTimesKey, JSON.stringify(communityCompletionTimes));
     }
-    
+
     res.json({ success: true });
   } catch (error) {
     console.error('Error tracking story playtime:', error);
@@ -113,110 +178,162 @@ export const getAnalytics = async (req: Request, res: Response) => {
   try {
     // Check if Redis is available (only in Devvit environment)
     const isDevvitEnvironment = typeof redis !== 'undefined';
-    
+
     if (!isDevvitEnvironment) {
       // Local development fallback - return mock analytics
       return res.json({
-        analytics: {
-          'analytics:total:started': '42',
-          'analytics:total:completed': '38',
-          'analytics:tone:Gothic': '15',
-          'analytics:tone:Slasher': '12',
-          'analytics:tone:Psychological': '8',
-          'analytics:duration:short': '20',
-          'analytics:duration:medium': '15',
-          'analytics:duration:long': '7'
-        },
-        topRatedStories: [
-          { storyId: 'story1', averageRating: 4.8, totalRatings: 25 },
-          { storyId: 'story2', averageRating: 4.5, totalRatings: 18 }
-        ]
+        showForm: {
+          name: 'analyticsDisplay',
+          form: {
+            title: 'Scary Adventures Analytics Dashboard',
+            description: 'Game performance and user preferences',
+            fields: [
+              {
+                type: 'paragraph',
+                name: 'analytics',
+                label: 'Analytics Data',
+                disabled: true,
+                lineHeight: 20,
+                defaultValue: 'Local Development - Mock Analytics\n\nCommunity Stats:\nTotal Games Started: 25\nTotal Games Completed: 20\nTotal Playtime: 8h 30m\n\nGlobal Stats:\nTotal Games Started: 150\nTotal Games Completed: 120\nTotal Playtime: 45h 15m'
+              }
+            ],
+            acceptLabel: 'Close'
+          }
+        }
       });
     }
-    
-    const stats: Record<string, string> = {};
-    
-    // Get analytics data by scanning for keys with analytics prefix
-    const analyticsKeys = [
-      'analytics:total:started',
-      'analytics:total:completed'
+
+    // Get subreddit context
+    const subredditName = req.headers['x-subreddit-name'] as string || 'unknown';
+
+    // Helper function to format seconds to human readable time
+    const formatPlayTime = (seconds: number): string => {
+      if (seconds < 60) return `${seconds}s`;
+      const minutes = Math.floor(seconds / 60);
+      if (minutes < 60) return `${minutes}m`;
+      const hours = Math.floor(minutes / 60);
+      const remainingMinutes = minutes % 60;
+      return remainingMinutes === 0 ? `${hours}h` : `${hours}h ${remainingMinutes}m`;
+    };
+
+    // Get COMMUNITY analytics
+    const communityStats: Record<string, string> = {};
+    const communityKeys = [
+      `analytics:${subredditName}:total:started`,
+      `analytics:${subredditName}:total:completed`,
+      `analytics:${subredditName}:total:playtime`,
+      `analytics:${subredditName}:total:scenes`
     ];
-    
-    // Get tone analytics
+
+    // Get tone analytics for community
     const tones = ['Gothic', 'Slasher', 'Psychological', 'Cosmic', 'Folk', 'Supernatural', 'Occult', 'Body Horror', 'Surreal', 'Noir Horror'];
     for (const tone of tones) {
-      analyticsKeys.push(`analytics:tone:${tone}`);
+      communityKeys.push(`analytics:${subredditName}:tone:${tone}`);
     }
-    
-    // Get duration analytics
+
+    // Get duration analytics for community
     const durations = ['short', 'medium', 'long'];
     for (const duration of durations) {
-      analyticsKeys.push(`analytics:duration:${duration}`);
+      communityKeys.push(`analytics:${subredditName}:duration:${duration}`);
     }
-    
-    // Get all analytics data
-    for (const key of analyticsKeys) {
+
+    // Get all community analytics data
+    for (const key of communityKeys) {
       const value = await redis.get(key);
-      stats[key] = value || "0";
+      communityStats[key] = value || "0";
     }
-    
-    // Note: Redis scan is not available in this environment
-    // Story-specific analytics would need to be tracked differently
-    
-    // Log the analytics data to console for moderator to view
-    const summary = {
-      "Total Games Started": stats['analytics:total:started'] || '0',
-      "Total Games Completed": stats['analytics:total:completed'] || '0',
-      "Completion Rate": stats['analytics:total:started'] !== '0' 
-        ? `${Math.round((parseInt(stats['analytics:total:completed'] || '0') / parseInt(stats['analytics:total:started'] || '1')) * 100)}%`
-        : '0%',
-      "Popular Categories": {
-        "Gothic": stats['analytics:tone:Gothic'] || '0',
-        "Slasher": stats['analytics:tone:Slasher'] || '0', 
-        "Psychological": stats['analytics:tone:Psychological'] || '0',
-        "Cosmic": stats['analytics:tone:Cosmic'] || '0',
-        "Folk": stats['analytics:tone:Folk'] || '0',
-        "Supernatural": stats['analytics:tone:Supernatural'] || '0',
-        "Occult": stats['analytics:tone:Occult'] || '0',
-        "Body Horror": stats['analytics:tone:Body Horror'] || '0',
-        "Surreal": stats['analytics:tone:Surreal'] || '0',
-        "Noir Horror": stats['analytics:tone:Noir Horror'] || '0'
-      },
-      "Duration Preferences": {
-        "Short": stats['analytics:duration:short'] || '0',
-        "Medium": stats['analytics:duration:medium'] || '0', 
-        "Long": stats['analytics:duration:long'] || '0'
-      }
-    };
-    
-    console.log('=== SCARY ADVENTURES ANALYTICS ===');
-    console.log(JSON.stringify(summary, null, 2));
-    console.log('=== END ANALYTICS ===');
-    
-    // Format analytics data for display in a form
+
+    // Get GLOBAL analytics
+    const globalStats: Record<string, string> = {};
+    const globalKeys = [
+      'analytics:global:total:started',
+      'analytics:global:total:completed',
+      'analytics:global:total:playtime',
+      'analytics:global:total:scenes'
+    ];
+
+    // Get tone analytics for global
+    for (const tone of tones) {
+      globalKeys.push(`analytics:global:tone:${tone}`);
+    }
+
+    // Get duration analytics for global
+    for (const duration of durations) {
+      globalKeys.push(`analytics:global:duration:${duration}`);
+    }
+
+    // Get all global analytics data
+    for (const key of globalKeys) {
+      const value = await redis.get(key);
+      globalStats[key] = value || "0";
+    }
+
+    // Build community summary
+    const communityStarted = parseInt(communityStats[`analytics:${subredditName}:total:started`] || '0');
+    const communityCompleted = parseInt(communityStats[`analytics:${subredditName}:total:completed`] || '0');
+    const communityPlaytime = parseInt(communityStats[`analytics:${subredditName}:total:playtime`] || '0');
+    const communityScenes = parseInt(communityStats[`analytics:${subredditName}:total:scenes`] || '0');
+    const communityCompletionRate = communityStarted > 0 ? Math.round((communityCompleted / communityStarted) * 100) : 0;
+
+    // Build global summary
+    const globalStarted = parseInt(globalStats['analytics:global:total:started'] || '0');
+    const globalCompleted = parseInt(globalStats['analytics:global:total:completed'] || '0');
+    const globalPlaytime = parseInt(globalStats['analytics:global:total:playtime'] || '0');
+    const globalScenes = parseInt(globalStats['analytics:global:total:scenes'] || '0');
+    const globalCompletionRate = globalStarted > 0 ? Math.round((globalCompleted / globalStarted) * 100) : 0;
+
+    // Format analytics data for display
     const analyticsText = [
-      `Total Games Started: ${summary["Total Games Started"]}`,
-      `Total Games Completed: ${summary["Total Games Completed"]}`,
-      `Completion Rate: ${summary["Completion Rate"]}`,
+      `COMMUNITY ANALYTICS (r/${subredditName})`,
+      `Total Games Started: ${communityStarted}`,
+      `Total Games Completed: ${communityCompleted}`,
+      `Completion Rate: ${communityCompletionRate}%`,
+      `Total Scenes Viewed: ${communityScenes}`,
+      `Total Playtime: ${formatPlayTime(communityPlaytime)}`,
       '',
       'Popular Categories:',
-      ...Object.entries(summary["Popular Categories"]).map(([category, count]) => `  ${category}: ${count}`),
+      ...tones.map(tone => {
+        const count = communityStats[`analytics:${subredditName}:tone:${tone}`] || '0';
+        return count !== '0' ? `  ${tone}: ${count}` : null;
+      }).filter(Boolean),
       '',
       'Duration Preferences:',
-      ...Object.entries(summary["Duration Preferences"]).map(([duration, count]) => `  ${duration}: ${count}`)
-    ].join('\n');
-    
-    console.log('=== ANALYTICS TEXT FOR FORM ===');
-    console.log(analyticsText);
-    console.log('=== END ANALYTICS TEXT ===');
+      ...durations.map(duration => {
+        const count = communityStats[`analytics:${subredditName}:duration:${duration}`] || '0';
+        return count !== '0' ? `  ${duration.charAt(0).toUpperCase() + duration.slice(1)}: ${count}` : null;
+      }).filter(Boolean),
+      '',
+      'GLOBAL ANALYTICS (All Communities)',
+      `Total Games Started: ${globalStarted}`,
+      `Total Games Completed: ${globalCompleted}`,
+      `Completion Rate: ${globalCompletionRate}%`,
+      `Total Scenes Viewed: ${globalScenes}`,
+      `Total Playtime: ${formatPlayTime(globalPlaytime)}`,
+      '',
+      'Popular Categories (Global):',
+      ...tones.map(tone => {
+        const count = globalStats[`analytics:global:tone:${tone}`] || '0';
+        return count !== '0' ? `  ${tone}: ${count}` : null;
+      }).filter(Boolean),
+      '',
+      'Duration Preferences (Global):',
+      ...durations.map(duration => {
+        const count = globalStats[`analytics:global:duration:${duration}`] || '0';
+        return count !== '0' ? `  ${duration.charAt(0).toUpperCase() + duration.slice(1)}: ${count}` : null;
+      }).filter(Boolean)
+    ].filter(line => line !== null).join('\n');
 
-    // Return a form that displays the analytics data
+    console.log('=== SCARY ADVENTURES ANALYTICS ===');
+    console.log(analyticsText);
+    console.log('=== END ANALYTICS ===');
+
+    // Return a form that displays both community and global analytics
     res.json({
       showForm: {
         name: 'analyticsDisplay',
         form: {
           title: 'Scary Adventures Analytics Dashboard',
-          description: 'Game performance and user preferences',
+          description: 'Community and Global game performance',
           fields: [
             {
               type: 'paragraph',

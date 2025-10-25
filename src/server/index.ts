@@ -7,7 +7,7 @@ import { getStoryRatings, rateStory, removeRating } from './api/ratings';
 import { getCurrentUser } from './api/user';
 import { getUserHistory, addStoryToHistory, clearUserHistory } from './api/userHistory';
 import { getLeaderboard, getLeaderboardByTone } from './api/leaderboard';
-import { trackStoryStart, trackStoryComplete, trackStoryPlaytime, getAnalytics } from './api/analytics';
+import { trackStoryStart, trackStoryComplete, trackStoryPlaytime, trackSceneView, getAnalytics } from './api/analytics';
 import { getUserStats, trackStoryCompletion, resetUserStreak, resetAllUserStats } from './api/userStats';
 import { getStoryStatistics } from './api/storyStats';
 
@@ -33,7 +33,7 @@ app.use(express.static('dist/client'));
 
 const router = express.Router();
 
-// Middleware to inject user ID into requests
+// Middleware to inject user ID and subreddit name into requests
 router.use(async (req, _res, next) => {
   try {
     // Check if we're in Devvit environment
@@ -43,15 +43,22 @@ router.use(async (req, _res, next) => {
       try {
         const username = await reddit.getCurrentUsername();
         req.headers['x-user-id'] = username || 'anonymous';
+        
+        // Get subreddit context for analytics
+        const subredditName = context?.subredditName || 'unknown';
+        req.headers['x-subreddit-name'] = subredditName;
       } catch (error) {
         req.headers['x-user-id'] = 'anonymous';
+        req.headers['x-subreddit-name'] = 'unknown';
       }
     } else {
-      // Local development - use a consistent mock user ID
+      // Local development - use a consistent mock user ID and subreddit
       req.headers['x-user-id'] = 'local_user_123';
+      req.headers['x-subreddit-name'] = 'ScaryAdventures';
     }
   } catch (error) {
     req.headers['x-user-id'] = 'anonymous';
+    req.headers['x-subreddit-name'] = 'unknown';
   }
   next();
 });
@@ -83,6 +90,29 @@ router.get('/api/leaderboard/:tone', getLeaderboardByTone);
 // Analytics endpoints
 router.post('/api/analytics/story-start', trackStoryStart);
 router.post('/api/analytics/story-complete', trackStoryComplete);
+router.post('/api/analytics/story-playtime', trackStoryPlaytime);
+router.post('/api/analytics/scene-view', trackSceneView);
+router.post('/internal/menu/create-post', async (_req, res): Promise<void> => {
+  try {
+    const post = await createPost();
+    
+    res.json({
+      showToast: {
+        text: `Game post created successfully! Post ID: ${post.id}`,
+        appearance: 'success'
+      }
+    });
+  } catch (error) {
+    console.error('Error creating post:', error);
+    res.json({
+      showToast: {
+        text: 'Failed to create game post. Please try again.',
+        appearance: 'neutral'
+      }
+    });
+  }
+});
+
 router.post('/internal/menu/view-stats', getAnalytics);
 
 // User stats endpoints

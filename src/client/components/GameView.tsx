@@ -6,8 +6,8 @@ import { StoryStatistics } from './StoryStatistics';
 
 
 
-// Helper function to construct image path
-const getSceneImagePath = (story: Story, scene: Scene): string => {
+// Helper function to construct image path with fallback extensions
+const getSceneImagePath = (story: Story, scene: Scene, extension: string = 'jpg'): string => {
   // Use the story's filename (without .json extension) as the folder name
   const folderName = story.filename ? story.filename.replace('.json', '') : 'default';
 
@@ -16,8 +16,43 @@ const getSceneImagePath = (story: Story, scene: Scene): string => {
     return `/assets/scenes/${folderName}/${scene.image_filename}`;
   }
 
-  // Default to .jpg extension
-  return `/assets/scenes/${folderName}/${scene.id}.jpg`;
+  // Use provided extension (jpg, webp, etc.)
+  return `/assets/scenes/${folderName}/${scene.id}.${extension}`;
+};
+
+// Helper function to get image path with automatic fallback
+const getSceneImageWithFallback = (story: Story, scene: Scene): Promise<string> => {
+  return new Promise((resolve) => {
+    // Priority order: jpg first, then webp
+    const extensions = ['jpg', 'webp'];
+    let currentIndex = 0;
+
+    const tryExtension = () => {
+      if (currentIndex >= extensions.length) {
+        // If all extensions fail, return the default jpg path
+        resolve(getSceneImagePath(story, scene, 'jpg'));
+        return;
+      }
+
+      const imagePath = getSceneImagePath(story, scene, extensions[currentIndex]);
+      const testImage = new Image();
+
+      testImage.onload = () => {
+        // Image loaded successfully
+        resolve(imagePath);
+      };
+
+      testImage.onerror = () => {
+        // Try next extension
+        currentIndex++;
+        tryExtension();
+      };
+
+      testImage.src = imagePath;
+    };
+
+    tryExtension();
+  });
 };
 
 type GameViewProps = {
@@ -40,6 +75,7 @@ export const GameView: React.FC<GameViewProps> = ({
   trackStoryAbandonment
 }) => {
   const [currentScene, setCurrentScene] = useState<Scene | null>(null);
+  const [currentImageSrc, setCurrentImageSrc] = useState<string>('');
   const [isLoading, setIsLoading] = useState(false);
   const [imageLoading, setImageLoading] = useState(true);
   const [imageTransitioning, setImageTransitioning] = useState(false);
@@ -51,7 +87,7 @@ export const GameView: React.FC<GameViewProps> = ({
         console.error('Failed to track story abandonment:', error);
       });
     }
-    
+
     onGameEnd();
   };
 
@@ -61,62 +97,78 @@ export const GameView: React.FC<GameViewProps> = ({
       const firstScene = story.scenes[0];
       setCurrentScene(firstScene || null);
 
-      // Check if the first scene image is already cached (preloaded)
+      // Track first scene view
       if (firstScene) {
-        const imagePath = getSceneImagePath(story, firstScene);
-        const testImage = new Image();
-        testImage.onload = () => {
-          // Image is cached, no need to show loading
-          setImageLoading(false);
-        };
-        testImage.onerror = () => {
-          // Image failed to load, show loading state
-          setImageLoading(true);
-        };
-        testImage.src = imagePath;
-
-        // If image loads synchronously (cached), onload fires immediately
-        if (testImage.complete) {
-          setImageLoading(false);
-        } else {
-          setImageLoading(true);
+        try {
+          fetch('/api/analytics/scene-view', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              storyId: story.story_id,
+              sceneId: firstScene.id
+            })
+          }).catch(error => {
+            console.error('Failed to track scene view:', error);
+          });
+        } catch (error) {
+          console.error('Failed to track scene view:', error);
         }
+      }
+
+      // Check if the first scene image is available with fallback
+      if (firstScene) {
+        getSceneImageWithFallback(story, firstScene).then((imagePath) => {
+          const testImage = new Image();
+          testImage.onload = () => {
+            setImageLoading(false);
+          };
+          testImage.onerror = () => {
+            setImageLoading(true);
+          };
+          testImage.src = imagePath;
+
+          if (testImage.complete) {
+            setImageLoading(false);
+          } else {
+            setImageLoading(true);
+          }
+        });
       }
 
       // Preload the second scene image if it exists
       if (story.scenes.length > 1) {
         const secondScene = story.scenes[1];
         if (secondScene) {
-          const secondSceneImagePath = getSceneImagePath(story, secondScene);
-          const preloadImage = new Image();
-          preloadImage.src = secondSceneImagePath;
-          // No need to handle load/error events for preloading
+          getSceneImageWithFallback(story, secondScene).then((imagePath) => {
+            const preloadImage = new Image();
+            preloadImage.src = imagePath;
+          });
         }
       }
     }
   }, [story]);
 
   useEffect(() => {
-    // Reset image loading when scene changes, but check if image is cached first
+    // Reset image loading when scene changes and resolve image path with fallback
     if (currentScene) {
-      const imagePath = getSceneImagePath(story, currentScene);
-      const testImage = new Image();
-      testImage.onload = () => {
-        // Image is cached, no need to show loading
-        setImageLoading(false);
-      };
-      testImage.onerror = () => {
-        // Image failed to load, show loading state
-        setImageLoading(true);
-      };
-      testImage.src = imagePath;
+      setImageLoading(true);
 
-      // If image loads synchronously (cached), onload fires immediately
-      if (testImage.complete) {
-        setImageLoading(false);
-      } else {
-        setImageLoading(true);
-      }
+      getSceneImageWithFallback(story, currentScene).then((imagePath) => {
+        setCurrentImageSrc(imagePath);
+
+        const testImage = new Image();
+        testImage.onload = () => {
+          setImageLoading(false);
+        };
+        testImage.onerror = () => {
+          setImageLoading(true);
+        };
+        testImage.src = imagePath;
+
+        if (testImage.complete) {
+          setImageLoading(false);
+        }
+      });
 
       // Track story completion if this is an ending scene
       if (currentScene.ending) {
@@ -148,10 +200,10 @@ export const GameView: React.FC<GameViewProps> = ({
         currentScene.choices.forEach(choice => {
           const nextScene = story.scenes?.find(scene => scene.id === choice.next);
           if (nextScene) {
-            const nextSceneImagePath = getSceneImagePath(story, nextScene);
-            const preloadImage = new Image();
-            preloadImage.src = nextSceneImagePath;
-            // No need to handle load/error events for preloading
+            getSceneImageWithFallback(story, nextScene).then((imagePath) => {
+              const preloadImage = new Image();
+              preloadImage.src = imagePath;
+            });
           }
         });
       }
@@ -174,13 +226,29 @@ export const GameView: React.FC<GameViewProps> = ({
       // Wait for fade out to complete, then change scene
       setTimeout(() => {
         setCurrentScene(nextScene);
-        
+
+        // Track scene view
+        try {
+          fetch('/api/analytics/scene-view', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              storyId: story.story_id,
+              sceneId: nextScene.id
+            })
+          }).catch(error => {
+            console.error('Failed to track scene view:', error);
+          });
+        } catch (error) {
+          console.error('Failed to track scene view:', error);
+        }
+
         // Smooth scroll to top during scene transition
         window.scrollTo({
           top: 0,
           behavior: 'smooth'
         });
-        
+
         // Start fade in after scene change
         setTimeout(() => {
           setImageTransitioning(false);
@@ -213,8 +281,7 @@ export const GameView: React.FC<GameViewProps> = ({
   };
 
   const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>) => {
-    const imagePath = currentScene ? getSceneImagePath(story, currentScene) : '';
-    console.warn(`Failed to load scene image: ${imagePath}`);
+    console.warn(`Failed to load scene image: ${currentImageSrc}`);
     setImageLoading(false);
     // Use missing.jpeg as fallback
     e.currentTarget.src = '/assets/missing.jpeg';
@@ -244,7 +311,7 @@ export const GameView: React.FC<GameViewProps> = ({
         )}
         <img
           key={currentScene?.id} // Force re-render when scene changes
-          src={currentScene ? getSceneImagePath(story, currentScene) : ''}
+          src={currentImageSrc}
           alt="Scene Image"
           className={`scene-image-img ${imageTransitioning ? 'transitioning' : ''}`}
           onLoad={handleImageLoad}
@@ -314,7 +381,7 @@ export const GameView: React.FC<GameViewProps> = ({
                     </button>
                   ))}
                 </div>
-                
+
                 {/* Abandon Story Button */}
                 <div className="abandon-story-section">
                   <button className="abandon-button" onClick={handleAbandonStory}>

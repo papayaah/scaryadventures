@@ -10,8 +10,8 @@ export const createPost = async () => {
     splash: {
       // Splash Screen Configuration
       appDisplayName: 'scary-adventures',
-      backgroundUri: 'default-splash.jpeg',
-      buttonLabel: 'Adventure on your own peril',
+      backgroundUri: 'splash-bg.jpeg',
+      buttonLabel: 'Adventure at your own peril',
       description: 'Sinister, macabre, gothic stories awaits.',
       heading: 'The Curtain Rises',
       appIconUri: 'default-icon.png',

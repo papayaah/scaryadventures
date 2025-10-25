@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { MainMenu } from './components/MainMenu';
 import { GameView } from './components/GameView';
 import { useGame } from './hooks/useGame';
@@ -112,6 +112,29 @@ const LoadingQuote: React.FC = () => {
 
 export const App = () => {
   const { gameState, isLoading, error, userInfo, userHistory, startGame, playSpecificStory, endGame, clearHistory, trackStoryCompletion, trackStoryAbandonment } = useGame();
+  const [showInitialLoading, setShowInitialLoading] = useState(false);
+
+  // Random loading title - selected once when component mounts
+  const [loadingTitle] = useState(() => {
+    const titles = [
+      "An Adventurer Tries",
+      "Story Begins Anew",
+      "The Curtain Rises",
+      "Someone Wanders In",
+      "The Door Opens",
+      "New Fate Unfolds"
+    ];
+    return titles[Math.floor(Math.random() * titles.length)];
+  });
+
+  // Auto-hide loading screen after brief delay
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowInitialLoading(false);
+    }, 1500); // 1.5 second loading screen
+
+    return () => clearTimeout(timer);
+  }, []);
 
   if (error) {
     return (
@@ -122,6 +145,19 @@ export const App = () => {
           <button className="primary-button" onClick={endGame}>
             Return to Menu
           </button>
+        </div>
+      </div>
+    );
+  }
+
+  // Show initial loading screen after app loads
+  if (showInitialLoading) {
+    return (
+      <div className="loading-screen">
+        <div className="loading-content">
+          <img src="/assets/loading.gif" alt="Loading..." className="loading-gif" />
+          <h2>{loadingTitle}</h2>
+          <LoadingQuote />
         </div>
       </div>
     );
@@ -160,7 +196,7 @@ export const App = () => {
           onClearHistory={clearHistory}
         />
       )}
-      
+
 
     </div>
   );
